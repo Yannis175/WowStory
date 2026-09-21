@@ -59,13 +59,31 @@ button{font-family:var(--sans);cursor:pointer}
 .uitem b{display:block;font-family:var(--serif);font-size:16.5px;color:var(--clay2)}
 .uitem span{display:block;font-size:11px;color:var(--ink3);margin-top:4px}
 
-.opt-group{background:rgba(255,251,246,.7);border:1px solid rgba(43,38,34,.08);border-radius:16px;padding:16px}
-.opt-label{display:block;font-size:12px;font-weight:700;color:var(--clay2);letter-spacing:.05em;margin-bottom:12px}
+.layout-toggle-btn{display:inline-flex;align-items:center;gap:5px;border:1px solid rgba(200,100,59,.35);
+  background:rgba(255,251,246,.95);border-radius:999px;padding:4px 12px;font-size:12px;color:var(--clay2);
+  font-weight:600;font-family:var(--sans);cursor:pointer;transition:all .18s cubic-bezier(.16,1,.3,1);
+  white-space:nowrap;-webkit-user-select:none;user-select:none;text-decoration:none}
+.layout-toggle-btn:hover{background:#fff;border-color:var(--clay);transform:translateY(-1px);box-shadow:0 3px 10px rgba(200,100,59,.18)}
+.layout-toggle-btn.sticky-only{display:none}
+.stickyhead.mini .layout-toggle-btn.sticky-only{display:inline-flex}
 
-.layout-toggle{display:flex;background:rgba(43,38,34,.06);border-radius:12px;padding:4px;gap:4px;border:1px solid rgba(43,38,34,.08);width:100%}
-.lbtn{flex:1;border:none;background:transparent;padding:9px 14px;font-size:13px;color:var(--ink2);cursor:pointer;
-  transition:all .2s cubic-bezier(.16,1,.3,1);font-weight:500;font-family:var(--sans);display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:8px}
-.lbtn.on{background:#ffffff;color:var(--clay2);font-weight:700;box-shadow:0 3px 10px rgba(43,38,34,.1)}
+.audio-widget-wrap{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom, 0px));z-index:50;
+  display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.audio-widget-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(255,251,246,.92);
+  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(200,100,59,.3);
+  border-radius:999px;padding:8px 16px;font-size:12.5px;color:var(--ink);font-weight:600;
+  box-shadow:0 8px 24px -4px rgba(43,38,34,.16),0 0 0 1px rgba(255,255,255,.8) inset;
+  cursor:pointer;transition:all .2s cubic-bezier(.16,1,.3,1);font-family:var(--sans);white-space:nowrap}
+.audio-widget-btn:hover{background:#fff;border-color:var(--clay);transform:translateY(-2px);box-shadow:0 10px 28px -2px rgba(200,100,59,.22)}
+.audio-widget-btn.playing{background:var(--clay);color:#fff;border-color:var(--clay);animation:apulse 1.8s ease-in-out infinite}
+@keyframes apulse{0%,100%{box-shadow:0 0 0 0 rgba(200,100,59,.4)}50%{box-shadow:0 0 0 8px rgba(200,100,59,0)}}
+.audio-pop-panel{background:#FFFDF9;-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border:1px solid rgba(200,100,59,.25);border-radius:18px;padding:16px;box-shadow:0 16px 40px -8px rgba(43,38,34,.22);
+  width:320px;display:none;flex-direction:column;gap:12px;transform:translateY(6px);transition:transform .2s ease,opacity .2s ease}
+.audio-pop-panel.on{display:flex;transform:translateY(0)}
+
+.opt-group{background:rgba(255,251,246,.7);border:1px solid rgba(43,38,34,.08);border-radius:14px;padding:12px 14px}
+.opt-label{display:block;font-size:11.5px;font-weight:700;color:var(--clay2);letter-spacing:.05em;margin-bottom:8px}
 
 .audiobar{display:flex;flex-direction:column;gap:12px;width:100%}
 .arow{display:flex;align-items:center;gap:12px}
@@ -81,7 +99,7 @@ button{font-family:var(--sans);cursor:pointer}
 .aseg.wide button.on small{opacity:.9}
 
 #preven{border:1px solid rgba(200,100,59,.35);background:rgba(200,100,59,.08);color:var(--clay2);border-radius:999px;
-  padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s;flex:0 0 auto}
+  padding:5px 12px;font-size:11.5px;font-weight:600;cursor:pointer;transition:all .15s;flex:0 0 auto}
 #preven:hover{background:var(--clay);color:#fff;border-color:var(--clay)}
 
 .stickyhead{position:sticky;top:0;z-index:30;background:var(--paper);padding:12px 18px 10px;margin:0 -18px 10px;
@@ -99,30 +117,34 @@ button{font-family:var(--sans);cursor:pointer}
 
 .sticky-right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
 
-/* 吸顶 MINI 模式：背景玻璃拟态，精致双侧布局 */
-.stickyhead.mini{padding:8px 14px;background:rgba(244,235,224,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+.tab-letter{display:none}
+
+/* 吸顶 MINI 模式：背景玻璃拟态，100% 保持 position: sticky 置顶 */
+.stickyhead.mini{padding:6px 14px;background:rgba(244,235,224,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
   border-bottom-color:var(--line);box-shadow:0 4px 16px rgba(43,38,34,.06)}
 .stickyhead.mini .tab{padding:5px 8px;font-size:12.5px;border-radius:999px;flex-direction:row;gap:3px}
-.stickyhead.mini .tab small{display:none}
+.stickyhead.mini .tab-zh,
+.stickyhead.mini .tab-sub,
+.stickyhead.mini small{display:none !important}
+.stickyhead.mini .tab-letter{display:inline-block !important;font-family:var(--serif);font-weight:700;font-size:13.5px;color:inherit}
 
-.subtn-badge{border:1px solid rgba(200,100,59,.45);background:rgba(255,251,246,.95);border-radius:999px;padding:5px 12px;font-size:12px;color:var(--clay2);cursor:pointer;transition:.15s;font-weight:600;font-family:var(--sans)}
+.subtn-badge{border:1px solid rgba(200,100,59,.45);background:rgba(255,251,246,.95);border-radius:999px;padding:5px 12px;font-size:12px;color:var(--clay2);cursor:pointer;transition:.15s;font-weight:600;font-family:var(--sans);white-space:nowrap}
 .subtn-badge:hover{background:#fff;border-color:var(--clay);transform:translateY(-1px)}
-
-.opt-settings-btn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 9px;font-size:13px;color:var(--ink2);transition:.15s;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
-.opt-settings-btn:hover{border-color:var(--clay);color:var(--clay2);background:#fff}
 
 .wrap{transition:max-width .3s ease,padding .3s ease}
 .grid,.pick,.storycard,.wcard,.flip,.tab{transition:all .25s ease}
 
-/* 📱 手机仿真排版模式 (layout-mobile) */
-body.layout-mobile .wrap{max-width:480px;padding-left:12px;padding-right:12px}
-body.layout-mobile .stickyhead{padding:10px 12px 6px;margin:0 -12px 8px}
-body.layout-mobile .stickyhead.mini{padding:6px 10px}
-body.layout-mobile .tabs{gap:3px}
-body.layout-mobile .tab{padding:6px 2px;font-size:11.8px}
-body.layout-mobile .tab small{display:none}
-body.layout-mobile .stickyhead.mini .tab{padding:4px 6px;font-size:11.5px}
-body.layout-mobile .subtn-badge{padding:4px 8px;font-size:11px}
+/* 📱 手机仿真排版模式 (layout-mobile) & 移动端窄屏 */
+body.layout-mobile .wrap{max-width:480px;padding-left:14px;padding-right:14px}
+body.layout-mobile .stickyhead{padding:8px 10px 6px;margin:0 -14px 8px;gap:6px}
+body.layout-mobile .stickyhead .tabs{gap:3px;width:100%}
+body.layout-mobile .stickyhead .tab{padding:6px 1px;font-size:12px;flex:1;min-width:0}
+body.layout-mobile .stickyhead .tab small{display:block;font-size:9px;opacity:.8;letter-spacing:-0.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+
+/* 📱 手机吸顶 MINI 模式：100% 保持 sticky 置顶，Tabs 纯 S T O R Y 字母 */
+body.layout-mobile .stickyhead.mini{padding:6px 8px;gap:4px}
+body.layout-mobile .stickyhead.mini .tab{padding:4px 5px;font-size:11px}
+body.layout-mobile .stickyhead.mini .subtn-badge{padding:4px 6px;font-size:11px}
 
 @media(max-width:640px){
   .home-text{display:none}
@@ -393,13 +415,17 @@ td.c{font-family:var(--serif);color:var(--ink2);font-size:12px}
 </head>
 <body>
 <div class="wrap">
+  <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;width:100%">
+    <div style="display:flex;align-items:center;gap:6px">
+      <a href="index.html" class="home-link" title="返回全量 26 单元合集首页">🏠 <span class="home-text">单元总览</span></a>
+      <span style="font-size:11px;color:var(--ink3)">/</span>
+      <span style="font-size:12px;color:var(--clay2);font-weight:600" id="headerUnitTag">Unit 18</span>
+    </div>
+    <button class="layout-toggle-btn" id="topLayoutBtn" title="点击切换 📱手机 / 💻电脑 视角">💻 电脑视角</button>
+  </div>
+
   <div class="head">
     <div class="brand">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <a href="index.html" class="home-link" title="返回全量 26 单元合集首页">🏠 单元总览</a>
-        <span style="font-size:11px;color:var(--ink3)">/</span>
-        <span style="font-size:12px;color:var(--clay2);font-weight:600" id="headerUnitTag">Unit 18</span>
-      </div>
       <h1 style="font-family:var(--serif);font-size:28px;font-weight:700;margin:0;letter-spacing:.15em;color:var(--clay2)"><a href="index.html" style="text-decoration:none !important;color:inherit" title="返回首页">S T O R Y</a></h1>
       <p style="margin:6px 0 0;font-size:12.5px;color:var(--ink2)">单词故事本 —— 1837 个考研必考词，穿成 121 篇故事</p>
     </div><div class="unit-nav">
@@ -412,17 +438,17 @@ td.c{font-family:var(--serif);color:var(--ink2);font-size:12px}
   <div class="stickyhead">
     <div class="sticky-left">
       <div class="tabs" id="tabs">
-        <button class="tab" data-tab="read">📖 读<small>S · Story 猜词</small></button>
-        <button class="tab" data-tab="drill">🎴 背<small>T · Test 自测</small></button>
-        <button class="tab" data-tab="write">✍️ 写<small>O · Output 素材</small></button>
-        <button class="tab" data-tab="index">🔍 查<small>R · Reference 速查</small></button>
-        <button class="tab" data-tab="vocab">📓 本<small>Y · Your Vocab 生词</small></button>
+        <button class="tab" data-tab="read"><span class="tab-ico">📖</span> <span class="tab-zh">读</span><span class="tab-letter">S</span><small><span class="tab-en">S · Story</span> <span class="tab-sub">猜词</span></small></button>
+        <button class="tab" data-tab="drill"><span class="tab-ico">🎴</span> <span class="tab-zh">背</span><span class="tab-letter">T</span><small><span class="tab-en">T · Test</span> <span class="tab-sub">自测</span></small></button>
+        <button class="tab" data-tab="write"><span class="tab-ico">✍️</span> <span class="tab-zh">写</span><span class="tab-letter">O</span><small><span class="tab-en">O · Output</span> <span class="tab-sub">素材</span></small></button>
+        <button class="tab" data-tab="index"><span class="tab-ico">🔍</span> <span class="tab-zh">查</span><span class="tab-letter">R</span><small><span class="tab-en">R · Reference</span> <span class="tab-sub">速查</span></small></button>
+        <button class="tab" data-tab="vocab"><span class="tab-ico">📓</span> <span class="tab-zh">本</span><span class="tab-letter">Y</span><small><span class="tab-en">Y · Your Vocab</span> <span class="tab-sub">生词</span></small></button>
       </div>
     </div>
 
     <div class="sticky-right">
       <button class="subtn-badge" id="stickyUnitModalBtn" title="点击展开 26 单元选关矩阵"><span id="stickyBadgeText">Unit 1</span> ▾</button>
-      <button class="opt-settings-btn" id="optSettingsBtn" title="页面设置：视角排版与语音朗读">⚙️</button>
+      <button class="layout-toggle-btn sticky-only" id="stickyLayoutBtn" title="点击切换 📱手机 / 💻电脑 视角">💻 电脑</button>
     </div>
   </div>
 
@@ -449,52 +475,35 @@ td.c{font-family:var(--serif);color:var(--ink2);font-size:12px}
   </div>
 </div>
 
-<div class="umodal" id="settingsModal">
-  <div class="umodal-card" style="max-width:460px">
-    <div class="umodal-head">
-      <h3>⚙️ 页面与语音控制设置</h3>
-      <button class="modal-close-btn" id="closeSettingsModal" title="关闭">✕</button>
+<div class="audio-widget-wrap" id="audioWidgetWrap">
+  <div class="audio-pop-panel" id="audioPopPanel">
+    <div class="opt-group">
+      <label class="opt-label">朗读模式</label>
+      <div class="aseg wide" id="modeseg">
+        <button data-mode="off">关<small>不朗读</small></button>
+        <button data-mode="manual">手动<small>背词自动</small></button>
+        <button data-mode="auto">自动<small>连释义读</small></button>
+      </div>
     </div>
-    
-    <div style="display:grid;gap:16px">
-      <div class="opt-group">
-        <label class="opt-label">展示视角排版</label>
-        <div class="layout-toggle" id="layoutToggle">
-          <button class="lbtn on" data-layout="desktop">💻 电脑宽屏视角</button>
-          <button class="lbtn" data-layout="mobile">📱 手机单列视角</button>
-        </div>
+    <div class="opt-group">
+      <label class="opt-label">语速调节</label>
+      <div class="aseg" id="rateseg">
+        <button data-rate="0.75">慢速</button>
+        <button data-rate="1">正常</button>
+        <button data-rate="1.15">快速</button>
       </div>
-
-      <div class="opt-group">
-        <label class="opt-label">语音朗读控制</label>
-        <div class="audiobar" id="audiobar">
-          <div class="arow"><span class="alabel">模式</span>
-            <div class="aseg wide" id="modeseg">
-              <button data-mode="off">关<small>不朗读</small></button>
-              <button data-mode="manual">手动<small>背词自动</small></button>
-              <button data-mode="auto">自动<small>连释义读</small></button>
-            </div>
-          </div>
-          <div class="arow"><span class="alabel">语速</span>
-            <div class="aseg" id="rateseg">
-              <button data-rate="0.75">慢速</button>
-              <button data-rate="1">正常</button>
-              <button data-rate="1.15">快速</button>
-            </div>
-          </div>
-          <div class="arow"><span class="alabel">英音</span>
-            <div class="aseg wide" id="voiceseg"></div>
-            <button id="preven">试听</button>
-          </div>
-        </div>
-      </div>
-
-      <div style="border-top:1px dashed rgba(43,38,34,.14);padding-top:14px;display:flex;justify-content:space-between;align-items:center">
-        <span style="font-size:12px;color:var(--ink3);font-weight:500">快捷跳转</span>
-        <a href="index.html" class="home-link">🏠 返回 26 单元总览</a>
+    </div>
+    <div class="opt-group">
+      <label class="opt-label">发音人声（英音）</label>
+      <div style="display:flex;align-items:center;gap:8px">
+        <div class="aseg wide" id="voiceseg"></div>
+        <button id="preven" title="试听当前发音人音色">试听</button>
       </div>
     </div>
   </div>
+  <button class="audio-widget-btn" id="audioWidgetBtn" title="点击展开语音朗读控制">
+    <span id="audioWidgetText">🔊 自动 1.0x</span>
+  </button>
 </div>
 
 <div class="umodal" id="settingsModal">
@@ -3816,41 +3825,71 @@ function initUnitModal(){
 }
 
 function initLayoutToggle(){
-  var current = localStorage.getItem("ws_layout_mode") || "desktop";
-  var setMode = function(mode){
+  var getMode = function(){ return localStorage.getItem("ws_layout_mode") || "desktop"; };
+  var applyMode = function(mode){
     document.body.classList.toggle("layout-mobile", mode === "mobile");
     localStorage.setItem("ws_layout_mode", mode);
-    var btns = document.querySelectorAll("#layoutToggle .lbtn");
-    for(var i = 0; i < btns.length; i++){
-      btns[i].classList.toggle("on", btns[i].dataset.layout === mode);
+    var topBtn = document.getElementById("topLayoutBtn");
+    var stickyBtn = document.getElementById("stickyLayoutBtn");
+    if(topBtn){
+      topBtn.innerHTML = mode === "mobile" ? "📱 手机视角" : "💻 电脑视角";
+      topBtn.title = mode === "mobile" ? "当前为手机视角，点击切换为电脑视角" : "当前为电脑视角，点击切换为手机视角";
+    }
+    if(stickyBtn){
+      stickyBtn.innerHTML = mode === "mobile" ? "📱 手机" : "💻 电脑";
+      stickyBtn.title = mode === "mobile" ? "当前为手机视角，点击切换为电脑视角" : "当前为电脑视角，点击切换为手机视角";
     }
   };
-  setMode(current);
+  applyMode(getMode());
 
   document.addEventListener("click", function(e){
-    var b = e.target.closest("#layoutToggle .lbtn");
-    if(b && b.dataset.layout){
-      setMode(b.dataset.layout);
+    var b = e.target.closest("#topLayoutBtn, #stickyLayoutBtn, .layout-toggle-btn");
+    if(b){
+      e.preventDefault();
+      var next = getMode() === "mobile" ? "desktop" : "mobile";
+      applyMode(next);
     }
   });
 }
 
-function initSettingsModal(){
-  var modal = document.getElementById("settingsModal");
-  var closeBtn = document.getElementById("closeSettingsModal");
-  if(!modal) return;
+function initAudioWidget(){
+  var btn = document.getElementById("audioWidgetBtn");
+  var panel = document.getElementById("audioPopPanel");
+  if(!btn || !panel) return;
 
-  document.addEventListener("click", function(e){
-    var btn = e.target.closest("#optSettingsBtn, .opt-settings-btn");
-    if(btn){
-      e.preventDefault();
-      modal.classList.add("on");
+  btn.addEventListener("click", function(e){
+    e.stopPropagation();
+    if(btn.classList.contains("playing")){
+      stopSay();
+      toast("已停止朗读");
+      return;
+    }
+    panel.classList.toggle("on");
+  });
+
+  panel.addEventListener("click", function(e){
+    var b = e.target.closest("button");
+    if(!b) return;
+    if(b.id === "preven"){ previewVoice(TTS.en); return; }
+    if(b.dataset.voice){
+      TTS.en = b.dataset.voice; saveTTS(); syncAudio();
+      toast("音色已换成 " + (VOICES.filter(function(v){ return v.id === TTS.en; })[0] || {}).name);
+      previewVoice(TTS.en);
+      return;
+    }
+    if(b.dataset.mode){
+      TTS.mode = b.dataset.mode; saveTTS(); syncAudio(); stopSay(); SAY.last = "";
+      toast(TTS.mode === "off" ? "朗读已关闭" : TTS.mode === "auto" ? "背词与释义全自动" : "背词自动读，其余点 🔊 才发声");
+    } else if(b.dataset.rate){
+      TTS.rate = parseFloat(b.dataset.rate); saveTTS(); syncAudio();
+      toast("语速 " + (TTS.rate < 0.8 ? "慢速跟读" : TTS.rate > 1 ? "快速过词" : "正常"));
     }
   });
 
-  if(closeBtn) closeBtn.addEventListener("click", function(){ modal.classList.remove("on"); });
-  modal.addEventListener("click", function(e){
-    if(e.target === modal) modal.classList.remove("on");
+  document.addEventListener("click", function(e){
+    if(!panel.contains(e.target) && !btn.contains(e.target)){
+      panel.classList.remove("on");
+    }
   });
 }
 
@@ -3862,7 +3901,7 @@ state.tab = (function(){
 initUnitNav();
 initUnitModal();
 initLayoutToggle();
-initSettingsModal();
+initAudioWidget();
 syncAudio();
 RENDERED_TAB = state.tab;   /* 首屏不算「切换」，别把浏览器恢复的滚动位置拽回顶部 */
 render();

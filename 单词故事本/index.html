@@ -21,7 +21,12 @@
 html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;
   background-image:radial-gradient(rgba(43,38,34,.04) 1px,transparent 1px);background-size:22px 22px}
 a{text-decoration:none !important;color:inherit}
-.wrap{max-width:900px;margin:0 auto;padding:32px 20px 100px}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 100px;transition:max-width .3s ease,padding .3s ease}
+body.layout-mobile .wrap{max-width:480px;padding-left:14px;padding-right:14px}
+.layout-toggle-btn{display:inline-flex;align-items:center;gap:5px;border:1px solid rgba(200,100,59,.35);
+  background:rgba(255,251,246,.95);border-radius:999px;padding:5px 14px;font-size:12.5px;color:var(--clay2);
+  font-weight:600;font-family:var(--sans);cursor:pointer;transition:all .18s ease;white-space:nowrap;-webkit-user-select:none;user-select:none}
+.layout-toggle-btn:hover{background:#fff;border-color:var(--clay);transform:translateY(-1px);box-shadow:0 3px 10px rgba(200,100,59,.18)}
 .header{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:28px}
 .brand h1{font-family:var(--serif);font-size:36px;font-weight:700;margin:0;letter-spacing:.15em;color:var(--clay2)}
 .brand p{margin:8px 0 0;font-size:14px;color:var(--ink2);line-height:1.6}
@@ -54,9 +59,12 @@ a{text-decoration:none !important;color:inherit}
 <body>
 <div class="wrap">
   <div class="header">
-    <div class="brand">
-      <h1 style="font-family:var(--serif);font-size:36px;font-weight:700;margin:0;letter-spacing:.15em;color:var(--clay2)">S T O R Y</h1>
-      <p style="margin:8px 0 0;font-size:14px;color:var(--ink2);line-height:1.6">单词故事本 —— 1837 个考研必考词，穿成 121 篇故事</p>
+    <div class="brand" style="width:100%">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;width:100%">
+        <h1 style="font-family:var(--serif);font-size:36px;font-weight:700;margin:0;letter-spacing:.15em;color:var(--clay2);line-height:1">S T O R Y</h1>
+        <button class="layout-toggle-btn" id="topLayoutBtn" title="点击切换 📱手机 / 💻电脑 视角">💻 电脑视角</button>
+      </div>
+      <p style="margin:10px 0 0;font-size:14px;color:var(--ink2);line-height:1.6">单词故事本 —— 1837 个考研必考词，穿成 121 篇故事</p>
     </div>
     <div class="badge-total" id="totalBadge">26 个单元 · 121 篇故事 · 1,837 考点词</div>
   </div>
@@ -122,6 +130,26 @@ a{text-decoration:none !important;color:inherit}
     }
     sRes.style.display = "grid";
   });
+  // 视角排版切换
+  var getMode = function(){ return localStorage.getItem("ws_layout_mode") || "desktop"; };
+  var applyMode = function(mode){
+    document.body.classList.toggle("layout-mobile", mode === "mobile");
+    localStorage.setItem("ws_layout_mode", mode);
+    var topBtn = document.getElementById("topLayoutBtn");
+    if(topBtn){
+      topBtn.innerHTML = mode === "mobile" ? "📱 手机视角" : "💻 电脑视角";
+      topBtn.title = mode === "mobile" ? "当前为手机视角，点击切换为电脑视角" : "当前为电脑视角，点击切换为手机视角";
+    }
+  };
+  applyMode(getMode());
+  document.addEventListener("click", function(e){
+    var b = e.target.closest("#topLayoutBtn, .layout-toggle-btn");
+    if(b){
+      e.preventDefault();
+      applyMode(getMode() === "mobile" ? "desktop" : "mobile");
+    }
+  });
+
   // 注册 PWA Service Worker (支持离线访问)
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {

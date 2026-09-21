@@ -153,3 +153,33 @@ python -X utf8 scripts/run_unit_pipeline.py --unit 27
 4. **`ipa` 禁止带斜杠**：写 `"ˈdʒɜːnəlɪst"`，不写 `"/ˈdʒɜːnəlɪst/"`。
 5. **`exam` 禁止臆造**：忠实于 CSV 骨架义项。
 6. **分批打包单指令运行**：生成时优先编写单个 Master Python 运行脚本，避免产生大量需要人工依次审批的小 Python 命令。
+
+---
+
+## 五、前端 UI 编译、交互规范与 Git 提交准则
+
+### 1. 页面模板编译与同步 (Template Compilation)
+* **模板文件**：`单词故事本/Unit01.html` 为 Master HTML 模版。
+* **编译命令**：修改 `Unit01.html` 或通用 CSS/JS 交互后，**必须运行编译脚本更新全量 26 个单元页面**：
+  ```bash
+  python scripts/build_unit_html.py all
+  ```
+* **首页同步**：`单词故事本/index.html` 作为入口索引页，需保持排版风格（Header 顶部对齐、模式切换等）与单元页一致。
+
+### 2. UI 与交互闭环设计规范 (Interaction Design Principles)
+* **排版模式切换 (`ws_layout_mode`)**：
+  * **顶部单图标直连切换**：页面顶栏右侧设置单按钮 `[💻 电脑视角]` / `[📱 手机视角]`，点击即刻切换并持久化至 `localStorage`。
+  * **无重复与吸顶平滑接力**：未滚动时只在顶部显示切换按钮；向下滚动触发 MINI 吸顶时，吸顶栏右侧动态显现切换按钮，保证视口中永远只有**一个**唯一入口。
+  * **首页严格对齐**：`index.html` 顶部 Header 中，`S T O R Y` 品牌标题与 `[💻 电脑视角]` 切换按钮在同一行**顶部对其**两端分布。
+* **语音朗读控制（右下角悬浮挂件）**：
+  * **解耦重度弹窗**：废除全屏/居中重度 ⚙️ 设置弹窗，采用右下角常驻悬浮挂件 (`#audioWidgetWrap`)。
+  * **完整控制功能**：悬浮面板支持 朗读模式（关/手动/自动）、语速调节（0.75x/1.0x/1.15x）、发音人声（Aria/Guy/Andrew）及试听。
+  * **状态响应**：播放音频时，挂件变高亮波形并作为 `[⏹ 停止朗读]` 按钮。
+
+### 3. 代码仓库 Git 提交规范 (Git Commit & Push Rules)
+* **新建独立 Commit 提交**：严禁未经 commit 直接推送或覆盖代码。任何功能/样式变更必须先通过 `git commit` 生成独立的 commit 记录。
+* **Commit 提交信息规范**：遵循 Conventional Commits 标准格式，描述清晰具体。
+* **提交前核对清单**：
+  1. 运行 `python scripts/build_unit_html.py all` 确认 26 个单元 HTML 均已更新。
+  2. 运行 `git status` 确认仅包含核心可发布文件，严禁把 `audio/`、`*.pdf`、`*.csv` 或临时缓存写入 git 仓库。
+
