@@ -30,40 +30,29 @@
 
 ## 🔄 2. 更新或新增内容时的标准工作流
 
-当你（或通过 AI Skill）修改/新增某个单元（以 `Unit 01` 或新增的 `Unit 27` 为例）时，流水线操作步骤如下：
+当你（或通过 AI Skill）修改/新增内容或调整 UI 交互时，流水线操作步骤如下：
 
-### 步骤一：编辑/生成唯一真源 JSON
-在 `单词故事本/` 目录下修改或新建对应的 `UnitNN.json`。
+### 场景 A：修改/新增单元内容（数据真源流程）
+1. **编辑唯一真源**：修改或新建 `单词故事本/UnitNN.json`。
+2. **确定性校验**：`python scripts/validate_unit.py <Unit编号>` (必须 ERROR 0)。
+3. **生成音频与时间轴**：`python scripts/gen_unit_audio.py <Unit编号>`。
+4. **全量编译产物**：
+   ```bash
+   python scripts/build_unit_html.py <Unit编号>   # 或 python scripts/build_unit_html.py all
+   python scripts/build_md.py <Unit编号>
+   python scripts/build_units_bundle.py
+   python 单词故事本/_sync_app.py
+   ```
 
-### 步骤二：运行确定性校验器 (validate_unit.py)
-```bash
-python scripts/validate_unit.py 1
-# 必须确认输出：validate ERROR 0
-```
-
-### 步骤三：生成音频与时间轴 (gen_unit_audio.py)
-```bash
-python scripts/gen_unit_audio.py 1
-# 产出：单词故事本/audio/... 及 单词故事本/pt_data/_pt_u01.json
-```
-
-### 步骤四：重新编译 HTML、Markdown 与跨单元索引
-```bash
-# 1. 编译单元 HTML
-python scripts/build_unit_html.py 1   # 或 python scripts/build_unit_html.py all
-
-# 2. 派生 Markdown
-python scripts/build_md.py 1
-
-# 3. 重新打包全集搜索索引
-python scripts/build_units_bundle.py
-
-# 4. 校验运行时镜像同步
-python 单词故事本/_sync_app.py
-```
-
-> 💡 **小技巧**：也可以直接运行一键流水线：
-> `python scripts/run_unit_pipeline.py 1`
+### 场景 B：调整前端 UI / 交互与样式（模板编译流程）
+1. **编辑主模板**：修改 `单词故事本/Unit01.html` 或 `单词故事本/index.html`。
+2. **UI 规范核对**：
+   - **排版视角切换**：单按钮点按切换（`💻 电脑视角` / `📱 手机视角`），`index.html` 顶部 Header 中与 `S T O R Y` 标题在同一行**顶部对齐**分布。
+   - **语音控制挂件**：右下角常驻悬浮挂件 (`#audioWidgetWrap`)，面板内保留朗读模式（关/手动/自动）、语速调节及**人声切换（Aria/Guy/Andrew + 试听）**。
+3. **编译全量单元 HTML**：
+   ```bash
+   python scripts/build_unit_html.py all
+   ```
 
 ---
 
@@ -71,27 +60,33 @@ python 单词故事本/_sync_app.py
 
 在提交 PR 前，使用 `git status` 检查，一个标准的 PR 应该包含以下文件变更：
 
+- [ ] **分支规范**：**绝对禁止直接提交到 `main` 分支！必须提交到 `xy` 分支**（如不存在需 `git checkout -b xy` 新建）。
 - [ ] **真源文件**：`单词故事本/UnitNN.json` (或修改过的 JSON)
 - [ ] **时间轴数据**：`单词故事本/pt_data/_pt_uNN.json`
-- [ ] **朗读音频**：`单词故事本/audio/aria/...` (新增/更新的 mp3)
-- [ ] **页面与文档**：`单词故事本/UnitNN.html` 及 `单词故事本/UnitNN.md`
-- [ ] **全局索引**：`单词故事本/_units_manifest.js`
+- [ ] **朗读音频**：`单词故事本/audio/aria/...` (新增/更新的 mp3，仅在公开资产库或私有库中包含)
+- [ ] **页面与文档**：全量 `单词故事本/UnitNN.html` 及 `单词故事本/UnitNN.md`
+- [ ] **全局索引与首页**：`单词故事本/_units_manifest.js` 及 `单词故事本/index.html`
 - [ ] **PWA 清单**：如新增了单元，确认 `单词故事本/sw.js` 已包含新增的 HTML 缓存路径。
+- [ ] **安全隔离**：确认 `git status` 中没有泄漏版权 PDF、个人工作过程 `.workbuddy` 缓存或包含本机绝对路径的临时文件。
 
 ---
 
-## 🚀 4. Git 提交 PR 命令行模板
+## 🚀 4. Git 提交 Commit 与 PR 命令行模板 (必须提交至 `xy` 分支)
+
+> ⚠️ **强制要求**：
+> 1. **禁止直接提交至 `main` 主分支**！必须推送到 **`xy` 分支**（不存在则新建 `git checkout -b xy`）。
+> 2. 每次更新与提交**必须新建独立 Commit**，禁止未 Commit 直接覆盖推送代码！
 
 ```bash
-# 1. 创建并切换到新功能/修复分支
-git checkout -b feature/update-unit-01
+# 1. 检查并切换到 xy 分支（若本地不存在则从当前起点新建 xy 分支）
+git checkout xy 2>/null || git checkout -b xy
 
-# 2. 暂存所有更新文件
-git add 单词故事本/
+# 2. 暂存所有更新与编译文件
+git add 单词故事本/ scripts/PR_DEVELOPMENT_GUIDE.md
 
-# 3. 提交 Commit
-git commit -m "feat(unit01): update story cards and sentence timing audio"
+# 3. 创建独立规范 Commit
+git commit -m "docs(pr-guide): update PR workflow skill and UI compilation rules (target branch: xy)"
 
-# 4. 推送到远程分支并提交 PR
-git push origin feature/update-unit-01
+# 4. 推送到远程 xy 分支并提交 PR
+git push -u origin xy
 ```
