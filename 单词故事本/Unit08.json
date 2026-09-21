@@ -1,0 +1,1498 @@
+{
+  "unit": 8,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Youth",
+      "zh": "年轻人",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "A restless [[youth]] left the [[welfare]] office and stepped into a [[zone]] where the traffic seemed to [[whirl]] without end. He had come to [[browse]] the small shops, but the crowds moved in a [[zigzag]] that made him dizzy.",
+          "zh": "一个不安的年轻人离开福利局，走进一个车流仿佛永不停歇地打转的地带。他本是来逛小店的，可人群走出之字形的路线，让他头晕。"
+        },
+        {
+          "en": "The city felt [[weird]] at dusk, and a neighbor would often [[whisper]] that the rent here did not [[yield]] enough to live on. He found the [[key]] to a side door and slipped into a workshop where workers [[knit]] warm clothes for the poor.",
+          "zh": "黄昏时这座城市显得古怪，常有邻居低声说，这里的房租根本不值得人留下谋生。他找到一扇侧门的钥匙，溜进一间工坊，工人们正在那儿为穷人编织暖衣。"
+        },
+        {
+          "en": "Business was [[brisk]] but the help was only [[brief]]; still, the boy left believing the city's noise could be survived. A bus would [[zoom]] past, and he learned to read its route like a map.",
+          "zh": "生意兴隆，但帮手只来了一小会儿；尽管如此，男孩离开时相信，这座城市的喧嚣是可以熬过去的。一辆巴士呼啸驶过，他学着像看地图一样读懂它的路线。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Alternative",
+      "zh": "替代方案",
+      "theme": "法律 / 社会",
+      "ps": [
+        {
+          "en": "The committee's first [[aim]] was to [[aid]] families who felt [[alien]] in their own town. They would [[allocate]] funds and [[allow]] volunteers to [[alternate]] shifts at the shelter.",
+          "zh": "委员会的首要目的是援助那些在自己镇上感到疏离的家庭。他们会分配资金，并允许志愿者在收容所里轮班。"
+        },
+        {
+          "en": "An [[aggressive]] developer tried to [[alter]] the plan, which began to [[agitate]] the neighbors and [[aggravate]] old tensions. The noise was enough to [[alarm]] even the most [[agreeable]] resident.",
+          "zh": "一个咄咄逼人的开发商试图改变计划，这开始让邻居们躁动，也加剧了旧有的紧张。那喧闹足以惊动即便最随和的居民。"
+        },
+        {
+          "en": "In the end they reached an [[alternative]]: sell the land and [[alienate]] the deed to the city, whose [[aggregate]] budget could protect it. A small victory, but a real one.",
+          "zh": "最终他们达成一个替代方案：卖掉土地，把契约转让给城市——其总预算足以保护它。一场小胜，但货真价实。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Competition",
+      "zh": "竞争",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "Two labs began to [[compete]] for the same grant, and the [[competition]] grew fierce. To [[compare]] their results, the review board asked each team to [[compile]] a clear report.",
+          "zh": "两个实验室开始争夺同一笔经费，竞争变得激烈。为了比较结果，评审委员会要求每个团队整理出一份清晰的报告。"
+        },
+        {
+          "en": "A [[comparative]] study showed the two methods were roughly [[comparable]], though one had a clear [[complement]] the other lacked. No one could [[compel]] a lab to change its approach, nor [[compensate]] it for lost time.",
+          "zh": "一项比较研究显示，两种方法大致可比，尽管其中一种有一个对方所缺的互补之处。没人能迫使一个实验室改变方法，也没人能为它损失的时间作出补偿。"
+        },
+        {
+          "en": "Only the most [[competent]] students stayed calm in such a [[competitive]] field. By [[comparison]], the rest began to [[complain]], and one formal [[complaint]] reached the dean.",
+          "zh": "在如此竞争激烈的领域，只有最有能力的学生能保持冷静。相比之下，其余人开始抱怨，一份正式投诉递到了院长那里。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The Employee",
+      "zh": "雇员",
+      "theme": "教育 / 职场",
+      "ps": [
+        {
+          "en": "A new [[employee]] was hired to [[employ]] a calmer style of management. The system was [[complex]], and the trainer warned that one mistake could [[complicate]] the whole process.",
+          "zh": "一名新员工被雇来采用更沉稳的管理风格。这套系统很复杂，培训师警告说，一个失误就可能让整个流程变复杂。"
+        },
+        {
+          "en": "To [[complete]] the task she had to [[comply]] with strict rules, though the instructions were long and [[complicated]]. The manager placed the [[emphasis]] on safety, would [[emphasize]] one point, then [[diffuse]] the lesson across many examples.",
+          "zh": "为了完成任务，她必须遵守严格的规则，尽管说明冗长而繁琐。经理把重点放在安全上，会强调一点，再把这堂课分散到许多例子中。"
+        },
+        {
+          "en": "Her work did not [[differ]] much from others, but the small [[difference]] earned a rare [[compliment]]. She learned that tone matters as much as method.",
+          "zh": "她的工作与他人并无太大不同，但那小小的差别为她赢得了一声难得的称赞。她明白了，语气和方法同样重要。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "weird",
+      "ipa": "wɪəd",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "怪异的",
+      "exam": "怪异的",
+      "c": [
+        "feel weird 感觉怪异",
+        "a weird coincidence 离奇的巧合",
+        "weird behavior 古怪行为"
+      ],
+      "syn": [
+        "strange",
+        "odd",
+        "bizarre"
+      ],
+      "fam": [
+        "weirdly adv. 古怪地",
+        "weirdness n. 怪异"
+      ],
+      "dif": "weird 强调超乎寻常的怪，常带一丝神秘或不安；odd 只是不寻常，语气更轻",
+      "pat": "The silence after the accident felt deeply weird.",
+      "patZh": "事故之后的寂静让人觉得极其怪异。"
+    },
+    {
+      "w": "welfare",
+      "ipa": "ˈwelfeə(r)",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "福利",
+      "exam": "福利；幸福",
+      "c": [
+        "social welfare 社会福利",
+        "on welfare 靠救济生活",
+        "welfare system 福利制度"
+      ],
+      "syn": [
+        "wellbeing",
+        "benefit",
+        "assistance"
+      ],
+      "fam": [
+        "welfare state 福利国家 n. 相关延伸",
+        "welfarism n. 福利主义"
+      ],
+      "dif": "welfare 多指社会或政府提供的福利；wellbeing 侧重个人幸福安康",
+      "pat": "The reform aimed to improve child welfare across the region.",
+      "patZh": "这项改革旨在改善该地区儿童的福利。"
+    },
+    {
+      "w": "whirl",
+      "ipa": "wɜːl",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "旋转",
+      "exam": "旋转；混乱",
+      "c": [
+        "whirl around 旋转",
+        "in a whirl 混乱中",
+        "a whirl of activity 忙乱"
+      ],
+      "syn": [
+        "spin",
+        "rotate",
+        "swirl"
+      ],
+      "fam": [
+        "whirling adj. 旋转的",
+        "whirlpool n. 漩涡"
+      ],
+      "dif": "whirl 强调快速旋转或思绪纷乱；spin 泛指转动；rotate 多指绕轴规律转动",
+      "pat": "The leaves whirl in the wind on an autumn afternoon.",
+      "patZh": "秋日的午后，落叶在风中打着旋。"
+    },
+    {
+      "w": "whisper",
+      "ipa": "ˈwɪspə(r)",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "低语",
+      "exam": "低语；耳语",
+      "c": [
+        "whisper to sb 对…低语",
+        "in a whisper 小声地",
+        "whisper a secret 低声说秘密"
+      ],
+      "syn": [
+        "murmur",
+        "mutter",
+        "hiss"
+      ],
+      "fam": [
+        "whispering n. / adj. 低语（的）",
+        "whispery adj. 轻声的"
+      ],
+      "dif": "whisper 是有意压低声音的耳语；murmur 是含糊不清的低语；mutter 常带不满",
+      "pat": "She whispered that the meeting had been cancelled.",
+      "patZh": "她小声说会议已经取消了。"
+    },
+    {
+      "w": "yield",
+      "ipa": "jiːld",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "产出",
+      "exam": "生产；产生；屈服；产量",
+      "c": [
+        "yield to 屈服于",
+        "yield a profit 产生利润",
+        "high yield 高产量"
+      ],
+      "syn": [
+        "produce",
+        "generate",
+        "surrender 屈服"
+      ],
+      "fam": [
+        "yielding adj. 易弯曲的；顺从的",
+        "yieldingly adv."
+      ],
+      "dif": "yield 作屈服常与 to 搭配；作产出时近 produce；作名词指产量",
+      "pat": "The investment yielded a steady return over five years.",
+      "patZh": "这项投资在五年内带来了稳定的回报。"
+    },
+    {
+      "w": "youth",
+      "ipa": "juːθ",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "年轻人",
+      "exam": "年轻人",
+      "c": [
+        "in one's youth 在年轻时",
+        "youth culture 青年文化",
+        "the youth of today 当今青年"
+      ],
+      "syn": [
+        "youngster",
+        "adolescent",
+        "teenager"
+      ],
+      "fam": [
+        "young adj. 年轻的",
+        "youthful adj. 年轻的；有活力的"
+      ],
+      "dif": "youth 作集合名词指青年一代，作个体可指小伙子；youngster 更口语",
+      "pat": "The youth questioned whether the old rules still made sense.",
+      "patZh": "那个年轻人质疑，旧规矩是否还有意义。"
+    },
+    {
+      "w": "zigzag",
+      "ipa": "ˈzɪɡzæɡ",
+      "pos": "n. / adj. / v.",
+      "s": "s1",
+      "zh": "之字形",
+      "exam": "之字形；曲折行进",
+      "c": [
+        "in a zigzag 呈之字形",
+        "a zigzag path 蜿蜒小径",
+        "zigzag across 曲折穿过"
+      ],
+      "syn": [
+        "winding",
+        "crooked",
+        "serpentine"
+      ],
+      "fam": [
+        "zigzagged adj. 曲折的",
+        "zigzagging v. 曲折行进"
+      ],
+      "dif": "zigzag 强调左右交错的之字形；winding 强调弯曲盘绕，不一定是锯齿状",
+      "pat": "The trail zigzags up the mountain in a series of sharp turns.",
+      "patZh": "小径以一连串急转弯之字形盘山而上。"
+    },
+    {
+      "w": "zone",
+      "ipa": "zəʊn",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "地带",
+      "exam": "地带；地区；区域",
+      "c": [
+        "a war zone 战区",
+        "the danger zone 危险区",
+        "zone off 划出…区"
+      ],
+      "syn": [
+        "area",
+        "region",
+        "district"
+      ],
+      "fam": [
+        "zoning n. 分区规划",
+        "zonal adj. 分区的"
+      ],
+      "dif": "zone 强调按功能或特征划出的带、区；region 多指自然或行政大区",
+      "pat": "The city has declared this street a pedestrian-only zone.",
+      "patZh": "该市已宣布这条街为步行专用区。"
+    },
+    {
+      "w": "zoom",
+      "ipa": "zuːm",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "疾驰",
+      "exam": "嗡嗡声；急剧上涨",
+      "c": [
+        "zoom in / out 放大 / 缩小",
+        "zoom past 呼啸而过",
+        "prices zoom 价格飞涨"
+      ],
+      "syn": [
+        "speed",
+        "shoot up 骤升",
+        "soar"
+      ],
+      "fam": [
+        "zooming adj. 疾驰的",
+        "zoom lens 变焦镜头 n. 相关延伸"
+      ],
+      "dif": "zoom 指快速移动或急剧上升，常带画面感；soar 多指价格或高度飙升",
+      "pat": "House prices in the district zoomed during the boom.",
+      "patZh": "繁荣期该区房价急剧上涨。"
+    },
+    {
+      "w": "key",
+      "ipa": "kiː",
+      "pos": "n. / adj.",
+      "s": "s1",
+      "zh": "钥匙",
+      "exam": "答案；关键；主要的；关键的",
+      "c": [
+        "the key to 通往…的关键",
+        "a key factor 关键因素",
+        "key information 关键信息"
+      ],
+      "syn": [
+        "crucial",
+        "essential",
+        "answer 答案"
+      ],
+      "fam": [
+        "keyboard n. 键盘",
+        "keyword n. 关键词"
+      ],
+      "dif": "key 作形容词是关键，作名词可指钥匙、答案、关键；crucial 仅表重要",
+      "pat": "Communication is the key to a healthy relationship.",
+      "patZh": "沟通是健康关系的关键。"
+    },
+    {
+      "w": "knit",
+      "ipa": "nɪt",
+      "pos": "v.",
+      "s": "s1",
+      "zh": "编织",
+      "exam": "编织；紧密结合",
+      "c": [
+        "knit a sweater 织毛衣",
+        "knit together 使紧密结合",
+        "knit one's brows 皱眉"
+      ],
+      "syn": [
+        "weave",
+        "unite",
+        "bind"
+      ],
+      "fam": [
+        "knitting n. 针织",
+        "knitted adj. 针织的"
+      ],
+      "dif": "knit 用针织出衣物或使紧密结合；weave 多指用织布机织；unite 仅表联合",
+      "pat": "The crisis knit the divided community together at last.",
+      "patZh": "危机最终让这个分裂的社区紧密团结起来。"
+    },
+    {
+      "w": "brisk",
+      "ipa": "brɪsk",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "兴隆的",
+      "exam": "兴隆的；轻快的",
+      "c": [
+        "a brisk trade 生意兴隆",
+        "brisk walking 快走",
+        "a brisk wind 清风"
+      ],
+      "syn": [
+        "lively",
+        "busy",
+        "spirited"
+      ],
+      "fam": [
+        "briskly adv. 轻快地",
+        "briskness n. 轻快"
+      ],
+      "dif": "brisk 可形容生意兴隆或步伐轻快；lively 侧重活泼有生气",
+      "pat": "A brisk wind swept the leaves across the empty square.",
+      "patZh": "一阵劲风把落叶扫过空旷的广场。"
+    },
+    {
+      "w": "brief",
+      "ipa": "briːf",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "短暂的",
+      "exam": "短暂的；简短的；简洁的",
+      "c": [
+        "a brief visit 短暂拜访",
+        "in brief 简而言之",
+        "a brief summary 简要总结"
+      ],
+      "syn": [
+        "short",
+        "concise",
+        "transient"
+      ],
+      "fam": [
+        "briefly adv. 简短地",
+        "briefing n. 简报"
+      ],
+      "dif": "brief 强调时间短或内容简；short 泛指短，最中性；concise 专指简洁",
+      "pat": "Let me be brief: the plan needs more time and money.",
+      "patZh": "我长话短说：这计划需要更多的时间和资金。"
+    },
+    {
+      "w": "browse",
+      "ipa": "braʊz",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "闲逛",
+      "exam": "浏览；吃草",
+      "c": [
+        "browse the web 上网浏览",
+        "browse through 翻阅",
+        "browse on grass 吃草"
+      ],
+      "syn": [
+        "scan",
+        "surf",
+        "graze 吃草"
+      ],
+      "fam": [
+        "browser n. 浏览器",
+        "browsing n. 浏览"
+      ],
+      "dif": "browse 指随意浏览或动物吃草；scan 是带目的快速扫读；graze 仅指吃草",
+      "pat": "She likes to browse second-hand bookshops on weekends.",
+      "patZh": "她喜欢周末逛二手书店。"
+    },
+    {
+      "w": "aggravate",
+      "ipa": "ˈæɡrəveɪt",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "加剧",
+      "exam": "加重；恶化",
+      "c": [
+        "aggravate the situation 使情况恶化",
+        "aggravate tensions 加剧紧张",
+        "aggravate a crime 加重罪行"
+      ],
+      "syn": [
+        "worsen",
+        "intensify",
+        "exacerbate"
+      ],
+      "fam": [
+        "aggravation n. 加重；恼火",
+        "aggravating adj. 令人恼火的"
+      ],
+      "dif": "aggravate 使问题或矛盾加重恶化；worsen 最通用；exacerbate 更书面",
+      "pat": "Cutting the budget will only aggravate the housing shortage.",
+      "patZh": "削减预算只会让住房短缺更加严重。"
+    },
+    {
+      "w": "aggregate",
+      "ipa": "ˈæɡrɪɡət / ˈæɡrɪɡeɪt",
+      "pos": "n. / adj. / v.",
+      "s": "s2",
+      "zh": "总计",
+      "exam": "总数；总数的；总计",
+      "c": [
+        "in the aggregate 总计",
+        "aggregate demand 总需求",
+        "aggregate data 汇总数据"
+      ],
+      "syn": [
+        "total",
+        "sum",
+        "combined"
+      ],
+      "fam": [
+        "aggregation n. 聚集；合计",
+        "aggregately adv."
+      ],
+      "dif": "aggregate 强调整体合计、总计；total 最常用；sum 偏数学加法",
+      "pat": "In the aggregate, the two regions produced similar results.",
+      "patZh": "总体来看，两个地区得出的结果相近。"
+    },
+    {
+      "w": "aggressive",
+      "ipa": "əˈɡresɪv",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "咄咄逼人的",
+      "exam": "好斗的；侵略的；积极进取的",
+      "c": [
+        "an aggressive salesman 咄咄逼人的推销员",
+        "aggressive behavior 好斗行为",
+        "an aggressive investor 积极进取的投资者"
+      ],
+      "syn": [
+        "hostile",
+        "assertive",
+        "forceful"
+      ],
+      "fam": [
+        "aggressive → aggression n. 侵略",
+        "aggresslvely adv."
+      ],
+      "dif": "aggressive 可中性指积极进取，也可贬义指好斗、侵略；assertive 仅褒义果断",
+      "pat": "An aggressive competitor pushed hard to win the contract.",
+      "patZh": "一个咄咄逼人的竞争者全力争夺这份合同。"
+    },
+    {
+      "w": "agitate",
+      "ipa": "ˈædʒɪteɪt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "使躁动",
+      "exam": "使狂躁",
+      "c": [
+        "agitate for 鼓动要求",
+        "agitate the water 搅动水",
+        "be agitated 焦躁不安"
+      ],
+      "syn": [
+        "stir",
+        "upset",
+        "arouse"
+      ],
+      "fam": [
+        "agitation n. 骚动；焦虑",
+        "agitator n. 煽动者"
+      ],
+      "dif": "agitate 可指搅动液体或使人焦虑、鼓动；stir 更泛；upset 侧重情绪",
+      "pat": "The rumor agitated the whole neighborhood for days.",
+      "patZh": "那则谣言让整个社区骚动了好几天。"
+    },
+    {
+      "w": "agreeable",
+      "ipa": "əˈɡriːəbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "随和的",
+      "exam": "令人愉快的",
+      "c": [
+        "an agreeable person 随和的人",
+        "agreeable to 同意的",
+        "an agreeable climate 宜人气候"
+      ],
+      "syn": [
+        "pleasant",
+        "amiable",
+        "congenial"
+      ],
+      "fam": [
+        "agree v. 同意",
+        "agreeably adv. 令人愉快地"
+      ],
+      "dif": "agreeable 指人随和、好相处或事物令人愉快；pleasant 仅表令人愉悦",
+      "pat": "She was an agreeable host who made every guest feel welcome.",
+      "patZh": "她是个随和的主人，让每位客人都感到宾至如归。"
+    },
+    {
+      "w": "aid",
+      "ipa": "eɪd",
+      "pos": "vt. / n.",
+      "s": "s2",
+      "zh": "援助",
+      "exam": "援助；帮助",
+      "c": [
+        "with the aid of 在…帮助下",
+        "aid sb in 帮助…做",
+        "foreign aid 外援"
+      ],
+      "syn": [
+        "help",
+        "assist",
+        "support"
+      ],
+      "fam": [
+        "aide n. 助手",
+        "aidworker n. 救援人员"
+      ],
+      "dif": "aid 比 help 更正式，常用于救援或资助语境；assist 侧重协助",
+      "pat": "The new software will aid doctors in diagnosing disease.",
+      "patZh": "这款新软件将帮助医生诊断疾病。"
+    },
+    {
+      "w": "aim",
+      "ipa": "eɪm",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "目标",
+      "exam": "目标；目的；目的在于；旨在；瞄准；针对",
+      "c": [
+        "aim at 瞄准；旨在",
+        "with the aim of 以…为目的",
+        "aim high 志向远大"
+      ],
+      "syn": [
+        "goal",
+        "purpose",
+        "intend"
+      ],
+      "fam": [
+        "aimless adj. 无目的的",
+        "aimlessly adv."
+      ],
+      "dif": "aim 作名词是目标，作动词是瞄准、旨在；goal 仅名词；intend 仅动词",
+      "pat": "The policy aims to reduce inequality in rural areas.",
+      "patZh": "这项政策旨在缩小农村地区的贫富差距。"
+    },
+    {
+      "w": "alarm",
+      "ipa": "əˈlɑːm",
+      "pos": "n. / vt.",
+      "s": "s2",
+      "zh": "使惊恐",
+      "exam": "警报；使惊恐；使忧虑",
+      "c": [
+        "raise the alarm 拉响警报",
+        "alarm clock 闹钟",
+        "be alarmed at 对…感到惊恐"
+      ],
+      "syn": [
+        "warning",
+        "alert",
+        "frighten"
+      ],
+      "fam": [
+        "alarming adj. 令人担忧的",
+        "alarmingly adv."
+      ],
+      "dif": "alarm 可作警报或使人惊恐；frighten 仅动词吓唬；warning 仅名词",
+      "pat": "The sudden drop in sales alarmed the entire board.",
+      "patZh": "销量的骤降让整个董事会忧心忡忡。"
+    },
+    {
+      "w": "alien",
+      "ipa": "ˈeɪliən",
+      "pos": "adj. / n.",
+      "s": "s2",
+      "zh": "格格不入的",
+      "exam": "陌生的；格格不入的；外国人",
+      "c": [
+        "an alien culture 异域文化",
+        "be alien to 与…格格不入",
+        "an illegal alien 非法外侨"
+      ],
+      "syn": [
+        "foreign",
+        "strange",
+        "outsider"
+      ],
+      "fam": [
+        "alienate v. 使疏远；转让",
+        "alienation n. 疏离感"
+      ],
+      "dif": "alien 作形容词是陌生的、格格不入的，作名词是外侨或外星人；foreign 仅外国的",
+      "pat": "The custom felt alien to visitors from the countryside.",
+      "patZh": "对来自乡下的访客而言，这习俗显得格格不入。"
+    },
+    {
+      "w": "alienate",
+      "ipa": "ˈeɪliəneɪt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "转让",
+      "exam": "转让；让渡",
+      "c": [
+        "alienate sb from 使…疏远",
+        "alienate property 转让财产",
+        "alienate supporters 失去支持"
+      ],
+      "syn": [
+        "estrange",
+        "transfer",
+        "detach"
+      ],
+      "fam": [
+        "alien adj. 陌生的",
+        "alienation n. 疏离"
+      ],
+      "dif": "alienate 常指使疏远或法律上的转让；estrange 只表使疏远；transfer 只表转移",
+      "pat": "He decided to alienate the land to the local council.",
+      "patZh": "他决定将这块土地转让给地方议会。"
+    },
+    {
+      "w": "allocate",
+      "ipa": "ˈæləkeɪt",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "分配",
+      "exam": "分配；拨给",
+      "c": [
+        "allocate funds to 把资金拨给",
+        "allocate time 分配时间",
+        "allocate resources 配置资源"
+      ],
+      "syn": [
+        "assign",
+        "distribute",
+        "allot"
+      ],
+      "fam": [
+        "allocation n. 分配",
+        "allocatable adj. 可分配的"
+      ],
+      "dif": "allocate 强调按计划分配、拨给资源；distribute 侧重分发到各处；assign 指指派",
+      "pat": "The government allocated extra funds to rural schools.",
+      "patZh": "政府向农村学校额外拨付了资金。"
+    },
+    {
+      "w": "allow",
+      "ipa": "əˈlaʊ",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "容许",
+      "exam": "准许；允许；留出；考虑到",
+      "c": [
+        "allow sb to do 允许…做",
+        "allow for 考虑到；留出",
+        "allow no excuse 不容辩解"
+      ],
+      "syn": [
+        "permit",
+        "let",
+        "authorize"
+      ],
+      "fam": [
+        "allowance n. 津贴；免税额",
+        "allowable adj. 允许的"
+      ],
+      "dif": "allow 最通用表示允许；allow for 是固定搭配考虑到、留出余地；permit 更正式",
+      "pat": "The schedule must allow for delays caused by bad weather.",
+      "patZh": "日程表必须考虑到恶劣天气造成的延误。"
+    },
+    {
+      "w": "alter",
+      "ipa": "ˈɔːltə(r)",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "改变",
+      "exam": "改变；更改",
+      "c": [
+        "alter a plan 改变计划",
+        "alter one's mind 改变主意",
+        "slightly altered 略有改动"
+      ],
+      "syn": [
+        "change",
+        "modify",
+        "adjust"
+      ],
+      "fam": [
+        "alteration n. 修改",
+        "unaltered adj. 未改变的"
+      ],
+      "dif": "alter 强调局部修改、使变化；change 最通用；modify 侧重微调以改进",
+      "pat": "We had to alter the design after the client's feedback.",
+      "patZh": "在客户反馈后，我们不得不修改设计。"
+    },
+    {
+      "w": "alternate",
+      "ipa": "ɔːlˈtɜːnət / ˈɔːltəneɪt",
+      "pos": "v. / adj.",
+      "s": "s2",
+      "zh": "轮换",
+      "exam": "交替；轮流",
+      "c": [
+        "alternate between 在…间交替",
+        "on alternate days 隔日",
+        "alternate routes 备用路线"
+      ],
+      "syn": [
+        "rotate",
+        "take turns",
+        "switch"
+      ],
+      "fam": [
+        "alternative adj. / n. 替代（的）",
+        "alternation n. 交替"
+      ],
+      "dif": "alternate 指交替、轮流发生；alternative 指可替代的选择，词性词义都不同",
+      "pat": "The two teams alternate in hosting the weekly meeting.",
+      "patZh": "两支团队轮流主持每周的会议。"
+    },
+    {
+      "w": "alternative",
+      "ipa": "ɔːlˈtɜːnətɪv",
+      "pos": "adj. / n.",
+      "s": "s2",
+      "zh": "替代方案",
+      "exam": "两者挑一的；可供选择的；可供选的事物",
+      "c": [
+        "an alternative to …的替代物",
+        "have no alternative 别无选择",
+        "alternative energy 替代能源"
+      ],
+      "syn": [
+        "option",
+        "substitute",
+        "choice"
+      ],
+      "fam": [
+        "alternate v. / adj. 交替（的）",
+        "alternatively adv. 或者"
+      ],
+      "dif": "alternative 是替代方案、可二选一的；choice 是泛指选择；option 强调选项",
+      "pat": "Cycling offers a healthy alternative to driving to work.",
+      "patZh": "骑自行车为开车上班提供了一个健康的替代方案。"
+    },
+    {
+      "w": "comparable",
+      "ipa": "ˈkɒmprəbl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "可比的",
+      "exam": "可比较的；比得上的；类似的",
+      "c": [
+        "be comparable to 比得上",
+        "comparable in size 大小相当",
+        "comparable data 可比数据"
+      ],
+      "syn": [
+        "similar",
+        "equivalent",
+        "analogous"
+      ],
+      "fam": [
+        "compare v. 比较",
+        "comparison n. 比较",
+        "comparative adj. 比较的"
+      ],
+      "dif": "comparable 指可比较的、比得上的；similar 仅相似；equivalent 指等价",
+      "pat": "No European city is comparable to Tokyo in population density.",
+      "patZh": "论人口密度，欧洲没有哪座城市比得上东京。"
+    },
+    {
+      "w": "comparative",
+      "ipa": "kəmˈpærətɪv",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "比较的",
+      "exam": "比较的；相比的；相对的",
+      "c": [
+        "comparative study 比较研究",
+        "comparative advantage 比较优势",
+        "comparative ease 相对容易"
+      ],
+      "syn": [
+        "relative",
+        "contrasting"
+      ],
+      "fam": [
+        "compare v. 比较",
+        "comparison n. 比较",
+        "comparable adj. 可比的"
+      ],
+      "dif": "comparative 是比较的、相对的（如 comparative study）；relative 是相对的",
+      "pat": "A comparative analysis reveals why the two systems differ.",
+      "patZh": "比较分析揭示了两种制度为何不同。"
+    },
+    {
+      "w": "compare",
+      "ipa": "kəmˈpeə(r)",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "比较",
+      "exam": "比较；把…比作",
+      "c": [
+        "compare with 与…相比",
+        "compare to 把…比作",
+        "beyond compare 无与伦比"
+      ],
+      "syn": [
+        "contrast",
+        "liken",
+        "match"
+      ],
+      "fam": [
+        "comparison n. 比较",
+        "comparable adj. 可比的",
+        "comparative adj. 比较的"
+      ],
+      "dif": "compare with 侧重找异同；compare to 侧重比喻成；contrast 强调对照反差",
+      "pat": "It is easy to compare this model with its predecessor.",
+      "patZh": "将这款型号与其前代相比很容易。"
+    },
+    {
+      "w": "comparison",
+      "ipa": "kəmˈpærɪsn",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "比较",
+      "exam": "比较；对比",
+      "c": [
+        "by comparison 相比之下",
+        "bear comparison 经得起比较",
+        "in comparison with 与…相比"
+      ],
+      "syn": [
+        "contrast",
+        "analogy",
+        "likeness"
+      ],
+      "fam": [
+        "compare v. 比较",
+        "comparable adj. 可比的"
+      ],
+      "dif": "comparison 是 compare 的名词比较；contrast 作名词侧重对照反差",
+      "pat": "By comparison, the older version feels clumsy and slow.",
+      "patZh": "相比之下，旧版本显得笨拙又迟缓。"
+    },
+    {
+      "w": "compel",
+      "ipa": "kəmˈpel",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "迫使",
+      "exam": "迫使；强迫",
+      "c": [
+        "compel sb to do 迫使…做",
+        "be compelled to 不得不",
+        "compel attention 引人注目"
+      ],
+      "syn": [
+        "force",
+        "oblige",
+        "coerce"
+      ],
+      "fam": [
+        "compulsion n. 强迫",
+        "compulsory adj. 强制的"
+      ],
+      "dif": "compel 强调内在或外在压力迫使，常用被动 be compelled to；force 语气更强硬",
+      "pat": "Rising costs compelled the firm to close two factories.",
+      "patZh": "成本上升迫使该公司关闭了两座工厂。"
+    },
+    {
+      "w": "compensate",
+      "ipa": "ˈkɒmpenseɪt",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "补偿",
+      "exam": "补偿；赔偿",
+      "c": [
+        "compensate for 补偿",
+        "compensate sb for 因…赔偿",
+        "compensate a loss 弥补损失"
+      ],
+      "syn": [
+        "offset",
+        "reimburse",
+        "make up for"
+      ],
+      "fam": [
+        "compensation n. 补偿；薪酬",
+        "compensatory adj. 补偿的"
+      ],
+      "dif": "compensate 指弥补、赔偿；offset 指抵消；reimburse 专指报销",
+      "pat": "Nothing can compensate for the loss of trust.",
+      "patZh": "没有什么能弥补信任的丧失。"
+    },
+    {
+      "w": "compete",
+      "ipa": "kəmˈpiːt",
+      "pos": "vi.",
+      "s": "s3",
+      "zh": "竞争",
+      "exam": "比赛；竞争",
+      "c": [
+        "compete with 与…竞争",
+        "compete for 争夺",
+        "compete in 参加…比赛"
+      ],
+      "syn": [
+        "contend",
+        "rival",
+        "vie"
+      ],
+      "fam": [
+        "competition n. 竞争",
+        "competitive adj. 竞争的",
+        "competitor n. 竞争者"
+      ],
+      "dif": "compete 是不及物，须接 with / for / in；rival 可作及物与…匹敌；contend 强调争夺",
+      "pat": "Small firms must compete with giants on quality, not price.",
+      "patZh": "小公司必须在质量而非价格上与巨头竞争。"
+    },
+    {
+      "w": "competition",
+      "ipa": "ˌkɒmpəˈtɪʃn",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "竞争",
+      "exam": "竞争；比赛",
+      "c": [
+        "face competition 面临竞争",
+        "fierce competition 激烈竞争",
+        "enter a competition 参赛"
+      ],
+      "syn": [
+        "rivalry",
+        "contest",
+        "opposition"
+      ],
+      "fam": [
+        "compete v. 竞争",
+        "competitive adj. 竞争的",
+        "competitor n. 对手"
+      ],
+      "dif": "competition 可指比赛或抽象竞争；rivalry 专指敌对竞争；contest 多指赛事",
+      "pat": "Global competition forces local brands to innovate faster.",
+      "patZh": "全球竞争迫使本土品牌更快地创新。"
+    },
+    {
+      "w": "competitive",
+      "ipa": "kəmˈpetətɪv",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "竞争的",
+      "exam": "竞争的",
+      "c": [
+        "competitive market 竞争性市场",
+        "highly competitive 竞争激烈的",
+        "competitive price 有竞争力的价格"
+      ],
+      "syn": [
+        "cut-throat",
+        "aggressive",
+        "vying"
+      ],
+      "fam": [
+        "compete v. 竞争",
+        "competition n. 竞争",
+        "competitor n. 竞争者"
+      ],
+      "dif": "competitive 形容竞争的、有竞争力的；aggressive 偏好斗或进取，词义不同",
+      "pat": "A competitive salary helped the firm attract top talent.",
+      "patZh": "有竞争力的薪酬帮助公司吸引了顶尖人才。"
+    },
+    {
+      "w": "competent",
+      "ipa": "ˈkɒmpɪtənt",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "能胜任的",
+      "exam": "有能力的；能胜任的",
+      "c": [
+        "a competent worker 称职的员工",
+        "competent at 擅长",
+        "fully competent 完全胜任"
+      ],
+      "syn": [
+        "capable",
+        "qualified",
+        "efficient"
+      ],
+      "fam": [
+        "competence n. 能力",
+        "incompetent adj. 不胜任的"
+      ],
+      "dif": "competent 强调能胜任、够格；capable 指有能力的；qualified 强调有资格",
+      "pat": "We need a competent manager who can steady the team.",
+      "patZh": "我们需要一位能稳住团队、称职可靠的经理。"
+    },
+    {
+      "w": "compile",
+      "ipa": "kəmˈpaɪl",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "汇编",
+      "exam": "收集；汇编；编纂",
+      "c": [
+        "compile a report 汇编报告",
+        "compile data 汇总数据",
+        "compile a dictionary 编纂词典"
+      ],
+      "syn": [
+        "assemble",
+        "gather",
+        "edit"
+      ],
+      "fam": [
+        "compilation n. 汇编；编纂",
+        "compiler n. 编纂者；编译器"
+      ],
+      "dif": "compile 指收集并编纂成册或成表；gather 仅收集；assemble 指组装或集合",
+      "pat": "Researchers compiled the survey results into a single table.",
+      "patZh": "研究者把调查结果汇总成一张表格。"
+    },
+    {
+      "w": "complain",
+      "ipa": "kəmˈpleɪn",
+      "pos": "vi.",
+      "s": "s3",
+      "zh": "抱怨",
+      "exam": "抱怨",
+      "c": [
+        "complain about 抱怨…",
+        "complain of 诉说（病痛）",
+        "complain to 向…投诉"
+      ],
+      "syn": [
+        "grumble",
+        "protest",
+        "moan"
+      ],
+      "fam": [
+        "complaint n. 抱怨；投诉",
+        "complaining adj. 爱抱怨的"
+      ],
+      "dif": "complain 最通用表示抱怨、投诉；grumble 小声嘟囔；protest 强调抗议",
+      "pat": "Customers complained about the slow after-sales service.",
+      "patZh": "客户抱怨售后服务的响应太慢。"
+    },
+    {
+      "w": "complaint",
+      "ipa": "kəmˈpleɪnt",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "投诉",
+      "exam": "抱怨；诉苦",
+      "c": [
+        "make a complaint 提出投诉",
+        "a formal complaint 正式投诉",
+        "a common complaint 常见抱怨"
+      ],
+      "syn": [
+        "grievance",
+        "protest",
+        "moan"
+      ],
+      "fam": [
+        "complain v. 抱怨",
+        "complaining adj. 爱抱怨的"
+      ],
+      "dif": "complaint 是 complain 的名词抱怨、投诉；grievance 多指委屈、冤情",
+      "pat": "The formal complaint was filed with the human-resources office.",
+      "patZh": "这份正式投诉已被递交到人力资源部。"
+    },
+    {
+      "w": "complement",
+      "ipa": "ˈkɒmplɪment",
+      "pos": "vt. / n.",
+      "s": "s3",
+      "zh": "补充",
+      "exam": "补充；补足",
+      "c": [
+        "complement each other 互补",
+        "a perfect complement 绝佳补充",
+        "complement a meal 佐餐"
+      ],
+      "syn": [
+        "supplement",
+        "complete",
+        "enhance"
+      ],
+      "fam": [
+        "complementary adj. 互补的",
+        "complementarity n. 互补性"
+      ],
+      "dif": "complement 是补足、使完整（如互补）；与 compliment（称赞）拼写仅差一个 e",
+      "pat": "The two skills complement each other and build a strong team.",
+      "patZh": "这两项技能相辅相成，造就一支强队。"
+    },
+    {
+      "w": "complete",
+      "ipa": "kəmˈpliːt",
+      "pos": "vt. / adj.",
+      "s": "s4",
+      "zh": "完成",
+      "exam": "结束；完成；完全的；完整的；完成的",
+      "c": [
+        "complete a task 完成任务",
+        "a complete set 一整套",
+        "complete with 配有"
+      ],
+      "syn": [
+        "finish",
+        "whole",
+        "entire"
+      ],
+      "fam": [
+        "completion n. 完成",
+        "completely adv. 完全地",
+        "incomplete adj. 未完成的"
+      ],
+      "dif": "complete 作动词完成，作形容词完整的、完全的；finish 仅动词；whole 仅形容词",
+      "pat": "They managed to complete the project ahead of schedule.",
+      "patZh": "他们设法提前完成了这个项目。"
+    },
+    {
+      "w": "complex",
+      "ipa": "ˈkɒmpleks",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "复杂的",
+      "exam": "复杂的；综合体",
+      "c": [
+        "a complex issue 复杂问题",
+        "a sports complex 体育中心",
+        "complex system 复杂系统"
+      ],
+      "syn": [
+        "complicated",
+        "intricate",
+        "composite"
+      ],
+      "fam": [
+        "complexity n. 复杂性",
+        "complexly adv."
+      ],
+      "dif": "complex 强调由多部分构成的复杂；complicated 强调难懂难解；composite 指合成的",
+      "pat": "The law is too complex for ordinary citizens to follow.",
+      "patZh": "这部法律太复杂，普通市民难以理解。"
+    },
+    {
+      "w": "complicate",
+      "ipa": "ˈkɒmplɪkeɪt",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "使变复杂",
+      "exam": "使变复杂",
+      "c": [
+        "complicate matters 把事情弄复杂",
+        "complicate a case 使案件复杂化",
+        "be complicated by 因…而变得复杂"
+      ],
+      "syn": [
+        "confuse",
+        "entangle",
+        "aggravate"
+      ],
+      "fam": [
+        "complicated adj. 错综复杂的",
+        "complication n. 并发症；复杂化"
+      ],
+      "dif": "complicate 是动词使复杂化；complex 是形容词复杂的，勿混用",
+      "pat": "A sudden strike complicated the delivery of urgent goods.",
+      "patZh": "一场突如其来的罢工让紧急货物的运送变得复杂。"
+    },
+    {
+      "w": "complicated",
+      "ipa": "ˈkɒmplɪkeɪtɪd",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "错综复杂的",
+      "exam": "错综复杂的",
+      "c": [
+        "a complicated problem 棘手的问题",
+        "highly complicated 极为复杂",
+        "a complicated relationship 复杂的关系"
+      ],
+      "syn": [
+        "complex",
+        "intricate",
+        "involved"
+      ],
+      "fam": [
+        "complicate v. 使复杂",
+        "complication n. 复杂化"
+      ],
+      "dif": "complicated 强调难理解、难处理；complex 强调结构多部件；两者常互换",
+      "pat": "The tax rules are so complicated that few people understand them.",
+      "patZh": "税法规则如此繁琐，几乎没几个人能看懂。"
+    },
+    {
+      "w": "comply",
+      "ipa": "kəmˈplaɪ",
+      "pos": "vi.",
+      "s": "s4",
+      "zh": "遵从",
+      "exam": "遵从；服从",
+      "c": [
+        "comply with 遵从",
+        "comply with the law 守法",
+        "fail to comply 未遵守"
+      ],
+      "syn": [
+        "obey",
+        "conform",
+        "observe 遵守"
+      ],
+      "fam": [
+        "compliance n. 遵守；顺从",
+        "compliant adj. 顺从的"
+      ],
+      "dif": "comply 必接 with（comply with）；obey 直接接宾语；conform 强调符合规范",
+      "pat": "All staff must comply with the new safety regulations.",
+      "patZh": "所有员工都必须遵守新的安全规章。"
+    },
+    {
+      "w": "compliment",
+      "ipa": "ˈkɒmplɪmənt",
+      "pos": "n. / vt.",
+      "s": "s4",
+      "zh": "称赞",
+      "exam": "称赞",
+      "c": [
+        "pay a compliment 称赞",
+        "a sincere compliment 真诚的赞美",
+        "compliment sb on 就…夸奖"
+      ],
+      "syn": [
+        "praise",
+        "flatter",
+        "commend"
+      ],
+      "fam": [
+        "complimentary adj. 赞美的；免费的",
+        "complimentarily adv."
+      ],
+      "dif": "compliment 是称赞、恭维；complement 是补充、补足，拼写仅差一个 e",
+      "pat": "He paid her a warm compliment on the finished design.",
+      "patZh": "他由衷称赞她完成的作品设计。"
+    },
+    {
+      "w": "differ",
+      "ipa": "ˈdɪfə(r)",
+      "pos": "vi.",
+      "s": "s4",
+      "zh": "不同于",
+      "exam": "与…不同",
+      "c": [
+        "differ from 与…不同",
+        "differ in 在…方面有别",
+        "agree to differ 求同存异"
+      ],
+      "syn": [
+        "vary",
+        "diverge",
+        "disagree"
+      ],
+      "fam": [
+        "difference n. 差别",
+        "different adj. 不同的",
+        "differently adv."
+      ],
+      "dif": "differ 是不及物，必接 from / in；different 是形容词；vary 强调变化、有差异",
+      "pat": "Opinions differ widely on how to fund the project.",
+      "patZh": "关于如何为项目筹资，各方意见大相径庭。"
+    },
+    {
+      "w": "difference",
+      "ipa": "ˈdɪfrəns",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "差别",
+      "exam": "差别；意见分歧",
+      "c": [
+        "make a difference 有影响",
+        "a key difference 关键差别",
+        "settle a difference 化解分歧"
+      ],
+      "syn": [
+        "distinction",
+        "gap",
+        "discrepancy"
+      ],
+      "fam": [
+        "different adj. 不同的",
+        "differ v. 不同",
+        "differently adv."
+      ],
+      "dif": "difference 可指差别或意见分歧；distinction 强调本质区别；gap 指差距",
+      "pat": "A small difference in timing can change the whole outcome.",
+      "patZh": "时机上微小的差别，就可能改变整个结果。"
+    },
+    {
+      "w": "diffuse",
+      "ipa": "dɪˈfjuːs / dɪˈfjuːz",
+      "pos": "adj. / v.",
+      "s": "s4",
+      "zh": "传播",
+      "exam": "弥漫的；冗长的；传播；散布",
+      "c": [
+        "diffuse light 漫射光",
+        "diffuse knowledge 传播知识",
+        "a diffuse style 散漫的文风"
+      ],
+      "syn": [
+        "spread",
+        "disperse",
+        "rambling"
+      ],
+      "fam": [
+        "diffusion n. 扩散；传播",
+        "diffusely adv."
+      ],
+      "dif": "diffuse 作动词扩散、传播，作形容词弥漫的或（文章）冗长的；disperse 强调散开",
+      "pat": "Social media can diffuse news across the world in minutes.",
+      "patZh": "社交媒体能在几分钟内把消息传遍全球。"
+    },
+    {
+      "w": "emphasis",
+      "ipa": "ˈemfəsɪs",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "重点",
+      "exam": "强调；重点",
+      "c": [
+        "place emphasis on 强调",
+        "with emphasis 着重地",
+        "a shift in emphasis 重心转移"
+      ],
+      "syn": [
+        "stress",
+        "focus",
+        "weight"
+      ],
+      "fam": [
+        "emphasize v. 强调",
+        "emphatic adj. 强调的",
+        "emphatically adv."
+      ],
+      "dif": "emphasis 是名词重点、强调；emphasize 是动词；stress 名动皆可",
+      "pat": "The new plan places emphasis on preventive care.",
+      "patZh": "新方案把重点放在预防保健上。"
+    },
+    {
+      "w": "emphasize",
+      "ipa": "ˈemfəsaɪz",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "强调",
+      "exam": "强调",
+      "c": [
+        "emphasize the need 强调必要性",
+        "strongly emphasize 着重强调",
+        "emphasize a point 强调一点"
+      ],
+      "syn": [
+        "stress",
+        "highlight",
+        "underline"
+      ],
+      "fam": [
+        "emphasis n. 重点",
+        "emphatic adj. 强调的"
+      ],
+      "dif": "emphasize 是强调，及物直接接宾语；stress 既可名又可动；highlight 强调突出",
+      "pat": "The report emphasizes the risks of climate change.",
+      "patZh": "报告强调了气候变化带来的风险。"
+    },
+    {
+      "w": "employ",
+      "ipa": "ɪmˈplɔɪ",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "采用",
+      "exam": "雇用；使用",
+      "c": [
+        "employ staff 雇用员工",
+        "employ a method 采用方法",
+        "be employed in 从事"
+      ],
+      "syn": [
+        "hire",
+        "use",
+        "engage"
+      ],
+      "fam": [
+        "employee n. 雇员",
+        "employer n. 雇主",
+        "employment n. 雇佣"
+      ],
+      "dif": "employ 可指雇用或使用（方法）；hire 仅雇用；use 仅使用",
+      "pat": "The factory employs over two thousand workers.",
+      "patZh": "这家工厂雇用了两千多名工人。"
+    },
+    {
+      "w": "employee",
+      "ipa": "ɪmˈplɔɪiː",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "雇员",
+      "exam": "雇员",
+      "c": [
+        "a loyal employee 忠心的雇员",
+        "employee training 员工培训",
+        "hire an employee 雇佣一名员工"
+      ],
+      "syn": [
+        "worker",
+        "staff member",
+        "assistant"
+      ],
+      "fam": [
+        "employ v. 雇用",
+        "employer n. 雇主",
+        "employment n. 雇佣"
+      ],
+      "dif": "employee 是雇员（被雇者）；employer 是雇主（雇人者）；employment 是雇佣",
+      "pat": "Every employee received a bonus at the year's end.",
+      "patZh": "每位雇员在年终都拿到了一笔奖金。"
+    }
+  ]
+}

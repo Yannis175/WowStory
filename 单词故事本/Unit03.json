@@ -1,0 +1,2190 @@
+{
+  "unit": 3,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Ceremony",
+      "zh": "颁奖典礼",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "The town decided to [[celebrate]] Mrs. Hale's forty years of teaching with a public [[ceremony]]. A local [[celebrity]], a [[fashionable]] young singer, was invited to perform, and the mayor issued a [[decree]] naming the day after her. Everyone felt [[certain]] that the old hall would be packed.",
+          "zh": "小镇决定为黑尔夫人四十年的教学生涯举办一场公开庆典。当地一位名人——时髦的年轻歌手——受邀登台，市长还颁布法令，以她的名字命名这一天。人人都确信老礼堂会座无虚席。"
+        },
+        {
+          "en": "Then donations began to [[decline]], and ticket sales [[decreased|decrease]] week after week. Officials [[deemed|deem]] the gala too costly and voted to [[deduct]] money from its budget. Reading the figures, reporters [[deduced|deduce]] that the event had lost public [[favour]]. No one could say with [[certainty]] whether the ceremony would survive.",
+          "zh": "随后，捐款开始下滑，票房一周周减少。官员们认为晚会开销太大，投票决定从预算中扣减经费。看到数据，记者们推断这场活动已失去公众支持。典礼能否保住，谁也说不准。"
+        },
+        {
+          "en": "Mrs. Hale's former students, who had quietly [[dedicated|dedicate]] their weekends to saving the day, designed scarves in the latest [[fashion]] and sold them online. A charity agreed to [[certify]] every donation with a signed [[certificate]]. The hall filled, the singer sang, and the town celebrated long into the night.",
+          "zh": "黑尔夫人的学生们默默把整个周末都投入到挽救这场典礼中。他们设计了最新款式的围巾在网上义卖，一家慈善机构也同意为每笔捐款签发捐赠证书。礼堂坐满了，歌声响起，全镇欢庆到深夜。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Site",
+      "zh": "遗址",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "On a hill [[situated|situate]] above the river, farmers digging a well uncovered a human [[skeleton]]. The [[site]] soon became Professor Venn's [[favorite]] corner of the province. The weather stayed [[favorable]], so her team worked from dawn to dusk, and she would [[sketch]] every bone before it was lifted.",
+          "zh": "在河上方的一座小山上，打井的农民挖出了一具人类骸骨。这处遗址很快成了文恩教授在全省最喜爱的角落。天气持续晴好，她的团队从早忙到晚，每块骨头被取出前，她都要先画下速写。"
+        },
+        {
+          "en": "Venn was [[skeptical]] of the old claim that the valley had always been empty. These bones, she argued, were the [[embryo]] of a new theory: a town had stood here. Her questions [[elicited|elicit]] sharp replies from the [[elite]] of the field, who insisted the real proof lay [[elsewhere]]. The [[situation]] grew tense at every conference.",
+          "zh": "学界旧说认为这片河谷自古无人居住，文恩对此深表怀疑。她主张，这些骸骨是一个新理论的萌芽：这里曾矗立着一座城镇。她的发问引来该领域精英们的尖锐回应，他们坚持说真正的证据在别处。每次学术会议上的气氛都变得紧张起来。"
+        },
+        {
+          "en": "Then the carbon report arrived, and its numbers [[embodied|embody]] her claim. Young researchers with a [[thirst]] for discovery joined her, and images of the dig were [[embedded|embed]] in journals across the country. The institute invited her to [[sit]] on its committee, where she urged students to [[embrace]] doubt as a method, not a mood.",
+          "zh": "随后碳十四测定报告送达，数据证实了她的推断。渴望探索的年轻研究员纷纷加入，发掘现场的照片刊登在全国各大期刊上。研究所邀请她加入学术委员会，在会上她勉励学生把怀疑当作一种方法，而非情绪。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Venture",
+      "zh": "冒险",
+      "theme": "教育 / 职场",
+      "ps": [
+        {
+          "en": "Heavy rain [[threatened|threaten]] the basement of Marlow's old bookshop, and the whole street felt the [[threat]] of losing it. The shop had been his grandfather's bold [[venture]], and it enjoyed [[widespread]] affection. Neighbors formed a committee to [[uphold]] the street's reading tradition.",
+          "zh": "大雨威胁着马洛那家旧书店的地下室，整条街都感受到了失去它的危险。这家店是他祖父当年大胆的创业，深受人们喜爱。街坊们成立了委员会，要守护这条街的阅读传统。"
+        },
+        {
+          "en": "Their first [[thought]] was repair. Workers [[upgraded|upgrade]] the wiring, [[ventilated|ventilate]] the damp rooms, and put an [[up-to-date]] catalogue online. Marlow [[updated|update]] the accounts every night. The cost, [[though]], [[upset]] him, and a bank clerk advised him to [[withdraw]] his savings before rates fell.",
+          "zh": "他们的首要想法是修缮。工人升级了线路，给潮湿的房间排风通风，还把最新的图书目录放到了网上。马洛每晚更新账目。然而开销让他心烦意乱，一位银行职员建议他在利率下跌前取出现金。"
+        },
+        {
+          "en": "A [[thorough]] check then revealed rot beneath the floor. A [[thoughtful]] customer, a retired engineer, designed a cheap drainage system with quick [[wit]]. The design helped the shop [[win]] a city preservation grant, and Marlow filled a notebook with everything those weeks had taught him.",
+          "zh": "一次彻底检查又发现地板下有朽烂。一位体贴的老主顾——退休工程师——凭机智设计出一套廉价的排水系统。这个设计帮书店赢得了城市保护基金，而马洛把那几周学到的一切都记满了整整一本笔记。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The Incident",
+      "zh": "事件",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "The fire at the national [[academy]] [[began|begin]] at midnight. From that [[beginning]], the whole [[academic]] year changed direction. At dawn the dean spoke on [[behalf]] of the staff, promising a full inquiry into the [[incident]].",
+          "zh": "国家科学院的大火始于午夜。从那个开端起，整个学年改变了走向。清晨，院长代表全体职工表态，承诺对这起事件展开全面调查。"
+        },
+        {
+          "en": "The only [[witness]], a night guard, described a spark near a storage room and noted, [[incidentally]], that the alarms were old. Records showed the [[incidence]] of small lab accidents had been rising, so investigators were [[inclined|incline]] to blame years of budget cuts. In the end, a lab [[accessory]] — a cheap power strip — was named as the cause.",
+          "zh": "唯一的目击者是夜班警卫，他描述了储藏室附近的火花，还顺带提到警报器已经老化。记录显示，小型实验室事故的发生率一直在上升，调查人员因此倾向于把原因归咎于多年的经费削减。最终，一个实验室配件——廉价的插线板——被认定为罪魁祸首。"
+        },
+        {
+          "en": "The new president, [[inaugurated|inaugurate]] that winter, promised reform. She gave every department an [[incentive]] to report risks early, opened [[access]] to safety funds, and asked everyone to [[accept]] stricter rules. [[Acceptance|acceptance]] came slowly, but change [[accelerated|accelerate]] after a second small fire was stopped in time.",
+          "zh": "那年冬天就职的新院长承诺改革。她给每个系设置了及早报告风险的激励，开放了安全经费的申请通道，并要求所有人接受更严格的规定。大家接受得很慢，但在第二起小火被及时扑灭之后，变革加快了脚步。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "The Chance",
+      "zh": "机会",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "No one [[believed|believe]] in Ruel, a boy whose wild [[behavior]] had exhausted every school in the valley. He did not seem to [[belong]] anywhere. Then a [[benevolent]] carpenter, Mr. Osei, offered him a [[chance]]: help rebuild the storm-damaged clinic. It was a [[challenge]] the boy could not refuse.",
+          "zh": "没人相信鲁埃尔，这个男孩的野性子耗尽了山谷里每所学校的耐心。他似乎哪儿都不属于。直到仁慈的木匠奥塞先生给了他一个机会：帮忙重建被风暴损毁的诊所。这个挑战，男孩无法拒绝。"
+        },
+        {
+          "en": "Mr. Osei held a simple [[belief]]: honest work can [[change]] a person's [[character]]. He taught Ruel to [[channel]] his anger into hammering and sawing. The work proved [[beneficial]], and slowly the boy learned to [[behave]] around others. Villagers began to see a gentle, almost [[benign]] side of him.",
+          "zh": "奥塞先生抱着一个朴素的信念：踏实的劳动能改变一个人的品格。他教鲁埃尔把怒气疏导进锤子和锯子里。劳动确实有益，男孩慢慢学会了如何与人相处。村民们开始看到他温和、近乎善良的一面。"
+        },
+        {
+          "en": "The project brought real [[benefits|benefit]] to the village, and the clinic reopened before winter. Reporters [[characterised|characterise]] Ruel's story as typical of the town, where patience was the chief [[characteristic]]. Asked why he stayed, Ruel said the place finally felt like his own.",
+          "zh": "这项工程给村子带来了实实在在的好处，诊所在入冬前重新开门。记者们把鲁埃尔的故事描述为这座小镇的典型——耐心正是这里最鲜明的特质。被问及为何留下时，鲁埃尔说，这个地方终于有了家的感觉。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "celebrate",
+      "ipa": "ˈselɪbreɪt",
+      "pos": "v.",
+      "s": "s1",
+      "zh": "庆祝",
+      "exam": "庆祝；赞美",
+      "c": [
+        "celebrate sth with sb 与某人庆祝某事",
+        "celebrate an anniversary 庆祝周年纪念",
+        "be celebrated as 被誉为"
+      ],
+      "syn": [
+        "commemorate 纪念",
+        "observe 庆祝（节日）",
+        "praise 赞美"
+      ],
+      "fam": [
+        "celebration n. 庆祝；庆典",
+        "celebrated adj. 著名的"
+      ],
+      "dif": "celebrate 指举行活动庆祝喜事；congratulate 是向人道贺（后接人）；praise 侧重口头赞美",
+      "pat": "We gather to celebrate not only success, but the effort behind it.",
+      "patZh": "我们相聚不仅庆祝成功，也庆祝成功背后的努力。"
+    },
+    {
+      "w": "celebrity",
+      "ipa": "səˈlebrəti",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "名人",
+      "exam": "名人；知名人士；名声",
+      "c": [
+        "a local celebrity 当地名人",
+        "a celebrity endorser 代言名人",
+        "rise to celebrity 一举成名"
+      ],
+      "syn": [
+        "star 明星",
+        "public figure 公众人物",
+        "personality 名人"
+      ],
+      "fam": [
+        "celebrate v. 庆祝；赞美",
+        "celebrated adj. 著名的"
+      ],
+      "dif": "celebrity 指名人本人或名声；fame 只指名声；star 多指演艺、体育明星",
+      "pat": "A celebrity's words carry weight, so they should speak with care.",
+      "patZh": "名人的话有分量，因此更应谨言慎行。"
+    },
+    {
+      "w": "ceremony",
+      "ipa": "ˈserəməni",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "典礼",
+      "exam": "典礼；仪式",
+      "c": [
+        "hold a ceremony 举行典礼",
+        "an opening ceremony 开幕式",
+        "attend a ceremony 出席仪式"
+      ],
+      "syn": [
+        "ritual 仪式",
+        "rite 礼仪",
+        "celebration 庆典"
+      ],
+      "fam": [
+        "ceremonial adj. 仪式的；礼仪的"
+      ],
+      "dif": "ceremony 指正式典礼；ritual 偏宗教或习惯性仪式；celebration 偏欢庆活动",
+      "pat": "The award ceremony reminds us that effort deserves public recognition.",
+      "patZh": "颁奖仪式提醒我们，努力值得被公开肯定。"
+    },
+    {
+      "w": "certain",
+      "ipa": "ˈsɜːtn",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "确信的",
+      "exam": "确定的；某些",
+      "c": [
+        "be certain of/about 对……有把握",
+        "be certain to do 肯定会做",
+        "a certain 某个；某种",
+        "for certain 确切地"
+      ],
+      "syn": [
+        "sure 确信的",
+        "definite 明确的",
+        "particular 特定的"
+      ],
+      "fam": [
+        "certainly adv. 当然；无疑",
+        "certainty n. 确定；必然"
+      ],
+      "dif": "certain 与 sure 常互换，certain 更正式；a certain+名词 表\"某个\"，不表确定",
+      "pat": "It is certain that those who prepare well will seize the opportunity.",
+      "patZh": "准备充分的人必定会抓住机会。"
+    },
+    {
+      "w": "certainty",
+      "ipa": "ˈsɜːtnti",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "确定",
+      "exam": "必然；确定；肯定",
+      "c": [
+        "with certainty 确信地",
+        "a matter of certainty 确定无疑的事",
+        "absolute certainty 绝对把握"
+      ],
+      "syn": [
+        "assurance 确信",
+        "confidence 信心",
+        "conviction 深信"
+      ],
+      "fam": [
+        "certain adj. 确定的",
+        "certainly adv. 无疑地"
+      ],
+      "dif": "certainty 强调确定无疑的事实；confidence 强调主观信心；possibility 是其反义",
+      "pat": "No one can predict the future with certainty, but preparation reduces risk.",
+      "patZh": "无人能绝对确定地预知未来，但准备能降低风险。"
+    },
+    {
+      "w": "certificate",
+      "ipa": "səˈtɪfɪkət",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "证书",
+      "exam": "证（明）书",
+      "c": [
+        "award a certificate 颁发证书",
+        "a birth certificate 出生证明",
+        "a certificate of donation 捐赠证书"
+      ],
+      "syn": [
+        "diploma 文凭",
+        "license 执照",
+        "credential 证件"
+      ],
+      "fam": [
+        "certify v. 证明；发证书",
+        "certification n. 证明；认证"
+      ],
+      "dif": "certificate 泛指证明文件；diploma 专指毕业文凭；license 指执照许可",
+      "pat": "A certificate may open the door, but ability keeps it open.",
+      "patZh": "证书能敲开门，能力才能让门一直开着。"
+    },
+    {
+      "w": "certify",
+      "ipa": "ˈsɜːtɪfaɪ",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "证明",
+      "exam": "证明；证实",
+      "c": [
+        "certify that... 证明……",
+        "be certified as 被认证为",
+        "certify a document 认证文件"
+      ],
+      "syn": [
+        "verify 核实",
+        "confirm 确认",
+        "attest 证实"
+      ],
+      "fam": [
+        "certificate n. 证书",
+        "certification n. 认证"
+      ],
+      "dif": "certify 多指官方书面证明；verify 强调核实真伪；confirm 泛指确认",
+      "pat": "The agency certified that all the funds had reached the school.",
+      "patZh": "该机构证明所有款项均已送达学校。"
+    },
+    {
+      "w": "decline",
+      "ipa": "dɪˈklaɪn",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "下滑",
+      "exam": "下降；衰退；拒绝；谢绝",
+      "c": [
+        "decline an invitation 谢绝邀请",
+        "decline to do sth 拒绝做某事",
+        "on the decline 在衰落中",
+        "a decline in sales 销量下降"
+      ],
+      "syn": [
+        "refuse 拒绝",
+        "reject 驳回",
+        "decrease 减少"
+      ],
+      "fam": [
+        "declining adj. 下降的；衰退的"
+      ],
+      "dif": "decline 谢绝较委婉；refuse 是直接拒绝；reject 语气最强，指断然驳回",
+      "pat": "When sales decline, a company must review its strategy rather than blame the market.",
+      "patZh": "销量下滑时，公司应反思策略而非责怪市场。"
+    },
+    {
+      "w": "decrease",
+      "ipa": "dɪˈkriːs",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "减少",
+      "exam": "减少",
+      "c": [
+        "decrease by 10% 减少了10%",
+        "decrease to 500 减少到500",
+        "a decrease in demand 需求减少"
+      ],
+      "syn": [
+        "decline 下降",
+        "reduce 减少",
+        "drop 下跌"
+      ],
+      "fam": [
+        "decreasing adj. 减少的"
+      ],
+      "dif": "decrease by 表幅度（减了多少），decrease to 表结果（减到多少），介词别混",
+      "pat": "Regular exercise can decrease the risk of heart disease.",
+      "patZh": "规律运动可以降低患心脏病的风险。"
+    },
+    {
+      "w": "decree",
+      "ipa": "dɪˈkriː",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "法令",
+      "exam": "法令；判决；颁布法令",
+      "c": [
+        "issue a decree 颁布法令",
+        "by decree 以法令形式",
+        "a royal decree 敕令"
+      ],
+      "syn": [
+        "order 命令",
+        "ruling 裁决",
+        "proclamation 宣言"
+      ],
+      "fam": [
+        "decree n./v. 法令；颁布（无常用派生词）"
+      ],
+      "dif": "decree 是政府颁布的正式法令；decide 是普通\"决定\"；degree 形近但意为\"程度、学位\"",
+      "pat": "The government issued a decree banning single-use plastics in public parks.",
+      "patZh": "政府颁布法令，禁止在公园使用一次性塑料。"
+    },
+    {
+      "w": "deem",
+      "ipa": "diːm",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "认为",
+      "exam": "认为；相信",
+      "c": [
+        "deem sth (to be) adj. 认为某事……",
+        "deem it necessary to do 认为有必要做",
+        "be deemed as 被视为"
+      ],
+      "syn": [
+        "consider 认为",
+        "regard 视为",
+        "judge 判断"
+      ],
+      "fam": [
+        "deem vt. 认为（无常用派生词）"
+      ],
+      "dif": "deem 是正式书面语，用法为 deem+宾语+补语；consider 更通用；think 最口语",
+      "pat": "We deem it our duty to protect the environment for future generations.",
+      "patZh": "我们认为为后代保护环境是责任所在。"
+    },
+    {
+      "w": "dedicate",
+      "ipa": "ˈdedɪkeɪt",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "投入",
+      "exam": "奉献；把……用在",
+      "c": [
+        "dedicate oneself to (doing) sth 致力于……",
+        "dedicate sth to sb 把……献给某人",
+        "be dedicated to 专注于"
+      ],
+      "syn": [
+        "devote 奉献",
+        "commit 投入",
+        "contribute 贡献"
+      ],
+      "fam": [
+        "dedicated adj. 专注的；献身的",
+        "dedication n. 奉献；献身精神"
+      ],
+      "dif": "dedicate 与 devote 都接介词 to，后接名词或动名词，不接不定式——完形高频考点",
+      "pat": "She dedicated her whole life to improving rural education.",
+      "patZh": "她毕生致力于改善乡村教育。"
+    },
+    {
+      "w": "deduce",
+      "ipa": "dɪˈdjuːs",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "推断",
+      "exam": "演绎；推论",
+      "c": [
+        "deduce sth from sth 从……推断出……",
+        "deduce that... 推断……"
+      ],
+      "syn": [
+        "infer 推断",
+        "conclude 得出结论",
+        "derive 推导出"
+      ],
+      "fam": [
+        "deduction n. 推论；扣除",
+        "deductive adj. 演绎的"
+      ],
+      "dif": "deduce 指从原理或证据逻辑推出（演绎）；infer 指从迹象推测；conclude 泛指得出结论",
+      "pat": "From the data, scientists deduced that the climate was changing faster than expected.",
+      "patZh": "科学家从数据推断，气候变化比预期更快。"
+    },
+    {
+      "w": "deduct",
+      "ipa": "dɪˈdʌkt",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "扣除",
+      "exam": "减去；扣除",
+      "c": [
+        "deduct sth from sth 从……中扣除……",
+        "deduct tax from wages 从工资中扣税"
+      ],
+      "syn": [
+        "subtract 减去",
+        "take away 扣除",
+        "withhold 扣留"
+      ],
+      "fam": [
+        "deduction n. 扣除；推论",
+        "deductible adj. 可扣除的"
+      ],
+      "dif": "deduct 多指从钱款中扣除；subtract 指数学相减；deduce 是\"推论\"，形近义远",
+      "pat": "The fine will be deducted from his monthly salary.",
+      "patZh": "罚款将从他的月薪中扣除。"
+    },
+    {
+      "w": "fashion",
+      "ipa": "ˈfæʃn",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "流行式样",
+      "exam": "方式；流行式样；时尚",
+      "c": [
+        "in fashion 流行",
+        "out of fashion 过时",
+        "in a...fashion 以……方式",
+        "the latest fashion 最新潮流"
+      ],
+      "syn": [
+        "style 风格",
+        "trend 潮流",
+        "manner 方式"
+      ],
+      "fam": [
+        "fashionable adj. 流行的；时髦的",
+        "fashioned adj. ……式的"
+      ],
+      "dif": "fashion 指流行风尚或\"方式\"；style 指个人风格；trend 指发展趋势",
+      "pat": "True kindness never goes out of fashion.",
+      "patZh": "真正的善良永不过时。"
+    },
+    {
+      "w": "fashionable",
+      "ipa": "ˈfæʃnəbl",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "时髦的",
+      "exam": "流行的；时髦的",
+      "c": [
+        "fashionable clothes 时髦服装",
+        "a fashionable restaurant 时尚高档的餐厅",
+        "it is fashionable to do 做……很流行"
+      ],
+      "syn": [
+        "trendy 时髦的",
+        "stylish 有品位的",
+        "popular 流行的"
+      ],
+      "fam": [
+        "fashion n. 时尚；方式",
+        "fashionably adv. 时髦地"
+      ],
+      "dif": "fashionable 指当下流行的；stylish 指有品位的，未必流行；trendy 更口语",
+      "pat": "It has become fashionable among young people to live a simpler life.",
+      "patZh": "过更简单的生活在年轻人中已成风尚。"
+    },
+    {
+      "w": "favour",
+      "ipa": "ˈfeɪvə",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "支持",
+      "exam": "恩惠；偏爱；赞同；支持；拥护",
+      "c": [
+        "do sb a favour 帮某人一个忙",
+        "in favour of 支持；赞同",
+        "win sb's favour 赢得某人好感",
+        "favour A over B 偏爱A甚于B"
+      ],
+      "syn": [
+        "support 支持",
+        "approve 赞同",
+        "prefer 偏爱"
+      ],
+      "fam": [
+        "favorable adj. 赞许的；有利的",
+        "favorite adj. 最喜欢的"
+      ],
+      "dif": "favour 作名词是恩惠、赞同，作动词是偏爱、支持；in favour of 是完形高频搭配",
+      "pat": "Most citizens are in favour of building more public libraries.",
+      "patZh": "大多数市民支持建更多公共图书馆。"
+    },
+    {
+      "w": "favorable",
+      "ipa": "ˈfeɪvərəbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "有利的",
+      "exam": "赞许的；有利的",
+      "c": [
+        "be favorable to/towards 对……有利；赞许",
+        "favorable conditions 有利条件",
+        "a favorable comment 好评"
+      ],
+      "syn": [
+        "advantageous 有利的",
+        "approving 赞许的",
+        "positive 积极的"
+      ],
+      "fam": [
+        "favour n./v. 赞同；偏爱",
+        "favorite n. 最喜爱的人或物"
+      ],
+      "dif": "favorable 指有利的、赞许的；favorite 指最喜欢的；两者同源不同义",
+      "pat": "A favorable wind cannot replace hard rowing, but it makes the journey easier.",
+      "patZh": "顺风代替不了奋力划桨，但能让航程更顺。"
+    },
+    {
+      "w": "favorite",
+      "ipa": "ˈfeɪvərɪt",
+      "pos": "adj. / n.",
+      "s": "s2",
+      "zh": "最喜爱的",
+      "exam": "最喜欢的；最喜爱的人或物",
+      "c": [
+        "one's favorite book 某人最喜欢的书",
+        "a firm favorite 最受喜爱的人或物"
+      ],
+      "syn": [
+        "preferred 更喜欢的",
+        "beloved 深爱的",
+        "best-liked 最受喜爱的"
+      ],
+      "fam": [
+        "favour n. 偏爱",
+        "favorable adj. 有利的"
+      ],
+      "dif": "favorite 本身已含\"最\"义，不说 most favorite",
+      "pat": "Reading remains my favorite way to spend a quiet evening.",
+      "patZh": "阅读仍是我度过安静夜晚最喜欢的方式。"
+    },
+    {
+      "w": "sit",
+      "ipa": "sɪt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "任职",
+      "exam": "坐；参加考试；任职",
+      "c": [
+        "sit for an exam 参加考试",
+        "sit on a committee 担任委员",
+        "sit down 坐下"
+      ],
+      "syn": [
+        "be seated 就座",
+        "take a seat 坐下"
+      ],
+      "fam": [
+        "seat n./v. 座位；使就座",
+        "sitting n. 会期；一次坐着的时间"
+      ],
+      "dif": "sit 是不及物动词（坐）；seat 是及物动词（使就座），常用 be seated",
+      "pat": "Those who sit on committees should speak for the people they serve.",
+      "patZh": "在委员会任职的人，应当为自己服务的对象发声。"
+    },
+    {
+      "w": "site",
+      "ipa": "saɪt",
+      "pos": "n. / vt.",
+      "s": "s2",
+      "zh": "遗址",
+      "exam": "位置；场所；地点；遗址；使坐落在",
+      "c": [
+        "a historic site 历史遗址",
+        "a construction site 工地",
+        "on site 在现场",
+        "a web site 网站"
+      ],
+      "syn": [
+        "location 位置",
+        "spot 地点",
+        "place 场所"
+      ],
+      "fam": [
+        "situate v. 使位于",
+        "situated adj. 位于的"
+      ],
+      "dif": "site 指有特定用途的场地或遗址；sight 是\"视力、景象\"；cite 是\"引用\"——三词同音必辨",
+      "pat": "The government decided to build a new library on the site of the old factory.",
+      "patZh": "政府决定在旧工厂旧址上建新图书馆。"
+    },
+    {
+      "w": "situate",
+      "ipa": "ˈsɪtʃueɪt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "使位于",
+      "exam": "使位于；使坐落于；使联系",
+      "c": [
+        "be situated in/on 坐落于",
+        "be well situated 位置优越",
+        "situate sth in context 把……置于背景中理解"
+      ],
+      "syn": [
+        "locate 使坐落于",
+        "place 放置",
+        "position 安置"
+      ],
+      "fam": [
+        "situation n. 形势；位置",
+        "site n. 场所"
+      ],
+      "dif": "situate 常用被动 be situated in/at；locate 同义且更常用；sit 是\"坐\"，词根同源",
+      "pat": "The school is beautifully situated between the river and the hills.",
+      "patZh": "这所学校坐落在河与山之间，位置极佳。"
+    },
+    {
+      "w": "situation",
+      "ipa": "ˌsɪtʃuˈeɪʃn",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "局面",
+      "exam": "形势；状况；环境",
+      "c": [
+        "the current situation 当前形势",
+        "in a difficult situation 处境困难",
+        "deal with the situation 应对局面"
+      ],
+      "syn": [
+        "circumstance 境况",
+        "condition 状况",
+        "state 状态"
+      ],
+      "fam": [
+        "situate v. 使位于",
+        "situated adj. 位于的"
+      ],
+      "dif": "situation 指综合的形势、处境；condition 指状态条件；position 指位置或立场",
+      "pat": "In a difficult situation, calm judgment is more valuable than quick action.",
+      "patZh": "困境之中，冷静判断比快速行动更可贵。"
+    },
+    {
+      "w": "skeleton",
+      "ipa": "ˈskelɪtn",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "骸骨",
+      "exam": "梗概；提要",
+      "c": [
+        "a human skeleton 人体骨骼",
+        "a skeleton staff 最少人员",
+        "the skeleton of a report 报告的纲要"
+      ],
+      "syn": [
+        "framework 框架",
+        "outline 提纲",
+        "bones 骨骼"
+      ],
+      "fam": [
+        "skeletal adj. 骨骼的；骨瘦如柴的"
+      ],
+      "dif": "skeleton 常考\"梗概、框架\"僻义；outline 泛指提纲；framework 指结构框架",
+      "pat": "Before writing, draw the skeleton of your argument in a few lines.",
+      "patZh": "动笔之前，先用几行字搭好论证的骨架。"
+    },
+    {
+      "w": "skeptical",
+      "ipa": "ˈskeptɪkl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "怀疑的",
+      "exam": "怀疑的",
+      "c": [
+        "be skeptical of/about 对……怀疑",
+        "remain skeptical 持怀疑态度",
+        "a skeptical attitude 怀疑态度"
+      ],
+      "syn": [
+        "doubtful 存疑的",
+        "suspicious 猜疑的",
+        "questioning 爱质疑的"
+      ],
+      "fam": [
+        "skepticism n. 怀疑态度",
+        "sceptic n. 怀疑论者"
+      ],
+      "dif": "skeptical 指理性存疑（等证据）；suspicious 指猜疑他人有恶意；doubtful 泛指不确定",
+      "pat": "Stay skeptical of easy answers, for truth usually demands patience.",
+      "patZh": "对轻易的答案保持怀疑，因为真相往往需要耐心。"
+    },
+    {
+      "w": "sketch",
+      "ipa": "sketʃ",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "速写",
+      "exam": "素描；速写；草图；概述",
+      "c": [
+        "draw a sketch 画速写",
+        "a rough sketch 草图",
+        "sketch out a plan 概述计划"
+      ],
+      "syn": [
+        "outline 概述",
+        "draft 草稿",
+        "drawing 素描"
+      ],
+      "fam": [
+        "sketchy adj. 粗略的；不完全的"
+      ],
+      "dif": "sketch 作名词是速写草图，作动词可指概述；draft 指文稿草稿；outline 指提纲",
+      "pat": "He sketched out his idea on a napkin, and it later became a great design.",
+      "patZh": "他在餐巾上勾勒出构想，后来成了伟大的设计。"
+    },
+    {
+      "w": "embrace",
+      "ipa": "ɪmˈbreɪs",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "欣然接受",
+      "exam": "拥抱；欣然接受；包括",
+      "c": [
+        "embrace an idea 欣然接受观念",
+        "embrace change 拥抱变化",
+        "embrace sb in one's arms 拥抱某人"
+      ],
+      "syn": [
+        "hug 拥抱",
+        "accept 接受",
+        "include 包括"
+      ],
+      "fam": [
+        "embracing adj. 包容的"
+      ],
+      "dif": "embrace 常考\"欣然接受\"与\"包括\"两层抽象义；hug 只指身体拥抱；include 仅指包含",
+      "pat": "The wise embrace change instead of fearing it.",
+      "patZh": "智者拥抱变化，而非畏惧变化。"
+    },
+    {
+      "w": "embed",
+      "ipa": "ɪmˈbed",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "嵌入",
+      "exam": "使插入；使嵌入",
+      "c": [
+        "be embedded in 嵌入……中",
+        "embed sth in memory 深留记忆",
+        "embed a video 嵌入视频"
+      ],
+      "syn": [
+        "insert 插入",
+        "implant 植入",
+        "fix 固定"
+      ],
+      "fam": [
+        "embedded adj. 嵌入的；根深蒂固的"
+      ],
+      "dif": "embed 强调深埋其中、成为一体；insert 只是插入；root 指扎根",
+      "pat": "Values embedded in childhood often guide a person for life.",
+      "patZh": "童年深植的价值观往往指引人的一生。"
+    },
+    {
+      "w": "embody",
+      "ipa": "ɪmˈbɒdi",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "体现",
+      "exam": "使具体化；表现；包括",
+      "c": [
+        "embody the spirit of 体现……精神",
+        "embody an ideal 使理想具体化",
+        "be embodied in 体现在……中"
+      ],
+      "syn": [
+        "represent 代表",
+        "express 表现",
+        "incorporate 包含"
+      ],
+      "fam": [
+        "embodiment n. 化身；体现",
+        "embodied adj. 具体体现的"
+      ],
+      "dif": "embody 指抽象品质具体化、体现于；represent 指代表；express 指表达",
+      "pat": "A good building should embody the culture of the place where it stands.",
+      "patZh": "好的建筑应体现其所在土地的文化。"
+    },
+    {
+      "w": "embryo",
+      "ipa": "ˈembriəʊ",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "萌芽",
+      "exam": "胚胎；萌芽状态",
+      "c": [
+        "in embryo 在萌芽中",
+        "an embryo of an idea 想法的雏形",
+        "embryo research 胚胎研究"
+      ],
+      "syn": [
+        "germ 萌芽",
+        "bud 蓓蕾",
+        "beginning 开端"
+      ],
+      "fam": [
+        "embryonic adj. 胚胎的；萌芽期的"
+      ],
+      "dif": "embryo 常考比喻义\"萌芽状态\"，in embryo 是固定短语；germ 指微生物或萌芽；bud 指花蕾",
+      "pat": "The plan is still in embryo, but it already shows great promise.",
+      "patZh": "计划尚在萌芽，但已显露巨大潜力。"
+    },
+    {
+      "w": "elicit",
+      "ipa": "ɪˈlɪsɪt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "引出",
+      "exam": "引出；诱出",
+      "c": [
+        "elicit a response 引出回应",
+        "elicit information from sb 从某人处套出信息",
+        "elicit laughter 引发笑声"
+      ],
+      "syn": [
+        "draw out 引出",
+        "evoke 唤起",
+        "obtain 获得"
+      ],
+      "fam": [
+        "elicitation n. 引出；启发"
+      ],
+      "dif": "elicit 指引出回答、反应；illicit 是同音形近词，意为\"非法的\"——完形陷阱",
+      "pat": "Good questions elicit honest answers, while pressure only invites silence.",
+      "patZh": "好的提问引出诚实的回答，压力只会换来沉默。"
+    },
+    {
+      "w": "elite",
+      "ipa": "eɪˈliːt",
+      "pos": "n. / adj.",
+      "s": "s2",
+      "zh": "精英",
+      "exam": "精英；上层人士；掌权人物；精英的",
+      "c": [
+        "the intellectual elite 知识精英",
+        "an elite team 精英团队",
+        "elite education 精英教育"
+      ],
+      "syn": [
+        "the best 佼佼者",
+        "the cream 精华",
+        "upper class 上层人士"
+      ],
+      "fam": [
+        "elitism n. 精英主义",
+        "elitist adj. 精英主义的"
+      ],
+      "dif": "elite 指群体中最优秀的少数人；expert 指某领域专家；leader 指领导者",
+      "pat": "True elites are measured not by privilege, but by contribution.",
+      "patZh": "衡量真正的精英，不看特权，看贡献。"
+    },
+    {
+      "w": "elsewhere",
+      "ipa": "ˌelsˈweə",
+      "pos": "adv.",
+      "s": "s2",
+      "zh": "在别处",
+      "exam": "在别处",
+      "c": [
+        "go elsewhere 去别处",
+        "look elsewhere 另寻他处",
+        "elsewhere in the world 在世界其他地方"
+      ],
+      "syn": [
+        "somewhere else 在别的地方",
+        "in other places 在其他地方"
+      ],
+      "fam": [
+        "where adv. 哪里",
+        "wherever conj. 无论哪里"
+      ],
+      "dif": "elsewhere 是书面语\"在别处\"，句中常暗含\"这里不行，去别处找\"的对比",
+      "pat": "If opportunity is blocked here, be brave enough to look elsewhere.",
+      "patZh": "此处机会若被堵死，就勇敢地去别处寻找。"
+    },
+    {
+      "w": "thirst",
+      "ipa": "θɜːst",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "渴望",
+      "exam": "渴；口渴；渴望；渴求",
+      "c": [
+        "a thirst for knowledge 求知欲",
+        "quench one's thirst 解渴",
+        "thirst for power 渴望权力"
+      ],
+      "syn": [
+        "desire 渴望",
+        "craving 渴求",
+        "hunger 饥渴"
+      ],
+      "fam": [
+        "thirsty adj. 渴的；渴望的"
+      ],
+      "dif": "thirst 常考 thirst for+抽象名词 的渴望义；hunger for 同义；desire 通用",
+      "pat": "A thirst for knowledge is the best gift education can give.",
+      "patZh": "求知欲是教育能给予的最好礼物。"
+    },
+    {
+      "w": "thorough",
+      "ipa": "ˈθʌrə",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "彻底的",
+      "exam": "彻底的；完全的",
+      "c": [
+        "a thorough investigation 彻底调查",
+        "be thorough in 在……方面一丝不苟",
+        "a thorough understanding 透彻理解"
+      ],
+      "syn": [
+        "complete 完全的",
+        "exhaustive 详尽的",
+        "careful 细致的"
+      ],
+      "fam": [
+        "thoroughly adv. 彻底地",
+        "thoroughness n. 彻底性"
+      ],
+      "dif": "thorough 指彻底、面面俱到；through 是介词\"穿过\"；thoughtful 是\"体贴的、沉思的\"",
+      "pat": "A thorough review of the past is the first step toward real progress.",
+      "patZh": "彻底复盘过去，是迈向真正进步的第一步。"
+    },
+    {
+      "w": "though",
+      "ipa": "ðəʊ",
+      "pos": "conj. / adv.",
+      "s": "s3",
+      "zh": "不过",
+      "exam": "虽然；尽管；可是；然而",
+      "c": [
+        "even though 即使",
+        "as though 好像",
+        "句末 though 表\"不过\""
+      ],
+      "syn": [
+        "although 虽然",
+        "however 然而",
+        "nevertheless 尽管如此"
+      ],
+      "fam": [
+        "thought n. 思想",
+        "thoughtful adj. 沉思的；体贴的"
+      ],
+      "dif": "though 可作副词放句末表转折（\"不过\"），although 不能；although 引导从句不倒装",
+      "pat": "Small though the shop was, it held the memories of the whole street.",
+      "patZh": "店虽小，却装着整条街的记忆。"
+    },
+    {
+      "w": "thought",
+      "ipa": "θɔːt",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "念头",
+      "exam": "思想；想法",
+      "c": [
+        "give thought to 考虑",
+        "at the thought of 一想到……",
+        "deep in thought 陷入沉思",
+        "second thought 再三考虑"
+      ],
+      "syn": [
+        "idea 主意",
+        "thinking 思考",
+        "consideration 考虑"
+      ],
+      "fam": [
+        "think v. 思考",
+        "thoughtful adj. 体贴的；沉思的",
+        "thoughtfully adv. 若有所思地"
+      ],
+      "dif": "thought 指想法、思考过程；idea 指具体主意；thinking 指思维方式",
+      "pat": "Give some thought to others before you speak, and words will carry warmth.",
+      "patZh": "开口前多为别人着想，言语才会有温度。"
+    },
+    {
+      "w": "thoughtful",
+      "ipa": "ˈθɔːtfl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "体贴的",
+      "exam": "沉思的；体贴的",
+      "c": [
+        "be thoughtful of sb 体贴某人",
+        "a thoughtful gift 贴心的礼物",
+        "a thoughtful look 沉思的神情"
+      ],
+      "syn": [
+        "considerate 体贴的",
+        "pensive 沉思的",
+        "reflective 善思的"
+      ],
+      "fam": [
+        "thought n. 思想",
+        "thoughtfully adv. 体贴地"
+      ],
+      "dif": "thoughtful 双义：体贴的（=considerate）与沉思的；thoughtless 是其反义\"欠考虑的\"",
+      "pat": "A thoughtful leader listens more than he speaks.",
+      "patZh": "善思的领导者多听少说。"
+    },
+    {
+      "w": "threat",
+      "ipa": "θret",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "威胁",
+      "exam": "恐吓；威胁",
+      "c": [
+        "pose a threat to 对……构成威胁",
+        "under threat 受到威胁",
+        "a threat to security 安全威胁"
+      ],
+      "syn": [
+        "menace 威胁",
+        "danger 危险",
+        "warning 警告"
+      ],
+      "fam": [
+        "threaten v. 威胁",
+        "threatening adj. 威胁性的"
+      ],
+      "dif": "threat 是名词\"威胁\"；threaten 是动词；danger 指客观危险，threat 常含人为意图",
+      "pat": "Climate change poses a real threat to coastal cities around the world.",
+      "patZh": "气候变化对全球沿海城市构成真实威胁。"
+    },
+    {
+      "w": "threaten",
+      "ipa": "ˈθretn",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "威胁",
+      "exam": "恐吓；威胁",
+      "c": [
+        "threaten to do sth 威胁要做某事",
+        "threaten sb with sth 用……威胁某人",
+        "be threatened with extinction 濒临灭绝"
+      ],
+      "syn": [
+        "menace 威胁",
+        "intimidate 恐吓",
+        "endanger 危及"
+      ],
+      "fam": [
+        "threat n. 威胁",
+        "threateningly adv. 威胁地"
+      ],
+      "dif": "threaten 既可指恐吓，也可指（危险）逼近，如 Rain threatens；intimidate 只指恐吓人",
+      "pat": "When difficulties threaten our plans, we adjust the route, not the goal.",
+      "patZh": "困难威胁计划时，我们调整路线，而非目标。"
+    },
+    {
+      "w": "update",
+      "ipa": "ʌpˈdeɪt",
+      "pos": "vt. / n.",
+      "s": "s3",
+      "zh": "更新",
+      "exam": "更新；使现代化",
+      "c": [
+        "update sth with sth 用……更新……",
+        "keep sb updated 让某人了解最新情况",
+        "a software update 软件更新"
+      ],
+      "syn": [
+        "renew 更新",
+        "refresh 刷新",
+        "modernize 使现代化"
+      ],
+      "fam": [
+        "updated adj. 最新的",
+        "up-to-date adj. 现代化的"
+      ],
+      "dif": "update 是动词、名词\"更新\"；up-to-date 是形容词\"最新的\"；upgrade 指升级（质的提升）",
+      "pat": "We must update our knowledge constantly, for the world refuses to stand still.",
+      "patZh": "世界不停下脚步，我们必须不断更新知识。"
+    },
+    {
+      "w": "upgrade",
+      "ipa": "ʌpˈɡreɪd",
+      "pos": "vt. / n.",
+      "s": "s3",
+      "zh": "升级",
+      "exam": "提高；使升级；改善",
+      "c": [
+        "upgrade the system 升级系统",
+        "upgrade sb to 把某人升级到",
+        "an upgrade to the service 服务的升级"
+      ],
+      "syn": [
+        "improve 改进",
+        "enhance 提升",
+        "promote 晋升"
+      ],
+      "fam": [
+        "upgraded adj. 升级了的",
+        "downgrade v. 降级（反义）"
+      ],
+      "dif": "upgrade 指升级换代；update 指更新内容；improve 泛指改进",
+      "pat": "Investing in education is the surest way to upgrade a nation's future.",
+      "patZh": "投资教育是提升国家未来最可靠的方式。"
+    },
+    {
+      "w": "uphold",
+      "ipa": "ʌpˈhəʊld",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "维护",
+      "exam": "举起；维护；赞成",
+      "c": [
+        "uphold the law 维护法律",
+        "uphold a principle 坚持原则",
+        "uphold a decision 维持原判"
+      ],
+      "syn": [
+        "maintain 维护",
+        "support 支持",
+        "defend 捍卫"
+      ],
+      "fam": [
+        "upholder n. 维护者"
+      ],
+      "dif": "uphold 指维护法律、原则、裁决；support 泛指支持；hold up 是\"举起、耽搁\"，别混",
+      "pat": "A society that upholds fairness earns the trust of its people.",
+      "patZh": "维护公平的社会才能赢得人民的信任。"
+    },
+    {
+      "w": "upset",
+      "ipa": "ʌpˈset",
+      "pos": "v. / adj.",
+      "s": "s3",
+      "zh": "使心烦",
+      "exam": "使心烦意乱；打乱；搅乱；打翻",
+      "c": [
+        "be upset about/over 为……难过",
+        "upset the plan 打乱计划",
+        "upset a glass 打翻杯子"
+      ],
+      "syn": [
+        "disturb 扰乱",
+        "distress 使苦恼",
+        "overturn 打翻"
+      ],
+      "fam": [
+        "upsetting adj. 令人心烦的"
+      ],
+      "dif": "upset 常考\"打乱（安排）\"与\"使难过\"两义；过去式、过去分词仍是 upset，不规则变化",
+      "pat": "Do not let one failure upset your whole plan; adjust and move on.",
+      "patZh": "别让一次失败打乱全盘计划，调整之后继续前行。"
+    },
+    {
+      "w": "up-to-date",
+      "ipa": "ˌʌptəˈdeɪt",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "最新的",
+      "exam": "现代化的",
+      "c": [
+        "up-to-date information 最新信息",
+        "keep sth up-to-date 使……保持最新",
+        "up-to-date equipment 现代化设备"
+      ],
+      "syn": [
+        "current 当前的",
+        "modern 现代的",
+        "latest 最新的"
+      ],
+      "fam": [
+        "update v. 更新",
+        "dated adj. 过时的（反义）"
+      ],
+      "dif": "up-to-date 作定语带连字符；out of date 表\"过时\"；update 是动词",
+      "pat": "An up-to-date map is useless to a traveler who refuses to leave home.",
+      "patZh": "地图再新，对不肯出门的旅人也毫无用处。"
+    },
+    {
+      "w": "ventilate",
+      "ipa": "ˈventɪleɪt",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "使通风",
+      "exam": "使通风",
+      "c": [
+        "ventilate a room 给房间通风",
+        "well-ventilated 通风良好的",
+        "a ventilating system 通风系统"
+      ],
+      "syn": [
+        "air 使通风",
+        "aerate 使透气"
+      ],
+      "fam": [
+        "ventilation n. 通风",
+        "ventilator n. 通风设备；呼吸机"
+      ],
+      "dif": "ventilate 本义\"使通风\"，引申\"公开讨论（问题）\"；air 作动词也可表\"发表（意见）\"",
+      "pat": "Open the windows and ventilate the room before the meeting begins.",
+      "patZh": "开会前先开窗给房间通通风。"
+    },
+    {
+      "w": "venture",
+      "ipa": "ˈventʃə",
+      "pos": "n. / v.",
+      "s": "s3",
+      "zh": "创业",
+      "exam": "冒险；投机行动",
+      "c": [
+        "a joint venture 合资企业",
+        "venture into 冒险进入",
+        "venture to do 敢于做"
+      ],
+      "syn": [
+        "adventure 冒险经历",
+        "risk 冒险",
+        "undertaking 事业"
+      ],
+      "fam": [
+        "venturesome adj. 好冒险的",
+        "adventurous adj. 爱冒险的（近形）"
+      ],
+      "dif": "venture 常指有风险的事业、投资；adventure 指惊险经历；joint venture 是经贸高频词",
+      "pat": "Every great venture begins with a small, brave step into the unknown.",
+      "patZh": "每个伟大的事业，都始于向未知迈出的勇敢小步。"
+    },
+    {
+      "w": "widespread",
+      "ipa": "ˈwaɪdspred",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "广泛的",
+      "exam": "遍布的；普遍的",
+      "c": [
+        "widespread concern 普遍关注",
+        "widespread use 广泛使用",
+        "widespread support 广泛支持"
+      ],
+      "syn": [
+        "prevalent 盛行的",
+        "common 常见的",
+        "extensive 广泛的"
+      ],
+      "fam": [
+        "spread v. 传播；伸展",
+        "widely adv. 广泛地"
+      ],
+      "dif": "widespread 指大范围分布的；common 指常见的；extensive 指范围广大的",
+      "pat": "The widespread use of smartphones has changed how we remember things.",
+      "patZh": "智能手机的普及改变了我们记忆事物的方式。"
+    },
+    {
+      "w": "win",
+      "ipa": "wɪn",
+      "pos": "v. / n.",
+      "s": "s3",
+      "zh": "赢得",
+      "exam": "获胜；赢得；胜利",
+      "c": [
+        "win a prize 获奖",
+        "win sb's trust 赢得信任",
+        "win over 争取过来",
+        "a big win 大胜"
+      ],
+      "syn": [
+        "triumph 获胜",
+        "prevail 取胜",
+        "gain 获得"
+      ],
+      "fam": [
+        "winner n. 获胜者",
+        "winning adj. 获胜的；迷人的"
+      ],
+      "dif": "win 后接比赛、奖项、人心；beat/defeat 后接对手——宾语不同是考点",
+      "pat": "Kind words can win hearts that force can never reach.",
+      "patZh": "善意的话语能赢得武力无法触及的人心。"
+    },
+    {
+      "w": "wit",
+      "ipa": "wɪt",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "机智",
+      "exam": "智力",
+      "c": [
+        "have the wit to do 有做……的才智",
+        "at one's wits' end 智穷计尽",
+        "quick wit 机智"
+      ],
+      "syn": [
+        "intelligence 智力",
+        "cleverness 聪明",
+        "wisdom 智慧"
+      ],
+      "fam": [
+        "witty adj. 机智风趣的"
+      ],
+      "dif": "wit 指机智、急智；wisdom 指智慧（深厚判断力）；intelligence 指一般智力",
+      "pat": "Her quick wit saved the company from an embarrassing situation.",
+      "patZh": "她的机智让公司免于一场尴尬。"
+    },
+    {
+      "w": "withdraw",
+      "ipa": "wɪðˈdrɔː",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "提取",
+      "exam": "提取；撤回；撤退",
+      "c": [
+        "withdraw money 取款",
+        "withdraw from 退出……",
+        "withdraw a statement 收回言论"
+      ],
+      "syn": [
+        "retreat 撤退",
+        "remove 移除",
+        "take out 取出"
+      ],
+      "fam": [
+        "withdrawal n. 提取；撤回",
+        "withdrawn adj. 沉默寡言的"
+      ],
+      "dif": "withdraw 过去式 withdrew、过去分词 withdrawn；deposit（存钱）是其反义动作",
+      "pat": "Knowing when to withdraw is as important as knowing when to advance.",
+      "patZh": "知道何时撤退，与知道何时前进同样重要。"
+    },
+    {
+      "w": "witness",
+      "ipa": "ˈwɪtnəs",
+      "pos": "n. / v.",
+      "s": "s4",
+      "zh": "目击者",
+      "exam": "目击者；目击；作证",
+      "c": [
+        "a witness to the accident 事故目击者",
+        "bear witness to 为……作证",
+        "witness sth 目睹某事"
+      ],
+      "syn": [
+        "observer 观察者",
+        "bystander 旁观者",
+        "testify 作证（动词）"
+      ],
+      "fam": [
+        "eyewitness n. 亲眼目击者"
+      ],
+      "dif": "witness 指目击者且常作动词；wit 是\"机智\"；bystander 只是旁观者，未必作证",
+      "pat": "History will witness the efforts of this generation.",
+      "patZh": "历史将见证这一代人的努力。"
+    },
+    {
+      "w": "inaugurate",
+      "ipa": "ɪˈnɔːɡjəreɪt",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "使就职",
+      "exam": "开创；开始",
+      "c": [
+        "inaugurate a president 为总统举行就职典礼",
+        "inaugurate an era 开创时代",
+        "be inaugurated as 就任"
+      ],
+      "syn": [
+        "launch 启动",
+        "initiate 发起",
+        "commence 开始"
+      ],
+      "fam": [
+        "inauguration n. 就职典礼；开创",
+        "inaugural adj. 就职的；开幕的"
+      ],
+      "dif": "inaugurate 指隆重地开始、开创；begin 最通用；launch 指推出产品或计划",
+      "pat": "The new library was inaugurated to mark the city's two-hundredth birthday.",
+      "patZh": "新图书馆落成启用，以纪念建市两百周年。"
+    },
+    {
+      "w": "incentive",
+      "ipa": "ɪnˈsentɪv",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "激励",
+      "exam": "刺激；奖励；动机",
+      "c": [
+        "an incentive to do sth 做某事的激励",
+        "give sb an incentive 给某人动力",
+        "economic incentives 经济激励"
+      ],
+      "syn": [
+        "motivation 动力",
+        "stimulus 刺激",
+        "encouragement 鼓励"
+      ],
+      "fam": [
+        "incite v. 煽动；激励（同根）"
+      ],
+      "dif": "incentive 是外部诱因、奖励；motivation 是内在动机；motive 指行为动机",
+      "pat": "A good incentive can turn passive students into active learners.",
+      "patZh": "好的激励机制能把被动的学生变成主动的学习者。"
+    },
+    {
+      "w": "incidence",
+      "ipa": "ˈɪnsɪdəns",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "发生率",
+      "exam": "发生（率）",
+      "c": [
+        "the incidence of disease 疾病发生率",
+        "a high/low incidence 高/低发生率",
+        "reduce the incidence of crime 降低犯罪率"
+      ],
+      "syn": [
+        "frequency 频率",
+        "rate 比率",
+        "occurrence 发生"
+      ],
+      "fam": [
+        "incident n. 事件",
+        "incidental adj. 附带的"
+      ],
+      "dif": "incidence 是发生率（抽象统计）；incident 是事件（具体一件事）；accident 是事故",
+      "pat": "Better public health care has reduced the incidence of many diseases.",
+      "patZh": "更好的公共医疗降低了许多疾病的发病率。"
+    },
+    {
+      "w": "incident",
+      "ipa": "ˈɪnsɪdənt",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "事件",
+      "exam": "事件；事变",
+      "c": [
+        "a minor incident 小事件",
+        "an isolated incident 孤立事件",
+        "report the incident 报告该事件"
+      ],
+      "syn": [
+        "event 事件",
+        "occurrence 发生的事情",
+        "episode 插曲"
+      ],
+      "fam": [
+        "incidental adj. 附带的",
+        "incidentally adv. 顺便提及"
+      ],
+      "dif": "incident 多指不寻常甚至冲突性的事件；event 泛指大事或活动；accident 强调意外事故",
+      "pat": "One careless incident can destroy a reputation built over years.",
+      "patZh": "一次疏忽的事件，足以毁掉多年建立的声誉。"
+    },
+    {
+      "w": "incidentally",
+      "ipa": "ˌɪnsɪˈdentli",
+      "pos": "adv.",
+      "s": "s4",
+      "zh": "顺便提及",
+      "exam": "顺便提及",
+      "c": [
+        "incidentally 顺便说一句（句首/句中转换话题）",
+        "mention sth incidentally 顺带提到某事"
+      ],
+      "syn": [
+        "by the way 顺便说",
+        "in passing 顺带地",
+        "by the bye 顺便提一下"
+      ],
+      "fam": [
+        "incident n. 事件",
+        "incidental adj. 附带的"
+      ],
+      "dif": "incidentally 是书面化的\"顺便一提\"，口语多用 by the way；与 accidentally（意外地）形近义异",
+      "pat": "Incidentally, the library will stay open later during the exam week.",
+      "patZh": "顺便提一句，考试周图书馆会延迟闭馆。"
+    },
+    {
+      "w": "incline",
+      "ipa": "ɪnˈklaɪn",
+      "pos": "v. / n.",
+      "s": "s4",
+      "zh": "倾向",
+      "exam": "倾斜；倾向",
+      "c": [
+        "be inclined to do 倾向于做",
+        "incline to/towards 倾向于",
+        "an incline 斜坡"
+      ],
+      "syn": [
+        "tend 倾向于",
+        "lean 倾向；倾斜",
+        "slope 倾斜（名词）"
+      ],
+      "fam": [
+        "inclination n. 倾向；爱好",
+        "inclined adj. 有……倾向的"
+      ],
+      "dif": "incline 常考 be inclined to do（倾向于）；tend to do 更通用；decline 是\"下降、谢绝\"，形近义反",
+      "pat": "I am inclined to believe that habit shapes destiny more than talent does.",
+      "patZh": "我倾向于相信，习惯比天赋更能塑造命运。"
+    },
+    {
+      "w": "academic",
+      "ipa": "ˌækəˈdemɪk",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "学术的",
+      "exam": "学院的；学术的",
+      "c": [
+        "academic research 学术研究",
+        "academic performance 学业表现",
+        "an academic year 学年"
+      ],
+      "syn": [
+        "scholarly 学术性的",
+        "educational 教育的",
+        "theoretical 理论上的"
+      ],
+      "fam": [
+        "academy n. 学院",
+        "academically adv. 学术上"
+      ],
+      "dif": "academic 指学术的（也含\"纯理论的\"意味）；theoretical 指理论上的；scholarly 指有学者风范的",
+      "pat": "Academic knowledge gains real value only when it serves real life.",
+      "patZh": "学术知识只有服务现实生活，才有真正的价值。"
+    },
+    {
+      "w": "academy",
+      "ipa": "əˈkædəmi",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "学院",
+      "exam": "学院",
+      "c": [
+        "a military academy 军校",
+        "the academy of sciences 科学院",
+        "an art academy 艺术学院"
+      ],
+      "syn": [
+        "institute 学院；研究所",
+        "college 学院",
+        "school 学校"
+      ],
+      "fam": [
+        "academic adj. 学术的",
+        "academia n. 学术界"
+      ],
+      "dif": "academy 多指专科院校或权威学术团体；college 泛指学院；university 指综合性大学",
+      "pat": "The academy has trained generations of scientists for the country.",
+      "patZh": "这所学院为国家培养了一代又一代科学家。"
+    },
+    {
+      "w": "accelerate",
+      "ipa": "əkˈseləreɪt",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "加快",
+      "exam": "加速；加快",
+      "c": [
+        "accelerate the process 加速进程",
+        "accelerate growth 加快增长",
+        "economic acceleration 经济加速"
+      ],
+      "syn": [
+        "speed up 加速",
+        "hasten 加快",
+        "quicken 加快"
+      ],
+      "fam": [
+        "acceleration n. 加速；加速度",
+        "accelerator n. 加速器"
+      ],
+      "dif": "accelerate 指加快速度、进程；speed up 更口语；decelerate 是反义\"减速\"",
+      "pat": "Reading good books can accelerate a young person's growth.",
+      "patZh": "读好书能加速年轻人的成长。"
+    },
+    {
+      "w": "accept",
+      "ipa": "əkˈsept",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "接受",
+      "exam": "接受；认可；同意",
+      "c": [
+        "accept sth as 接受……为",
+        "accept an invitation 接受邀请",
+        "widely accepted 被广泛认可的"
+      ],
+      "syn": [
+        "receive 收到",
+        "approve 认可",
+        "admit 承认"
+      ],
+      "fam": [
+        "acceptance n. 接受；认可",
+        "acceptable adj. 可接受的"
+      ],
+      "dif": "accept 是主观\"接受\"；receive 是客观\"收到\"——收到邀请未必接受，经典辨析",
+      "pat": "Learn to accept what cannot be changed, and to change what should not be accepted.",
+      "patZh": "学会接受无法改变的，改变不应接受的。"
+    },
+    {
+      "w": "acceptance",
+      "ipa": "əkˈseptəns",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "接受",
+      "exam": "接受；认可",
+      "c": [
+        "gain acceptance 获得认可",
+        "an acceptance speech 获奖感言",
+        "social acceptance 社会认同"
+      ],
+      "syn": [
+        "approval 赞同",
+        "recognition 认可",
+        "admission 接纳"
+      ],
+      "fam": [
+        "accept v. 接受",
+        "acceptable adj. 可接受的"
+      ],
+      "dif": "acceptance 是 accept 的名词，指接受、认可；reception 指接待、反响；admission 指准许进入",
+      "pat": "True acceptance of others begins with accepting yourself.",
+      "patZh": "真正接纳他人，始于接纳自己。"
+    },
+    {
+      "w": "access",
+      "ipa": "ˈækses",
+      "pos": "n. / vt.",
+      "s": "s4",
+      "zh": "使用权",
+      "exam": "接近；进入；接近（或进入）的机会；入口；存取；访问",
+      "c": [
+        "have access to 有使用……的机会",
+        "access to information 获取信息",
+        "gain access to 得以进入"
+      ],
+      "syn": [
+        "entry 进入",
+        "approach 途径",
+        "admission 准入"
+      ],
+      "fam": [
+        "accessible adj. 易接近的；可使用的",
+        "accessibility n. 可及性"
+      ],
+      "dif": "access 后固定接 to（have access to）；assess 是\"评估\"，形近必辨；entrance 指入口",
+      "pat": "Equal access to education is the foundation of a fair society.",
+      "patZh": "平等的教育机会是公平社会的基石。"
+    },
+    {
+      "w": "accessory",
+      "ipa": "əkˈsesəri",
+      "pos": "n. / adj.",
+      "s": "s4",
+      "zh": "配件",
+      "exam": "附件；配件；附属的",
+      "c": [
+        "fashion accessories 时尚配饰",
+        "car accessories 汽车配件",
+        "an accessory to a crime 从犯"
+      ],
+      "syn": [
+        "attachment 附件",
+        "supplement 补充物",
+        "extra 附加物"
+      ],
+      "fam": [
+        "access n./v. 进入；访问（同根异形）"
+      ],
+      "dif": "accessory 指配件、附属物（法律上指从犯）；access 是\"进入、使用权\"，形近义远",
+      "pat": "Small accessories, chosen with care, can brighten a simple outfit.",
+      "patZh": "精心挑选的小配饰能点亮一身素装。"
+    },
+    {
+      "w": "begin",
+      "ipa": "bɪˈɡɪn",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "开始",
+      "exam": "开始",
+      "c": [
+        "begin with 以……开始",
+        "begin to do/doing 开始做",
+        "to begin with 首先"
+      ],
+      "syn": [
+        "start 开始",
+        "commence 开始（正式）",
+        "initiate 发起"
+      ],
+      "fam": [
+        "beginning n. 开端",
+        "beginner n. 初学者"
+      ],
+      "dif": "begin 与 start 常互换，start 更口语；commence 是正式用语；过去式 began、过去分词 begun 别写错",
+      "pat": "Every great achievement begins with the decision to try.",
+      "patZh": "每个伟大的成就都始于\"决定尝试\"的那一刻。"
+    },
+    {
+      "w": "beginning",
+      "ipa": "bɪˈɡɪnɪŋ",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "开端",
+      "exam": "开端；开始；初级阶段",
+      "c": [
+        "at the beginning of 在……之初",
+        "from beginning to end 从头到尾",
+        "a new beginning 新的开始"
+      ],
+      "syn": [
+        "start 开端",
+        "outset 开始",
+        "origin 起源"
+      ],
+      "fam": [
+        "begin v. 开始",
+        "beginner n. 初学者"
+      ],
+      "dif": "at the beginning of 指时间、过程的起点；in the beginning 指\"起初\"（暗示后来有变）",
+      "pat": "A good beginning is half the battle, but persistence wins the war.",
+      "patZh": "好的开始是成功的一半，但坚持才赢得全程。"
+    },
+    {
+      "w": "behalf",
+      "ipa": "bɪˈhɑːf",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "代表",
+      "exam": "利益；代表",
+      "c": [
+        "on behalf of 代表；为了……的利益",
+        "speak on sb's behalf 替某人发言"
+      ],
+      "syn": [
+        "representation 代表",
+        "interest 利益",
+        "sake 缘故"
+      ],
+      "fam": [
+        "behalf n. 代表；利益（无常用派生词）"
+      ],
+      "dif": "behalf 几乎只活在 on behalf of 里；in behalf of 是美式旧用法\"为……的利益\"，别混淆",
+      "pat": "On behalf of all the students, I would like to thank our teachers.",
+      "patZh": "我谨代表全体学生，感谢我们的老师。"
+    },
+    {
+      "w": "behave",
+      "ipa": "bɪˈheɪv",
+      "pos": "v.",
+      "s": "s5",
+      "zh": "举止",
+      "exam": "举止端正；表现",
+      "c": [
+        "behave oneself 守规矩",
+        "behave well/badly 表现好/差",
+        "behave towards sb 对待某人"
+      ],
+      "syn": [
+        "act 行事",
+        "conduct oneself 表现（正式）",
+        "perform 表现"
+      ],
+      "fam": [
+        "behavior n. 行为",
+        "well-behaved adj. 表现良好的"
+      ],
+      "dif": "behave 是不及物动词（表现、守规矩）；conduct oneself 更正式；act 泛指行动",
+      "pat": "How we behave when no one is watching shows who we really are.",
+      "patZh": "无人注视时我们的举止，才显露真实的自己。"
+    },
+    {
+      "w": "behavior",
+      "ipa": "bɪˈheɪvjə",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "行为",
+      "exam": "行为；举止；表现方式",
+      "c": [
+        "good/bad behavior 良好/不良行为",
+        "social behavior 社交行为",
+        "change one's behavior 改变行为"
+      ],
+      "syn": [
+        "conduct 行为（正式）",
+        "manner 举止",
+        "action 行动"
+      ],
+      "fam": [
+        "behave v. 表现",
+        "behavioral adj. 行为的"
+      ],
+      "dif": "behavior 泛指行为举止，常作不可数；conduct 是正式用语；action 指具体动作",
+      "pat": "Small acts of good behavior, repeated daily, become a person's character.",
+      "patZh": "日常重复的微小善行，会沉淀为一个人的品格。"
+    },
+    {
+      "w": "belief",
+      "ipa": "bɪˈliːf",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "信念",
+      "exam": "信仰；信条；信念",
+      "c": [
+        "hold a belief 持有信念",
+        "beyond belief 难以置信",
+        "in the belief that 坚信……"
+      ],
+      "syn": [
+        "faith 信仰",
+        "conviction 信念",
+        "trust 信任"
+      ],
+      "fam": [
+        "believe v. 相信",
+        "believable adj. 可信的"
+      ],
+      "dif": "belief 是名词（注意拼写 ie）；believe 是动词；faith 更偏宗教或深厚信任",
+      "pat": "Belief in oneself is the first secret of success.",
+      "patZh": "自信是成功的第一秘诀。"
+    },
+    {
+      "w": "believe",
+      "ipa": "bɪˈliːv",
+      "pos": "v.",
+      "s": "s5",
+      "zh": "相信",
+      "exam": "相信；信任",
+      "c": [
+        "believe in 信任；信仰",
+        "believe it or not 信不信由你",
+        "make believe 假装"
+      ],
+      "syn": [
+        "trust 信任",
+        "suppose 认为",
+        "think 想"
+      ],
+      "fam": [
+        "belief n. 信念",
+        "believer n. 信徒；相信者"
+      ],
+      "dif": "believe sb 是相信某人说的话；believe in sb/sth 是信任某人、相信某事存在或有价值",
+      "pat": "The future belongs to those who believe in the beauty of their dreams.",
+      "patZh": "未来属于相信梦想之美的人。"
+    },
+    {
+      "w": "belong",
+      "ipa": "bɪˈlɒŋ",
+      "pos": "vi.",
+      "s": "s5",
+      "zh": "属于",
+      "exam": "属于；附属；应归入",
+      "c": [
+        "belong to 属于",
+        "belong in/with 应归入",
+        "a sense of belonging 归属感"
+      ],
+      "syn": [
+        "pertain to 属于（正式）",
+        "be part of 是……的一部分"
+      ],
+      "fam": [
+        "belongings n. 所有物",
+        "belonging n. 归属"
+      ],
+      "dif": "belong to 不用于进行时和被动语态——语法高频考点；own 是\"拥有\"，主客体相反",
+      "pat": "This victory belongs to everyone who never gave up.",
+      "patZh": "这场胜利属于每一个不曾放弃的人。"
+    },
+    {
+      "w": "beneficial",
+      "ipa": "ˌbenɪˈfɪʃl",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "有益的",
+      "exam": "有益的",
+      "c": [
+        "be beneficial to 对……有益",
+        "mutually beneficial 互惠的",
+        "a beneficial effect 良好效果"
+      ],
+      "syn": [
+        "helpful 有帮助的",
+        "advantageous 有利的",
+        "profitable 有益的"
+      ],
+      "fam": [
+        "benefit n./v. 利益；有益于",
+        "beneficiary n. 受益者"
+      ],
+      "dif": "beneficial to 后接事物；helpful 后接人或事均可；harmful 是其反义",
+      "pat": "Reading is beneficial to both the mind and the character.",
+      "patZh": "阅读对心智和品格都有益处。"
+    },
+    {
+      "w": "benefit",
+      "ipa": "ˈbenɪfɪt",
+      "pos": "n. / v.",
+      "s": "s5",
+      "zh": "好处",
+      "exam": "利益；好处；受益于；救济金；奖金；补贴",
+      "c": [
+        "benefit from 从……中受益",
+        "be of benefit to 对……有益",
+        "for the benefit of 为了……的利益",
+        "unemployment benefits 失业救济金"
+      ],
+      "syn": [
+        "advantage 优势",
+        "profit 益处",
+        "welfare 福利"
+      ],
+      "fam": [
+        "beneficial adj. 有益的",
+        "beneficiary n. 受益人"
+      ],
+      "dif": "benefit from 主语是受益者；benefit 作及物动词时主语是施益方，如 The policy benefits farmers.",
+      "pat": "The new policy will benefit millions of families in rural areas.",
+      "patZh": "新政策将使农村数百万家庭受益。"
+    },
+    {
+      "w": "benevolent",
+      "ipa": "bəˈnevələnt",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "仁慈的",
+      "exam": "善意的",
+      "c": [
+        "a benevolent smile 慈祥的微笑",
+        "a benevolent fund 慈善基金",
+        "a benevolent act 善举"
+      ],
+      "syn": [
+        "kind 善良的",
+        "charitable 慈善的",
+        "generous 慷慨的"
+      ],
+      "fam": [
+        "benevolence n. 仁慈；善行",
+        "benefactor n. 捐助人"
+      ],
+      "dif": "benevolent 是书面\"仁慈的\"；kind 通用；charitable 偏慈善捐助的",
+      "pat": "A benevolent heart notices needs that others pass by.",
+      "patZh": "仁慈的心能注意到旁人忽略的难处。"
+    },
+    {
+      "w": "benign",
+      "ipa": "bɪˈnaɪn",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "温和的",
+      "exam": "良性的；仁慈的；和蔼的",
+      "c": [
+        "a benign tumor 良性肿瘤",
+        "a benign climate 宜人的气候",
+        "a benign influence 良好的影响"
+      ],
+      "syn": [
+        "harmless 无害的",
+        "gentle 温和的",
+        "kind 和蔼的"
+      ],
+      "fam": [
+        "benignly adv. 和蔼地",
+        "benignant adj. 仁慈的"
+      ],
+      "dif": "benign 最常考医学义\"良性的\"（反义 malignant 恶性的）；形容人时=和蔼的，与 benevolent 近义",
+      "pat": "The doctor smiled benignly and told him the shadow was benign.",
+      "patZh": "医生和蔼地笑着告诉他，那个阴影是良性的。"
+    },
+    {
+      "w": "challenge",
+      "ipa": "ˈtʃæləndʒ",
+      "pos": "n. / vt.",
+      "s": "s5",
+      "zh": "挑战",
+      "exam": "向……挑战；对……质疑；挑战；艰苦的任务",
+      "c": [
+        "face a challenge 面对挑战",
+        "challenge sb to do 激励某人做",
+        "pose a challenge 构成挑战",
+        "beyond challenge 无可置疑"
+      ],
+      "syn": [
+        "defy 违抗",
+        "question 质疑",
+        "dare 敢"
+      ],
+      "fam": [
+        "challenging adj. 有挑战性的",
+        "challenger n. 挑战者"
+      ],
+      "dif": "challenge 常考\"质疑\"义（challenge an idea）；defy 指公然违抗；dare 指\"敢\"",
+      "pat": "We should challenge old ideas, not the people who hold them.",
+      "patZh": "我们应质疑陈旧的观念，而非持有观念的人。"
+    },
+    {
+      "w": "chance",
+      "ipa": "tʃɑːns",
+      "pos": "n. / v.",
+      "s": "s5",
+      "zh": "机会",
+      "exam": "机会；可能性；偶然性；碰巧；偶然发生",
+      "c": [
+        "take a chance 碰运气；冒险一试",
+        "by chance 偶然",
+        "a chance to do 做……的机会",
+        "the chances are 很可能"
+      ],
+      "syn": [
+        "opportunity 良机",
+        "possibility 可能性",
+        "luck 运气"
+      ],
+      "fam": [
+        "chancy adj. 冒险的",
+        "chance adj. 偶然的"
+      ],
+      "dif": "chance 指机会，也含偶然性；opportunity 专指好机会；by chance 是固定短语",
+      "pat": "Give every child a chance, and society will harvest talent beyond imagination.",
+      "patZh": "给每个孩子一个机会，社会将收获超乎想象的人才。"
+    },
+    {
+      "w": "change",
+      "ipa": "tʃeɪndʒ",
+      "pos": "n. / v.",
+      "s": "s5",
+      "zh": "改变",
+      "exam": "改变；变化；交换",
+      "c": [
+        "change sth into 把……变成",
+        "change one's mind 改变主意",
+        "a change for the better 好转",
+        "small change 零钱"
+      ],
+      "syn": [
+        "alter 改动",
+        "transform 彻底改变",
+        "vary 变化"
+      ],
+      "fam": [
+        "changeable adj. 易变的",
+        "unchanged adj. 未改变的"
+      ],
+      "dif": "change 泛指改变；alter 指局部修改；transform 指彻底转变——程度递进",
+      "pat": "Be the change you wish to see in the world.",
+      "patZh": "欲变世界，先变自身。"
+    },
+    {
+      "w": "channel",
+      "ipa": "ˈtʃænl",
+      "pos": "n. / v.",
+      "s": "s5",
+      "zh": "疏导",
+      "exam": "海峡；频道；途径",
+      "c": [
+        "through official channels 通过官方渠道",
+        "a news channel 新闻频道",
+        "channel energy into 把精力引向"
+      ],
+      "syn": [
+        "route 途径",
+        "medium 媒介",
+        "canal 运河"
+      ],
+      "fam": [
+        "channelled adj. 被疏导的"
+      ],
+      "dif": "channel 常考\"渠道、途径\"与动词\"疏导\"义；canal 是\"运河\"；tunnel 是\"隧道\"",
+      "pat": "Great teachers channel their students' energy toward creation, not destruction.",
+      "patZh": "好老师把学生的精力引向创造，而非破坏。"
+    },
+    {
+      "w": "character",
+      "ipa": "ˈkærəktə",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "品格",
+      "exam": "特性；品质；性格；人物；角色；符号；汉字",
+      "c": [
+        "build character 塑造品格",
+        "a main character 主角",
+        "in character 符合本性",
+        "Chinese characters 汉字"
+      ],
+      "syn": [
+        "personality 个性",
+        "nature 本性",
+        "figure 人物"
+      ],
+      "fam": [
+        "characteristic n./adj. 特征；特有的",
+        "characterise v. 以……为特征"
+      ],
+      "dif": "character 义项极多（性格/人物/汉字），阅读看语境；personality 只指个性；role 只指角色",
+      "pat": "Adversity reveals character; it does not build it from nothing.",
+      "patZh": "逆境显露品格，而非凭空造就品格。"
+    },
+    {
+      "w": "characterise",
+      "ipa": "ˈkærəktəraɪz",
+      "pos": "vt.",
+      "s": "s5",
+      "zh": "描绘……的特性",
+      "exam": "表示……的特性；描述……特性",
+      "c": [
+        "be characterised by 以……为特征",
+        "characterise sth as 把……描述为"
+      ],
+      "syn": [
+        "typify 是……的典型",
+        "describe 描述",
+        "distinguish 使有别于"
+      ],
+      "fam": [
+        "character n. 性格；特性",
+        "characteristic n. 特征"
+      ],
+      "dif": "characterise 是英式拼写，美式为 characterize；be characterised by 是阅读高频被动结构",
+      "pat": "The report characterises the decade as one of rapid change.",
+      "patZh": "报告将这十年描绘为剧变的十年。"
+    },
+    {
+      "w": "characteristic",
+      "ipa": "ˌkærəktəˈrɪstɪk",
+      "pos": "n. / adj.",
+      "s": "s5",
+      "zh": "特质",
+      "exam": "特征；特有的；独特的",
+      "c": [
+        "a characteristic of 是……的特征",
+        "be characteristic of 为……所特有",
+        "typical characteristics 典型特征"
+      ],
+      "syn": [
+        "feature 特征",
+        "trait 特质",
+        "typical 典型的"
+      ],
+      "fam": [
+        "character n. 性格；特性",
+        "characterise v. 以……为特征"
+      ],
+      "dif": "characteristic 作名词是\"特征\"，作形容词\"特有的\"常接 of；feature 指外在特征；trait 指性格特质",
+      "pat": "Patience is characteristic of all great craftsmen.",
+      "patZh": "耐心是所有伟大工匠共有的特质。"
+    }
+  ]
+}

@@ -1,0 +1,1545 @@
+{
+  "unit": 16,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Confidential Trail",
+      "zh": "机密踪迹",
+      "theme": "教育 / 职场",
+      "ps": [
+        {
+          "en": "On her first week of [[training]] at a software firm, Lin was [[confined|confine]] to a windowless archive room, where old servers still kept their original [[configuration]]. Her manager explained that the rule protected [[confidential]] files, and she had to [[confirm]] every request for access in writing.",
+          "zh": "在一家软件公司接受入职培训的第一周，小林被安排待在一间没有窗户的档案室里，那里的旧服务器还保留着最初的配置。经理解释说，这条规定是为了保护机密文件，每一次查阅申请她都必须书面确认。"
+        },
+        {
+          "en": "The dull work did not [[conflict]] with her nature. Years of long [[train]] rides to school had given her the quiet [[confidence]] of someone who notices details — a useful [[trait]] in an archive. Soon she felt [[confident]] enough to ask why one folder was empty.",
+          "zh": "这份枯燥的工作并不与她的性子相抵触。多年坐长途火车上学的经历，让她养成了一种留意细节的沉静自信——这在档案室里是个有用的特质。很快，她就有把握开口发问：为什么有一个文件夹是空的。"
+        },
+        {
+          "en": "That question led her to a [[trail]] of deleted emails and copied passwords. In her [[view]], the files had been stolen, not lost; from a legal [[viewpoint]], however, suspicion was not proof. She printed the logs, locked the door, and walked to the manager's office with the folder in her hands.",
+          "zh": "这个问题引着她发现了一串踪迹：被删除的邮件和被复制的密码。在她看来，文件是被偷走的，不是丢失的；然而从法律的角度看，怀疑不等于证据。她打印了日志，锁上门，拿着那个文件夹朝经理办公室走去。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Appeal",
+      "zh": "那场上诉",
+      "theme": "科技 / 社会",
+      "ps": [
+        {
+          "en": "The game was a [[virtual]] city where players could act out [[violent]] fantasies, and its maker claimed no real [[violence]] could come of it. When a twelve-year-old hurt a classmate after playing all night, the harm became [[apparent]] to everyone.",
+          "zh": "那款游戏是一座虚拟城市，玩家可以在里面把暴力的幻想付诸行动，而开发商声称这不会带来任何真实的暴力。直到一个十二岁的孩子通宵游戏后打伤了同学，伤害才变得人人都看得清楚。"
+        },
+        {
+          "en": "A parents' group launched an [[appeal]] for stricter rules, and a retired teacher, Ms. Zhou, was [[appointed|appoint]] to mediate. At their first [[appointment]], the company's lawyers did not [[appear]]; only an assistant came, whose polite [[appearance]] hid a cold message: the rules were not [[applicable]] to games.",
+          "zh": "一个家长团体发出呼吁，要求出台更严格的规定，退休教师周女士被任命从中调解。第一次约见时，公司的律师没有到场，只来了一位助理，那副彬彬有礼的外表下藏着一句冷冰冰的话：这些规定不适用于游戏。"
+        },
+        {
+          "en": "Ms. Zhou studied the firm's licence [[application]] and found the law could [[apply]] after all: the headset was registered as a household [[appliance]]. Her quiet [[virtue]] was patience, and she used it. When the company finally agreed to limit playtime, the parents learned to [[appreciate]] a victory that arrived without shouting.",
+          "zh": "周女士研究了这家公司的执照申请书，发现法律终究还是用得上的：那台头显是以家用电器的名义注册的。她身上那种沉静的美德是耐心，而她把它用到了极致。当公司最终同意限制游戏时长时，家长们学会了珍惜这场不曾靠怒吼赢来的胜利。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Essay",
+      "zh": "那篇文章",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "For his graduation [[essay]], Chen chose to [[discuss]] why one [[industrial]] town had more lung [[disease]] than any other in the province. Older doctors tended to [[discriminate]] between patients by surname, as if [[ethnic]] background, not smoke, were the cause. The true cause, Chen believed, had simply [[escaped|escape]] notice.",
+          "zh": "毕业论文里，小陈选择探讨一个问题：为什么这座工业城镇的肺病比全省任何地方都多。老医生们习惯按姓氏区别对待病人，仿佛病因在于族裔背景，而不是烟尘。小陈相信，真正的病因只是被忽视了。"
+        },
+        {
+          "en": "The town had been [[industrialized|industrialize]] in a single decade; its whole [[industry]] was one steel plant. Chen's first task was to [[establish]] the facts and [[estimate]] how many workers were sick — [[especially]] those who lived downwind. Numbers alone, his professor warned, were not the [[essence]] of the problem; a work [[ethic]] that praised endless overtime was just as guilty.",
+          "zh": "这座城镇在短短十年里就完成了工业化，它的全部产业就是一座钢厂。小陈的第一项任务是查明事实，并估算有多少工人患病——尤其是那些住在下风向的人。导师提醒他，光有数字并不是问题的本质；一种赞美无休止加班的工作伦理，同样难辞其咎。"
+        },
+        {
+          "en": "To [[evaluate]] the company's reports, Chen compared them with hospital records — slow work, but [[essential]]. His conclusion was simple: a town's health could not be traded for output. Once the essay was published, no one in the town could honestly look away.",
+          "zh": "为了评估公司的报告，小陈把它们与医院的病历逐一比对——这项工作很慢，但必不可少。他的结论很简单：一座城镇的健康，不能拿去换产值。文章发表之后，镇上再也没有人能心安理得地视而不见了。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The Outlet",
+      "zh": "那个出口",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "On the [[outer]] edge of the city, Aunt Mei ran a food stall from a cart that was a [[mixture]] of kitchen, shop and home. Rainy days made her [[miserable]]; the awning leaked, and she would [[mix]] her tea with rainwater half the time.",
+          "zh": "在城市的外缘，梅姨用一辆推车经营着一个食摊，那辆车是厨房、店铺和家的混合物。下雨天让她苦不堪言：雨棚漏水，她的茶一半时间都在和雨水混在一起。"
+        },
+        {
+          "en": "When the landlord raised the rent, Mei refused to be [[misled|mislead]] by his talk of market forces. She counted her coins and decided that bargaining was a [[necessity]], not a shame. The long dry season had [[necessitated|necessitate]] smaller portions; now plain honesty was [[necessary]] too. So she went to [[negotiate]].",
+          "zh": "房东涨租的时候，梅姨拒绝被他那套「市场规律」的说辞误导。她数了数硬币，认定讨价还价是生活必需，不是什么丢脸的事。漫长的旱季已经逼得她减少了分量；如今，坦诚也变得必要。于是，她去找房东谈判。"
+        },
+        {
+          "en": "The landlord called her stall a [[negative]] influence on the street, but Mei answered calmly: change was [[inevitable]], yet respect cost nothing. In the end they settled on a fair rent, and her [[misery]] found an [[outlet]] — she opened a tiny soup window for night-shift workers, and laughter returned to the cart.",
+          "zh": "房东说她的摊位对这条街有负面影响，梅姨却平静地回答：变化不可避免，但尊重不花一分钱。最终，他们谈妥了一个公道的租金，而她的愁苦也找到了一个出口——她为夜班工人开了一扇小小的汤品窗口，笑声又回到了这辆推车上。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "confine",
+      "ipa": "kənˈfaɪn",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "限定在，限制",
+      "exam": "使不外出；禁闭；限制；使局限",
+      "c": [
+        "be confined to 被限制在",
+        "confine sth to 把…限定在",
+        "confine sb to bed 使卧床"
+      ],
+      "syn": [
+        "restrict",
+        "limit",
+        "imprison"
+      ],
+      "fam": [
+        "confined adj. 有限的；被禁闭的",
+        "confinement n. 禁闭；限制"
+      ],
+      "dif": "confine to 强调「限制在某个范围」；limit 泛指「限量」，confirm 是「证实」，形近义远",
+      "pat": "The discussion should not be confined to a single department.",
+      "patZh": "这场讨论不应局限于一个部门。"
+    },
+    {
+      "w": "confirm",
+      "ipa": "kənˈfɜːm",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "确认",
+      "exam": "证实；确认",
+      "c": [
+        "confirm sth in writing 书面确认",
+        "confirm that... 证实…",
+        "confirm a booking 确认预订"
+      ],
+      "syn": [
+        "verify",
+        "certify",
+        "validate"
+      ],
+      "fam": [
+        "confirmation n. 确认",
+        "confirmed adj. 根深蒂固的"
+      ],
+      "dif": "confirm 是「证实为真」；conform 是「遵守、符合」，两者只差一个字母，完形常设",
+      "pat": "Further evidence is needed to confirm the initial findings.",
+      "patZh": "初步发现还需要更多证据来证实。"
+    },
+    {
+      "w": "conflict",
+      "ipa": "ˈkɒnflɪkt / kənˈflɪkt",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "抵触",
+      "exam": "冲突；抵触",
+      "c": [
+        "in conflict with 与…相抵触",
+        "a conflict of interest 利益冲突",
+        "conflict with 与…冲突"
+      ],
+      "syn": [
+        "clash",
+        "dispute",
+        "friction"
+      ],
+      "fam": [
+        "con-（共同）+ flict（打击） n. 相关延伸",
+        "conflicting adj. 相互矛盾的"
+      ],
+      "dif": "conflict 可指长期冲突或抽象抵触；clash 是短促激烈的正面冲撞；combat 是战斗",
+      "pat": "Personal values sometimes conflict with workplace rules.",
+      "patZh": "个人价值观有时会与职场规则相冲突。"
+    },
+    {
+      "w": "confidence",
+      "ipa": "ˈkɒnfɪdəns",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "从容，信心",
+      "exam": "信任；信心；自信；把握",
+      "c": [
+        "have confidence in 对…有信心",
+        "gain / lose confidence 获得/失去信心",
+        "with confidence 有把握地",
+        "in strict confidence 绝对保密"
+      ],
+      "syn": [
+        "assurance",
+        "self-belief",
+        "trust"
+      ],
+      "fam": [
+        "confident adj.",
+        "confidential adj. 机密的",
+        "confide v. 吐露"
+      ],
+      "dif": "confidence 是「信心」；confidential 是「机密的」，同源不同义，阅读常用来设坑",
+      "pat": "Public confidence in data security has been shaken.",
+      "patZh": "公众对数据安全的信心已经动摇。"
+    },
+    {
+      "w": "confident",
+      "ipa": "ˈkɒnfɪdənt",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "有把握的",
+      "exam": "确信的；自信的",
+      "c": [
+        "be confident of / about 对…有信心",
+        "feel confident enough to do 觉得足够有信心去做",
+        "a confident smile 自信的微笑"
+      ],
+      "syn": [
+        "assured",
+        "certain",
+        "self-assured"
+      ],
+      "fam": [
+        "confidence n.",
+        "confidently adv."
+      ],
+      "dif": "confident 是形容词「自信的」；confidential 是「机密的」，词尾 -ent / -ential 别混",
+      "pat": "She felt confident that the truth would come out.",
+      "patZh": "她确信真相终会大白。"
+    },
+    {
+      "w": "confidential",
+      "ipa": "ˌkɒnfɪˈdenʃl",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "机密的",
+      "exam": "秘密的；机密的",
+      "c": [
+        "confidential information 机密信息",
+        "keep sth confidential 对…保密",
+        "a confidential document 机密文件"
+      ],
+      "syn": [
+        "secret",
+        "classified",
+        "private"
+      ],
+      "fam": [
+        "confidence n.",
+        "confidentiality n. 保密性"
+      ],
+      "dif": "confidential 是「机密的」；confident 是「自信的」；classified 是「列为密级的」",
+      "pat": "Medical records are confidential and must not be shared.",
+      "patZh": "病历属于机密，不得外传。"
+    },
+    {
+      "w": "configuration",
+      "ipa": "kənˌfɪɡəˈreɪʃn",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "配置，布局",
+      "exam": "布局；配置",
+      "c": [
+        "the original configuration 初始配置",
+        "system configuration 系统配置",
+        "the configuration of a room 房间布局"
+      ],
+      "syn": [
+        "layout",
+        "arrangement",
+        "setup"
+      ],
+      "fam": [
+        "configure v. 配置",
+        "con-（一起）+ figure（形状） n. 相关延伸"
+      ],
+      "dif": "configuration 指「各部分的排布方式」；construction 是「建造、构造过程」",
+      "pat": "The new configuration of the office saves a great deal of space.",
+      "patZh": "办公室的新布局节省了大量空间。"
+    },
+    {
+      "w": "trail",
+      "ipa": "treɪl",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "踪迹，线索",
+      "exam": "踪迹；痕迹；小道；跟踪",
+      "c": [
+        "a trail of 一连串…的痕迹",
+        "follow a trail 追踪线索",
+        "a mountain trail 山间小道",
+        "leave a trail 留下痕迹"
+      ],
+      "syn": [
+        "trace",
+        "track",
+        "path"
+      ],
+      "fam": [
+        "trailer n. 拖车；预告片",
+        "trailing adj."
+      ],
+      "dif": "trail 是「拖在后面留下的痕迹」；track 是「足迹、轨道」；trace 是「微量痕迹」",
+      "pat": "Digital payments leave a trail that investigators can follow.",
+      "patZh": "数字支付会留下调查人员可以顺藤摸瓜的痕迹。"
+    },
+    {
+      "w": "train",
+      "ipa": "treɪn",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "火车",
+      "exam": "列车；火车；训练；培养；一系列，一串",
+      "c": [
+        "take / catch a train 乘/赶火车",
+        "train sb to do 培训…做",
+        "a train of thought 思路",
+        "a train of events 一连串事件"
+      ],
+      "syn": [
+        "coach",
+        "instruct",
+        "drill"
+      ],
+      "fam": [
+        "training n.",
+        "trainee n. 受训者",
+        "trainer n. 培训师"
+      ],
+      "dif": "train 作动词是「培训」；trail 是「追踪」，形近常混；trainee 指「受训的人」",
+      "pat": "A well-trained workforce is the best asset of any company.",
+      "patZh": "训练有素的员工是任何公司最好的资产。"
+    },
+    {
+      "w": "training",
+      "ipa": "ˈtreɪnɪŋ",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "培训",
+      "exam": "训练；培养",
+      "c": [
+        "job training 职业培训",
+        "undergo / receive training 接受培训",
+        "a training course 培训课程",
+        "in training 在受训中"
+      ],
+      "syn": [
+        "instruction",
+        "coaching",
+        "drilling"
+      ],
+      "fam": [
+        "train v./n.",
+        "trainee n.",
+        "trainer n."
+      ],
+      "dif": "training 侧重「技能训练」；education 侧重「系统教育」；exercise 是「身体锻炼」",
+      "pat": "On-the-job training is often more valuable than a degree.",
+      "patZh": "在职培训往往比一纸文凭更有价值。"
+    },
+    {
+      "w": "trait",
+      "ipa": "treɪt",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "特质",
+      "exam": "特征；特点；特性",
+      "c": [
+        "a personality trait 性格特质",
+        "an inherited trait 遗传特征",
+        "a common trait of... （相关常用表达）"
+      ],
+      "syn": [
+        "characteristic",
+        "feature",
+        "attribute"
+      ],
+      "fam": [
+        "traitor n. 叛徒（形近）",
+        "portrait n. 肖像（同源）"
+      ],
+      "dif": "trait 指「性格或遗传上的特征」；trace 是「痕迹」；trail 是「踪迹」，三者形近",
+      "pat": "Patience is a trait that no school can teach.",
+      "patZh": "耐心是一种学校教不会的特质。"
+    },
+    {
+      "w": "view",
+      "ipa": "vjuː",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "看法",
+      "exam": "风景；见解；眼界；看待",
+      "c": [
+        "in one's view 在某人看来",
+        "view... as... 把…看作",
+        "a view of 对…的看法",
+        "with a view to 为了，着眼于"
+      ],
+      "syn": [
+        "opinion",
+        "perspective",
+        "scenery 风景"
+      ],
+      "fam": [
+        "viewpoint n.",
+        "viewer n. 观众",
+        "review n./v. 回顾"
+      ],
+      "dif": "view 是「个人看法或眼前之景」；scenery 是「自然风景（不可数）」；scene 是「一幕场景」",
+      "pat": "Many people view failure as a necessary part of learning.",
+      "patZh": "许多人把失败看作学习的必经之路。"
+    },
+    {
+      "w": "viewpoint",
+      "ipa": "ˈvjuːpɔɪnt",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "角度，立场",
+      "exam": "观点",
+      "c": [
+        "from a legal / practical viewpoint 从法律、实际角度看",
+        "share one's viewpoint （相关常用表达）",
+        "a narrow viewpoint （相关常用表达）"
+      ],
+      "syn": [
+        "standpoint",
+        "perspective",
+        "angle"
+      ],
+      "fam": [
+        "view n. + point n."
+      ],
+      "dif": "viewpoint 强调「看问题的立足点」；opinion 强调「对某事的判断结论」",
+      "pat": "From an environmental viewpoint, the project is a step backward.",
+      "patZh": "从环保的角度看，这个项目是一种倒退。"
+    },
+    {
+      "w": "violence",
+      "ipa": "ˈvaɪələns",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "暴力",
+      "exam": "暴力；暴行",
+      "c": [
+        "domestic violence 家庭暴力",
+        "an act of violence 暴力行为",
+        "resort to violence 诉诸暴力"
+      ],
+      "syn": [
+        "brutality",
+        "force",
+        "aggression"
+      ],
+      "fam": [
+        "violent adj.",
+        "violently adv."
+      ],
+      "dif": "violence 是「暴力行为」；violation 是「违反、侵犯」，形近义不同",
+      "pat": "Exposure to online violence harms children's development.",
+      "patZh": "接触网络暴力损害儿童的成长。"
+    },
+    {
+      "w": "violent",
+      "ipa": "ˈvaɪələnt",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "暴力的",
+      "exam": "猛烈的；暴力引起的",
+      "c": [
+        "a violent crime 暴力犯罪",
+        "violent fantasies 暴力幻想",
+        "a violent storm 猛烈的暴风雨"
+      ],
+      "syn": [
+        "brutal",
+        "fierce",
+        "savage"
+      ],
+      "fam": [
+        "violence n.",
+        "violently adv."
+      ],
+      "dif": "violent 既可指「暴力的」也可指「剧烈的（风暴、疼痛）」；fierce 只指「猛烈的」",
+      "pat": "Violent content in games should carry a clear age rating.",
+      "patZh": "游戏中的暴力内容应当标明清晰的年龄分级。"
+    },
+    {
+      "w": "virtual",
+      "ipa": "ˈvɜːtʃuəl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "虚拟的",
+      "exam": "实际上的；虚拟的",
+      "c": [
+        "virtual reality 虚拟现实",
+        "a virtual monopoly 实际上的垄断",
+        "virtual meetings 线上会议"
+      ],
+      "syn": [
+        "simulated 虚拟的",
+        "practical / effective 实际上的"
+      ],
+      "fam": [
+        "virtually adv. 几乎；实际上",
+        "virtue n. 美德（同源）"
+      ],
+      "dif": "virtual 两个义项常考：「虚拟的」与「实际上的」；virtually 多译为「几乎」",
+      "pat": "The internet has made remote work a virtual necessity.",
+      "patZh": "互联网已经让远程办公成为事实上的必需。"
+    },
+    {
+      "w": "virtue",
+      "ipa": "ˈvɜːtʃuː",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "美德",
+      "exam": "美德；优点",
+      "c": [
+        "by virtue of 凭借，由于",
+        "the virtue of patience 耐心的美德",
+        "have the virtue of 有…的优点"
+      ],
+      "syn": [
+        "goodness",
+        "merit",
+        "strength"
+      ],
+      "fam": [
+        "virtuous adj. 有美德的",
+        "virtual adj.（同源：「有实效的」）"
+      ],
+      "dif": "by virtue of 是固定搭配「凭借」；virtue 本身指「美德」，vice 是其反义「恶习」",
+      "pat": "By virtue of hard work, she rose from trainee to manager.",
+      "patZh": "凭借努力，她从管培生做到了经理。"
+    },
+    {
+      "w": "apparent",
+      "ipa": "əˈpærənt",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "明显的",
+      "exam": "显然的；表面上的",
+      "c": [
+        "it is apparent that... 显然…",
+        "become apparent 变得明显",
+        "apparent reason 表面上的理由"
+      ],
+      "syn": [
+        "evident",
+        "obvious",
+        "seeming 表面上的"
+      ],
+      "fam": [
+        "appear v.",
+        "apparently adv. 显然；据说"
+      ],
+      "dif": "apparent 既可指「明显的」也可指「貌似真实的」，阅读里要按语境分辨",
+      "pat": "It soon became apparent that the two goals could not both be met.",
+      "patZh": "很快就可以明显看出，两个目标无法兼得。"
+    },
+    {
+      "w": "appeal",
+      "ipa": "əˈpiːl",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "呼吁",
+      "exam": "有吸引力；上诉；申诉；呼吁；恳求；吸引力",
+      "c": [
+        "appeal to sb for sth 向…呼吁",
+        "appeal to sb 对…有吸引力",
+        "file / lodge an appeal 提出上诉",
+        "launch an appeal 发起呼吁"
+      ],
+      "syn": [
+        "plea",
+        "petition",
+        "attract 动词"
+      ],
+      "fam": [
+        "appealing adj. 有吸引力的",
+        "appellant n. 上诉人"
+      ],
+      "dif": "appeal to 三义常考：吸引、呼吁、上诉；appear 是「出现」，形近义远",
+      "pat": "The idea of working from home appeals to many young people.",
+      "patZh": "居家办公的设想对许多年轻人很有吸引力。"
+    },
+    {
+      "w": "appear",
+      "ipa": "əˈpɪə(r)",
+      "pos": "vi.",
+      "s": "s2",
+      "zh": "到场，出现",
+      "exam": "出现；问世；好像是",
+      "c": [
+        "appear in court 出庭",
+        "appear to do 似乎做",
+        "it appears that... 看来…"
+      ],
+      "syn": [
+        "emerge",
+        "show up",
+        "seem"
+      ],
+      "fam": [
+        "appearance n.",
+        "apparent adj.",
+        "disappear v. 消失"
+      ],
+      "dif": "appear to do 是「似乎做」；appear in 是「出现在某地」；不要漏掉 to 或误用进行时",
+      "pat": "New technologies appear faster than laws can regulate them.",
+      "patZh": "新技术出现的速度超过了法律监管的速度。"
+    },
+    {
+      "w": "appearance",
+      "ipa": "əˈpɪərəns",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "外表",
+      "exam": "出现；外表；外观；外貌",
+      "c": [
+        "judge by appearances 以貌取人",
+        "make an appearance 露面",
+        "keep up appearances 维持表面"
+      ],
+      "syn": [
+        "look",
+        "aspect",
+        "arrival 出现"
+      ],
+      "fam": [
+        "appear → appearance → apparent n. 相关延伸"
+      ],
+      "dif": "appearance 指「外观、外表」；apparition 是「幽灵幻影」，形近词勿混",
+      "pat": "We should not judge people by appearance alone.",
+      "patZh": "我们不该单凭外表评判一个人。"
+    },
+    {
+      "w": "appliance",
+      "ipa": "əˈplaɪəns",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "家用电器",
+      "exam": "用具；器具",
+      "c": [
+        "a household appliance 家用电器",
+        "electrical appliances 电器",
+        "a kitchen appliance 厨房用具"
+      ],
+      "syn": [
+        "device",
+        "instrument",
+        "gadget"
+      ],
+      "fam": [
+        "apply v. → appliance n.",
+        "applicable adj."
+      ],
+      "dif": "appliance 多指「家用电器」；device 泛指「装置」；application 是「申请、应用」，不是器具",
+      "pat": "Energy-efficient appliances can cut household bills sharply.",
+      "patZh": "节能电器能大幅削减家庭开支。"
+    },
+    {
+      "w": "applicable",
+      "ipa": "əˈplɪkəbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "适用的",
+      "exam": "适用的",
+      "c": [
+        "be applicable to 适用于",
+        "applicable rules 适用规则",
+        "where applicable 在适用的情况下"
+      ],
+      "syn": [
+        "relevant",
+        "pertinent",
+        "valid"
+      ],
+      "fam": [
+        "apply v.",
+        "application n.",
+        "applicability n. 适用性"
+      ],
+      "dif": "applicable to 后接「对象」；applied 是「应用（学科）的」，如 applied physics",
+      "pat": "The same rule is not applicable to every situation.",
+      "patZh": "同一条规则并非适用于所有情形。"
+    },
+    {
+      "w": "application",
+      "ipa": "ˌæplɪˈkeɪʃn",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "申请书",
+      "exam": "申请；申请书；应用",
+      "c": [
+        "submit / file an application 提交申请",
+        "an application form 申请表",
+        "the application of 对…的应用",
+        "an application for 对…的申请"
+      ],
+      "syn": [
+        "request",
+        "petition",
+        "use 应用"
+      ],
+      "fam": [
+        "apply v.",
+        "applicant n. 申请人",
+        "applicable adj."
+      ],
+      "dif": "application 兼「申请」与「应用」两义；appliance 是「器具」，二者只差两个字母",
+      "pat": "Her application for the grant was approved within a week.",
+      "patZh": "她的补助金申请一周内就获批了。"
+    },
+    {
+      "w": "appoint",
+      "ipa": "əˈpɔɪnt",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "任命",
+      "exam": "任命；委派",
+      "c": [
+        "appoint sb as / to be 任命…为",
+        "appoint sb to a post 委派…任职",
+        "an appointed time 约定的时间"
+      ],
+      "syn": [
+        "designate",
+        "nominate",
+        "assign"
+      ],
+      "fam": [
+        "appointment n.",
+        "appointed adj. 被任命的；约定的"
+      ],
+      "dif": "appoint 强调「正式任命职务」；assign 是「分配任务」；disappoint 是「使失望」",
+      "pat": "An independent expert was appointed to review the case.",
+      "patZh": "一位独立专家受命审查此案。"
+    },
+    {
+      "w": "appointment",
+      "ipa": "əˈpɔɪntmənt",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "约见",
+      "exam": "预约；约定；任命",
+      "c": [
+        "make / keep an appointment 预约、赴约",
+        "cancel an appointment 取消预约",
+        "the appointment of... 对…的任命"
+      ],
+      "syn": [
+        "engagement",
+        "meeting",
+        "nomination 任命"
+      ],
+      "fam": [
+        "appoint v.",
+        "disappointment n. 失望"
+      ],
+      "dif": "appointment 是「预约、任命」；date 是「约会（私人）」；disappointment 是「失望」，别按词根猜",
+      "pat": "Please make an appointment before visiting the office.",
+      "patZh": "来办公室之前请先预约。"
+    },
+    {
+      "w": "apply",
+      "ipa": "əˈplaɪ",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "适用",
+      "exam": "应用；使用；申请",
+      "c": [
+        "apply for 申请",
+        "apply to 适用于",
+        "apply sth to sth 把…应用于",
+        "apply oneself to 致力于"
+      ],
+      "syn": [
+        "use",
+        "employ",
+        "request 申请"
+      ],
+      "fam": [
+        "application n.",
+        "applicable adj.",
+        "applicant n."
+      ],
+      "dif": "apply for 接「想要的东西」；apply to 接「受理对象或适用对象」，介词是考点",
+      "pat": "The lessons of history apply to the choices we face today.",
+      "patZh": "历史的教训同样适用于我们今天面临的选择。"
+    },
+    {
+      "w": "appreciate",
+      "ipa": "əˈpriːʃieɪt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "珍惜，感激",
+      "exam": "欣赏；感激；意识到；理解",
+      "c": [
+        "appreciate doing sth 感激做…",
+        "I would appreciate it if... 如蒙…不胜感激",
+        "appreciate the value of 认识到…的价值"
+      ],
+      "syn": [
+        "value",
+        "be grateful for",
+        "recognize 意识到"
+      ],
+      "fam": [
+        "appreciation n.",
+        "appreciative adj. 感激的",
+        "appreciable adj. 可观的"
+      ],
+      "dif": "appreciate 后接动名词不接不定式；「感激」的对象是事不是人，说 thank sb 不说 appreciate sb",
+      "pat": "Only after losing it do people appreciate the value of time.",
+      "patZh": "人们往往在失去之后才懂得珍惜时间的价值。"
+    },
+    {
+      "w": "discriminate",
+      "ipa": "dɪˈskrɪmɪneɪt",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "区别对待",
+      "exam": "有区别地对待；歧视",
+      "c": [
+        "discriminate against 歧视",
+        "discriminate between A and B 区分 A 与 B",
+        "discriminate in favour of 偏袒"
+      ],
+      "syn": [
+        "distinguish",
+        "differentiate",
+        "be biased against 歧视"
+      ],
+      "fam": [
+        "discrimination n. 歧视；辨别",
+        "discriminatory adj. 歧视性的"
+      ],
+      "dif": "discriminate between 是中性「区分」；discriminate against 是贬义「歧视」，介词决定褒贬",
+      "pat": "The law forbids employers to discriminate against older workers.",
+      "patZh": "法律禁止雇主歧视年长员工。"
+    },
+    {
+      "w": "discuss",
+      "ipa": "dɪˈskʌs",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "探讨",
+      "exam": "讨论",
+      "c": [
+        "discuss sth with sb 与…讨论",
+        "discuss whether / how to do （相关常用表达）",
+        "a much-discussed issue 热议话题"
+      ],
+      "syn": [
+        "debate",
+        "talk over",
+        "examine"
+      ],
+      "fam": [
+        "discussion n.",
+        "discussable adj."
+      ],
+      "dif": "discuss 是及物动词，直接接宾语，不说 discuss about；about 属于中式英语",
+      "pat": "The report discusses how automation affects small towns.",
+      "patZh": "这份报告探讨了自动化如何影响小城镇。"
+    },
+    {
+      "w": "disease",
+      "ipa": "dɪˈziːz",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "疾病",
+      "exam": "疾病",
+      "c": [
+        "suffer from a disease 患病",
+        "prevent / cure a disease （相关常用表达）",
+        "an infectious disease 传染病",
+        "heart disease 心脏病"
+      ],
+      "syn": [
+        "illness",
+        "sickness",
+        "disorder"
+      ],
+      "fam": [
+        "dis-（不）+ ease（舒适） n. 相关延伸",
+        "diseased adj. 患病的"
+      ],
+      "dif": "disease 指「具体的疾病（可数）」；illness 指「生病的状态」；discomfort 只是「不适」",
+      "pat": "Air pollution is linked to a rise in lung disease.",
+      "patZh": "空气污染与肺病发病率上升有关。"
+    },
+    {
+      "w": "escape",
+      "ipa": "ɪˈskeɪp",
+      "pos": "v. / n.",
+      "s": "s3",
+      "zh": "逃脱，避开",
+      "exam": "逃跑；逃脱；避免",
+      "c": [
+        "escape from 从…逃脱",
+        "escape notice / attention 被忽视",
+        "escape doing sth 避免做…",
+        "a narrow escape 死里逃生"
+      ],
+      "syn": [
+        "flee",
+        "evade",
+        "avoid"
+      ],
+      "fam": [
+        "escapee n. 逃脱者",
+        "escapism n. 逃避主义"
+      ],
+      "dif": "escape notice 是惯用语「未被注意」；escape 后接动名词，不接不定式",
+      "pat": "No important detail escaped the researcher's attention.",
+      "patZh": "没有任何重要细节逃过这位研究者的注意。"
+    },
+    {
+      "w": "especially",
+      "ipa": "ɪˈspeʃəli",
+      "pos": "adv.",
+      "s": "s3",
+      "zh": "尤其",
+      "exam": "特别；尤其",
+      "c": [
+        "especially when 尤其当…",
+        "especially for 尤其对…而言",
+        "not especially 并不特别"
+      ],
+      "syn": [
+        "particularly",
+        "notably",
+        "in particular"
+      ],
+      "fam": [
+        "especial adj.（罕用）",
+        "special adj. 特别的"
+      ],
+      "dif": "especially 强调「超出一般地」；specially 强调「专门地（为某目的）」，完形常互设",
+      "pat": "Sleep matters for everyone, especially for growing teenagers.",
+      "patZh": "睡眠对每个人都重要，对成长中的青少年尤其如此。"
+    },
+    {
+      "w": "essay",
+      "ipa": "ˈeseɪ",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "论文，文章",
+      "exam": "文章；短文",
+      "c": [
+        "write an essay on 写一篇关于…的文章",
+        "a graduation essay 毕业论文",
+        "a collection of essays 文集"
+      ],
+      "syn": [
+        "paper",
+        "article",
+        "composition"
+      ],
+      "fam": [
+        "essayist n. 散文家",
+        "assay n./v. 化验（形近）"
+      ],
+      "dif": "essay 是「论说文、短论文」；article 是「报刊文章」；paper 是「学术论文」",
+      "pat": "A good essay argues a point instead of listing facts.",
+      "patZh": "好文章要论证观点，而不是罗列事实。"
+    },
+    {
+      "w": "essence",
+      "ipa": "ˈesns",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "本质",
+      "exam": "本质；实质",
+      "c": [
+        "the essence of ……的本质",
+        "in essence 本质上",
+        "of the essence 至关重要的"
+      ],
+      "syn": [
+        "core",
+        "substance",
+        "nature"
+      ],
+      "fam": [
+        "essential adj.",
+        "essentially adv. 本质上"
+      ],
+      "dif": "essence 是名词「本质」；essential 是形容词「必不可少的」；两词常连在一起考",
+      "pat": "In essence, education is about forming judgment, not memory.",
+      "patZh": "本质上，教育培养的是判断力，而不是记忆力。"
+    },
+    {
+      "w": "essential",
+      "ipa": "ɪˈsenʃl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "必不可少的",
+      "exam": "必不可少的；本质的；基本的",
+      "c": [
+        "be essential to / for 对…必不可少",
+        "it is essential that... 必须…",
+        "essential services 基本服务"
+      ],
+      "syn": [
+        "vital",
+        "indispensable",
+        "crucial"
+      ],
+      "fam": [
+        "essence n.",
+        "essentially adv.",
+        "non-essential adj. 非必需的"
+      ],
+      "dif": "essential to 接名词；it is essential that 从句用虚拟语气（should do），这是语法考点",
+      "pat": "Access to clean water is essential to public health.",
+      "patZh": "获得清洁用水对公共健康必不可少。"
+    },
+    {
+      "w": "establish",
+      "ipa": "ɪˈstæblɪʃ",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "查明，确立",
+      "exam": "建立；查实；证实",
+      "c": [
+        "establish the facts 查明事实",
+        "establish a company 创办公司",
+        "establish oneself as 确立…的地位",
+        "establish contact 建立联系"
+      ],
+      "syn": [
+        "found",
+        "set up",
+        "verify 查实"
+      ],
+      "fam": [
+        "establishment n. 机构；建立",
+        "established adj. 公认的"
+      ],
+      "dif": "establish 兼有「建立」与「查实」两义，阅读中「证实」义项常被忽略",
+      "pat": "The investigation established that the data had been altered.",
+      "patZh": "调查证实数据曾被篡改。"
+    },
+    {
+      "w": "estimate",
+      "ipa": "ˈestɪmeɪt / ˈestɪmət",
+      "pos": "vt. / n.",
+      "s": "s3",
+      "zh": "估算",
+      "exam": "估计；估价",
+      "c": [
+        "estimate sth at 估算为",
+        "it is estimated that... 据估计",
+        "a rough estimate 粗略估计",
+        "give an estimate 给出估价"
+      ],
+      "syn": [
+        "assess",
+        "gauge",
+        "reckon"
+      ],
+      "fam": [
+        "estimation n.",
+        "underestimate v. 低估",
+        "overestimate v. 高估"
+      ],
+      "dif": "estimate 是「基于信息的估计」；guess 是「无根据的猜测」；evaluate 是「评估价值」",
+      "pat": "It is estimated that a third of the food produced is wasted.",
+      "patZh": "据估计，生产出的食物有三分之一被浪费。"
+    },
+    {
+      "w": "ethic",
+      "ipa": "ˈeθɪk",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "伦理观，道德准则",
+      "exam": "道德体系；道德准则；行为准则；伦理学",
+      "c": [
+        "a work ethic 职业道德",
+        "professional ethics 职业伦理",
+        "a code of ethics 行为准则"
+      ],
+      "syn": [
+        "moral code",
+        "principle",
+        "morality"
+      ],
+      "fam": [
+        "ethical adj. 合乎伦理的",
+        "ethics n. 伦理学",
+        "ethnic adj. 民族的（形近）"
+      ],
+      "dif": "ethic 指「一套道德准则」；ethnic 是「民族的」，两词形近义远，阅读常设干扰",
+      "pat": "A strong work ethic cannot excuse endless overtime.",
+      "patZh": "再强的职业伦理也不能为无休止的加班开脱。"
+    },
+    {
+      "w": "ethnic",
+      "ipa": "ˈeθnɪk",
+      "pos": "adj. / n.",
+      "s": "s3",
+      "zh": "族裔的",
+      "exam": "民族的；种族的",
+      "c": [
+        "ethnic groups 族群",
+        "ethnic background 族裔背景",
+        "ethnic minorities 少数民族",
+        "ethnic diversity 族群多样性"
+      ],
+      "syn": [
+        "racial",
+        "cultural",
+        "tribal"
+      ],
+      "fam": [
+        "ethnicity n. 族裔属性",
+        "ethnically adv."
+      ],
+      "dif": "ethnic 强调「文化与族群」；racial 强调「生理上的种族」；national 是「国家的」",
+      "pat": "The city is home to people of many ethnic backgrounds.",
+      "patZh": "这座城市生活着众多不同族裔背景的人。"
+    },
+    {
+      "w": "evaluate",
+      "ipa": "ɪˈvæljueɪt",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "评估",
+      "exam": "评价",
+      "c": [
+        "evaluate the effectiveness of 评估…的效果",
+        "evaluate sth against 对照…评估",
+        "critically evaluate 批判性评估"
+      ],
+      "syn": [
+        "assess",
+        "appraise",
+        "judge"
+      ],
+      "fam": [
+        "evaluation n.",
+        "evaluator n. 评估者",
+        "value n. 价值（词根）"
+      ],
+      "dif": "evaluate 重「判断价值与效果」；estimate 重「估算数量」；assess 重「核定等级」",
+      "pat": "Students should learn to evaluate online information critically.",
+      "patZh": "学生应学会批判性地评估网络信息。"
+    },
+    {
+      "w": "industrial",
+      "ipa": "ɪnˈdʌstriəl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "工业的",
+      "exam": "工业的；产业的",
+      "c": [
+        "industrial pollution 工业污染",
+        "an industrial town 工业城镇",
+        "the Industrial Revolution 工业革命",
+        "industrial output 工业产值"
+      ],
+      "syn": [
+        "manufacturing",
+        "factory-based"
+      ],
+      "fam": [
+        "industry n.",
+        "industrialize v.",
+        "industrialist n. 实业家"
+      ],
+      "dif": "industrial 是「工业的」；industrious 是「勤劳的」，同源不同义，极易互设陷阱",
+      "pat": "Many industrial towns are struggling to reinvent themselves.",
+      "patZh": "许多工业城镇正在艰难地转型。"
+    },
+    {
+      "w": "industrialize",
+      "ipa": "ɪnˈdʌstriəlaɪz",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "工业化",
+      "exam": "（使）工业化",
+      "c": [
+        "a highly industrialized country 高度工业化的国家",
+        "industrialize rapidly 迅速工业化",
+        "the industrializing world 工业化进程中的世界"
+      ],
+      "syn": [
+        "modernize",
+        "mechanize"
+      ],
+      "fam": [
+        "industry n. → industrial adj. → industrialize v. → industrialization n."
+      ],
+      "dif": "industrialize 是动词；industrialization 是名词「工业化进程」，词性转换常考",
+      "pat": "Countries that industrialized late often polluted the most.",
+      "patZh": "工业化起步晚的国家，往往污染也最重。"
+    },
+    {
+      "w": "industry",
+      "ipa": "ˈɪndəstri",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "产业",
+      "exam": "工业；产业",
+      "c": [
+        "the service industry 服务业",
+        "heavy industry 重工业",
+        "the tourist industry 旅游业",
+        "a pillar industry 支柱产业"
+      ],
+      "syn": [
+        "sector",
+        "trade",
+        "manufacturing"
+      ],
+      "fam": [
+        "industrial adj.",
+        "industrious adj. 勤劳的",
+        "industrialize v."
+      ],
+      "dif": "industry 泛指「某一行业」；factory 是具体的「工厂」；manufacture 是「制造过程」",
+      "pat": "The tech industry now employs more people than mining.",
+      "patZh": "如今科技行业的从业人数已超过采矿业。"
+    },
+    {
+      "w": "inevitable",
+      "ipa": "ɪnˈevɪtəbl",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "不可避免的",
+      "exam": "不可避免的；必然发生的",
+      "c": [
+        "it is inevitable that... …不可避免",
+        "an inevitable consequence 必然结果",
+        "the inevitable 不可避免之事"
+      ],
+      "syn": [
+        "unavoidable",
+        "inescapable",
+        "certain"
+      ],
+      "fam": [
+        "inevitably adv.",
+        "inevitability n. 必然性"
+      ],
+      "dif": "inevitable 是「无法避免的」；unbelievable 是「难以置信的」，别被 in- 前缀带偏",
+      "pat": "Some job losses are inevitable as technology advances.",
+      "patZh": "随着技术进步，部分岗位流失不可避免。"
+    },
+    {
+      "w": "miserable",
+      "ipa": "ˈmɪzrəbl",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "苦不堪言的",
+      "exam": "痛苦的；悲惨的",
+      "c": [
+        "feel miserable 感到痛苦",
+        "miserable weather 糟糕的天气",
+        "a miserable failure 惨败"
+      ],
+      "syn": [
+        "wretched",
+        "unhappy",
+        "distressed"
+      ],
+      "fam": [
+        "misery n.",
+        "miserably adv."
+      ],
+      "dif": "miserable 既可指「内心痛苦」也可指「糟糕透顶的（天气、表现）」；miserly 是「吝啬的」，形近义远",
+      "pat": "Long commutes make many city workers miserable.",
+      "patZh": "漫长的通勤让许多城市上班族苦不堪言。"
+    },
+    {
+      "w": "misery",
+      "ipa": "ˈmɪzəri",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "愁苦",
+      "exam": "痛苦；悲惨",
+      "c": [
+        "live in misery 生活在痛苦中",
+        "put sb out of their misery 结束…的痛苦",
+        "the misery of unemployment 失业之苦"
+      ],
+      "syn": [
+        "suffering",
+        "distress",
+        "wretchedness"
+      ],
+      "fam": [
+        "miserable adj.",
+        "commiserate v. 同情"
+      ],
+      "dif": "misery 是名词「痛苦」；mystery 是「神秘」，只差一个字母，拼写题常混",
+      "pat": "The policy brought misery to thousands of small vendors.",
+      "patZh": "这项政策给成千上万的小摊贩带来了苦难。"
+    },
+    {
+      "w": "mislead",
+      "ipa": "ˌmɪsˈliːd",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "误导",
+      "exam": "引入歧途；误导；使误信",
+      "c": [
+        "mislead sb into doing 误导…去做",
+        "mislead sb about 使…对…产生误解",
+        "deliberately mislead 蓄意误导"
+      ],
+      "syn": [
+        "deceive",
+        "misguide",
+        "delude"
+      ],
+      "fam": [
+        "misleading adj. 误导性的",
+        "misled（过去式 / 过去分词） n. 相关延伸"
+      ],
+      "dif": "mislead 的过去式是 misled，不是 misleaded；mislead 是「使人走错路」，mistake 是「自己弄错」",
+      "pat": "Advertisements must not mislead consumers about safety.",
+      "patZh": "广告不得在安全性上误导消费者。"
+    },
+    {
+      "w": "mix",
+      "ipa": "mɪks",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "混合",
+      "exam": "（使）混合；混淆",
+      "c": [
+        "mix A with B 把 A 与 B 混合",
+        "mix up 混淆",
+        "mix with sb 与…交往",
+        "oil and water don't mix 格格不入"
+      ],
+      "syn": [
+        "blend",
+        "combine",
+        "mingle"
+      ],
+      "fam": [
+        "mixture n.",
+        "mixed adj. 混合的",
+        "mixer n. 搅拌机"
+      ],
+      "dif": "mix A with B 是「混合」；mix up A and B 是「搞混、认错」，一个 up 意思全变",
+      "pat": "Good teaching mixes theory with hands-on practice.",
+      "patZh": "好的教学把理论与动手实践结合起来。"
+    },
+    {
+      "w": "mixture",
+      "ipa": "ˈmɪkstʃə(r)",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "混合物",
+      "exam": "混合；混合物",
+      "c": [
+        "a mixture of ……的混合体",
+        "a strange mixture of feelings 百感交集",
+        "a chemical mixture 化学混合物"
+      ],
+      "syn": [
+        "blend",
+        "combination",
+        "compound"
+      ],
+      "fam": [
+        "mix v. → mixture n."
+      ],
+      "dif": "mixture 强调「混合而成的整体」；compound 是「化合物」；combination 是「组合方式」",
+      "pat": "The city is a mixture of old temples and glass towers.",
+      "patZh": "这座城市是古老庙宇与玻璃高楼的混合体。"
+    },
+    {
+      "w": "necessary",
+      "ipa": "ˈnesəsəri",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "必要的",
+      "exam": "必需的；必要的；必然的",
+      "c": [
+        "it is necessary (for sb) to do （相关常用表达）",
+        "if necessary 如有必要",
+        "a necessary condition 必要条件",
+        "do what is necessary （相关常用表达）"
+      ],
+      "syn": [
+        "essential",
+        "required",
+        "indispensable"
+      ],
+      "fam": [
+        "necessity n.",
+        "necessitate v.",
+        "unnecessary adj. 不必要的"
+      ],
+      "dif": "necessary 拼写陷阱：一个 c、两个 s；necessary condition 与 sufficient condition（充分条件）是逻辑常考点",
+      "pat": "It is necessary to act before the problem grows worse.",
+      "patZh": "必须在问题恶化之前采取行动。"
+    },
+    {
+      "w": "necessitate",
+      "ipa": "nəˈsesɪteɪt",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "使成为必要",
+      "exam": "使成为必要；需要",
+      "c": [
+        "necessitate doing sth 使…成为必要",
+        "be necessitated by 由…所迫",
+        "necessitate a change 需要作出改变"
+      ],
+      "syn": [
+        "require",
+        "entail",
+        "call for"
+      ],
+      "fam": [
+        "necessary adj. → necessitate v. → necessity n."
+      ],
+      "dif": "necessitate 是正式书面语「使必须」；need 口语通用；require 语气居中",
+      "pat": "The drought necessitated strict limits on water use.",
+      "patZh": "干旱迫使人们严格限制用水。"
+    },
+    {
+      "w": "necessity",
+      "ipa": "nəˈsesəti",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "必需之事",
+      "exam": "必要性；必需品；必然性",
+      "c": [
+        "out of necessity 出于必要",
+        "a daily necessity 日常必需品",
+        "the necessity of doing 做…的必要性",
+        "of necessity 必然地"
+      ],
+      "syn": [
+        "need",
+        "essential",
+        "requirement"
+      ],
+      "fam": [
+        "necessary adj.",
+        "necessitate v."
+      ],
+      "dif": "necessity 可作可数「必需品」或不可数「必要性」；luxury 是其反义「奢侈品」",
+      "pat": "For many families, a second income is a necessity, not a choice.",
+      "patZh": "对许多家庭而言，双份收入是必需，而非选择。"
+    },
+    {
+      "w": "negative",
+      "ipa": "ˈneɡətɪv",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "负面的",
+      "exam": "否定的；消极的",
+      "c": [
+        "a negative influence 负面影响",
+        "negative feedback 负面反馈",
+        "test negative 检测呈阴性",
+        "a negative attitude 消极态度"
+      ],
+      "syn": [
+        "adverse",
+        "pessimistic",
+        "unfavourable"
+      ],
+      "fam": [
+        "negate v. 否定",
+        "negatively adv.",
+        "negativity n. 消极性"
+      ],
+      "dif": "negative 是「负面的、否定的」；negligent 是「疏忽的」，形近勿混；反义 positive",
+      "pat": "Negative reviews can destroy a small business overnight.",
+      "patZh": "负面评价能在一夜之间毁掉一家小商家。"
+    },
+    {
+      "w": "negotiate",
+      "ipa": "nɪˈɡəʊʃieɪt",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "谈判",
+      "exam": "谈判；商议",
+      "c": [
+        "negotiate with sb 与…谈判",
+        "negotiate a deal / contract 谈成一笔交易、一份合同",
+        "negotiate over 就…磋商",
+        "negotiate one's way 设法通过"
+      ],
+      "syn": [
+        "bargain",
+        "mediate",
+        "settle"
+      ],
+      "fam": [
+        "negotiation n.",
+        "negotiator n. 谈判者",
+        "negotiable adj. 可协商的"
+      ],
+      "dif": "negotiate with 接「谈判对象」；negotiate about / over 接「谈判事项」，介词分工要明确",
+      "pat": "Small firms must learn to negotiate with powerful platforms.",
+      "patZh": "小企业必须学会与强势的平台谈判。"
+    },
+    {
+      "w": "outer",
+      "ipa": "ˈaʊtə(r)",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "外围的",
+      "exam": "外部的；外面的",
+      "c": [
+        "the outer edge 外缘",
+        "outer space 外太空",
+        "the outer suburbs 远郊",
+        "an outer layer 外层"
+      ],
+      "syn": [
+        "external",
+        "exterior",
+        "outward"
+      ],
+      "fam": [
+        "out → outer → outermost adj. 最外面的",
+        "outward adj. 向外的"
+      ],
+      "dif": "outer 强调「位置靠外」；external 强调「来自外部的」；outdoor 是「户外的」",
+      "pat": "Jobs are moving from city centres to the outer suburbs.",
+      "patZh": "工作岗位正从市中心迁往远郊。"
+    },
+    {
+      "w": "outlet",
+      "ipa": "ˈaʊtlet",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "宣泄出口",
+      "exam": "出路；出口；发泄途径；经销店",
+      "c": [
+        "an outlet for 发泄…的途径",
+        "an emotional outlet 情绪出口",
+        "a retail outlet 零售店",
+        "a power outlet 电源插座"
+      ],
+      "syn": [
+        "vent",
+        "release",
+        "store 经销店"
+      ],
+      "fam": [
+        "out + let（让…出去） n. 相关延伸",
+        "outlet store 奥特莱斯 n. 相关延伸"
+      ],
+      "dif": "outlet 可指「情绪出口」与「门店」两义；outcome 是「结果」，形近词义完全不同",
+      "pat": "Everyone needs an outlet for stress, be it sport or music.",
+      "patZh": "每个人都需要一个宣泄压力的出口，无论是运动还是音乐。"
+    }
+  ]
+}

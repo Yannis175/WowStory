@@ -1,0 +1,18 @@
+{
+  "name": "单词故事本 · WowStory",
+  "short_name": "单词故事本",
+  "description": "考研英语一/英语二必考词全量故事串记与五维考点卡",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F4EBE0",
+  "theme_color": "#C8643B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%23F4EBE0'/%3E%3Ccircle cx='256' cy='256' r='144' fill='%23C8643B'/%3E%3Ccircle cx='328' cy='200' r='120' fill='%23F4EBE0'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

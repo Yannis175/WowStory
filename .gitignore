@@ -1,0 +1,35 @@
+# ---- 版权材料：绝对不要提交 ----
+原始单词本/
+*.pdf
+红宝书必考词_全量汇总.csv
+红宝书必考词_全量汇总_清洗版.csv
+*.bak-*.csv
+清洗记录.txt
+quality_audit_*.txt
+
+# ---- 音频（全量上传至 GitHub Pages 供手机离线朗读）----
+# 单词故事本/audio/
+# *.mp3
+
+# ---- 本机运行时与本机路径痕迹 ----
+.workbuddy/
+.vcache/
+_probe/
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- 中间产物与备份 ----
+_archive/
+*.bak
+*.bak-*
+Unit*.v1.bak.json
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- 未确认来源的第三方词表（确认 dwyl/english-words 后可从本行移除）----
+_words_alpha.txt

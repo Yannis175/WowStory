@@ -1,0 +1,4439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>单词故事本 · Unit 22</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#C8643B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="单词故事本">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F4EBE0'/%3E%3Ccircle cx='16' cy='16' r='9' fill='%23C8643B'/%3E%3Ccircle cx='20.5' cy='12.5' r='7.5' fill='%23F4EBE0'/%3E%3C/svg%3E">
+<style>
+*{box-sizing:border-box}
+:root{
+  --paper:#F4EBE0;--card:#FFFBF6;--ink:#2B2622;--ink2:#6B6156;--ink3:#9A8E80;
+  --clay:#C8643B;--clay2:#A9542F;--moon:#E8B84B;--line:rgba(43,38,34,.13);
+  --serif:"Source Han Serif SC","Noto Serif SC","Songti SC",Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(rgba(43,38,34,.04) 1px,transparent 1px);background-size:22px 22px}
+button{font-family:var(--sans);cursor:pointer}
+.wrap{max-width:900px;margin:0 auto;padding:26px 18px 130px}
+
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand h1{font-family:var(--serif);font-size:25px;font-weight:700;margin:0;letter-spacing:.02em}
+.brand p{margin:6px 0 0;font-size:12.5px;color:var(--ink2)}
+.badge{font-size:12px;color:var(--clay2);border:1px dashed rgba(200,100,59,.45);border-radius:999px;padding:6px 14px;background:rgba(255,251,246,.75)}
+.home-link{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:var(--clay2);background:rgba(200,100,59,.1);border-radius:999px;padding:4px 10px;font-weight:600;transition:.15s;text-decoration:none}
+.home-link:hover{background:var(--clay);color:#fff}
+.unit-nav{display:flex;align-items:center;gap:6px}
+.ubtn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-size:12.5px;color:var(--ink2);cursor:pointer;transition:.15s;font-weight:600;text-decoration:none}
+.ubtn:hover{border-color:var(--clay);color:var(--clay2)}
+.ubtn.badge-btn{background:rgba(255,251,246,.9);color:var(--clay2);border-color:rgba(200,100,59,.45)}
+.umodal{position:fixed;inset:0;z-index:90;background:rgba(43,38,34,.48);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  display:flex;align-items:center;justify-content:center;padding:20px;
+  opacity:0;pointer-events:none;transition:opacity .22s ease}
+.umodal.on{opacity:1;pointer-events:auto}
+.umodal-card{background:#FFFDF9;border-radius:24px;padding:26px 28px;max-width:800px;width:100%;max-height:85vh;overflow:auto;
+  border:1px solid rgba(200,100,59,.2);box-shadow:0 24px 60px -12px rgba(43,38,34,.28),0 0 0 1px rgba(255,255,255,.8) inset;
+  transform:scale(.94) translateY(12px);transition:transform .24s cubic-bezier(.16,1,.3,1)}
+.umodal.on .umodal-card{transform:scale(1) translateY(0)}
+
+.umodal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding-bottom:14px;border-bottom:1px dashed rgba(43,38,34,.12)}
+.umodal-head h3{margin:0;font-family:var(--serif);font-size:20px;font-weight:700;color:var(--clay2);display:flex;align-items:center;gap:8px}
+
+.modal-close-btn{width:32px;height:32px;border-radius:50%;background:rgba(43,38,34,.06);border:1px solid rgba(43,38,34,.1);
+  display:inline-flex;align-items:center;justify-content:center;color:var(--ink2);font-size:14px;cursor:pointer;transition:all .2s ease}
+.modal-close-btn:hover{background:rgba(200,100,59,.12);color:var(--clay2);border-color:rgba(200,100,59,.3);transform:rotate(90deg)}
+
+.ugrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:12px}
+.uitem{background:#FFFDF9;border:1px solid rgba(43,38,34,.1);border-radius:14px;padding:14px 16px;display:block;text-align:left;
+  transition:all .2s cubic-bezier(.16,1,.3,1);text-decoration:none}
+.uitem:hover{border-color:var(--clay);background:#fff;transform:translateY(-2px);box-shadow:0 8px 20px rgba(200,100,59,.12)}
+.uitem.on{border:2px solid var(--clay);background:rgba(200,100,59,.06);box-shadow:0 4px 12px rgba(200,100,59,.15)}
+.uitem b{display:block;font-family:var(--serif);font-size:16.5px;color:var(--clay2)}
+.uitem span{display:block;font-size:11px;color:var(--ink3);margin-top:4px}
+
+.opt-group{background:rgba(255,251,246,.7);border:1px solid rgba(43,38,34,.08);border-radius:16px;padding:16px}
+.opt-label{display:block;font-size:12px;font-weight:700;color:var(--clay2);letter-spacing:.05em;margin-bottom:12px}
+
+.layout-toggle{display:flex;background:rgba(43,38,34,.06);border-radius:12px;padding:4px;gap:4px;border:1px solid rgba(43,38,34,.08);width:100%}
+.lbtn{flex:1;border:none;background:transparent;padding:9px 14px;font-size:13px;color:var(--ink2);cursor:pointer;
+  transition:all .2s cubic-bezier(.16,1,.3,1);font-weight:500;font-family:var(--sans);display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:8px}
+.lbtn.on{background:#ffffff;color:var(--clay2);font-weight:700;box-shadow:0 3px 10px rgba(43,38,34,.1)}
+
+.audiobar{display:flex;flex-direction:column;gap:12px;width:100%}
+.arow{display:flex;align-items:center;gap:12px}
+.alabel{flex:0 0 42px;font-size:12.5px;font-weight:600;color:var(--ink2)}
+.aseg{display:flex;background:rgba(43,38,34,.06);border-radius:10px;padding:3px;gap:3px;border:none}
+.aseg button{border:none;background:transparent;padding:7px 10px;font-size:12.5px;color:var(--ink2);font-weight:500;
+  border-radius:7px;transition:all .18s ease;cursor:pointer;text-align:center}
+.aseg button:hover{color:var(--clay2)}
+.aseg button.on{background:#ffffff;color:var(--clay2);font-weight:700;box-shadow:0 2px 6px rgba(43,38,34,.12)}
+.aseg.wide{flex:1;min-width:0}
+.aseg.wide button{flex:1;padding:6px 4px;line-height:1.25}
+.aseg.wide button small{display:block;font-size:9.8px;opacity:.65;font-weight:400;margin-top:1px}
+.aseg.wide button.on small{opacity:.9}
+
+#preven{border:1px solid rgba(200,100,59,.35);background:rgba(200,100,59,.08);color:var(--clay2);border-radius:999px;
+  padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s;flex:0 0 auto}
+#preven:hover{background:var(--clay);color:#fff;border-color:var(--clay)}
+
+.stickyhead{position:sticky;top:0;z-index:30;background:var(--paper);padding:12px 18px 10px;margin:0 -18px 10px;
+  border-bottom:1px solid transparent;transition:padding .22s,border-color .22s,background .22s,box-shadow .22s;
+  display:flex;align-items:center;justify-content:space-between;gap:10px}
+.sticky-left{display:flex;align-items:center;gap:10px;flex:1 1 auto;min-width:0}
+.tabs{display:flex;gap:5px;flex:1 1 auto;max-width:650px}
+.tab{flex:1;border:1px solid var(--line);background:rgba(255,251,246,.85);border-radius:999px;
+  padding:8px 4px;font-size:13px;color:var(--ink2);transition:.16s ease;text-align:center;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;white-space:nowrap}
+.tab:hover{border-color:var(--clay);color:var(--clay2);background:#fff}
+.tab.on{background:var(--clay);color:#fff;border-color:var(--clay);box-shadow:0 2px 8px rgba(200,100,59,.22)}
+.tab small{display:block;font-size:10px;opacity:.75;margin-top:1px;font-weight:400}
+.tab.on small{opacity:.9}
+
+.sticky-right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+
+/* 吸顶 MINI 模式：背景玻璃拟态，精致双侧布局 */
+.stickyhead.mini{padding:8px 14px;background:rgba(244,235,224,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+  border-bottom-color:var(--line);box-shadow:0 4px 16px rgba(43,38,34,.06)}
+.stickyhead.mini .tab{padding:5px 8px;font-size:12.5px;border-radius:999px;flex-direction:row;gap:3px}
+.stickyhead.mini .tab small{display:none}
+
+.subtn-badge{border:1px solid rgba(200,100,59,.45);background:rgba(255,251,246,.95);border-radius:999px;padding:5px 12px;font-size:12px;color:var(--clay2);cursor:pointer;transition:.15s;font-weight:600;font-family:var(--sans)}
+.subtn-badge:hover{background:#fff;border-color:var(--clay);transform:translateY(-1px)}
+
+.opt-settings-btn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 9px;font-size:13px;color:var(--ink2);transition:.15s;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.opt-settings-btn:hover{border-color:var(--clay);color:var(--clay2);background:#fff}
+
+.wrap{transition:max-width .3s ease,padding .3s ease}
+.grid,.pick,.storycard,.wcard,.flip,.tab{transition:all .25s ease}
+
+/* 📱 手机仿真排版模式 (layout-mobile) */
+body.layout-mobile .wrap{max-width:480px;padding-left:12px;padding-right:12px}
+body.layout-mobile .stickyhead{padding:10px 12px 6px;margin:0 -12px 8px}
+body.layout-mobile .stickyhead.mini{padding:6px 10px}
+body.layout-mobile .tabs{gap:3px}
+body.layout-mobile .tab{padding:6px 2px;font-size:11.8px}
+body.layout-mobile .tab small{display:none}
+body.layout-mobile .stickyhead.mini .tab{padding:4px 6px;font-size:11.5px}
+body.layout-mobile .subtn-badge{padding:4px 8px;font-size:11px}
+
+@media(max-width:640px){
+  .home-text{display:none}
+}
+@media(max-width:430px){
+  .tab{padding:6px 1px;font-size:11px}
+  .subtn-badge{padding:4px 7px;font-size:11px}
+}
+
+.label{font-size:11px;letter-spacing:.16em;color:var(--clay2);margin:26px 0 10px;font-weight:600}
+.label:first-child{margin-top:6px}
+
+.storycard{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:36px 30px 26px}
+.tape{position:absolute;top:-10px;left:50%;transform:translateX(-50%) rotate(-1.5deg);width:92px;height:20px;
+  background:rgba(232,184,75,.45);border-left:1px dashed rgba(43,38,34,.16);border-right:1px dashed rgba(43,38,34,.16)}
+.stitle{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.smeta{font-size:12px;color:var(--ink3);margin:7px 0 16px}
+.en{font-family:var(--serif);font-size:17.5px;line-height:2.05;margin:0 0 6px}
+.zh{font-family:var(--serif);font-size:14.5px;line-height:1.95;color:var(--ink2);
+  margin:0 0 22px;padding-left:14px;border-left:2px solid rgba(200,100,59,.3)}
+/* 段间虚线只出现在「段与段之间」，不依赖谁排在最后（工具条已挪到正文前） */
+.pz{padding-top:0;border-top:none}
+.pz+.pz{border-top:1px dashed var(--line);padding-top:16px}
+.pz .zh{max-height:0;opacity:0;overflow:hidden;margin:0;transition:max-height .3s,opacity .25s,margin .3s}
+.pz.open .zh{max-height:400px;opacity:1;margin:8px 0 22px}
+
+.tw{color:var(--clay2);font-weight:600;cursor:pointer;border-radius:3px;padding:0 2px;
+  background:linear-gradient(180deg,transparent 56%,rgba(232,184,75,.55) 56%);transition:background .15s}
+.tw:hover{background:linear-gradient(180deg,transparent 56%,rgba(232,184,75,.95) 56%)}
+.tw.on{background:rgba(232,184,75,.6)}
+
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:18px}
+/* 故事卡内的控制条：排在正文之前，读的时候也够得到 */
+.toolbar.top{margin:0 0 22px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 16px;font-size:13px;color:var(--ink2)}
+.btn.on{background:var(--moon);border-color:rgba(200,100,59,.4);color:#5A4410;font-weight:600}
+.btn.quiet{border-color:transparent;background:transparent;color:var(--ink3);font-size:12px;padding:7px 12px}
+.btn.quiet:hover{background:rgba(232,184,75,.34);color:var(--clay2)}
+
+.pick{display:grid;gap:12px}
+.pickc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-align:left;transition:.16s}
+.pickc:hover{border-color:rgba(200,100,59,.45)}
+.pickc.on{border:1.5px solid var(--clay);background:#fff}
+.pickc b{display:block;font-family:var(--serif);font-size:15px;font-weight:700}
+.pickc span{display:block;font-size:11.5px;color:var(--ink3);margin-top:5px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.wcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px 17px;text-align:left;transition:.16s;width:100%;cursor:pointer}
+.wcard:hover{border-color:rgba(200,100,59,.45);transform:translateY(-1px)}
+.wcard.say{border-color:var(--clay);background:#FFF8EE;box-shadow:0 0 0 2px var(--clay)}
+.wtop{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.wtop-left{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.wtop b{font-family:var(--serif);font-size:16px;font-weight:700;color:var(--clay2)}
+.wtop i{font-style:normal;font-size:11.5px;color:var(--ink3)}
+.wtop u{text-decoration:none;font-size:10.5px;color:#8A5A28;background:rgba(232,184,75,.4);border-radius:4px;padding:1px 6px}
+.wsense{font-size:12px;color:var(--ink2);margin-top:6px}
+.wcoll{font-size:11.5px;color:var(--ink3);margin-top:8px;font-family:var(--sans)}
+.wcoll em{font-style:normal;font-family:var(--serif);color:var(--clay2)}
+
+.flip{background:var(--card);border:1px solid var(--line);border-radius:16px;min-height:330px;padding:34px 26px 68px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;cursor:pointer;position:relative;overflow:hidden}
+.flip .fword{font-family:var(--serif);font-size:38px;font-weight:700;letter-spacing:.01em}
+.flip .fipa{font-size:14px;color:var(--ink3);margin-top:10px}
+.flip .fpos{font-size:11.5px;color:#8A5A28;background:rgba(232,184,75,.45);border-radius:4px;padding:2px 9px;margin-top:12px;display:inline-block}
+.reveal{margin-top:22px;border-top:1px dashed var(--line);padding-top:20px;width:100%;max-width:520px}
+.rline{display:flex;gap:9px;font-size:13px;line-height:1.75;margin-bottom:7px;text-align:left}
+.rline span:first-child{flex:0 0 52px;color:var(--ink3);font-size:12px}
+.rline span:last-child{color:var(--ink)}
+.rline em{font-style:normal;font-family:var(--serif);color:var(--clay2)}
+.hint{font-size:12.5px;color:var(--ink3);margin-top:16px}
+/* 卡内页脚：完整考点入口固定在卡片底边 —— 翻面前后位置一致，不随正文长短跳动 */
+.cardfoot{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:center;
+  padding:8px 20px 9px;border-top:1px dashed var(--line)}
+.cardfoot .more{border:none;background:transparent;border-radius:8px;padding:7px 16px;cursor:pointer;
+  font-family:var(--sans);font-size:12.5px;letter-spacing:.02em;color:var(--ink2);transition:.15s}
+.cardfoot .more:hover{background:rgba(232,184,75,.42);color:var(--clay2)}
+.drillbar{display:flex;gap:8px;margin-top:16px}
+.drillbar .btn{flex:1;padding:13px 10px;border-radius:12px;font-size:13.5px}
+.b-ok{background:#EAF3DE;border-color:#97C459;color:#27500A}
+.b-mid{background:#FAEEDA;border-color:#EF9F27;color:#633806}
+.b-no{background:#FCEBEB;border-color:#F09595;color:#791F1F}
+/* 词轨：一格 = 一个词，颜色 = 掌握度（灰未背 / 红没记住 / 黄待巩固 / 绿认识）
+   点或拖动任意一格 → 跳到那个词。亮色占比本身就是进度 */
+.prog{margin-bottom:14px}
+/* 自测范围：并到引导语同一行（右边），不额外占一行 ——
+   背模式纵向本来就紧，多占 44px 会把三个评分按钮挤出首屏 */
+.dhead{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  margin:26px 0 10px}
+.dhead:first-child{margin-top:6px}
+.dhead .label{margin:0}
+.dhead .aseg button{font-size:12px;padding:5px 12px}
+.ptop{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  font-size:12.5px;color:var(--ink2);margin-bottom:8px}
+.ptop b{color:var(--clay2);font-weight:600;font-variant-numeric:tabular-nums}
+.track{position:relative;display:flex;align-items:center;gap:2px;height:17px;border-radius:8px;
+  cursor:pointer;touch-action:none;-webkit-user-select:none;user-select:none}
+.track:focus-visible{outline:2px solid rgba(200,100,59,.5);outline-offset:3px}
+.track>i{flex:1;min-width:0;height:7px;border-radius:2px;background:rgba(43,38,34,.13);
+  transition:height .12s,background .12s}
+.track>i.m2{background:#97C459}
+.track>i.m1{background:#EF9F27}
+.track>i.m0{background:#F09595}
+.track>i.cur{height:13px;box-shadow:0 0 0 1.5px var(--paper),0 0 0 2.5px var(--clay)}
+.track .tip{position:absolute;bottom:calc(100% + 7px);transform:translateX(-50%);
+  background:var(--clay);color:#FFF7EC;border-radius:8px;padding:3px 10px;font-size:11.5px;
+  letter-spacing:.02em;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .12s;z-index:6}
+.track .tip.on{opacity:1}
+
+.pat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+.pat .pen{font-family:var(--serif);font-size:15.5px;line-height:1.75;margin:0}
+.pat .pzh{font-size:12.5px;color:var(--ink2);margin:7px 0 0}
+.pat .pfor{font-size:11px;color:var(--clay2);margin-top:9px;letter-spacing:.04em}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.chip{font-size:11.5px;background:rgba(232,184,75,.28);border:1px solid rgba(200,100,59,.22);border-radius:999px;padding:4px 11px;color:#6B4A20;font-family:var(--serif)}
+
+.search{width:100%;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:12px 18px;font-size:14px;
+  font-family:var(--sans);color:var(--ink);outline:none;margin-bottom:16px}
+.search:focus{border-color:rgba(200,100,59,.5)}
+
+/* ---------- 生词本 ----------
+   书里的词用「单词」当身份，生词本一律用自生成的 id 当身份，
+   所以哪怕收的是同一个词，两边也是两条各自独立的记录。 */
+.vhead{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:26px 0 10px}
+.vhead .label{margin:0}
+.vhead .vc{font-size:12.5px;color:var(--ink2);letter-spacing:.02em}
+.vhead .vc b{color:var(--clay2);font-variant-numeric:tabular-nums}
+.vrow{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:14px 15px;margin-bottom:9px;text-align:left;transition:.16s}
+.vrow:hover{border-color:rgba(200,100,59,.45)}
+.vrow .vw{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--clay2);
+  display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.vrow .vw i{font-style:normal;font-size:12px;color:var(--ink3);font-family:var(--sans);font-weight:400}
+.vrow .vw u{text-decoration:none;font-size:10.5px;color:#8A5A28;background:rgba(232,184,75,.45);
+  border-radius:4px;padding:1.5px 7px;font-family:var(--sans);font-weight:400}
+.vrow .vz{font-family:var(--serif);font-size:13.5px;color:var(--ink);margin-top:5px;line-height:1.65}
+.vrow .vn{font-size:12px;color:var(--ink2);margin-top:6px;line-height:1.65;
+  border-left:2px solid rgba(200,100,59,.3);padding-left:9px}
+.vrow .vf{display:flex;align-items:center;gap:9px;margin-top:10px;flex-wrap:nowrap}
+.vsrc{font-size:10.5px;color:var(--ink3);letter-spacing:.03em;flex:1 1 auto;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vacts{display:flex;align-items:center;gap:2px;flex:0 0 auto}
+.vstat{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--ink3);flex:0 0 auto}
+.vstat::before{content:"";width:7px;height:7px;border-radius:50%;background:rgba(43,38,34,.16)}
+.vstat.m2::before{background:#97C459}
+.vstat.m1::before{background:#EF9F27}
+.vstat.m0::before{background:#F09595}
+.vstat.vo{color:var(--clay)}
+.vstat.vo::before{background:var(--clay)}
+.vstat.ok::before{background:#97C459}
+.vstat:empty::before{display:none}
+/* 「待补音频」是个可点的按钮：点一下就地补这一条（服务端不可用时退回导出流程） */
+button.vstat{border:1px solid transparent;background:transparent;border-radius:6px;padding:1px 7px;
+  font-family:inherit;font-size:10.5px;cursor:pointer;transition:.15s}
+button.vstat.vo{border-color:rgba(200,100,59,.38);background:rgba(200,100,59,.09)}
+button.vstat.vo:hover{background:rgba(200,100,59,.18)}
+button.vstat:not(.vo){cursor:default}
+.vstat.busy::before{animation:vpulse .9s ease-in-out infinite}
+@keyframes vpulse{0%,100%{opacity:.3}50%{opacity:1}}
+/* 一键补音频：进度条 + 结果 */
+.vgn{margin-top:13px}
+.vgn .gbar{height:7px;background:rgba(43,38,34,.1);border-radius:99px;overflow:hidden;margin:9px 0 0}
+.vgn .gbar>i{display:block;height:100%;width:0;background:var(--clay);border-radius:99px;transition:width .3s}
+.vgn .gnum{font-size:11.5px;color:var(--ink2);font-variant-numeric:tabular-nums;margin-top:7px;
+  display:flex;justify-content:space-between;gap:10px}
+.vres{margin-top:11px;font-size:12.5px;line-height:1.9;color:var(--ink2);
+  background:rgba(151,196,89,.13);border:1px solid rgba(151,196,89,.3);border-radius:9px;padding:9px 12px}
+.vres.bad{background:rgba(200,100,59,.1);border-color:rgba(200,100,59,.3)}
+.vres b{color:var(--clay2)}
+.gstate{font-size:12.5px;color:var(--ink2);line-height:1.85}
+.gstate.warn{color:var(--clay)}
+/* 自动可用时，手动方式折起来收在底部 */
+.gfold{margin-top:16px;border-top:1px dashed var(--line);padding-top:12px}
+.gfold summary{font-size:12.5px;color:var(--ink3);cursor:pointer;list-style:none;padding:2px 0}
+.gfold summary::-webkit-details-marker{display:none}
+.gfold summary::before{content:"▸ "}
+.gfold[open] summary::before{content:"▾ "}
+.gfold summary:hover{color:var(--clay)}
+.vempty{text-align:center;padding:46px 14px;color:var(--ink3);font-size:13px;line-height:1.95}
+.vempty b{display:block;font-family:var(--serif);font-size:17.5px;color:var(--clay2);margin-bottom:7px;font-weight:700}
+.vempty .vdrop{justify-content:center}
+.vdrop{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px}
+/* 生词表单 */
+.form{display:flex;flex-direction:column;gap:12px;margin-top:15px}
+.fld{display:flex;flex-direction:column;gap:5px}
+.fld>span{font-size:11.5px;color:var(--ink3);letter-spacing:.05em}
+.fld>span em{font-style:normal;color:var(--clay)}
+.fld input,.fld textarea{border:1px solid var(--line);background:var(--paper);border-radius:10px;
+  padding:10px 13px;font-size:14px;font-family:var(--sans);color:var(--ink);outline:none;width:100%}
+.fld input:focus,.fld textarea:focus{border-color:rgba(200,100,59,.55);background:var(--card)}
+.fld textarea{resize:vertical;min-height:64px;line-height:1.65}
+.fld.bad input{border-color:var(--clay);background:#FDF3EF}
+.vnote{font-size:12.5px;color:var(--ink2);line-height:1.9}
+.vnote code{font-family:var(--sans);background:rgba(232,184,75,.35);border-radius:4px;padding:1px 6px}
+.vpre{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:11px 13px;
+  font-family:var(--sans);font-size:11.5px;line-height:1.8;color:var(--ink2);
+  max-height:180px;overflow:auto;white-space:pre-wrap;word-break:break-all;margin-top:12px}
+
+table{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--card);border-radius:12px;overflow:hidden}
+thead th{text-align:left;font-size:11px;letter-spacing:.08em;color:var(--clay2);padding:12px 12px;border-bottom:1px solid var(--line);font-weight:600}
+tbody td{padding:11px 12px;border-bottom:1px solid rgba(43,38,34,.06);vertical-align:top}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:rgba(232,184,75,.16)}
+td.w{font-family:var(--serif);font-weight:700;color:var(--clay2);white-space:nowrap}
+td.c{font-family:var(--serif);color:var(--ink2);font-size:12px}
+
+.mask{position:fixed;inset:0;background:rgba(43,38,34,.32);z-index:60;opacity:0;pointer-events:none;transition:opacity .22s}
+.mask.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:61;background:var(--card);border-radius:20px 20px 0 0;
+  padding:8px 20px 30px;max-height:86vh;overflow:auto;transform:translateY(102%);pointer-events:none;transition:transform .28s cubic-bezier(.2,.8,.25,1)}
+.sheet.on{transform:translateY(0);pointer-events:auto}
+.grab{width:42px;height:4px;background:rgba(43,38,34,.18);border-radius:99px;margin:8px auto 16px}
+.sh-word{font-family:var(--serif);font-size:27px;font-weight:700;color:var(--clay2);display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sh-word i{font-style:normal;font-size:13px;color:var(--ink3);font-family:var(--sans)}
+.sh-word u{text-decoration:none;font-size:11px;color:#8A5A28;background:rgba(232,184,75,.45);border-radius:4px;padding:2px 8px;font-family:var(--sans)}
+.sh-body{margin-top:16px;display:grid;gap:9px}
+@media(min-width:780px){
+  .sheet{left:50%;right:auto;bottom:auto;top:50%;width:580px;border-radius:16px;max-height:82vh;
+    transform:translate(-50%,-48%) scale(.97);opacity:0;transition:transform .24s,opacity .2s}
+  .sheet.on{transform:translate(-50%,-50%) scale(1);opacity:1}
+  .grab{display:none}
+}
+/* ---------- 朗读 ---------- */
+.audiobar{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink3);position:relative;flex-wrap:wrap}
+.abtn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--ink2)}
+.abtn:hover{border-color:rgba(200,100,59,.45)}
+.abtn.on{background:var(--moon);border-color:rgba(200,100,59,.4);color:#5A4410;font-weight:600}
+.abtn.stop{background:rgba(43,38,34,.86);color:#FFF7EC;border-color:transparent}
+#preven{flex:0 0 auto}
+.caret{font-size:9px;opacity:.6;margin-left:2px}
+.aseg{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--card)}
+.aseg button{border:none;background:transparent;padding:5px 11px;font-size:12.5px;color:var(--ink2)}
+.aseg button.on{background:var(--clay);color:#fff}
+.aseg button+button{border-left:1px solid var(--line)}
+.aseg.wide{flex:1;min-width:0}
+.aseg.wide button{flex:1;padding:5px 6px;line-height:1.25}
+.aseg.wide button small{display:block;font-size:10px;opacity:.72;font-weight:400}
+.aseg.wide button.on small{opacity:.85}
+.apop{position:absolute;left:0;top:100%;margin-top:8px;z-index:40;background:var(--card);border:1px solid var(--line);
+  border-radius:14px;padding:15px 17px 13px;box-shadow:0 12px 34px rgba(43,38,34,.16);display:none;width:min(440px,88vw)}
+.apop.on{display:block}
+.arow{display:flex;align-items:center;gap:9px;margin-bottom:11px}
+.arow:last-child{margin-bottom:0}
+.alabel{flex:0 0 34px;font-size:11.5px;color:var(--ink3);letter-spacing:.06em}
+.apop select{flex:1;min-width:0;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 8px;
+  font-size:12.5px;color:var(--ink);font-family:var(--sans);outline:none}
+.apop select:focus{border-color:rgba(200,100,59,.5)}
+.anote{font-size:11.5px;color:var(--ink3);margin-top:11px;line-height:1.7;border-top:1px dashed var(--line);padding-top:10px}
+.spk{border:none;background:transparent;border-radius:7px;padding:1px 5px;font-size:12.5px;line-height:1.6;
+  color:var(--ink3);vertical-align:baseline;transition:.15s;font-family:var(--sans)}
+.spk:hover{background:rgba(232,184,75,.45);color:var(--clay2)}
+.spk.ing{background:var(--moon);color:#5A4410}
+.sent{border-radius:3px;transition:background .22s;cursor:pointer}
+.sent:hover{background:rgba(232,184,75,.26)}
+.sent.say{background:rgba(232,184,75,.6)}
+#toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,14px);z-index:80;background:rgba(43,38,34,.92);
+  color:#FFF7EC;font-size:12.5px;padding:9px 18px;border-radius:999px;opacity:0;pointer-events:none;transition:.22s;max-width:88vw;
+  display:flex;align-items:center;gap:10px}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+/* toast 本体不接事件（免得盖住底下的东西），只把里面的撤销按钮放出来 */
+.tact{pointer-events:auto;border:none;background:rgba(232,184,75,.95);color:#4A3410;border-radius:999px;
+  padding:3px 12px;font-size:12px;font-family:var(--sans);font-weight:600}
+.tact:hover{background:var(--moon)}
+#floatstop{position:fixed;right:16px;bottom:22px;z-index:70;display:none;border:none;background:rgba(43,38,34,.9);
+  color:#FFF7EC;border-radius:999px;padding:10px 17px;font-size:12.5px;font-family:var(--sans);box-shadow:0 4px 14px rgba(43,38,34,.28)}
+#floatstop.on{display:block}
+.foot{text-align:center;font-size:11.5px;color:var(--ink3);margin-top:46px;font-family:var(--serif)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head">
+    <div class="brand">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+        <a href="index.html" class="home-link" title="返回全量 26 单元合集首页">🏠 单元总览</a>
+        <span style="font-size:11px;color:var(--ink3)">/</span>
+        <span style="font-size:12px;color:var(--clay2);font-weight:600" id="headerUnitTag">Unit 22</span>
+      </div>
+      <h1>单词故事本</h1>
+      <p>把红宝书必考词，穿成一篇篇能读下去的小故事</p>
+    </div>
+    <div class="unit-nav">
+      <a class="ubtn" id="prevUnitNav" href="#" title="上一单元">◀</a>
+      <button class="ubtn badge-btn" id="unitModalBtn" title="点击展开全量 26 单元选关矩阵"><span id="badgeText">Unit 22 · 5 篇 · 81 词</span> ▾</button>
+      <a class="ubtn" id="nextUnitNav" href="#" title="下一单元">▶</a>
+    </div>
+  </div>
+
+  <div class="stickyhead">
+    <div class="sticky-left">
+      <div class="tabs" id="tabs">
+        <button class="tab" data-tab="read">📖 读<small>故事猜词</small></button>
+        <button class="tab" data-tab="drill">🎴 背<small>遮词自测</small></button>
+        <button class="tab" data-tab="write">✍️ 写<small>表达素材</small></button>
+        <button class="tab" data-tab="index">🔍 查<small>全词速查</small></button>
+        <button class="tab" data-tab="vocab">📓 本<small>我的生词</small></button>
+      </div>
+    </div>
+
+    <div class="sticky-right">
+      <button class="subtn-badge" id="stickyUnitModalBtn" title="点击展开 26 单元选关矩阵"><span id="stickyBadgeText">Unit 1</span> ▾</button>
+      <button class="opt-settings-btn" id="optSettingsBtn" title="页面设置：视角排版与语音朗读">⚙️</button>
+    </div>
+  </div>
+
+  <div id="app"></div>
+
+  <div class="foot" id="footText">Unit 22 已收录 81 / 81 词 · 故事题材取自考研英语二方向</div>
+</div>
+
+<div id="toast"></div>
+<button id="floatstop">⏹ 停止朗读</button>
+<div class="mask" id="mask"></div>
+<div class="sheet" id="sheet"><div class="grab"></div><div id="sheetBody"></div></div>
+
+<div class="umodal" id="unitModal">
+  <div class="umodal-card">
+    <div class="umodal-head">
+      <div style="display:flex;align-items:center;gap:12px">
+        <h3 style="margin:0">切换单元 (Unit 01 ~ Unit 26)</h3>
+        <a href="index.html" class="home-link">🏠 返回 26 单元总览</a>
+      </div>
+      <button class="modal-close-btn" id="closeUnitModal" title="关闭">✕</button>
+    </div>
+    <div class="ugrid" id="unitModalGrid"></div>
+  </div>
+</div>
+
+<div class="umodal" id="settingsModal">
+  <div class="umodal-card" style="max-width:460px">
+    <div class="umodal-head">
+      <h3>⚙️ 页面与语音控制设置</h3>
+      <button class="modal-close-btn" id="closeSettingsModal" title="关闭">✕</button>
+    </div>
+    
+    <div style="display:grid;gap:16px">
+      <div class="opt-group">
+        <label class="opt-label">展示视角排版</label>
+        <div class="layout-toggle" id="layoutToggle">
+          <button class="lbtn on" data-layout="desktop">💻 电脑宽屏视角</button>
+          <button class="lbtn" data-layout="mobile">📱 手机单列视角</button>
+        </div>
+      </div>
+
+      <div class="opt-group">
+        <label class="opt-label">语音朗读控制</label>
+        <div class="audiobar" id="audiobar">
+          <div class="arow"><span class="alabel">模式</span>
+            <div class="aseg wide" id="modeseg">
+              <button data-mode="off">关<small>不朗读</small></button>
+              <button data-mode="manual">手动<small>背词自动</small></button>
+              <button data-mode="auto">自动<small>连释义读</small></button>
+            </div>
+          </div>
+          <div class="arow"><span class="alabel">语速</span>
+            <div class="aseg" id="rateseg">
+              <button data-rate="0.75">慢速</button>
+              <button data-rate="1">正常</button>
+              <button data-rate="1.15">快速</button>
+            </div>
+          </div>
+          <div class="arow"><span class="alabel">英音</span>
+            <div class="aseg wide" id="voiceseg"></div>
+            <button id="preven">试听</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-top:1px dashed rgba(43,38,34,.14);padding-top:14px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:12px;color:var(--ink3);font-weight:500">快捷跳转</span>
+        <a href="index.html" class="home-link">🏠 返回 26 单元总览</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="umodal" id="settingsModal">
+  <div class="umodal-card" style="max-width:440px">
+    <div class="umodal-head">
+      <h3 style="display:flex;align-items:center;gap:6px">⚙️ 页面与语音控制设置</h3>
+      <button class="btn quiet" id="closeSettingsModal">✕ 关闭</button>
+    </div>
+    
+    <div style="display:grid;gap:18px">
+      <div class="opt-group">
+        <label class="opt-label">展示视角排版</label>
+        <div class="layout-toggle" id="layoutToggle" style="display:flex;width:100%">
+          <button class="lbtn on" data-layout="desktop" style="flex:1;padding:8px">💻 电脑宽屏视角</button>
+          <button class="lbtn" data-layout="mobile" style="flex:1;padding:8px">📱 手机单列视角</button>
+        </div>
+      </div>
+
+      <div class="opt-group">
+        <label class="opt-label">朗读控制</label>
+        <div class="audiobar" id="audiobar" style="display:flex;flex-direction:column;gap:10px;width:100%">
+          <div class="arow"><span class="alabel">模式</span>
+            <div class="aseg wide" id="modeseg">
+              <button data-mode="off">关<small>不朗读</small></button>
+              <button data-mode="manual">手动<small>背词自动</small></button>
+              <button data-mode="auto">自动<small>连释义读</small></button>
+            </div>
+          </div>
+          <div class="arow"><span class="alabel">语速</span>
+            <div class="aseg" id="rateseg">
+              <button data-rate="0.75">慢速</button>
+              <button data-rate="1">正常</button>
+              <button data-rate="1.15">快速</button>
+            </div>
+          </div>
+          <div class="arow"><span class="alabel">英音</span>
+            <div class="aseg wide" id="voiceseg"></div>
+            <button class="abtn" id="preven" style="margin-left:6px">试听</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-top:1px dashed var(--line);padding-top:14px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:12px;color:var(--ink3)">快捷入口</span>
+        <a href="index.html" class="home-link">🏠 返回 26 单元总览</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="_units_manifest.js"></script>
+<script>
+var DATA = {
+  "unit": 22,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Stage of Public Opinion",
+      "zh": "舆论的舞台",
+      "theme": "心理 / 演艺",
+      "ps": [
+        {
+          "en": "In modern media, analysts warn against relying on purely [[subjective]] opinions when evaluating public policies. A well-known organization agreed to [[sponsor]] a civic forum to prevent fake news from [[spoiling|spoil]] public trust. Their primary goal was to [[spread]] reliable data and provide a constructive [[spur]] to national reform.",
+          "zh": "在现代媒体中，分析人士警告说，在评估公共政策时不要依赖纯粹的主观观点。一家知名机构同意赞助一个公民论坛，以防止假新闻破坏公众信任。他们的主要目标是传播可靠数据，并对国家改革提供建设性刺激。"
+        },
+        {
+          "en": "Undercover agents continued to [[spy]] on hostile networks, evaluating whether the government could maintain political [[stability]]. Maintaining a [[stable]] economic climate allowed executive [[staff]] to step onto the national [[stage]] with confidence.",
+          "zh": "卧底特工继续侦察敌对网络，评估政府能否维持政治稳定。保持稳定的经济气候让执行员工能够有信心走上国家舞台。"
+        },
+        {
+          "en": "A sudden political [[twist]] forced negotiators to dismiss [[trivial]] complaints and [[try]] a bold new diplomatic approach. The stock market began to [[tumble]] during a [[turbulent]] quarter, but leaders managed to [[turn]] the situation around.",
+          "zh": "政治上的突发转折迫使谈判代表驳回琐碎的控诉，并尝试一种大胆的新外交方法。股市在动荡的季度中开始跌倒，但领导人成功地扭转了局势。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Voluntary Civic Engagement",
+      "zh": "自愿的公民参与",
+      "theme": "社会 / 参与",
+      "ps": [
+        {
+          "en": "Boosting corporate [[turnover]] significantly, executives classified each [[type]] of risk using a [[typical]] pattern of market fluctuations. They called for a [[voluntary]] agreement where every [[volunteer]] was asked to [[vote]] against corrupt measures, ensuring that [[vulgar]] commercial abuses did not hurt [[vulnerable]] social groups.",
+          "zh": "在大幅提升企业营业额的同时，高管们利用市场波动的典型模式对每种风险类型进行了分类。他们呼吁达成一项自愿协议，要求每位志愿者投票反对腐败措施，确保粗俗的商业滥用不会伤害脆弱的社会群体。"
+        },
+        {
+          "en": "The [[author]] of the compliance guide consulted the highest legal [[authority]] to establish [[auxiliary]] standards. They realized that emergency funds would not [[avail]] unless immediately made [[available]] to regional clinics. A prominent legal [[critic]] voiced sharp [[criticism]], offering [[critical]] assessments of past negligence.",
+          "zh": "合规指南的作者咨询了最高法律权威以确立辅助标准。他们意识到，除非立即提供给区域诊所，否则应急资金将不起作用。一位著名的法律批评家发表了尖锐的批评，对过去的疏忽提出了关键评估。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Judicial & Cultural Inquiries",
+      "zh": "司法与文化调查",
+      "theme": "法律 / 文化",
+      "ps": [
+        {
+          "en": "Auditors chose to [[criticize]] administrative flaws while recognizing that a [[crucial]] inquiry was needed to [[culminate]] in a comprehensive trial to identify the true [[culprit]] behind financial fraud.",
+          "zh": "审计人员选择批评行政缺陷，同时认识到需要展开一项关键调查，以在全面的审判中告终，指认出财务欺诈背后的真正罪犯。"
+        },
+        {
+          "en": "Local leaders sought to [[cultivate]] a rich civic [[culture]] by promoting [[dual]] educational languages. Resolving [[dubious]] claims regarding [[due]] taxes, the company promised to build [[durable]] public infrastructure for the long [[duration]] of the project. Fulfilling their public [[duty]], they sparked [[dynamic]] economic activity across the region.",
+          "zh": "当地领导人试图通过推广双语教育来培养丰富的公民文化。解决关于到期应缴税款的可疑主张，该公司承诺在项目的长期持续期间建设耐用的公共基础设施。履行他们的公共职责，他们在全地区引发了动态的经济活动。"
+        },
+        {
+          "en": "Environmentalists feared that endangered species might become [[extinct]] if forest fires were not quickly [[extinguished|extinguish]] before experts could [[introduce]] green tech.",
+          "zh": "环保主义者担心，如果在专家引入绿色科技前森林火灾不被快速扑灭，濒危物种可能会灭绝。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Investments & Market Revelations",
+      "zh": "投资与市场启示",
+      "theme": "经济 / 调查",
+      "ps": [
+        {
+          "en": "The [[introduction]] of a strategic campaign aimed to [[invest]] capital and boost foreign [[investment]] in sustainable agriculture. Special agents were assigned to [[investigate]] a [[mysterious]] criminal network, treating the case as a deep [[mystery]] rather than an ancient [[myth]].",
+          "zh": "战略运动的引入旨在投入资金并促进外资对可持续农业的投资。特别特工被指派去调查一个神秘的犯罪网络，将此案视为深奥的谜团，而不是古代的神话。"
+        },
+        {
+          "en": "Guided by [[noble]] ethics and a strict social [[norm]], they worked toward the [[normalization]] of [[normal]] operational standards while fostering [[mutual]] respect among agencies. Investigators took careful [[note]] of a troubling [[notion]] that corporate fraud was being hidden from the [[public]]. The [[publication]] of their findings caused widespread alarm.",
+          "zh": "在高尚道德和严格社会规范的指导下，他们致力于使正常运营标准常态化，同时培养机构间的相互尊重。调查人员仔细记录了一种令人不安的观念，即公司欺诈正向公众隐瞒。他们调查结果的出版引发了广泛警觉。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Systematic Reform & Mutual Trust",
+      "zh": "系统改革与相互信任",
+      "theme": "管理 / 改革",
+      "ps": [
+        {
+          "en": "The widespread [[publicity]] forced media outlets to [[publish]] the whole truth, leading to a positive [[result]]. Showing that the [[resultant]] reform would [[resume]] public trust, the evidence failed to [[reveal]] any secret attempts at [[revenge]].",
+          "zh": "广泛的宣传迫使媒体机构公布全部事实，带来了积极的结果。表明产生的改革将恢复公众信任，证据未能揭示任何秘密报复尝试。"
+        },
+        {
+          "en": "Instead, a shocking [[revelation]] showed that state [[revenue]] was used properly to [[supply]] equipment and [[support]] research. Lawmakers [[suppose]] that clear intent to [[suppress]] illegal trade will [[supplement]] healthcare funds and maintain [[supreme]] standards across a [[systematic]] public [[system]].",
+          "zh": "相反，一项惊人的揭示表明国家财政收入被妥善用于供应设备和支持研究。立法者假设镇压非法交易的明确意图将补充医疗资金，并在一个系统的公共体系中维持至高无上的标准。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "subjective",
+      "ipa": "səbˈdʒektɪv",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "主观的",
+      "exam": "主观的",
+      "c": [
+        "subjective judgment 主观判断",
+        "subjective view 主观观点"
+      ],
+      "syn": [
+        "personal",
+        "biased",
+        "individual"
+      ],
+      "fam": [
+        "objectivity n. 客观性"
+      ],
+      "dif": "subjective 强调出于个人主观感受或偏见；objective 强调客观公正。",
+      "pat": "Evaluating artistic merit often involves subjective personal taste.",
+      "patZh": "评估艺术价值往往涉及主观的个人品味。"
+    },
+    {
+      "w": "spoil",
+      "ipa": "spɔɪl",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "破坏",
+      "exam": "损坏；破坏；宠坏；变质",
+      "c": [
+        "spoil the appetite 破坏食欲",
+        "spoil a child 宠坏孩子"
+      ],
+      "syn": [
+        "ruin",
+        "mar",
+        "pamper"
+      ],
+      "fam": [
+        "spoilage n. 腐烂；损坏"
+      ],
+      "dif": "spoil 可指损坏物品、毁掉心情，也可指过度溺爱溺宠孩子。",
+      "pat": "Extremely high humidity can spoil sensitive electronic components quickly.",
+      "patZh": "极高的湿度会迅速损坏敏感的电子元件。"
+    },
+    {
+      "w": "sponsor",
+      "ipa": "ˈspɒnsə",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "赞助",
+      "exam": "赞助商；主办者；赞助；发起",
+      "c": [
+        "corporate sponsor 企业赞助商",
+        "sponsor an event 赞助一项活动"
+      ],
+      "syn": [
+        "patron",
+        "backer",
+        "fund"
+      ],
+      "fam": [
+        "sponsorship n. 赞助"
+      ],
+      "dif": "sponsor 指为活动出资赞助的厂商，或在议会中发起提案者。",
+      "pat": "The international firm agreed to sponsor the educational scholarship program.",
+      "patZh": "这家国际公司同意赞助该教育奖学金项目。"
+    },
+    {
+      "w": "spread",
+      "ipa": "spred",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "传播",
+      "exam": "展开；铺开；传播；蔓延",
+      "c": [
+        "spread rumors 传播谣言",
+        "spread wings 展开翅膀"
+      ],
+      "syn": [
+        "disseminate",
+        "extend",
+        "circulation"
+      ],
+      "fam": [
+        "widespread adj. 广泛的"
+      ],
+      "dif": "spread 侧重从中心向四周扩展分布、传播蔓延。",
+      "pat": "Social media enables news to spread across the globe in seconds.",
+      "patZh": "社交媒体使新闻能在数秒内传播到全球。"
+    },
+    {
+      "w": "spur",
+      "ipa": "spɜː",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "刺激",
+      "exam": "刺激；鼓励；鞭策；马刺",
+      "c": [
+        "spur economic growth 刺激经济增长",
+        "on the spur of the moment 一时冲动"
+      ],
+      "syn": [
+        "stimulate",
+        "incentive",
+        "prompt"
+      ],
+      "fam": [
+        "spurring n. 刺激激励"
+      ],
+      "dif": "spur 原指骑马的马刺，引申为推动某事加速发展的刺激激励物。",
+      "pat": "Tax cuts were introduced to spur private investment in clean energy.",
+      "patZh": "出台减税政策旨在刺激对清洁能源的私人投资。"
+    },
+    {
+      "w": "spy",
+      "ipa": "spaɪ",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "侦察",
+      "exam": "间谍；侦察；暗中监视",
+      "c": [
+        "spy on 暗中监视",
+        "industrial spy 工业间谍"
+      ],
+      "syn": [
+        "agent",
+        "snoop",
+        "scout"
+      ],
+      "fam": [
+        "espionage n. 间谍活动"
+      ],
+      "dif": "spy 指暗中刺探情报的人员，或执行暗中侦察监视。",
+      "pat": "Intelligence agencies worked to stop enemy agents spying on secret facilities.",
+      "patZh": "情报机构致力于阻止敌方特工侦察秘密设施。"
+    },
+    {
+      "w": "stability",
+      "ipa": "stəˈbɪləti",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "稳定",
+      "exam": "稳定（性）；坚固（性）",
+      "c": [
+        "financial stability 财务稳定",
+        "political stability 政治稳定"
+      ],
+      "syn": [
+        "steadiness",
+        "firmness",
+        "constancy"
+      ],
+      "fam": [
+        "stable adj. 稳定的"
+      ],
+      "dif": "stability 强调结构、情绪或局势处于平稳牢固状态。",
+      "pat": "Maintaining social stability is essential for sustainable economic development.",
+      "patZh": "维持社会稳定对于可持续经济发展至关重要。"
+    },
+    {
+      "w": "stable",
+      "ipa": "ˈsteɪbl",
+      "pos": "adj. / n.",
+      "s": "s1",
+      "zh": "稳定的",
+      "exam": "稳定的；沉稳的；马厩",
+      "c": [
+        "stable condition 稳定状况",
+        "stable market 稳定的市场"
+      ],
+      "syn": [
+        "steady",
+        "secure",
+        "constant"
+      ],
+      "fam": [
+        "stability n. 稳定性"
+      ],
+      "dif": "stable 指牢固不易倒塌改变的，或性格情绪沉稳冷静。",
+      "pat": "Doctors reported that the patient was in a stable condition after surgery.",
+      "patZh": "医生报告说手术后患者处于稳定状况。"
+    },
+    {
+      "w": "staff",
+      "ipa": "stɑːf",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "员工",
+      "exam": "全体职工；工作人员；配备人员",
+      "c": [
+        "medical staff 医疗员工",
+        "staffed by 由…配备工作人员"
+      ],
+      "syn": [
+        "personnel",
+        "workforce",
+        "employees"
+      ],
+      "fam": [
+        "staffing n. 人员配备"
+      ],
+      "dif": "staff 作集合名词指机构中的全体工作人员团队。",
+      "pat": "The hospital hired extra staff to handle the seasonal flu outbreak.",
+      "patZh": "医院雇佣了额外员工来应对季节性流感爆发。"
+    },
+    {
+      "w": "stage",
+      "ipa": "steɪdʒ",
+      "pos": "n. / vt.",
+      "s": "s1",
+      "zh": "舞台",
+      "exam": "舞台；阶段；上演；举办",
+      "c": [
+        "on stage 在舞台上",
+        "early stage 早期阶段"
+      ],
+      "syn": [
+        "phase",
+        "platform",
+        "mount"
+      ],
+      "fam": [
+        "staging n. 上演；舞台效果"
+      ],
+      "dif": "stage 既指表演的舞台，也指发展过程中的某一特定阶段。",
+      "pat": "The negotiations have reached a critical stage where consensus is required.",
+      "patZh": "谈判已到达需要达成共识的关键阶段。"
+    },
+    {
+      "w": "twist",
+      "ipa": "twɪst",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "转折",
+      "exam": "扭转；曲解；转折；拧",
+      "c": [
+        "twist of fate 命运的转折",
+        "twist words 歪曲原话"
+      ],
+      "syn": [
+        "turn",
+        "distort",
+        "spin"
+      ],
+      "fam": [
+        "twisted adj. 扭曲的"
+      ],
+      "dif": "twist 强调用力扭拧或剧情局势发生的意想不到的急转折。",
+      "pat": "An unexpected twist in the investigation revealed the real culprit.",
+      "patZh": "调查中意想不到的转折揭示了真正的罪犯。"
+    },
+    {
+      "w": "trivial",
+      "ipa": "ˈtrɪviəl",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "琐碎的",
+      "exam": "琐碎的；微不足道的",
+      "c": [
+        "trivial matter 琐事",
+        "trivial detail 琐碎细节"
+      ],
+      "syn": [
+        "insignificant",
+        "minor",
+        "negligible"
+      ],
+      "fam": [
+        "trivia n. 琐事"
+      ],
+      "dif": "trivial 强调毫无价值、微不足道、不值得耗费精力关注。",
+      "pat": "Do not waste precious meeting time discussing trivial administrative details.",
+      "patZh": "不要把宝贵的会议时间浪费在讨论琐碎的行政细节上。"
+    },
+    {
+      "w": "try",
+      "ipa": "traɪ",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "尝试",
+      "exam": "试图；努力；审讯；尝试",
+      "c": [
+        "try hard 努力尝试",
+        "give it a try 试一试"
+      ],
+      "syn": [
+        "attempt",
+        "endeavor",
+        "test"
+      ],
+      "fam": [
+        "trial n. 审讯；试验"
+      ],
+      "dif": "try 泛指付出努力试图完成某事或试用。",
+      "pat": "Researchers will try a new combination of therapies to boost recovery.",
+      "patZh": "研究人员将尝试一种新的疗法组合来促进康复。"
+    },
+    {
+      "w": "tumble",
+      "ipa": "ˈtʌmbl",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "跌倒",
+      "exam": "摔倒；暴跌；跌跤",
+      "c": [
+        "tumble down 跌落",
+        "prices tumble 价格暴跌"
+      ],
+      "syn": [
+        "fall",
+        "plummet",
+        "drop"
+      ],
+      "fam": [
+        "tumbler n. 翻滚者；杯子"
+      ],
+      "dif": "tumble 侧重失去平衡突然跌倒或价格指数猛烈暴跌。",
+      "pat": "Share values began to tumble following the announcement of poor earnings.",
+      "patZh": "在宣布业绩惨淡后股票价值开始暴跌。"
+    },
+    {
+      "w": "turbulent",
+      "ipa": "ˈtɜːbjələnt",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "动荡的",
+      "exam": "动荡的；混乱的；汹涌的",
+      "c": [
+        "turbulent period 动荡时期",
+        "turbulent times 动荡的岁月"
+      ],
+      "syn": [
+        "stormy",
+        "chaotic",
+        "unsettled"
+      ],
+      "fam": [
+        "turbulence n. 骚乱；气流"
+      ],
+      "dif": "turbulent 描写局势骚乱不安或水流气流剧烈翻腾。",
+      "pat": "The company managed to maintain profit margins throughout a turbulent decade.",
+      "patZh": "该公司在整个动荡的十年中成功维持了利润率。"
+    },
+    {
+      "w": "turn",
+      "ipa": "tɜːn",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "扭转",
+      "exam": "转动；改变；扭转；轮流",
+      "c": [
+        "turn around 扭转局势",
+        "in turn 依次/反过来"
+      ],
+      "syn": [
+        "rotate",
+        "shift",
+        "revert"
+      ],
+      "fam": [
+        "turnover n. 营业额"
+      ],
+      "dif": "turn 侧重方向的改变、局势的转折或按顺序轮流。",
+      "pat": "Strategic innovation helped the brand turn the crisis into an opportunity.",
+      "patZh": "战略创新帮助该品牌将危机扭转为机遇。"
+    },
+    {
+      "w": "turnover",
+      "ipa": "ˈtɜːnəʊvə",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "营业额",
+      "exam": "营业额；人员流动率",
+      "c": [
+        "annual turnover 年度营业额",
+        "staff turnover 人员流动率"
+      ],
+      "syn": [
+        "revenue",
+        "sales",
+        "replacement rate"
+      ],
+      "fam": [
+        "turn v. 转动"
+      ],
+      "dif": "turnover 特指企业一定时期内的总销售营业额或员工换岗率。",
+      "pat": "High staff turnover can negatively affect team productivity and morale.",
+      "patZh": "高员工流动率会给团队生产力和士气带来负面影响。"
+    },
+    {
+      "w": "type",
+      "ipa": "taɪp",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "类型",
+      "exam": "类型；样式；打字",
+      "c": [
+        "blood type 血型",
+        "type a letter 打一封信"
+      ],
+      "syn": [
+        "kind",
+        "category",
+        "sort"
+      ],
+      "fam": [
+        "typical adj. 典型的"
+      ],
+      "dif": "type 指具有共同特征的一类事物，或在键盘上打字。",
+      "pat": "What type of technical support does the software provider guarantee?",
+      "patZh": "软件供应商保证提供哪种类型的技术支持？"
+    },
+    {
+      "w": "typical",
+      "ipa": "ˈtɪpɪkl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "典型的",
+      "exam": "典型的；特有的",
+      "c": [
+        "typical example 典型特征/例子",
+        "be typical of 是…典型的"
+      ],
+      "syn": [
+        "characteristic",
+        "representative",
+        "classic"
+      ],
+      "fam": [
+        "type n. 类型"
+      ],
+      "dif": "typical 强调具备某一类别全部代表性特征。",
+      "pat": "Heavy rainfall is typical of the tropical climate during summer.",
+      "patZh": "强降雨是夏季热带气候的典型特征。"
+    },
+    {
+      "w": "voluntary",
+      "ipa": "ˈvɒləntri",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "自愿的",
+      "exam": "自愿的；志愿的",
+      "c": [
+        "voluntary work 志愿工作",
+        "voluntary organization 志愿者组织"
+      ],
+      "syn": [
+        "optional",
+        "willing",
+        "unforced"
+      ],
+      "fam": [
+        "volunteer n. 志愿者"
+      ],
+      "dif": "voluntary 强调出自个人自由意志而非受胁迫规定。",
+      "pat": "Participation in the wellness program is entirely voluntary for all staff.",
+      "patZh": "所有员工参与该健康项目完全是自愿的。"
+    },
+    {
+      "w": "volunteer",
+      "ipa": "ˌvɒlənˈtɪə",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "志愿者",
+      "exam": "志愿者；自愿做",
+      "c": [
+        "community volunteer 社区志愿者",
+        "volunteer to help 自愿帮忙"
+      ],
+      "syn": [
+        "helper",
+        "enlist",
+        "offer"
+      ],
+      "fam": [
+        "voluntary adj. 自愿的"
+      ],
+      "dif": "volunteer 指无偿自愿提供服务的人，或主动承担任务。",
+      "pat": "Many students volunteer at the local shelter during winter holidays.",
+      "patZh": "许多学生在寒假期间在当地救助站当志愿者。"
+    },
+    {
+      "w": "vote",
+      "ipa": "vəʊt",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "投票",
+      "exam": "投票；选票；表决",
+      "c": [
+        "vote for 投票赞成",
+        "vote against 投票反对"
+      ],
+      "syn": [
+        "ballot",
+        "elect",
+        "poll"
+      ],
+      "fam": [
+        "voter n. 投票人"
+      ],
+      "dif": "vote 指通过划票、举手等方式表达正式选举或表决意愿。",
+      "pat": "Members met to vote on the proposed amendments to the charter.",
+      "patZh": "成员们开会表决拟议的章程修正案。"
+    },
+    {
+      "w": "vulgar",
+      "ipa": "ˈvʌlɡə",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "粗俗的",
+      "exam": "粗俗的；庸俗的",
+      "c": [
+        "vulgar language 粗俗语言",
+        "vulgar taste 庸俗品味"
+      ],
+      "syn": [
+        "crude",
+        "coarse",
+        "tasteless"
+      ],
+      "fam": [
+        "vulgarity n. 粗俗"
+      ],
+      "dif": "vulgar 强调缺乏教养、言行粗鲁不雅致或趣味低级。",
+      "pat": "The critic condemned the film for its reliance on vulgar humor.",
+      "patZh": "影评人指责该电影依赖粗俗的幽默。"
+    },
+    {
+      "w": "vulnerable",
+      "ipa": "ˈvʌlnərəbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "脆弱的",
+      "exam": "脆弱的；易受伤害的",
+      "c": [
+        "vulnerable to 易受…伤害的",
+        "vulnerable group 弱势群体"
+      ],
+      "syn": [
+        "susceptible",
+        "fragile",
+        "exposed"
+      ],
+      "fam": [
+        "vulnerability n. 脆弱性"
+      ],
+      "dif": "vulnerable 强调容易受到物理伤害、攻击或精神创伤打击。",
+      "pat": "Coastal regions are particularly vulnerable to extreme climate events.",
+      "patZh": "沿海地区特别容易受到极端气候事件的伤害。"
+    },
+    {
+      "w": "author",
+      "ipa": "ˈɔːθə",
+      "pos": "n. / vt.",
+      "s": "s2",
+      "zh": "作者",
+      "exam": "作者；创始人；撰写",
+      "c": [
+        "best-selling author 畅销书作者",
+        "author a report 撰写报告"
+      ],
+      "syn": [
+        "writer",
+        "creator",
+        "originator"
+      ],
+      "fam": [
+        "authorship n. 著述身份"
+      ],
+      "dif": "author 指书籍文章的著作者，或某项计划方案的始作俑者。",
+      "pat": "The author spent five years researching archives before publishing the biography.",
+      "patZh": "作者在出版该传记前花了五年时间研究档案馆。"
+    },
+    {
+      "w": "authority",
+      "ipa": "ɔːˈθɒrəti",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "权威",
+      "exam": "权力；权威；当局；专家",
+      "c": [
+        "local authority 当地政府/当局",
+        "an authority on 某方面的权威"
+      ],
+      "syn": [
+        "power",
+        "expert",
+        "jurisdiction"
+      ],
+      "fam": [
+        "authorize v. 授权"
+      ],
+      "dif": "authority 指合法的行政统治权力，或某一领域的泰斗专家。",
+      "pat": "She is recognized as a leading authority on international maritime law.",
+      "patZh": "她被公认为国际海洋法领域的顶尖权威。"
+    },
+    {
+      "w": "auxiliary",
+      "ipa": "ɔːɡˈzɪliəri",
+      "pos": "adj. / n.",
+      "s": "s2",
+      "zh": "辅助的",
+      "exam": "辅助的；备用的；副手",
+      "c": [
+        "auxiliary equipment 辅助设备",
+        "auxiliary verb 助动词"
+      ],
+      "syn": [
+        "supplementary",
+        "secondary",
+        "backup"
+      ],
+      "fam": [
+        "auxiliary n. 辅助物"
+      ],
+      "dif": "auxiliary 强调起协助补充或备用保障作用的设备人员。",
+      "pat": "The hospital switched to auxiliary generators when the main grid failed.",
+      "patZh": "当主电网故障时医院切换到了备用发电机。"
+    },
+    {
+      "w": "avail",
+      "ipa": "əˈveɪl",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "起作用",
+      "exam": "有益于；利用；效用",
+      "c": [
+        "to no avail 毫无效果/徒劳",
+        "avail oneself of 利用…"
+      ],
+      "syn": [
+        "benefit",
+        "profit",
+        "usefulness"
+      ],
+      "fam": [
+        "available adj. 可获得的"
+      ],
+      "dif": "avail 常用短语 to no avail 表示徒劳，avail oneself of 表示利用机会。",
+      "pat": "All emergency efforts to restore power were to no avail during the blizzard.",
+      "patZh": "在暴风雪期间恢复供电的所有紧急努力均告徒劳。"
+    },
+    {
+      "w": "available",
+      "ipa": "əˈveɪləbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "可获得的",
+      "exam": "可获得的；有空的",
+      "c": [
+        "readily available 容易获得的",
+        "available data 现有的数据"
+      ],
+      "syn": [
+        "accessible",
+        "obtainable",
+        "free"
+      ],
+      "fam": [
+        "availability n. 可获得性"
+      ],
+      "dif": "available 指物品可被取得使用，或人员有时间空闲。",
+      "pat": "Fresh clean water must be made readily available to all disaster victims.",
+      "patZh": "必须向所有灾民随时提供新鲜干净的饮用水。"
+    },
+    {
+      "w": "critic",
+      "ipa": "ˈkrɪtɪk",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "批评家",
+      "exam": "批评家；评论家",
+      "c": [
+        "art critic 艺术评论家",
+        "harsh critic 严厉的批评者"
+      ],
+      "syn": [
+        "reviewer",
+        "commentator",
+        "detractor"
+      ],
+      "fam": [
+        "critical adj. 批判的",
+        "criticism n. 批评"
+      ],
+      "dif": "critic 指专职撰写评论分析的评论家，或提出反对批评的人。",
+      "pat": "The theater critic praised the lead actor's powerful dramatic performance.",
+      "patZh": "戏剧评论家赞扬了主角强有力的戏剧表演。"
+    },
+    {
+      "w": "critical",
+      "ipa": "ˈkrɪtɪkl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "关键的",
+      "exam": "批判的；关键的；危急的",
+      "c": [
+        "critical thinking 批判性思维",
+        "critical role 关键作用"
+      ],
+      "syn": [
+        "crucial",
+        "vital",
+        "evaluative"
+      ],
+      "fam": [
+        "criticism n. 批评"
+      ],
+      "dif": "critical 侧重极其重要决定成败，或带有审查批判态度。",
+      "pat": "Developing critical thinking skills is a fundamental goal of higher education.",
+      "patZh": "培养批判性思维技能是高等教育的根本目标。"
+    },
+    {
+      "w": "criticism",
+      "ipa": "ˈkrɪtɪsɪzəm",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "批评",
+      "exam": "批评；评论；责难",
+      "c": [
+        "face criticism 面对批评",
+        "constructive criticism 建设性的批评"
+      ],
+      "syn": [
+        "disapproval",
+        "censure",
+        "review"
+      ],
+      "fam": [
+        "criticize v. 批评"
+      ],
+      "dif": "criticism 指提出的反对批评意见，或对艺术作品的学术评论。",
+      "pat": "The management welcomed constructive criticism to improve customer service.",
+      "patZh": "管理层欢迎建设性的批评意见以改进客户服务。"
+    },
+    {
+      "w": "criticize",
+      "ipa": "ˈkrɪtɪsaɪz",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "批评",
+      "exam": "批评；评论",
+      "c": [
+        "criticize sb for 因…批评某人",
+        "severely criticize 严厉批评"
+      ],
+      "syn": [
+        "condemn",
+        "blame",
+        "fault"
+      ],
+      "fam": [
+        "criticism n. 批评"
+      ],
+      "dif": "criticize 指公开指出错误缺点并给以指责或评价。",
+      "pat": "It is easy to criticize policy decisions after knowing the final outcome.",
+      "patZh": "在获知最终结果后去批评政策决定总是容易的。"
+    },
+    {
+      "w": "crucial",
+      "ipa": "ˈkruːʃl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "关键的",
+      "exam": "至关重要的；决定性的",
+      "c": [
+        "crucial factor 关键因素",
+        "crucial decision 决定性的决定"
+      ],
+      "syn": [
+        "pivotal",
+        "decisive",
+        "essential"
+      ],
+      "fam": [
+        "crucially adv. 至关重要地"
+      ],
+      "dif": "crucial 强调在转折关头起决定成败的生死攸关作用。",
+      "pat": "Timely international aid was crucial to preventing a humanitarian disaster.",
+      "patZh": "及时的国际援助对于防止人道主义灾难至关重要。"
+    },
+    {
+      "w": "culminate",
+      "ipa": "ˈkʌlmɪneɪt",
+      "pos": "vi.",
+      "s": "s3",
+      "zh": "以…告终",
+      "exam": "以…告终；达到高潮",
+      "c": [
+        "culminate in 以…达到高潮/告终",
+        "culminate at 达到顶点"
+      ],
+      "syn": [
+        "climax",
+        "conclude",
+        "peak"
+      ],
+      "fam": [
+        "culmination n. 顶点；高潮"
+      ],
+      "dif": "culminate 搭配 in 表示经过长期积累发展后最终达到高潮终点。",
+      "pat": "Years of rigorous research will culminate in a groundbreaking publication.",
+      "patZh": "多年严谨的研究将以一份突破性著作的出版告终。"
+    },
+    {
+      "w": "culprit",
+      "ipa": "ˈkʌlprɪt",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "罪犯",
+      "exam": "罪犯；问题的起因/肇事者",
+      "c": [
+        "main culprit 主要肇事者",
+        "catch the culprit 抓获罪犯"
+      ],
+      "syn": [
+        "offender",
+        "offending party",
+        "cause"
+      ],
+      "fam": [
+        "culprit n. 肇事者"
+      ],
+      "dif": "culprit 既指犯罪的罪犯，也指导致不良后果的幕后肇事元凶。",
+      "pat": "Deforestation is the primary culprit behind severe regional soil erosion.",
+      "patZh": "滥砍滥伐是严重区域水土流失背后的主要罪魁祸首。"
+    },
+    {
+      "w": "cultivate",
+      "ipa": "ˈkʌltɪveɪt",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "培养",
+      "exam": "耕作；培养；结交",
+      "c": [
+        "cultivate talent 培养人才",
+        "cultivate relationships 建立关系"
+      ],
+      "syn": [
+        "nurture",
+        "foster",
+        "farm"
+      ],
+      "fam": [
+        "cultivation n. 培养；耕作"
+      ],
+      "dif": "cultivate 指耕耘土地，或通过用心灌溉培育人才品性技巧。",
+      "pat": "Universities aim to cultivate creative talent capable of solving complex problems.",
+      "patZh": "大学旨在培养能够解决复杂问题的创新人才。"
+    },
+    {
+      "w": "culture",
+      "ipa": "ˈkʌltʃə",
+      "pos": "n. / vt.",
+      "s": "s3",
+      "zh": "文化",
+      "exam": "文化；文明；教养；培养",
+      "c": [
+        "corporate culture 企业文化",
+        "cultural heritage 文化遗产"
+      ],
+      "syn": [
+        "civilization",
+        "customs",
+        "society"
+      ],
+      "fam": [
+        "cultural adj. 文化的"
+      ],
+      "dif": "culture 指人类社会创造的精神物质文化，或生物细菌培养。",
+      "pat": "Understanding a foreign culture requires open-mindedness and empathy.",
+      "patZh": "理解外域文化需要开放的心态与共情力。"
+    },
+    {
+      "w": "dual",
+      "ipa": "ˈdjuːəl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "双重的",
+      "exam": "双重的；两部分的",
+      "c": [
+        "dual citizenship 双重国籍",
+        "dual role 双重角色"
+      ],
+      "syn": [
+        "double",
+        "twin",
+        "twofold"
+      ],
+      "fam": [
+        "duality n. 二元性"
+      ],
+      "dif": "dual 强调兼具两种功能、身份或由两部分组成。",
+      "pat": "The manager plays a dual role as both technical leader and mentor.",
+      "patZh": "该经理扮演着技术领导者与导师的双重角色。"
+    },
+    {
+      "w": "dubious",
+      "ipa": "ˈdjuːbiəs",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "可疑的",
+      "exam": "怀疑的；可疑的；不确定的",
+      "c": [
+        "dubious distinction 可疑的头衔",
+        "be dubious about 对…表示怀疑"
+      ],
+      "syn": [
+        "doubtful",
+        "suspicious",
+        "questionable"
+      ],
+      "fam": [
+        "dubiously adv. 怀疑地"
+      ],
+      "dif": "dubious 强调合法性真实性令人生疑、不可靠。",
+      "pat": "Financial regulators questioned the firm's dubious accounting practices.",
+      "patZh": "金融监管机构质疑该公司可疑的会计做法。"
+    },
+    {
+      "w": "due",
+      "ipa": "djuː",
+      "pos": "adj. / n.",
+      "s": "s3",
+      "zh": "到期的",
+      "exam": "预期的；到期的；应得的；应付款",
+      "c": [
+        "due to 由于",
+        "in due course 在适当的时候"
+      ],
+      "syn": [
+        "expected",
+        "owing",
+        "deserved"
+      ],
+      "fam": [
+        "due adj. 应得的"
+      ],
+      "dif": "due 表示到期应付的、预期的，短语 due to 表示由于。",
+      "pat": "The final research report is due on the last Friday of the month.",
+      "patZh": "最终研究报告预定于本月最后一个星期五交稿。"
+    },
+    {
+      "w": "durable",
+      "ipa": "ˈdjʊərəbl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "耐用的",
+      "exam": "耐用的；持久的",
+      "c": [
+        "durable goods 耐用品",
+        "durable peace 持久的和平"
+      ],
+      "syn": [
+        "lasting",
+        "sturdy",
+        "enduring"
+      ],
+      "fam": [
+        "durability n. 耐用性"
+      ],
+      "dif": "durable 强调经久耐用、能经受长期磨损消耗。",
+      "pat": "Constructing durable infrastructure reduces long-term maintenance costs.",
+      "patZh": "建设耐用的基础设施可以降低长期维护成本。"
+    },
+    {
+      "w": "duration",
+      "ipa": "djʊˈreɪʃn",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "持续时间",
+      "exam": "持续时间；期间",
+      "c": [
+        "for the duration of 在…期间",
+        "short duration 短暂持续时间"
+      ],
+      "syn": [
+        "span",
+        "length",
+        "period"
+      ],
+      "fam": [
+        "durable adj. 持久的"
+      ],
+      "dif": "duration 强点某一状态或事件在时间轴上持续的长度。",
+      "pat": "Passengers must remain seated for the entire duration of the flight.",
+      "patZh": "在整个飞行持续期间乘客必须保持就座。"
+    },
+    {
+      "w": "duty",
+      "ipa": "ˈdjuːti",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "职责",
+      "exam": "职责；义务；关税",
+      "c": [
+        "sense of duty 责任感",
+        "customs duty 关税"
+      ],
+      "syn": [
+        "obligation",
+        "responsibility",
+        "tariff"
+      ],
+      "fam": [
+        "dutiable adj. 应纳税的"
+      ],
+      "dif": "duty 指道德或法律上必须履行的职责，或海关进口税。",
+      "pat": "It is the fiduciary duty of directors to act in the best interest of shareholders.",
+      "patZh": "董事为了股东的最大利益行事是其法定信托职责。"
+    },
+    {
+      "w": "dynamic",
+      "ipa": "daɪˈnæmɪk",
+      "pos": "adj. / n.",
+      "s": "s3",
+      "zh": "动态的",
+      "exam": "充满活力的；动态的；动力",
+      "c": [
+        "dynamic market 动态/具活力的市场",
+        "group dynamics 群体动态"
+      ],
+      "syn": [
+        "energetic",
+        "vibrant",
+        "active"
+      ],
+      "fam": [
+        "dynamism n. 活力"
+      ],
+      "dif": "dynamic 强调充满活力能量、不断变化发展。",
+      "pat": "Adapting to a dynamic market environment requires agile leadership.",
+      "patZh": "适应动态的市场环境需要敏捷的领导力。"
+    },
+    {
+      "w": "extinct",
+      "ipa": "ɪkˈstɪŋkt",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "灭绝的",
+      "exam": "灭绝的；绝迹的；熄灭了的",
+      "c": [
+        "become extinct 灭绝",
+        "extinct volcano 死火山"
+      ],
+      "syn": [
+        "vanished",
+        "defunct",
+        "died out"
+      ],
+      "fam": [
+        "extinction n. 灭绝"
+      ],
+      "dif": "extinct 指物种灭绝或火山熄灭、风俗绝迹。",
+      "pat": "Without protection, many endangered species will become extinct within decades.",
+      "patZh": "如果没有保护，许多濒危物种将在几十年内灭绝。"
+    },
+    {
+      "w": "extinguish",
+      "ipa": "ɪkˈstɪŋɡwɪʃ",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "扑灭",
+      "exam": "熄灭；扑灭；使消亡",
+      "c": [
+        "extinguish a fire 扑灭火灾",
+        "extinguish hope 掐灭希望"
+      ],
+      "syn": [
+        "quench",
+        "put out",
+        "suppress"
+      ],
+      "fam": [
+        "extinguisher n. 灭火器"
+      ],
+      "dif": "extinguish 侧重扑灭火火焰，或消灭希望权利。",
+      "pat": "Firefighters worked through the night to extinguish the raging forest fire.",
+      "patZh": "消防员整夜工作以扑灭肆虐的森林火灾。"
+    },
+    {
+      "w": "introduce",
+      "ipa": "ˌɪntrəˈdjuːs",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "引入",
+      "exam": "介绍；引进；提出；采用",
+      "c": [
+        "introduce a policy 引入一项政策",
+        "introduce sb to 介绍某人给…"
+      ],
+      "syn": [
+        "present",
+        "launch",
+        "implement"
+      ],
+      "fam": [
+        "introduction n. 介绍；引进"
+      ],
+      "dif": "introduce 指向他人介绍，或向机构引进新技术政策。",
+      "pat": "The firm plans to introduce automated workflows to increase efficiency.",
+      "patZh": "该公司计划引入自动化工作流来提高效率。"
+    },
+    {
+      "w": "introduction",
+      "ipa": "ˌɪntrəˈdʌkʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "引入",
+      "exam": "介绍；引进；引言；导论",
+      "c": [
+        "letter of introduction 介绍信",
+        "introduction to 导论/引进"
+      ],
+      "syn": [
+        "preface",
+        "adoption",
+        "presentation"
+      ],
+      "fam": [
+        "introduce v. 引进"
+      ],
+      "dif": "introduction 指书本的导论前言，或新技术的引进使用。",
+      "pat": "The introduction of solar power reduced reliance on fossil fuels.",
+      "patZh": "太阳能的引入降低了对化石燃料的依赖。"
+    },
+    {
+      "w": "invest",
+      "ipa": "ɪnˈvest",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "投资",
+      "exam": "投资；投入（时间/精力）",
+      "c": [
+        "invest in 投资于",
+        "invest time in 在…上投入时间"
+      ],
+      "syn": [
+        "fund",
+        "venture",
+        "commit"
+      ],
+      "fam": [
+        "investment n. 投资",
+        "investor n. 投资者"
+      ],
+      "dif": "invest 搭配 in，指投入资金、金钱或精力和时间。",
+      "pat": "Governments should invest heavily in public education and research.",
+      "patZh": "政府应当在公共教育与科研上加大投资。"
+    },
+    {
+      "w": "investment",
+      "ipa": "ɪnˈvestmənt",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "投资",
+      "exam": "投资；投资额；资本",
+      "c": [
+        "foreign investment 外国投资",
+        "return on investment 投资回报率"
+      ],
+      "syn": [
+        "capital",
+        "funding",
+        "stake"
+      ],
+      "fam": [
+        "invest v. 投资"
+      ],
+      "dif": "investment 指投放资金的行为或所投入的资本额。",
+      "pat": "Attracting foreign direct investment is a key goal for regional development.",
+      "patZh": "吸引外商直接投资是区域发展的关键目标。"
+    },
+    {
+      "w": "investigate",
+      "ipa": "ɪnˈvestɪɡeɪt",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "调查",
+      "exam": "调查；审查；研究",
+      "c": [
+        "investigate a crime 调查犯罪",
+        "investigate the cause 调查原因"
+      ],
+      "syn": [
+        "probe",
+        "examine",
+        "inquire"
+      ],
+      "fam": [
+        "investigation n. 调查",
+        "investigator n. 调查员"
+      ],
+      "dif": "investigate 强调为了查明真相而有条理地深入调查细节。",
+      "pat": "Authorities formed a special committee to investigate the security breach.",
+      "patZh": "当局成立了一个特别委员会来调查安全漏洞。"
+    },
+    {
+      "w": "mutual",
+      "ipa": "ˈmjuːtʃuəl",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "相互的",
+      "exam": "相互的；共有的",
+      "c": [
+        "mutual respect 相互尊重",
+        "mutual trust 相互信任"
+      ],
+      "syn": [
+        "reciprocal",
+        "shared",
+        "joint"
+      ],
+      "fam": [
+        "mutually adv. 相互地"
+      ],
+      "dif": "mutual 强调两者之间双向对等的相互作用或共同享有。",
+      "pat": "Successful partnership relies on mutual trust and transparent communication.",
+      "patZh": "成功的合作伙伴关系建立在相互信任与透明沟通之上。"
+    },
+    {
+      "w": "mysterious",
+      "ipa": "mɪˈstɪəriəs",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "神秘的",
+      "exam": "神秘的；难以理解的",
+      "c": [
+        "mysterious disappearance 神秘失踪",
+        "mysterious figure 神秘人物"
+      ],
+      "syn": [
+        "enigmatic",
+        "secretive",
+        "obscure"
+      ],
+      "fam": [
+        "mystery n. 秘密"
+      ],
+      "dif": "mysterious 强调充满神秘色彩、难以用常理解释。",
+      "pat": "Detectives looked into the mysterious disappearance of the valuable artwork.",
+      "patZh": "侦探们调查了那件价值连城的艺术品的神秘失踪。"
+    },
+    {
+      "w": "mystery",
+      "ipa": "ˈmɪstri",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "谜团",
+      "exam": "神秘；谜；秘密",
+      "c": [
+        "solve a mystery 解开谜团",
+        "remain a mystery 仍是个谜"
+      ],
+      "syn": [
+        "puzzle",
+        "riddle",
+        "enigma"
+      ],
+      "fam": [
+        "mysterious adj. 神秘的"
+      ],
+      "dif": "mystery 指令人困惑不解的事物、秘密或悬疑小说。",
+      "pat": "The exact origin of the ancient text remains a scientific mystery.",
+      "patZh": "这篇古代文献的准确起源仍是一个科学谜团。"
+    },
+    {
+      "w": "myth",
+      "ipa": "mɪθ",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "神话",
+      "exam": "神话；荒诞观念",
+      "c": [
+        "ancient myth 古代神话",
+        "dispel the myth 消除误解/神话"
+      ],
+      "syn": [
+        "legend",
+        "fable",
+        "fallacy"
+      ],
+      "fam": [
+        "mythical adj. 神话的",
+        "mythology n. 神话学"
+      ],
+      "dif": "myth 可指古代神话故事，也可指广为流传但并不属实的错误观念。",
+      "pat": "Modern science helped dispel the popular myth about diet pills.",
+      "patZh": "现代科学有助于消除关于减肥药的流行误解。"
+    },
+    {
+      "w": "noble",
+      "ipa": "ˈnəʊbl",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "高尚的",
+      "exam": "高尚的；贵族的；贵族",
+      "c": [
+        "noble cause 高尚的事业",
+        "noble birth 贵族出身"
+      ],
+      "syn": [
+        "honorable",
+        "aristocratic",
+        "lofty"
+      ],
+      "fam": [
+        "nobility n. 贵族；高尚"
+      ],
+      "dif": "noble 侧重指品格高尚崇高，或出身高贵的贵族阶层。",
+      "pat": "Fighting against systemic injustice is a truly noble cause.",
+      "patZh": "同系统性不公作斗争是一项真正高尚的事业。"
+    },
+    {
+      "w": "norm",
+      "ipa": "nɔːm",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "规范",
+      "exam": "规范；准则；平均数",
+      "c": [
+        "social norm 社会规范",
+        "above the norm 高于常规标准"
+      ],
+      "syn": [
+        "standard",
+        "rule",
+        "benchmark"
+      ],
+      "fam": [
+        "normal adj. 正常的",
+        "normalize v. 使正常化"
+      ],
+      "dif": "norm 指社会普遍认可遵循的道德行为准则或平均标准。",
+      "pat": "Working remotely has become the accepted norm for tech companies.",
+      "patZh": "远程办公已成为科技公司普遍接受的规范。"
+    },
+    {
+      "w": "normal",
+      "ipa": "ˈnɔːml",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "正常的",
+      "exam": "正常的；普通标准的；正常状态",
+      "c": [
+        "back to normal 恢复正常",
+        "normal procedure 正常程序"
+      ],
+      "syn": [
+        "standard",
+        "regular",
+        "ordinary"
+      ],
+      "fam": [
+        "normalization n. 正常化"
+      ],
+      "dif": "normal 与 abnormal（异常的）相对，指符合常规标准状态。",
+      "pat": "Business operations returned to normal following the end of the strike.",
+      "patZh": "罢工结束后商业运营恢复了正常。"
+    },
+    {
+      "w": "normalization",
+      "ipa": "ˌnɔːməlaɪˈzeɪʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "常态化",
+      "exam": "正常化；常态化",
+      "c": [
+        "normalization of relations 关系正常化",
+        "market normalization 市场常态化"
+      ],
+      "syn": [
+        "regularization",
+        "standardization",
+        "stabilization"
+      ],
+      "fam": [
+        "normalize v. 使正常化"
+      ],
+      "dif": "normalization 指从异常无序状态恢复到正常轨道的规制过程。",
+      "pat": "Diplomats worked for the normalization of diplomatic ties between the two nations.",
+      "patZh": "外交官们致力于两国间外交关系的正常化。"
+    },
+    {
+      "w": "note",
+      "ipa": "nəʊt",
+      "pos": "n. / vt.",
+      "s": "s4",
+      "zh": "记录",
+      "exam": "笔记；便条；音符；注意；记录",
+      "c": [
+        "take notes 做笔记",
+        "note that 注意到…"
+      ],
+      "syn": [
+        "memo",
+        "observation",
+        "observe"
+      ],
+      "fam": [
+        "notion n. 观念"
+      ],
+      "dif": "note 作动词指留心注意到或做记录；作名词指便条音符。",
+      "pat": "Please note that the deadline for submission is non-negotiable.",
+      "patZh": "请注意到提交截止日期是不容谈判的。"
+    },
+    {
+      "w": "notion",
+      "ipa": "ˈnəʊʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "观念",
+      "exam": "概念；观念；想法",
+      "c": [
+        "reject the notion 拒绝这种观念",
+        "preconceived notion 先入为主的观念"
+      ],
+      "syn": [
+        "idea",
+        "belief",
+        "concept"
+      ],
+      "fam": [
+        "notional adj. 概念上的"
+      ],
+      "dif": "notion 侧重指头脑中形成的主观看法、想法或模糊印象。",
+      "pat": "He challenged the outdated notion that failure equals defeat.",
+      "patZh": "他挑战了那种失败即等于彻底被打败的过时观念。"
+    },
+    {
+      "w": "public",
+      "ipa": "ˈpʌblɪk",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "公众",
+      "exam": "公众的；公共的；公众",
+      "c": [
+        "public interest 公众利益",
+        "in public 在公开场合"
+      ],
+      "syn": [
+        "civic",
+        "general",
+        "community"
+      ],
+      "fam": [
+        "publicity n. 宣传",
+        "publish v. 出版"
+      ],
+      "dif": "public 与 private（私人的）相对，指面向大众平民开放的。",
+      "pat": "The government has a duty to protect public health during an outbreak.",
+      "patZh": "政府在疫情爆发期间有职责保护公共健康。"
+    },
+    {
+      "w": "publication",
+      "ipa": "ˌpʌblɪˈkeɪʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "出版",
+      "exam": "出版；发表；出版物",
+      "c": [
+        "date of publication 出版日期",
+        "scholarly publication 学术出版物"
+      ],
+      "syn": [
+        "printing",
+        "periodical",
+        "release"
+      ],
+      "fam": [
+        "publish v. 出版"
+      ],
+      "dif": "publication 指书籍期刊等印刷发表的过程或印出的出版物。",
+      "pat": "The professor celebrated the publication of her new textbook.",
+      "patZh": "教授庆祝了她的新教科书的出版。"
+    },
+    {
+      "w": "publicity",
+      "ipa": "pʌbˈlɪsəti",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "宣传",
+      "exam": "宣传；关注度；报道",
+      "c": [
+        "gain publicity 获得关注",
+        "publicity campaign 宣传活动"
+      ],
+      "syn": [
+        "promotion",
+        "exposure",
+        "media attention"
+      ],
+      "fam": [
+        "public adj. 公众的"
+      ],
+      "dif": "publicity 强调通过媒体报道引起的公众关注、知名度或促销活动。",
+      "pat": "The event generated massive publicity for the environmental charity.",
+      "patZh": "该活动为环保慈善机构赢得了巨大的公众关注。"
+    },
+    {
+      "w": "publish",
+      "ipa": "ˈpʌblɪʃ",
+      "pos": "v.",
+      "s": "s5",
+      "zh": "公布",
+      "exam": "出版；发表；公布",
+      "c": [
+        "publish a report 发表报告",
+        "publish research 公布研究"
+      ],
+      "syn": [
+        "print",
+        "issue",
+        "release"
+      ],
+      "fam": [
+        "publisher n. 出版商",
+        "publication n. 出版物"
+      ],
+      "dif": "publish 指印发图书，或向社会公众正式公布研究数据报告。",
+      "pat": "The laboratory will publish its findings in a peer-reviewed journal.",
+      "patZh": "实验室将在同行评审期刊上发表其研究发现。"
+    },
+    {
+      "w": "result",
+      "ipa": "rɪˈzʌlt",
+      "pos": "n. / vi.",
+      "s": "s5",
+      "zh": "结果",
+      "exam": "结果；成果；（in）导致；（from）起因于",
+      "c": [
+        "result in 导致",
+        "result from 起因于"
+      ],
+      "syn": [
+        "outcome",
+        "consequence",
+        "effect"
+      ],
+      "fam": [
+        "resultant adj. 产生的"
+      ],
+      "dif": "result 搭配 in 表示引发某结果，搭配 from 表示由某原因造成。",
+      "pat": "Neglecting routine maintenance can result in sudden mechanical breakdown.",
+      "patZh": "忽视常规维护可能会导致突发的机械故障。"
+    },
+    {
+      "w": "resultant",
+      "ipa": "rɪˈzʌltənt",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "产生的",
+      "exam": "作为结果的；组合的",
+      "c": [
+        "resultant damage 产生的损失",
+        "resultant effect 组合效果"
+      ],
+      "syn": [
+        "consequent",
+        "following",
+        "subsequent"
+      ],
+      "fam": [
+        "result n. 结果"
+      ],
+      "dif": "resultant 侧重因某一具体事件直接引发或导致的后效。",
+      "pat": "The drought and resultant crop failure led to a severe food shortage.",
+      "patZh": "干旱和随之产生的作物减产导致了严重的粮食短缺。"
+    },
+    {
+      "w": "resume",
+      "ipa": "rɪˈzjuːm",
+      "pos": "v. / n.",
+      "s": "s5",
+      "zh": "恢复",
+      "exam": "重新开始；恢复；简历（音/ˈrezjuːmeɪ/）",
+      "c": [
+        "resume operations 恢复运营",
+        "resume talk 恢复谈判"
+      ],
+      "syn": [
+        "restart",
+        "reopen",
+        "curriculum vitae"
+      ],
+      "fam": [
+        "resumption n. 恢复"
+      ],
+      "dif": "resume 动词指中断后重新开始；名词读音不同指个人履历简历。",
+      "pat": "Flights will resume normal schedules once the fog clears up.",
+      "patZh": "一旦大雾散去航班将恢复正常时刻表。"
+    },
+    {
+      "w": "reveal",
+      "ipa": "rɪˈviːl",
+      "pos": "vt.",
+      "s": "s5",
+      "zh": "揭示",
+      "exam": "揭示；透露；展现",
+      "c": [
+        "reveal secrets 泄露秘密",
+        "reveal the truth 揭示真相"
+      ],
+      "syn": [
+        "disclose",
+        "unveil",
+        "expose"
+      ],
+      "fam": [
+        "revelation n. 揭示；启示"
+      ],
+      "dif": "reveal 侧重揭开原本隐瞒、不为人知的秘密真相或事实。",
+      "pat": "The audit failed to reveal any evidence of illegal transactions.",
+      "patZh": "审计未能揭示出任何非法交易的证据。"
+    },
+    {
+      "w": "revelation",
+      "ipa": "ˌrevəˈleɪʃn",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "揭示",
+      "exam": "揭示；透露；出乎意料的事",
+      "c": [
+        "startling revelation 令人震惊的揭露",
+        "revelation of truth 真相的揭示"
+      ],
+      "syn": [
+        "disclosure",
+        "unveiling",
+        "discovery"
+      ],
+      "fam": [
+        "reveal v. 揭示"
+      ],
+      "dif": "revelation 指被揭开公布的惊人事实真相或神圣启示。",
+      "pat": "The journalist's book was packed with shocking revelations about corporate greed.",
+      "patZh": "记者的书里装满了关于公司贪婪的令人震惊的揭露。"
+    },
+    {
+      "w": "revenge",
+      "ipa": "rɪˈvendʒ",
+      "pos": "n. / vt.",
+      "s": "s5",
+      "zh": "报复",
+      "exam": "复仇；报复",
+      "c": [
+        "take revenge on 对…进行报复",
+        "exact revenge 实施复仇"
+      ],
+      "syn": [
+        "vengeance",
+        "retaliation",
+        "retribution"
+      ],
+      "fam": [
+        "revengeful adj. 报复心强的"
+      ],
+      "dif": "revenge 强调出于个人怨恨不满而进行的反击报复。",
+      "pat": "Seeking personal revenge will only perpetuate the violent feud.",
+      "patZh": "寻求个人报复只会使暴力宿怨持续下去。"
+    },
+    {
+      "w": "revenue",
+      "ipa": "ˈrevənjuː",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "财政收入",
+      "exam": "财政收入；收益；税收",
+      "c": [
+        "tax revenue 税收收入",
+        "annual revenue 年度总收益"
+      ],
+      "syn": [
+        "income",
+        "earnings",
+        "proceeds"
+      ],
+      "fam": [
+        "revenue n. 税收收入"
+      ],
+      "dif": "revenue 特指国家政府的财政税收或公司的营业总收入。",
+      "pat": "The government reported a significant increase in annual tax revenue.",
+      "patZh": "政府报告说年度税收收入有了显著增长。"
+    },
+    {
+      "w": "supply",
+      "ipa": "səˈplaɪ",
+      "pos": "n. / vt.",
+      "s": "s5",
+      "zh": "供应",
+      "exam": "供应；补给；必需品；提供",
+      "c": [
+        "supply and demand 供求关系",
+        "water supply 供水"
+      ],
+      "syn": [
+        "provide",
+        "furnish",
+        "provision"
+      ],
+      "fam": [
+        "supplier n. 供应商"
+      ],
+      "dif": "supply 指向需要者提供所需物资装备，或经济供求关系中的供给。",
+      "pat": "The charity worked to supply medical aid to refugees in the camp.",
+      "patZh": "慈善机构致力于向营地里的难民提供医疗援助。"
+    },
+    {
+      "w": "support",
+      "ipa": "səˈpɔːt",
+      "pos": "vt. / n.",
+      "s": "s5",
+      "zh": "支持",
+      "exam": "支撑；支持；资助；供养；支持者",
+      "c": [
+        "support a candidate 支持某候选人",
+        "financial support 财务资助"
+      ],
+      "syn": [
+        "sustain",
+        "back",
+        "advocate"
+      ],
+      "fam": [
+        "supportive adj. 支持的",
+        "supporter n. 支持者"
+      ],
+      "dif": "support 强调用体能、金钱或情感道德上撑住、给以有力后盾。",
+      "pat": "Strong public support enabled the government to pass the healthcare bill.",
+      "patZh": "强大的公众支持使政府能够通过该医疗法案。"
+    },
+    {
+      "w": "suppose",
+      "ipa": "səˈpəʊz",
+      "pos": "vt.",
+      "s": "s5",
+      "zh": "猜想",
+      "exam": "猜想；假定；认为；（be supposed to）应当",
+      "c": [
+        "be supposed to 应当/被期望",
+        "suppose that 假定…"
+      ],
+      "syn": [
+        "assume",
+        "presume",
+        "conjecture"
+      ],
+      "fam": [
+        "supposition n. 推测"
+      ],
+      "dif": "suppose 表示根据已有迹象进行推测猜想，短语 be supposed to 表示应当履行的职责。",
+      "pat": "Employees are supposed to complete safety training before using the machinery.",
+      "patZh": "员工被要求在操作该机械前完成安全培训。"
+    },
+    {
+      "w": "suppress",
+      "ipa": "səˈpres",
+      "pos": "vt.",
+      "s": "s5",
+      "zh": "镇压",
+      "exam": "镇压；压制；抑制；隐瞒",
+      "c": [
+        "suppress a rebellion 镇压叛乱",
+        "suppress emotions 压抑情感"
+      ],
+      "syn": [
+        "quell",
+        "stifle",
+        "repress"
+      ],
+      "fam": [
+        "suppression n. 镇压"
+      ],
+      "dif": "suppress 强调凭借武力、权威或意志强行镇压、封锁或抑制。",
+      "pat": "The dictator used military force to suppress civilian protests across the nation.",
+      "patZh": "独裁者使用军事力量强行镇压全国范围内的平民抗议。"
+    },
+    {
+      "w": "supplement",
+      "ipa": "ˈsʌplɪmənt",
+      "pos": "n. / vt.",
+      "s": "s5",
+      "zh": "补充",
+      "exam": "补充；增刊；补给品；增补",
+      "c": [
+        "dietary supplement 膳食补充剂",
+        "supplement income 增加/补充收入"
+      ],
+      "syn": [
+        "addition",
+        "add",
+        "complement"
+      ],
+      "fam": [
+        "supplementary adj. 补充的"
+      ],
+      "dif": "supplement 指为了弥补不足而额外增加的补充物或增刊。",
+      "pat": "Many elderly people take calcium supplements to maintain strong bone health.",
+      "patZh": "许多老年人服用钙补充剂以维持强健骨骼健康。"
+    },
+    {
+      "w": "supreme",
+      "ipa": "suːˈpriːm",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "至高无上的",
+      "exam": "至高无上的；最高的",
+      "c": [
+        "supreme court 最高法院",
+        "supreme commander 最高指挥官"
+      ],
+      "syn": [
+        "paramount",
+        "ultimate",
+        "highest"
+      ],
+      "fam": [
+        "supremacy n. 至高无上"
+      ],
+      "dif": "supreme 强调在权力、地位、品质或重要性上达到最高顶点。",
+      "pat": "The Supreme Court will review the constitutionality of the lower court ruling.",
+      "patZh": "最高法院将审查下级法院判决的合宪性。"
+    },
+    {
+      "w": "system",
+      "ipa": "ˈsɪstəm",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "体系",
+      "exam": "系统；体系；制度；方法",
+      "c": [
+        "legal system 法律体系",
+        "solar system 太阳系"
+      ],
+      "syn": [
+        "network",
+        "structure",
+        "scheme"
+      ],
+      "fam": [
+        "systematic adj. 系统化的"
+      ],
+      "dif": "system 指按特定规则有机组合在一起的整体系统制度。",
+      "pat": "Reforming the public education system is vital for future economic growth.",
+      "patZh": "改革公共教育体系对于未来的经济增长至关重要。"
+    },
+    {
+      "w": "systematic",
+      "ipa": "ˌsɪstəˈmætɪk",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "系统的",
+      "exam": "系统化的；有条理的",
+      "c": [
+        "systematic approach 系统的方法",
+        "systematic analysis 系统化的分析"
+      ],
+      "syn": [
+        "methodical",
+        "structured",
+        "organized"
+      ],
+      "fam": [
+        "system n. 系统",
+        "systematically adv. 有条理地"
+      ],
+      "dif": "systematic 强调做事有计划、有条理、按步骤系统推进。",
+      "pat": "A systematic review of internal controls prevented further financial loss.",
+      "patZh": "对内部控制系统的审查防止了进一步的财务损失。"
+    }
+  ]
+};
+
+/* 段落的句级时间轴（秒），由 _gen.py 从微软服务的 SentenceBoundary 事件提取，
+   用来实现「读到哪一句，哪一句亮」—— 比逐句拼接的朗读自然得多 */
+var PT = {
+  "aria": {
+    "s1-0": [
+      0.1,
+      7.66,
+      14.46
+    ],
+    "s1-1": [
+      0.1,
+      8.07
+    ],
+    "s1-2": [
+      0.1,
+      7.4
+    ],
+    "s2-0": [
+      0.1,
+      8.91
+    ],
+    "s2-1": [
+      0.1,
+      6.6,
+      13.09
+    ],
+    "s3-0": [
+      0.1
+    ],
+    "s3-1": [
+      0.1,
+      6.2,
+      15.04
+    ],
+    "s3-2": [
+      0.1
+    ],
+    "s4-0": [
+      0.1,
+      7.6
+    ],
+    "s4-1": [
+      0.1,
+      10.28,
+      16.51
+    ],
+    "s5-0": [
+      0.1,
+      6.96
+    ],
+    "s5-1": [
+      0.1,
+      7.65
+    ]
+  },
+  "guy": {
+    "s1-0": [
+      0.1,
+      7.03,
+      13.44
+    ],
+    "s1-1": [
+      0.1,
+      7.62
+    ],
+    "s1-2": [
+      0.1,
+      6.71
+    ],
+    "s2-0": [
+      0.1,
+      8.07
+    ],
+    "s2-1": [
+      0.1,
+      6.22,
+      12.41
+    ],
+    "s3-0": [
+      0.1
+    ],
+    "s3-1": [
+      0.1,
+      5.96,
+      14.25
+    ],
+    "s3-2": [
+      0.1
+    ],
+    "s4-0": [
+      0.1,
+      7.03
+    ],
+    "s4-1": [
+      0.1,
+      9.28,
+      15.35
+    ],
+    "s5-0": [
+      0.1,
+      6.45
+    ],
+    "s5-1": [
+      0.1,
+      6.85
+    ]
+  },
+  "andrew": {
+    "s1-0": [
+      0.05,
+      7.25,
+      13.47
+    ],
+    "s1-1": [
+      0.05,
+      7.62
+    ],
+    "s1-2": [
+      0.05,
+      7.39
+    ],
+    "s2-0": [
+      0.05,
+      8.01
+    ],
+    "s2-1": [
+      0.05,
+      6.38,
+      12.9
+    ],
+    "s3-0": [
+      0.05
+    ],
+    "s3-1": [
+      0.05,
+      6.26,
+      14.57
+    ],
+    "s3-2": [
+      0.05
+    ],
+    "s4-0": [
+      0.05,
+      7.61
+    ],
+    "s4-1": [
+      0.05,
+      10.25,
+      16.51
+    ],
+    "s5-0": [
+      0.05,
+      6.41
+    ],
+    "s5-1": [
+      0.05,
+      7.17
+    ]
+  }
+};
+
+var WMAP = {};
+DATA.words.forEach(function(x){ WMAP[x.w] = x; });
+
+function uKey(k){ return "ws.u" + (DATA.unit || 1) + "." + k; }
+function uMastKey(){ return "wowstory.u" + (DATA.unit || 1) + ".mast"; }
+
+/* allZh 是「阅读习惯」不是单元数据：默认开（第一次背得先看懂），
+   手动关掉后跨单元、跨会话都记住，所以存档键不带单元号 */
+var state = { tab:"", story:0, allZh: localStorage.getItem("ws.zh") !== "0",
+              scope: localStorage.getItem(uKey("scope")) === "cur" ? "cur" : "all",
+              drill:0, flipped:false, q:"",
+              /* 生词本自己的一套视图状态，和上面的 unit 状态各管各的 */
+              vq:"", vdrill:0, vflipped:false, vmode:"list" };
+var MAST = JSON.parse(localStorage.getItem(uMastKey()) || "{}");
+function saveMast(){ localStorage.setItem(uMastKey(), JSON.stringify(MAST)); }
+/* 读到哪一篇也要记住 —— 「自测范围=本篇」是跟着 state.story 走的，
+   不记住故事的话，刷新后背的词池会悄悄换成第 1 篇 */
+state.story = Math.max(0, Math.min(parseInt(localStorage.getItem(uKey("story")) || "0", 10) || 0,
+                               DATA.stories.length - 1));
+/* 自测词池：cur = 只考这一篇，all = 整个单元。
+   两篇的词在 DATA.words 里恰好连续排列，但仍按 id 过滤，不依赖排列顺序 */
+function drillPool(){
+  if(state.scope === "all") return DATA.words;
+  var st = DATA.stories[Math.max(0, Math.min(state.story, DATA.stories.length - 1))];
+  return DATA.words.filter(function(x){ return x.s === st.id; });
+}
+/* 背到第几个词、考哪一篇、读哪一篇，三样一起存 —— 否则下次打开：
+   进度显示 12/53，卡片却回到第 1 个词，两个数字打架 */
+function saveDrill(){
+  localStorage.setItem(uKey("drill"), String(state.drill));
+  localStorage.setItem(uKey("scope"), state.scope);
+  localStorage.setItem(uKey("story"), String(state.story));
+}
+state.drill = Math.max(0, Math.min(parseInt(localStorage.getItem(uKey("drill")) || "0", 10) || 0,
+                               drillPool().length - 1));
+
+/* ============ 生词本（你自己的词库，独立于 unit）============
+   书里的词用「单词」当身份：MAST[w] 掌握度 / WMAP[w] 词条 / audio/<voice>/w/<w>.mp3。
+   生词本一律用自生成的 id（v1、v2…）当身份，存储键统一 ws.vocab.*，
+   音频也走独立目录 vw/ 与 vwz/ —— 所以哪怕你收的词和书里一模一样，
+   两边仍是两条互不干扰的记录：各自的掌握度、各自的卡片、各自的音频。
+   存储键不带单元号：生词本是你的，不属于某个 Unit，加单元切换后它也是同一份。 */
+function vload(k, d){
+  try{ var s = localStorage.getItem("ws.vocab." + k); return s === null ? d : JSON.parse(s); }
+  catch(e){ return d; }
+}
+function vsave(k, v){ try{ localStorage.setItem("ws.vocab." + k, JSON.stringify(v)); }catch(e){} }
+var VOCAB = vload("list", []);   /* [{id,w,ipa,pos,zh,note,src,t}] 数组顺序 = 加入顺序 */
+var VMAST = vload("mast", {});   /* {id: 0|1|2} 生词本自己的掌握度，与 MAST 无关 */
+var VSEQ  = vload("seq", 0);     /* 编号只增不减：删掉的不复用，避免旧存档串到新词上 */
+function vsaveList(){ vsave("list", VOCAB); }
+function vsaveMast(){ vsave("mast", VMAST); }
+function vfind(id){
+  for(var i = 0; i < VOCAB.length; i++){ if(VOCAB[i].id === id) return VOCAB[i]; }
+  return null;
+}
+/* 查重按「词」不按 id：同一个词不重复收，返回已有的那条 */
+function vhas(w){
+  var k = String(w == null ? "" : w).trim().toLowerCase();
+  if(!k) return null;
+  for(var i = 0; i < VOCAB.length; i++){ if(VOCAB[i].w.toLowerCase() === k) return VOCAB[i]; }
+  return null;
+}
+/* 新增。词已存在则直接返回它（dup=true 表示「早就收过」） */
+function vadd(o){
+  var w = String(o && o.w || "").trim();
+  if(!w) return null;
+  var ex = vhas(w);
+  if(ex) return { id: ex.id, dup: true };
+  var id = "v" + (++VSEQ);
+  vsave("seq", VSEQ);
+  VOCAB.push({ id:id, w:w,
+               ipa:String(o.ipa||"").trim(), pos:String(o.pos||"").trim(),
+               zh:String(o.zh||"").trim(), note:String(o.note||"").trim(),
+               src:String(o.src||"").trim(), t:Date.now() });
+  vsaveList();
+  return { id:id, dup:false };
+}
+function vdel(id){
+  for(var i = 0; i < VOCAB.length; i++){
+    if(VOCAB[i].id !== id) continue;
+    VOCAB.splice(i, 1); vsaveList();
+    if(VMAST[id] !== undefined){ delete VMAST[id]; vsaveMast(); }
+    return true;
+  }
+  return false;
+}
+/* 音频文件名规则必须与补音频脚本 _gen_vocab.py 一致（同一个 vfname） */
+function vfname(w){
+  var s = String(w == null ? "" : w).trim().toLowerCase()
+            .replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+  return s || "x";
+}
+/* 生词音频走独立目录 —— 哪怕和书里同名，也是两个文件，不会互相覆盖 */
+function srcVWord(w){ return AUD + TTS.en + "/vw/" + vfname(w) + ".mp3"; }
+function srcVWordZh(w){ return AUD + "zh/vwz/" + vfname(w) + ".mp3"; }
+/* 某个词补过音频没有：undefined 未探 / true 有 / false 确认缺。
+   列表里据此标「待补音频」——生词的音频是事后补的，缺是正常状态不是错误 */
+var VHAS = {};
+function vprobe(x, cb){
+  var f = vfname(x.w);
+  if(VHAS[f] !== undefined){ cb(VHAS[f]); return; }
+  var a = new Audio(), done = false;
+  function fin(ok){
+    if(done) return; done = true;
+    a.removeAttribute("src"); try{ a.load(); }catch(e){}
+    VHAS[f] = ok; cb(ok);
+  }
+  a.addEventListener("loadedmetadata", function(){ fin(true); });
+  a.addEventListener("error", function(){ fin(false); });
+  setTimeout(function(){ fin(false); }, 6000);
+  try{ a.preload = "metadata"; a.src = srcVWord(x.w); a.load(); }catch(e){ fin(false); }
+}
+/* 背到第几个生词也记住（和 unit 的 ws.u1.drill 是两把不同的钥匙） */
+state.vdrill = Math.max(0, Math.min(parseInt(localStorage.getItem("ws.vocab.drill") || "0", 10) || 0,
+                                 Math.max(0, VOCAB.length - 1)));
+function saveVDrill(){ try{ localStorage.setItem("ws.vocab.drill", String(state.vdrill)); }catch(e){} }
+/* 用户输入要落进 HTML（属性值和 textarea 都要转义） */
+function vesc(s){
+  return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+function vdate(t){
+  var d = new Date(t || Date.now());
+  function p(n){ return (n < 10 ? "0" : "") + n; }
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+}
+
+/* ============ 朗读引擎（离线预生成 mp3 · 微软神经网络语音） ============
+   音源由 _gen.py 调用 edge-tts 生成，用的是 Edge「大声朗读」同款神经网络音色，
+   浏览器只负责播放 mp3 —— 所以不挑系统语音包，任何浏览器听感都一致。 */
+var AUD = "audio/";
+var VOICES = [
+  { id:"aria",   name:"Aria",   desc:"女声 · 亲切" },
+  { id:"guy",    name:"Guy",    desc:"男声 · 明亮" },
+  { id:"andrew", name:"Andrew", desc:"男声 · 沉稳" }
+];
+var VIDS = VOICES.map(function(v){ return v.id; });
+var TTS = {
+  mode: localStorage.getItem(uKey("tts")) || "manual",
+  rate: parseFloat(localStorage.getItem(uKey("rate")) || "1"),
+  en: localStorage.getItem(uKey("voiceid")) || "aria"
+};
+if(VIDS.indexOf(TTS.en) < 0) TTS.en = "aria";
+function saveTTS(){
+  localStorage.setItem(uKey("tts"), TTS.mode);
+  localStorage.setItem(uKey("rate"), String(TTS.rate));
+  localStorage.setItem(uKey("voiceid"), TTS.en);
+}
+/* 文件名规则必须与 _gen.py 一致 */
+function srcWord(w){ return AUD + TTS.en + "/w/" + w + ".mp3"; }
+function srcPat(w){ return AUD + TTS.en + "/pat/" + w + ".mp3"; }
+function srcChip(w, i){ return AUD + TTS.en + "/chip/" + w + "_" + i + ".mp3"; }
+function uPrefix(){ var u = DATA.unit || 1; return "u" + (u < 10 ? "0" + u : u) + "_"; }
+function srcPara(id, k){ return AUD + TTS.en + "/" + uPrefix() + "p" + id + "-" + k + ".mp3"; }
+function srcParaZh(id, k){ return AUD + "zh/" + uPrefix() + "pz" + id + "-" + k + ".mp3"; }
+function srcWordZh(w){ return AUD + "zh/wz/" + w + ".mp3"; }
+function srcPatZh(w){ return AUD + "zh/patz/" + w + ".mp3"; }
+
+/* ---- 音源诊断 ----
+   所有音频都是相对路径 audio/...，实体在「与本文件同级的 audio 文件夹」里。
+   只要页面不是以真 URL（file:// 或 http://）打开，相对路径就取不到文件 ——
+   这是「音频没找到」的头号原因。下面把实际请求的地址摊开，免得靠猜。 */
+function absOf(rel){ try{ return new URL(rel, document.baseURI).href; }catch(e){ return rel; } }
+function audWhy(rel){
+  var p = location.protocol;
+  if(p === "about:" || p === "blob:" || p === "data:")
+    return { brief:"预览内嵌的页面取不到音频", full:"页面被内嵌预览（协议 " + p + "）打开，"
+      + "相对路径无法解析到磁盘。请用浏览器直接打开本文件，或通过本地服务器访问：\n" + absOf(rel) };
+  if(p === "file:")
+    return { brief:"确认 audio 文件夹与本文件同级", full:"已请求：\n" + absOf(rel)
+      + "\n若该路径下没有此文件，说明 audio 文件夹没和本文件放在一起。" };
+  return { brief:"音频未取到", full:"已请求：\n" + absOf(rel) };
+}
+function audFail(rel){
+  var w = audWhy(rel);
+  try{ console.warn("[WowStory] 音频加载失败：" + rel + "\n" + w.full); }catch(e){}
+  var h = document.getElementById("ttshint");
+  if(h){ h.textContent = "⚠ 音频没找到"; h.classList.add("err"); h.title = w.full; }
+  toast("音频没找到 · " + w.brief);
+}
+/* 生词的音频是事后补的，缺文件属于正常状态 —— 不报成「路径错了」，
+   也别去污染控制条上那个给书里音频排障用的 #ttshint */
+function audMiss(rel, label){
+  try{ console.warn("[WowStory] 生词音频未生成：" + rel); }catch(e){}
+  toast((label || "这个词") + " 还没补音频 · 去「本」里导出词表补一次");
+}
+/* 静默自检：探一次第一段音频，成功什么都不做，失败就把原因摆到控制条上 */
+function audioSelfCheck(){
+  if(!DATA || !DATA.stories || !DATA.stories.length) return;
+  var rel = AUD + TTS.en + "/p" + DATA.stories[0].id + "-0.mp3";
+  var a = new Audio(), settled = false;
+  function ok(){ if(settled) return; settled = true; a.removeAttribute("src"); try{ a.load(); }catch(e){} }
+  a.preload = "metadata";
+  a.onloadedmetadata = ok;
+  a.oncanplay = ok;
+  a.onerror = function(){ if(settled) return; settled = true; audFail(rel); };
+  a.src = rel;
+  try{ a.load(); }catch(e){}
+}
+
+var SAY = { token: 0, hl: [], last: "", btn: null, audio: null, raf: null };
+function clean(s){ return s.replace(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g, "$1"); }
+/* 断句规则必须和音频生成脚本 _gen.py 一致：只按 . ! ? 断，不认分号；Dr. 这类缩写不算句末 */
+var ABBR = /(^|[\s(])(Dr|Mr|Mrs|Ms|Prof|St|vs|etc|No|Jr|Sr)\./gi;
+function splitSents(raw){
+  var c = String(raw).replace(ABBR, function(_, a, b){ return a + b + "\u0001"; });
+  return (c.match(/[^.!?]+[.!?]*\s*/g) || [c])
+    .map(function(s){ return s.replace(/\u0001/g, ".").trim(); }).filter(Boolean);
+}
+function sents(raw){ return splitSents(clean(raw)); }
+/* 只摘掉高亮，不动按钮状态 */
+function purgeHL(){
+  SAY.hl.forEach(function(s){ var n = document.querySelector(s); if(n) n.classList.remove("say"); });
+  SAY.hl = [];
+}
+function clearHL(){
+  purgeHL();
+  Array.prototype.forEach.call(document.querySelectorAll(".spk.ing"), function(b){ b.classList.remove("ing"); });
+}
+/* 全局唯一的播放器：换源即中断上一段 */
+function player(){
+  if(!SAY.audio){ var a = new Audio(); a.preload = "auto"; SAY.audio = a; }
+  return SAY.audio;
+}
+function stopSay(){
+  SAY.token++;
+  if(SAY.raf){ cancelAnimationFrame(SAY.raf); SAY.raf = null; }
+  var a = SAY.audio;
+  if(a){
+    a.onended = null; a.onerror = null;
+    try{ a.pause(); a.removeAttribute("src"); a.load(); }catch(e){}
+  }
+  clearHL();
+  var f = document.getElementById("floatstop");
+  if(f) f.classList.remove("on");
+  var s = document.getElementById("stopbtn");
+  if(s) s.style.display = "none";
+}
+function showStop(){
+  var f = document.getElementById("floatstop");
+  if(f) f.classList.add("on");
+  var s = document.getElementById("stopbtn");
+  if(s) s.style.display = "";
+}
+/* act（可选）给 toast 挂一个动作按钮，用来做「已做某事 · 撤销」——
+   比弹确认框轻，也比直接做掉安全 */
+function toast(m, act){
+  var t = document.getElementById("toast");
+  t.textContent = m;
+  if(act && act.text){
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "tact"; b.textContent = act.text;
+    b.addEventListener("click", function(){
+      clearTimeout(toast.t); t.classList.remove("on");
+      if(typeof act.fn === "function") act.fn();
+    }, { once:true });
+    t.appendChild(b);
+  }
+  t.classList.add("on");
+  clearTimeout(toast.t);
+  toast.t = setTimeout(function(){ t.classList.remove("on"); }, act ? 4600 : 1600);
+}
+/* ---- 播放核心：一个 <audio> 串起一串音源 ---- */
+function markOn(sel){
+  purgeHL();
+  var n = document.querySelector(sel);
+  if(n){ n.classList.add("say"); SAY.hl.push(sel); }
+}
+/* 段落播放：按时间轴推进高亮，并让高亮句自动滚进视野 */
+function follow(key, my){
+  var marks = (PT[TTS.en] || {})[key] || [];
+  var k = +String(key).split("-")[1], cur = -1;
+  (function tick(){
+    if(my !== SAY.token) return;
+    var a = SAY.audio;
+    SAY.raf = requestAnimationFrame(tick);
+    if(!a || a.paused) return;
+    var t = a.currentTime, idx = 0;
+    for(var j = 0; j < marks.length; j++){ if(t >= marks[j] - 0.15) idx = j; }
+    if(idx === cur) return;
+    cur = idx;
+    var sel = selOf(k, idx);
+    if(SAY.hl.indexOf(sel) >= 0) return;
+    purgeHL();
+    var n = document.querySelector(sel);
+    if(!n) return;
+    n.classList.add("say"); SAY.hl.push(sel);
+    var r = n.getBoundingClientRect();
+    if(r.top < 96 || r.bottom > window.innerHeight - 40){
+      try{ n.scrollIntoView({ block:"center", behavior:"smooth" }); }catch(e){ n.scrollIntoView(); }
+    }
+  })();
+}
+/* 只播一条音频的 [from, to) —— 用来单读某一句 */
+function playSlice(a, to, my){
+  (function tick(){
+    if(my !== SAY.token) return;
+    if(a.currentTime >= to){ stopSay(); return; }
+    SAY.raf = requestAnimationFrame(tick);
+  })();
+}
+/* list 每项：{ src, from?, to?, key?, sel?, rate?, gap? } */
+function playList(list, btn){
+  if(TTS.mode === "off"){ toast("朗读已关闭 · 点顶部「🔊 朗读」打开"); return; }
+  if(!list || !list.length) return;
+  stopSay();
+  var my = SAY.token;
+  if(btn){ btn.classList.add("ing"); SAY.btn = btn; }
+  showStop();
+  var a = player(), i = 0;
+  (function step(){
+    if(my !== SAY.token) return;
+    if(i >= list.length){ stopSay(); return; }
+    var it = list[i++];
+    var from = it.from || 0;
+    function go(){
+      if(my !== SAY.token) return;
+      if(it.sel) markOn(it.sel);
+      a.playbackRate = it.rate || TTS.rate;
+      a.play().catch(function(){
+        if(my !== SAY.token) return;
+        toast("浏览器拦住了播放，点一下页面任意处再试");
+        stopSay();
+      });
+      if(it.key) follow(it.key, my);
+      else if(it.to) playSlice(a, it.to, my);
+    }
+    a.onended = function(){
+      if(my !== SAY.token) return;
+      if(SAY.raf){ cancelAnimationFrame(SAY.raf); SAY.raf = null; }
+      purgeHL();
+      setTimeout(function(){ if(my === SAY.token) step(); }, it.gap === undefined ? 110 : it.gap);
+    };
+    a.onerror = function(){
+      if(my !== SAY.token) return;
+      if(it.miss){ if(!it.quiet) audMiss(it.src, it.miss); } else audFail(it.src);
+      stopSay();
+    };
+    if(from > 0){
+      var once = function(){
+        a.removeEventListener("loadedmetadata", once);
+        if(my !== SAY.token) return;
+        try{ a.currentTime = from; }catch(e){}
+        go();
+      };
+      a.addEventListener("loadedmetadata", once);
+      a.src = it.src; a.load();
+    } else {
+      a.src = it.src; a.load();
+      go();
+    }
+  })();
+}
+/* 连读若干段：每段一条完整音频，段间留一点呼吸 */
+function playParas(ks, btn){
+  var st = DATA.stories[state.story];
+  playList(ks.map(function(k){
+    return { src: srcPara(st.id, k), key: st.id + "-" + k, gap: 430 };
+  }), btn);
+}
+/* 句子定位：段落 k 的第 j 句 */
+function selOf(k, j){ return '[data-en="' + k + '"] .sent[data-si="' + j + '"]'; }
+/* 只读某一段里的第 j 句：从整段音频里截取该句所在的时间窗 */
+function speakSentence(k, j, btn){
+  var st = DATA.stories[state.story];
+  var marks = (PT[TTS.en] || {})[st.id + "-" + k] || [];
+  if(j >= marks.length) return;
+  var from = j > 0 ? Math.max(0, marks[j] - 0.25) : 0;
+  var to = j + 1 < marks.length ? (marks[j + 1] + 0.10) : undefined;
+  playList([{ src: srcPara(st.id, k), from: from, to: to, sel: selOf(k, j) }], btn);
+}
+function syncAudio(){
+  var m = document.getElementById("modeseg"), r = document.getElementById("rateseg");
+  if(m){
+    Array.prototype.forEach.call(m.children, function(b){ b.classList.toggle("on", b.dataset.mode === TTS.mode); });
+  }
+  if(r){
+    var rl = Array.prototype.slice.call(r.children), near = null, best = 9;
+    rl.forEach(function(b){
+      var d = Math.abs(parseFloat(b.dataset.rate) - TTS.rate);
+      if(d < best){ best = d; near = b; }
+    });
+    if(near && best > 0.02){ TTS.rate = parseFloat(near.dataset.rate); saveTTS(); }
+    rl.forEach(function(b){ b.classList.toggle("on", b === near); });
+  }
+  var vs = document.getElementById("voiceseg");
+  if(vs){
+    vs.innerHTML = VOICES.map(function(v){
+      return '<button data-voice="' + v.id + '"' + (v.id === TTS.en ? ' class="on"' : "") + '>'
+        + v.name + '<small>' + v.desc + '</small></button>';
+    }).join("");
+  }
+  var amode = document.getElementById("amode");
+  if(amode) amode.textContent = TTS.mode === "off" ? "关" : (TTS.mode === "auto" ? "自动" : "手动");
+  var abtn = document.getElementById("audiobtn");
+  if(abtn) abtn.classList.toggle("on", TTS.mode !== "off");
+  var hint = document.getElementById("ttshint");
+  if(hint){
+    hint.classList.remove("err");
+    hint.textContent = TTS.mode === "off" ? "静音中" : (TTS.mode === "auto" ? "背词 + 释义全自动" : "背词自动读，其余点按");
+  }
+}
+/* 背模式朗读
+}
+/* 背模式朗读：「听音」是背词的第一步，所以进卡自动读词（只有「关」档才静音）。
+   「自动」档额外在翻面时读中文释义 + 例句；「手动」档翻面不读，留给用户自己回忆。 */
+function autoDrill(){
+  if(TTS.mode === "off" || state.tab !== "drill") return;
+  var pool = drillPool();
+  var x = pool[Math.min(state.drill, pool.length - 1)];
+  var key = x.w + "|" + (state.flipped ? "f" : "n");
+  if(SAY.last === key) return;
+  SAY.last = key;
+  if(!state.flipped){
+    playList([{ src: srcWord(x.w) }], null);
+  } else {
+    /* 翻面揭晓：只要朗读没关，自动朗读中文释义；自动档额外朗读加分例句 */
+    var items = [{ src: srcWordZh(x.w) }];
+    if(TTS.mode === "auto") items.push({ src: srcPat(x.w), gap: 320 });
+    playList(items, null);
+  }
+}
+/* 卡片正面那句引导，随档位变：静音时不该再说「先听音」 */
+function cardHintText(){
+  return TTS.mode === "off"
+    ? "先在心里说出意思和搭配，再点一下卡片揭晓"
+    : "先听音、在心里说出意思和搭配，再点一下卡片揭晓";
+}
+/* data-say 的取值：
+   all 连读全篇 / p:N 读第 N 段英文 / pz:N 读第 N 段中文 / s:N:j 只读第 N 段的第 j 句
+   w 单词 / slow 慢速单词 / wz 中文释义 / wb 词+释义+例句
+   pat 加分句式 / patz 句式中文 / chip:词:序号 搭配短语
+   生词本（一律传 id，不传单词 —— 这是两个命名空间）：vw 单词 / vslow 慢速 / vwz 释义 / vb 词+释义 */
+function sayBy(key, btn){
+  var a = key.split(":"), k = a[0], v = a.slice(1).join(":");
+  var st = DATA.stories[state.story];
+  if(k === "all"){ toast("连读全篇 · 共 " + st.ps.length + " 段"); playParas(st.ps.map(function(_, i){ return i; }), btn); }
+  else if(k === "cards"){
+    var storyWords = DATA.words.filter(function(x){ return x.s === st.id; });
+    toast("顺读本篇考卡 · 共 " + storyWords.length + " 词");
+    var items = [];
+    storyWords.forEach(function(x){
+      items.push({ src: srcWord(x.w), sel: '.wcard[data-w="' + x.w + '"]', gap: 280 });
+      items.push({ src: srcWordZh(x.w), sel: '.wcard[data-w="' + x.w + '"]', gap: 380 });
+    });
+    playList(items, btn);
+  }
+  else if(k === "p"){ playParas([+v], btn); }
+  else if(k === "s"){ var q = v.split(":"); speakSentence(+q[0], +q[1], btn); }
+  else if(k === "pz"){ playList([{ src: srcParaZh(st.id, +v) }], btn); }
+  else if(k === "w"){ if(WMAP[v]) playList([{ src: srcWord(v) }], btn); }
+  else if(k === "slow"){ if(WMAP[v]) playList([{ src: srcWord(v), rate: 0.65 }], btn); }
+  else if(k === "wz"){ if(WMAP[v]) playList([{ src: srcWordZh(v) }], btn); }
+  else if(k === "wb"){ if(WMAP[v]) playList([
+      { src: srcWord(v), gap: 320 },
+      { src: srcWordZh(v), gap: 320 },
+      { src: srcPat(v) }], btn); }
+  else if(k === "pat"){ if(WMAP[v]) playList([{ src: srcPat(v) }], btn); }
+  else if(k === "patz"){ if(WMAP[v]) playList([{ src: srcPatZh(v) }], btn); }
+  else if(k === "chip"){ var cq = v.split(":"), cw = cq[0]; if(WMAP[cw] && WMAP[cw].c[+cq[1]]) playList([{ src: srcChip(cw, +cq[1]) }], btn); }
+  /* ---- 生词本：传 id 不传单词，所以和书里同名也不会读错文件 ---- */
+  else if(k === "vw" || k === "vslow"){
+    var vx = vfind(v); if(!vx) return;
+    playList([{ src: srcVWord(vx.w), rate: k === "vslow" ? 0.65 : undefined,
+                miss: "「" + vx.w + "」" }], btn);
+  }
+  else if(k === "vwz"){
+    var vxz = vfind(v); if(!vxz || !vxz.zh) return;
+    playList([{ src: srcVWordZh(vxz.w), miss: "「" + vxz.w + "」的释义" }], btn);
+  }
+  else if(k === "vb"){
+    var vxb = vfind(v); if(!vxb) return;
+    var vlist = [{ src: srcVWord(vxb.w), gap: 320, miss: "「" + vxb.w + "」" }];
+    if(vxb.zh) vlist.push({ src: srcVWordZh(vxb.w), gap: 320, miss: "「" + vxb.w + "」的释义" });
+    playList(vlist, btn);
+  }
+}
+
+function parseEn(s){
+  return s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, function(_, surf, base){
+    var b = (base || surf).toLowerCase();
+    return '<span class="tw" data-w="' + b + '">' + surf + '</span>';
+  });
+}
+/* 把段落拆成句子并逐句包一层，供朗读时高亮跟随；切法与音频时间轴同源 */
+function renderEn(raw, k){
+  return splitSents(raw).map(function(s, j){
+    return '<span class="sent" data-si="' + j + '" data-say="s:' + k + ':' + j + '" title="点一下只听这一句">' + parseEn(s) + '</span>';
+  }).join(" ");
+}
+function esc(s){ return s; }
+
+/* 滚动时收紧吸顶条，把空间还给正文；带回滞避免临界处反复切换 */
+var SH = document.querySelector(".stickyhead"), SH_MINI = false;
+function syncSticky(){
+  var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+  var want = SH_MINI ? y > 40 : y > 90;
+  if(want === SH_MINI) return;
+  SH_MINI = want;
+  SH.classList.toggle("mini", want);
+  if(want){ var pop = document.getElementById("apop"); if(pop) pop.classList.remove("on"); }
+}
+window.addEventListener("scroll", syncSticky, {passive:true});
+
+/* 只有切 tab 才回到顶部；翻面 / 评分 / 重来这类「原地操作」不能挪动视口 ——
+   页面一跳，指针底下的元素就换了人，用户会以为卡片点不动 */
+var RENDERED_TAB = null;
+function render(){
+  var app = document.getElementById("app");
+  var t = state.tab;
+  var tabChanged = (t !== RENDERED_TAB);
+  RENDERED_TAB = t;
+  stopSay();
+  Array.prototype.forEach.call(document.querySelectorAll(".tab"), function(b){
+    b.classList.toggle("on", b.dataset.tab === t);
+  });
+  if(t === "read") app.innerHTML = viewRead();
+  else if(t === "drill") app.innerHTML = viewDrill();
+  else if(t === "write") app.innerHTML = viewWrite();
+  else if(t === "vocab") app.innerHTML = viewVocab();
+  else app.innerHTML = viewIndex();
+  if(t === "index"){ var s = document.getElementById("q"); if(s){ s.value = state.q; s.focus(); s.setSelectionRange(s.value.length, s.value.length); } }
+  if(t === "vocab"){ vprobeAll(); }
+  autoDrill();
+  autoVDrill();
+  if(tabChanged) window.scrollTo({top:0, behavior:"instant" in window ? "instant" : "auto"});
+  syncSticky();
+}
+
+function viewRead(){
+  var st = DATA.stories[state.story];
+  var sCnt = DATA.stories.length;
+  var cols = (sCnt === 5) ? 5 : ((sCnt === 6) ? 3 : sCnt);
+  var h = '<div class="label">选一篇开始读</div><div class="pick" style="grid-template-columns:repeat(' + cols + ',1fr)">';
+  DATA.stories.forEach(function(s, i){
+    var cnt = DATA.words.filter(function(x){ return x.s === s.id; }).length;
+    h += '<button class="pickc' + (i === state.story ? ' on' : '') + '" data-act="story" data-i="' + i + '">'
+      + '<b>' + s.en + '</b><span>' + s.zh + ' · ' + s.theme + ' · ' + cnt + ' 词</span></button>';
+  });
+  h += '</div>';
+  h += '<div class="label">英文故事 · 点加粗的词看释义</div>';
+  h += '<div class="storycard"><div class="tape"></div>';
+  h += '<h2 class="stitle">' + st.en + '｜' + st.zh + '</h2>';
+  h += '<div class="smeta">题材 ' + st.theme + '　·　点加粗词查看考点</div>';
+  /* 控制条排在正文之前：译文开关是读的时候要随手按的，不该压到卡片最底下去够 */
+  h += '<div class="toolbar top">'
+    + '<button class="btn' + (state.allZh ? ' on' : '') + '" data-act="zh" title="中文译文随时开关，选择会一直记住">中文译文 · '
+    + (state.allZh ? '开' : '关') + '</button>'
+    + '<button class="btn" data-say="all" title="从第一段读到末尾，逐句高亮">🔊 连读全篇</button>'
+    + '<button class="btn" data-act="todrill">拿这篇自测 →</button></div>';
+  st.ps.forEach(function(p, k){
+    h += '<div class="pz' + (state.allZh ? ' open' : '') + '" data-en="' + k + '">'
+      + '<p class="en"><button class="spk" data-say="p:' + k + '" title="朗读本段英文，逐句高亮">🔊</button>' + renderEn(p.en, k) + '</p>'
+      + '<p class="zh">' + p.zh + '<button class="spk" data-say="pz:' + k + '" title="朗读本段中文">🔊</button></p></div>';
+  });
+  h += '</div>';
+
+  var storyWords = DATA.words.filter(function(x){ return x.s === st.id; });
+  h += '<div class="dhead"><div class="label" style="margin:0">本篇考点卡 · 点开看完整搭配</div>'
+    + '<button class="btn quiet" data-say="cards" title="顺读本篇所有考点词，逐卡高亮">🔊 顺读本篇 ' + storyWords.length + ' 词</button></div>'
+    + '<div class="grid">';
+  storyWords.forEach(function(x){
+    h += wordCard(x);
+  });
+  h += '</div>';
+  return h;
+}
+
+function wordCard(x){
+  var m = MAST[x.w];
+  var dot = m === 2 ? ' · <span style="color:#3B6D11">已认识</span>' : (m === 1 ? ' · <span style="color:#BA7517">待巩固</span>' : (m === 0 ? ' · <span style="color:#A32D2D">没记住</span>' : ''));
+  return '<div class="wcard" data-act="open" data-w="' + x.w + '" tabindex="0">'
+    + '<div class="wtop">'
+    + '<div class="wtop-left"><b>' + x.w + '</b><i>/' + x.ipa + '/</i><u>' + x.pos + '</u></div>'
+    + '<button class="spk" data-say="w:' + x.w + '" title="朗读单词" style="padding:1px 6px">🔊</button>'
+    + '</div>'
+    + '<div class="wsense">' + x.zh + '<span style="color:var(--ink3)">' + dot + '</span></div>'
+    + '<div class="wcoll"><em>' + x.c[0] + '</em></div></div>';
+}
+
+function viewDrill(){
+  var pool = drillPool();
+  var st = DATA.stories[Math.max(0, Math.min(state.story, DATA.stories.length - 1))];
+  var curN = DATA.words.filter(function(y){ return y.s === st.id; }).length;
+  var done = pool.filter(function(x){ return MAST[x.w] !== undefined; }).length;
+  var known = pool.filter(function(x){ return MAST[x.w] === 2; }).length;
+  var i = Math.min(state.drill, pool.length - 1);
+  var x = pool[i];
+  var h = '<div class="dhead"><div class="label">遮住释义，想好了再点开</div>'
+    /* 自测范围：默认只考「本篇」（词轨格子大、和这套词对得上），想整单元过一遍再切。
+       切换要清掉位置 —— 两个词池的下标不是一回事 */
+    + '<div class="aseg" id="scopeseg">'
+    + '<button data-act="scope" data-v="cur"' + (state.scope === "cur" ? ' class="on"' : '')
+    + ' title="只自测本篇《' + st.zh + '》的 ' + curN + ' 个词">本篇 ' + curN + '</button>'
+    + '<button data-act="scope" data-v="all"' + (state.scope === "all" ? ' class="on"' : '')
+    + ' title="整个单元 ' + DATA.words.length + ' 个词一起过">全单元 ' + DATA.words.length + '</button>'
+    + '</div></div>';
+  /* 词轨 = 词表本身：位置、进度、掌握度、跳转，同一根元素上说完 */
+  h += '<div class="prog">'
+    + '<div class="ptop"><span>第 <b>' + (i + 1) + '</b> / ' + pool.length + ' 个</span>'
+    + '<span>已评 <b>' + done + '</b> · 认识 <b>' + known + '</b></span></div>'
+    + '<div class="track" id="track" tabindex="0" role="slider" aria-label="跳到任意词"'
+    + ' aria-valuemin="1" aria-valuemax="' + pool.length + '" aria-valuenow="' + (i + 1) + '"'
+    + ' title="点或拖动跳到任意词　灰=未背 红=没记住 黄=待巩固 绿=认识">'
+    + pool.map(function(w, k){
+        var m = MAST[w.w];
+        return '<i data-i="' + k + '" class="' + (m === undefined ? 'u' : 'm' + m) + (k === i ? ' cur' : '') + '"></i>';
+      }).join('')
+    + '<span class="tip" id="ptip"></span></div>';
+  h += '<div class="flip" data-act="flip">';
+  h += '<div><span class="fpos">' + x.pos + '</span></div>';
+  h += '<div class="fword">' + x.w + '</div>';
+  h += '<div class="fipa">/' + x.ipa + '/</div>';
+  h += '<div style="margin-top:12px">'
+    + '<button class="spk" data-say="w:' + x.w + '" title="重听这个单词">🔊 听词</button>'
+    + '<button class="spk" data-say="slow:' + x.w + '" title="慢速重读">🐢 慢速</button></div>';
+  if(state.flipped){
+    h += '<div class="reveal">'
+      + '<div class="rline"><span>故事义</span><span>' + x.zh + '<button class="spk" data-say="wz:' + x.w + '" title="朗读中文释义">🔊</button></span></div>'
+      + '<div class="rline"><span>常考义</span><span>' + x.exam + '</span></div>'
+      + '<div class="rline"><span>搭配</span><span>' + x.c.slice(0,2).map(function(c){return '<em>' + c + '</em>';}).join('　·　') + '</span></div>'
+      + '<div class="rline"><span>近义</span><span>' + x.syn.join(' · ') + '</span></div>'
+      + '<div style="margin-top:8px"><button class="spk" data-say="wb:' + x.w + '" title="词 + 释义 + 例句 连读">🔊 词 + 释义 + 例句</button></div>'
+      + '</div>';
+  } else {
+    h += '<div class="hint" id="cardhint">' + cardHintText() + '</div>';
+  }
+  h += '<div class="cardfoot"><button class="more" data-act="open" data-w="' + x.w + '"'
+    + ' title="打开这张卡的全部考点：搭配 / 近义 / 词族 / 辨析 / 句式">完整考点 →</button></div>';
+  h += '</div>';
+  if(state.flipped){
+    h += '<div class="drillbar">'
+      + '<button class="btn b-no" data-act="mark" data-v="0">没记住</button>'
+      + '<button class="btn b-mid" data-act="mark" data-v="1">待巩固</button>'
+      + '<button class="btn b-ok" data-act="mark" data-v="2">认识</button>'
+      + '</div>';
+  }
+  h += '<div class="toolbar" style="justify-content:center;margin-top:14px">'
+    + '<button class="btn quiet" data-act="reset" title="清空全部掌握度，从头开始">↺ 重新来过</button></div>';
+  return h;
+}
+
+function viewWrite(){
+  var q = state.q.trim().toLowerCase();
+  var pool = DATA.words.filter(function(x){
+    if(!q) return true;
+    var blob = [x.w, x.pat, x.patZh, x.c.join(" "), x.zh].join(" ").toLowerCase();
+    return blob.indexOf(q) >= 0;
+  });
+  var h = '<div class="label">把 ' + DATA.words.length + ' 个词的作文句型抽出来，直接背走</div>';
+  h += '<input class="search" id="q" placeholder="搜词 / 搜中文，例如：证明 / obtain / 由于" value="' + state.q.replace(/"/g,'&quot;') + '">';
+  if(!pool.length){ return h + '<div class="hint" style="text-align:center;padding:40px 0">没找到，换个词试试</div>'; }
+  pool.forEach(function(x){
+    h += '<div class="pat"><p class="pen">' + x.pat.replace(new RegExp('\\b' + x.w + '\\w*', 'i'), function(m){ return '<span class="tw on" data-w="' + x.w + '">' + m + '</span>'; }) + '</p>'
+      + '<p class="pzh">' + x.patZh + '</p>'
+      + '<div class="pfor">来自 ' + x.w + '　/' + x.ipa + '/　' + x.pos + '</div>'
+      + '<div class="toolbar" style="margin-top:11px;gap:6px">'
+      +   '<button class="spk" data-say="pat:' + x.w + '" title="朗读整句例句">🔊 整句</button>'
+      +   '<button class="spk" data-say="patz:' + x.w + '" title="朗读这句的中文">🔊 中文</button>'
+      +   '<button class="spk" data-say="w:' + x.w + '" title="单独读这个词">🔊 ' + x.w + '</button>'
+      +   '<button class="spk" data-say="slow:' + x.w + '" title="慢速重读，便于跟读">🐢 慢速</button>'
+      + '</div>'
+      + '<div class="chips">' + x.c.map(function(c, i){ return '<button class="chip" data-say="chip:' + x.w + ':' + i + '" title="朗读这条搭配">' + c + '</button>'; }).join('') + '</div>'
+      + '</div>';
+  });
+  return h;
+}
+
+function viewIndex(){
+  var q = state.q.trim().toLowerCase();
+  var pool = DATA.words.filter(function(x){
+    if(!q) return true;
+    return (x.w + " " + x.zh + " " + x.exam + " " + x.c.join(" ")).toLowerCase().indexOf(q) >= 0;
+  });
+  var h = '<div class="label">' + DATA.words.length + ' 词速查 · 点任意一行看完整考点</div>';
+  h += '<input class="search" id="q" placeholder="搜单词 / 中文释义 / 搭配" value="' + state.q.replace(/"/g,'&quot;') + '">';
+  h += '<table><thead><tr><th style="width:22%">词</th><th style="width:26%">故事义</th><th>必背搭配</th></tr></thead><tbody>';
+  pool.forEach(function(x){
+    h += '<tr data-act="open" data-w="' + x.w + '">'
+      + '<td class="w">' + x.w + '<button class="spk" data-say="w:' + x.w + '" title="朗读这个单词">🔊</button>'
+      + '<div style="font-weight:400;color:var(--ink3);font-size:11px">/' + x.ipa + '/</div></td>'
+      + '<td class="c">' + x.zh + '</td>'
+      + '<td class="c">' + x.c[0] + '</td></tr>';
+  });
+  h += '</tbody></table>';
+  if(!pool.length) h += '<div class="hint" style="text-align:center;padding:30px 0">没找到，换个词试试</div>';
+  return h;
+}
+
+/* ==================== 生词本：视图 ==================== */
+function vrated(){ return VOCAB.filter(function(x){ return VMAST[x.id] !== undefined; }).length; }
+function vnmiss(){ return VOCAB.filter(function(x){ return VHAS[vfname(x.w)] === false; }).length; }
+function vstatTag(id){
+  var m = VMAST[id];
+  if(m === 2) return '<span class="vstat m2">已认识</span>';
+  if(m === 1) return '<span class="vstat m1">待巩固</span>';
+  if(m === 0) return '<span class="vstat m0">没记住</span>';
+  return '<span class="vstat">未背</span>';
+}
+/* 音频状态：缺音频时它是个可点的「补音频」按钮，有音频时退化成纯文字 */
+function vaudioTag(x){
+  var s = VHAS[vfname(x.w)];
+  var cls = s === true ? "vstat ok" : s === false ? "vstat vo" : "vstat";
+  return '<button class="' + cls + '" data-vaudio="' + x.id + '"'
+    + (s === false ? ' data-act="vgen1" data-id="' + x.id + '" title="点一下给这个词补发音"' : '')
+    + '>' + (s === true ? "可朗读" : s === false ? "补音频" : "") + '</button>';
+}
+function vtagAudio(id, ok){
+  var el = document.querySelector('[data-vaudio="' + id + '"]');
+  if(el){
+    var busy = el.classList.contains("busy");
+    el.className = "vstat " + (ok ? "ok" : "vo") + (busy ? " busy" : "");
+    el.textContent = ok ? "可朗读" : "补音频";
+    if(ok){
+      el.removeAttribute("data-act"); el.removeAttribute("data-id"); el.removeAttribute("title");
+    } else {
+      el.setAttribute("data-act", "vgen1"); el.setAttribute("data-id", id);
+      el.setAttribute("title", "点一下给这个词补发音");
+    }
+  }
+  var n = document.getElementById("vmissN");
+  if(n) n.textContent = String(vnmiss());
+  var wn = document.getElementById("vwarnN");
+  if(wn) wn.style.display = vnmiss() ? "" : "none";
+}
+/* 音频有没有是异步探出来的，渲染时先占位，探到再就地填 —— 不整页重渲染，免得打断操作 */
+function vprobeAll(cb){
+  var left = VOCAB.length;
+  if(!left){ if(cb) cb(); return; }
+  VOCAB.forEach(function(x){
+    vprobe(x, function(ok){
+      vtagAudio(x.id, ok);
+      vmissTick();
+      if(--left <= 0 && cb) cb();
+    });
+  });
+}
+function viewVocab(){ return state.vmode === "drill" ? vocabDrill() : vocabList(); }
+
+function vocabList(){
+  var q = String(state.vq || "").trim().toLowerCase();
+  var pool = VOCAB.filter(function(x){
+    if(!q) return true;
+    return [x.w, x.zh, x.note, x.src, x.pos].join(" ").toLowerCase().indexOf(q) >= 0;
+  });
+  var h = '<div class="vhead"><div class="label">我的生词本</div>'
+    + '<div class="vc"><b>' + VOCAB.length + '</b> 个词'
+    + '<span id="vwarnN"' + (vnmiss() ? '' : ' style="display:none"') + '>　·　待补音频 <b id="vmissN">' + vnmiss() + '</b></span>'
+    + '</div></div>';
+  if(!VOCAB.length){
+    return h + '<div class="vempty"><b>还没有生词</b>'
+      + '做阅读碰到的、背单词总记不住的，都可以丢进来。<br>'
+      + '它和书里的词<b>分开存放</b>：哪怕收了同一个词，两边的掌握度和音频也各算各的。'
+      + '<div class="vdrop"><button class="btn" data-act="vnew">＋ 添加第一个生词</button></div></div>';
+  }
+  h += '<div class="vdrop">'
+    + '<button class="btn" data-act="vnew">＋ 添加生词</button>'
+    + '<button class="btn on" data-act="vstart">开始自测（' + VOCAB.length + '）</button>'
+    + '<button class="btn quiet" data-act="vexport">补音频</button>'
+    + '</div>';
+  if(VOCAB.length > 5){
+    h += '<div style="margin-top:16px"><input class="search" id="vq" placeholder="搜单词 / 释义 / 笔记 / 出处" value="'
+      + vesc(state.vq) + '"></div>';
+  }
+  if(!pool.length){
+    return h + '<div class="hint" style="text-align:center;padding:40px 0">没找到，换个词试试</div>';
+  }
+  h += '<div style="margin-top:12px">';
+  pool.forEach(function(x){
+    h += '<div class="vrow">'
+      + '<div class="vw">' + vesc(x.w)
+      +   (x.ipa ? '<i>/' + vesc(x.ipa) + '/</i>' : '')
+      +   (x.pos ? '<u>' + vesc(x.pos) + '</u>' : '')
+      + '</div>'
+      + (x.zh ? '<div class="vz">' + vesc(x.zh) + '</div>' : '')
+      + (x.note ? '<div class="vn">' + vesc(x.note) + '</div>' : '')
+      + '<div class="vf">' + vstatTag(x.id)
+      +   vaudioTag(x)
+      +   '<span class="vsrc">' + vesc(x.src || ('加入于 ' + vdate(x.t))) + '</span>'
+      +   '<span class="vacts">'
+      +     '<button class="spk" data-say="vw:' + x.id + '" title="读这个词（没补过音频会提示）">🔊 读</button>'
+      +     '<button class="spk" data-act="vedit" data-id="' + x.id + '">改</button>'
+      +     '<button class="spk" data-act="vdel" data-id="' + x.id + '">删</button>'
+      +   '</span>'
+      + '</div></div>';
+  });
+  return h + '</div>';
+}
+
+/* 生词自测：样式全复用背模式那套（.flip / .track / .drillbar），
+   但数据从头到尾只认 VOCAB 和 VMAST —— 这是两套词池，不是一个词池的两种筛选 */
+function vocabDrill(){
+  var pool = VOCAB, i = Math.max(0, Math.min(state.vdrill, pool.length - 1));
+  var x = pool[i];
+  var known = VOCAB.filter(function(y){ return VMAST[y.id] === 2; }).length;
+  var h = '<div class="dhead"><div class="label">生词自测 · 遮住释义，想好了再点开</div>'
+    + '<div class="aseg"><button data-act="vback">← 回列表</button></div></div>';
+  h += '<div class="prog">'
+    + '<div class="ptop"><span>第 <b>' + (i + 1) + '</b> / ' + pool.length + ' 个</span>'
+    + '<span>已背 <b>' + vrated() + '</b> · 认识 <b>' + known + '</b></span></div>'
+    + '<div class="track" id="vtrack" tabindex="0" role="slider" aria-label="跳到任意生词"'
+    + ' aria-valuemin="1" aria-valuemax="' + pool.length + '" aria-valuenow="' + (i + 1) + '"'
+    + ' title="点或拖动跳到任意词　灰=未背 红=没记住 黄=待巩固 绿=认识">'
+    + pool.map(function(y, k){
+        var m = VMAST[y.id];
+        return '<i data-i="' + k + '" class="' + (m === undefined ? 'u' : 'm' + m) + (k === i ? ' cur' : '') + '"></i>';
+      }).join('')
+    + '<span class="tip" id="vtip"></span></div>';
+  h += '<div class="flip" data-act="vflip">';
+  h += '<div><span class="fpos">' + (x.pos ? vesc(x.pos) : '生词') + '</span></div>';
+  h += '<div class="fword">' + vesc(x.w) + '</div>';
+  if(x.ipa) h += '<div class="fipa">/' + vesc(x.ipa) + '/</div>';
+  h += '<div style="margin-top:12px">'
+    + '<button class="spk" data-say="vw:' + x.id + '" title="重听这个生词">🔊 听词</button>'
+    + '<button class="spk" data-say="vslow:' + x.id + '" title="慢速重读">🐢 慢速</button></div>';
+  if(state.vflipped){
+    h += '<div class="reveal">'
+      + '<div class="rline"><span>释义</span><span>'
+      +   (x.zh ? vesc(x.zh) + '<button class="spk" data-say="vwz:' + x.id + '" title="朗读释义">🔊</button>'
+              : '<span style="color:var(--ink3)">这条没填释义</span>')
+      + '</span></div>';
+    if(x.note) h += '<div class="rline"><span>笔记</span><span>' + vesc(x.note) + '</span></div>';
+    if(x.src) h += '<div class="rline"><span>出处</span><span>' + vesc(x.src) + '</span></div>';
+    h += '<div class="rline"><span>加入</span><span style="color:var(--ink2)">' + vdate(x.t) + '</span></div>'
+      + '<div style="margin-top:8px"><button class="spk" data-say="vb:' + x.id + '" title="词 + 释义 连读">🔊 词 + 释义</button></div>'
+      + '</div>';
+  } else {
+    h += '<div class="hint" id="cardhint">' + (TTS.mode === "off"
+      ? '先在心里说出意思，再点一下卡片揭晓'
+      : '先听音、在心里说出意思，再点一下卡片揭晓') + '</div>';
+  }
+  h += '<div class="cardfoot"><button class="more" data-act="vedit" data-id="' + x.id + '"'
+    + ' title="释义 / 音标 / 笔记写错了，就地改">编辑这条 →</button></div>';
+  h += '</div>';
+  if(state.vflipped){
+    h += '<div class="drillbar">'
+      + '<button class="btn b-no" data-act="vmark" data-v="0">没记住</button>'
+      + '<button class="btn b-mid" data-act="vmark" data-v="1">待巩固</button>'
+      + '<button class="btn b-ok" data-act="vmark" data-v="2">认识</button>'
+      + '</div>';
+  }
+  h += '<div class="toolbar" style="justify-content:center;margin-top:14px">'
+    + '<button class="btn quiet" data-act="vreset" title="清空生词本的掌握度（书里的不动）">↺ 重新来过</button></div>';
+  return h;
+}
+
+/* 生词自测进卡自动读词：和背模式同一条规则，只是换了词源。
+   缺音频时静默 —— 自测是连着过的，不能每换一张卡就弹一次提示 */
+function autoVDrill(){
+  if(TTS.mode === "off" || state.tab !== "vocab" || state.vmode !== "drill") return;
+  var pool = VOCAB; if(!pool.length) return;
+  var x = pool[Math.max(0, Math.min(state.vdrill, pool.length - 1))];
+  if(!x) return;
+  var key = "v" + x.id + "|" + (state.vflipped ? "f" : "n");
+  if(SAY.last === key) return;
+  SAY.last = key;
+  if(state.vflipped)
+    playList([{ src: srcVWordZh(x.w), gap: 320, miss: "「" + x.w + "」的释义", quiet: true }], null);
+  else
+    playList([{ src: srcVWord(x.w), miss: "「" + x.w + "」", quiet: true }], null);
+}
+
+/* ==================== 生词本：表单 ==================== */
+function openVocabForm(id){
+  stopSay();
+  var x = id ? vfind(id) : null;
+  if(id && !x) return;
+  var b = document.getElementById("sheetBody");
+  b.innerHTML = '<div class="sh-word">' + (x ? vesc(x.w || "（没填单词）") : "添加生词")
+    + '<i>' + (x ? "编辑" : "新的一条") + '</i></div>'
+    + '<div class="form">'
+    + '<label class="fld" id="f-w"><span>单词 <em>*</em></span>'
+    +   '<input id="fi-w" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="例如 obtain" value="' + vesc(x && x.w) + '"></label>'
+    + '<label class="fld"><span>中文释义</span>'
+    +   '<input id="fi-zh" autocomplete="off" placeholder="例如 获得；取得（可留空）" value="' + vesc(x && x.zh) + '"></label>'
+    + '<label class="fld"><span>音标</span>'
+    +   '<input id="fi-ipa" autocomplete="off" spellcheck="false" placeholder="例如 əbˈteɪn（可留空）" value="' + vesc(x && x.ipa) + '"></label>'
+    + '<label class="fld"><span>词性</span>'
+    +   '<input id="fi-pos" autocomplete="off" spellcheck="false" placeholder="例如 v. / n. / adj.（可留空）" value="' + vesc(x && x.pos) + '"></label>'
+    + '<label class="fld"><span>出处 / 来源</span>'
+    +   '<input id="fi-src" autocomplete="off" placeholder="例如 2021 英语二 Text 2（可留空）" value="' + vesc(x && x.src) + '"></label>'
+    + '<label class="fld"><span>我的笔记</span>'
+    +   '<textarea id="fi-note" placeholder="总混的词、它在文中的意思、记忆钩子…（可留空）">' + vesc(x && x.note) + '</textarea></label>'
+    + '</div>'
+    + '<div class="toolbar" style="margin-top:16px">'
+    +   '<button class="btn on" data-act="vsave" data-id="' + (x ? x.id : "") + '">保存</button>'
+    +   '<button class="btn quiet" data-act="vsaveclose">取消</button>'
+    +   (x ? '<span style="flex:1"></span><button class="btn quiet" data-act="vdel" data-id="' + x.id + '" style="color:var(--clay)">删除这条</button>' : '')
+    + '</div>'
+    + '<div class="vnote" style="margin-top:14px">这一条和书里的词是<b>两套记录</b>：'
+    + '就算书里也有 <code>' + vesc(x ? x.w : "obtain") + '</code>，掌握度、笔记、音频也各算各的。</div>';
+  document.getElementById("mask").classList.add("on");
+  document.getElementById("sheet").classList.add("on");
+  setTimeout(function(){ var f = document.getElementById("fi-w"); if(f && !x) f.focus(); }, 60);
+}
+
+/* ==================== 生词本：补音频 ==================== */
+function vexportData(){
+  var d = new Date();
+  return {
+    note: "WordStory 生词本 · 补音频词表",
+    generated: vdate(d.getTime()) + " " + d.toTimeString().slice(0, 8),
+    voices: VIDS.slice(),
+    words: VOCAB.map(function(x){ return { w: x.w, f: vfname(x.w), zh: x.zh || "" }; })
+  };
+}
+function vexportText(){
+  return VOCAB.map(function(x){ return x.w + "\t" + vfname(x.w) + "\t" + (x.zh || ""); }).join("\n");
+}
+function vcopy(txt){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){ toast("已复制到剪贴板"); },
+      function(){ toast("复制被拦住了，请手动选中文本"); });
+  } else { toast("这个浏览器不给自动复制，请手动选中"); }
+}
+function vdownload(){
+  var blob = new Blob([JSON.stringify(vexportData(), null, 2)], { type: "application/json" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "vocab.json";
+  document.body.appendChild(a); a.click();
+  setTimeout(function(){ try{ URL.revokeObjectURL(a.href); a.remove(); }catch(e){} }, 0);
+  toast("已下载 vocab.json · 放进项目根目录再跑 _gen_vocab.py");
+}
+/* ---------- 和本地服务器对话 ----------
+   页面经 http 打开时 serve.py 就在旁边，能直接生成音频；经 file:// 打开时没有
+   服务器，这条路自动退回「导出词表 + 手动跑 _gen_vocab.py」。两种情形都留着出口，
+   不让人卡在「点了没反应」上。 */
+var VAPI = { state: "unknown", info: null };   /* unknown/probing/ready/setup/nogen/nowrite/noserver/nofile */
+var VJOB = { id: null, timer: null, data: null, t0: 0, setup: false };
+
+function vapiOK(){ return location.protocol === "http:" || location.protocol === "https:"; }
+function vapi(path, opt){
+  opt = opt || {};
+  var h = { "X-WowStory": "1" };      /* 这个自定义头会让跨站请求被浏览器拦掉 */
+  if(opt.body) h["Content-Type"] = "application/json";
+  return fetch(path, { method: opt.method || "GET", headers: h, cache: "no-store",
+                       body: opt.body ? JSON.stringify(opt.body) : undefined })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(j){ j.__status = r.status; return j; });
+    });
+}
+function vapiPing(cb, tries){
+  tries = tries || 0;
+  if(!vapiOK()){ VAPI.state = "nofile"; cb(); return; }
+  vapi("/api/ping").then(function(j){
+    if(!j || !j.ok){ VAPI.state = "noserver"; cb(); return; }
+    VAPI.info = j;
+    if(j.write === false){ VAPI.state = "nowrite"; cb(); return; }
+    if(j.gen && j.gen.available){ VAPI.state = "ready"; cb(); return; }
+    if(j.gen && j.gen.probe === "pending" && tries < 10){   /* 服务在后台探解释器，等它一下 */
+      VAPI.state = "probing";
+      setTimeout(function(){ vapiPing(cb, tries + 1); }, 700);
+      cb(); return;
+    }
+    VAPI.state = (j.gen && j.gen.canSetup) ? "setup" : "nogen";
+    cb();
+  }).catch(function(){ VAPI.state = "noserver"; cb(); });
+}
+/* 生词只补「当前音色 + 中文」：切到别的音色时那一套缺了再补一次就行 */
+function vgenItems(only){
+  return (only ? [only] : VOCAB).map(function(x){
+    return { w: x.w, f: vfname(x.w), zh: x.zh || "" };
+  });
+}
+function vcanAuto(){
+  if(!vapiOK()){ toast("页面是用文件打开的，没有服务器可调"); return false; }
+  if(VAPI.state === "ready") return true;
+  if(VAPI.state === "setup"){ toast("先点「准备朗读引擎」装一次"); return false; }
+  if(VAPI.state === "unknown" || VAPI.state === "probing"){ toast("还在检查本地服务器，再点一次"); return false; }
+  toast("连不上本地服务器 · 重启 serve.cmd 即可");
+  return false;
+}
+/* 要动服务器了，但状态还不确定：先探一次，探通了再干，探不通就把面板打开讲清原因 */
+function vwithApi(fn){
+  if(VAPI.state === "ready"){ fn(); return; }
+  if(VAPI.state === "unknown" || VAPI.state === "probing"){
+    vapiPing(function(){ if(VAPI.state === "ready") fn(); else openVocabExport(); });
+    return;
+  }
+  openVocabExport();
+}
+
+function vpaint(id, html){ var e = document.getElementById(id); if(e) e.innerHTML = html; }
+function vpaintMiss(){
+  var miss = VOCAB.filter(function(x){ return VHAS[vfname(x.w)] === false; });
+  vpaint("gmiss", miss.length
+    ? '<div class="vnote" style="margin-top:11px;color:var(--clay)">确认还没有音频的 <b>' + miss.length + '</b> 个：'
+      + miss.slice(0, 16).map(function(x){ return vesc(x.w); }).join("、") + (miss.length > 16 ? " 等" : "") + '</div>'
+    : "");
+}
+/* 探测是异步的，一个个回来 —— 合并成一次重绘，别每个词都动一遍 DOM */
+function vmissTick(){
+  if(vmissTick.t) return;
+  vmissTick.t = setTimeout(function(){
+    vmissTick.t = null;
+    vpaintMiss();
+    var b = document.getElementById("gmissN");
+    if(b) b.textContent = String(vnmiss());
+  }, 180);
+}
+function vmissLine(){
+  return '<b id="gmissN">' + vnmiss() + '</b>';
+}
+function vnoReason(){
+  var st = VAPI.state, i = VAPI.info || {};
+  if(st === "nofile")
+    return '这个页面是<b>用文件直接打开</b>的，旁边没有服务器，所以点不出自动生成。'
+         + '用 <code>serve.cmd</code> 打开就能一键补了。下面的手动方式照样可用。';
+  if(st === "nowrite")
+    return '服务器是 <b>--lan 模式</b>启动的，写接口默认关着（怕同 WiFi 下别的设备往你硬盘写东西）。'
+         + '要用就加 <code>--allow-write</code> 重启。';
+  if(st === "nogen")
+    return '服务器在跑，但机器上找不到装了 <code>edge-tts</code> 的 python，也没法自动安装。'
+         + '照着下面的手动方式装一次就好。';
+  if(st === "noserver")
+    return '连不上本地服务器。可能 <code>serve.py</code> 没在跑，也可能你是在<b>内置预览面板</b>里打开的这个页面'
+         + '（那里也是一个 http 地址，但不是 serve.py 提供的，所以调不到接口）。'
+         + '用 <code>serve.cmd</code> 打开，或直接访问 <code>http://127.0.0.1:8899/Unit01.html</code> 就行。'
+         + '下面的手动方式不需要服务器。';
+  return '没法自动生成。';
+}
+/* 面板骨架：状态区 + 进度/结果 + 待补清单 + 手动方式（自动可用时收进折叠里） */
+function openVocabExport(){
+  stopSay();
+  document.getElementById("sheetBody").innerHTML =
+      '<div class="sh-word">补音频<i>' + VOCAB.length + ' 个词</i></div>'
+    + '<div class="vgn" id="gbox"><div class="gstate" id="gstate">正在问本地服务器…</div></div>'
+    + '<div class="vres" id="gres" style="display:none"></div>'
+    + '<div id="gmiss"></div>'
+    + '<div id="gfall"></div>';
+  document.getElementById("mask").classList.add("on");
+  document.getElementById("sheet").classList.add("on");
+  vpaintMiss();
+  vapiPing(function(){ vpaintGen(); });
+}
+function vpaintGen(){
+  var box = document.getElementById("gbox"); if(!box) return;
+  if(VJOB.id){                                   /* 有任务在跑：只显示进度，别给别的按钮 */
+    box.innerHTML = '<div class="gstate" id="gstate">正在准备…</div>'
+      + '<div class="gbar"><i id="gbar" style="width:0%"></i></div>'
+      + '<div class="gnum"><span id="gnum">0 / 0</span><span id="gtime">0 秒</span></div>';
+    vjobPaint();
+    return;
+  }
+  var st = VAPI.state, miss = vnmiss();
+  var h;
+  if(st === "ready"){
+    h = '<div class="gstate" id="gstate">'
+      + (miss ? '还有 ' + vmissLine() + ' 个词没音频。' : '生词的音频都齐了。')
+      + ' 点一下就在这台机器上生成：<b>当前音色 ' + TTS.en + ' + 中文读音</b>，'
+      + '已经补过的会自动跳过。从书里收进来的词，英文和中文都能直接从书里复用，不用重新合成。'
+      + '</div>'
+      + '<div class="toolbar" style="margin-top:13px">'
+      +   '<button class="btn on" data-act="vgenall">⚡ 一键补音频</button>'
+      +   '<button class="btn quiet" data-act="vprobe">重新检查</button>'
+      +   '<button class="btn quiet" data-act="vsaveclose">关闭</button>'
+      + '</div>';
+  } else if(st === "probing" || st === "unknown"){
+    h = '<div class="gstate" id="gstate">正在检查这台机器的朗读引擎…</div>';
+  } else if(st === "setup"){
+    h = '<div class="gstate" id="gstate">这台机器上还没有能生成发音的组件（<code>edge-tts</code>）。'
+      + '点下面这颗按钮自动准备一次 —— 装在本项目里的 <code>.ttsenv</code>，不动你系统的 python，约 30 秒。'
+      + '装完就能一键补音频了。</div>'
+      + '<div class="toolbar" style="margin-top:13px">'
+      +   '<button class="btn on" data-act="vsetup">准备朗读引擎</button>'
+      +   '<button class="btn quiet" data-act="vsaveclose">先不用</button>'
+      + '</div>';
+  } else {
+    h = '<div class="gstate warn" id="gstate">' + vnoReason() + '</div>'
+      + '<div class="toolbar" style="margin-top:13px">'
+      +   '<button class="btn quiet" data-act="vping">再试一次</button>'
+      +   '<button class="btn quiet" data-act="vsaveclose">知道了</button>'
+      + '</div>';
+  }
+  box.innerHTML = h;
+  vpaintFall();
+}
+function vpaintFall(){
+  var el = document.getElementById("gfall"); if(!el) return;
+  var body = '<div class="vnote" style="margin-top:4px">把词表交给 <code>_gen_vocab.py</code>：'
+    + '① 点下面「下载 vocab.json」，放进 <code>WowStory/</code> 根目录　'
+    + '② 在项目目录里跑 <code>python _gen_vocab.py</code>　③ 刷新本页</div>'
+    + '<div class="toolbar" style="margin-top:12px">'
+    +   '<button class="btn" data-act="vdl">下载 vocab.json</button>'
+    +   '<button class="btn quiet" data-act="vcp">复制纯文本词表</button>'
+    +   '<button class="btn quiet" data-act="vcpjson">复制 JSON</button>'
+    + '</div>'
+    + '<div class="vpre">' + vesc(vexportText() || "（生词本是空的）") + '</div>';
+  el.innerHTML = (VAPI.state === "ready")
+    ? '<details class="gfold"><summary>手动方式（没有服务器时用）</summary>' + body + '</details>'
+    : '<div class="vnote" style="margin-top:16px"><b>手动方式</b></div>' + body;
+}
+function vjobClear(){
+  if(VJOB.timer){ clearInterval(VJOB.timer); VJOB.timer = null; }
+  VJOB.id = null; VJOB.data = null; VJOB.setup = false;
+}
+function vjobPaint(){
+  var d = VJOB.data || {}, t = d.total || 0, done = d.done || 0;
+  var bar = document.getElementById("gbar");
+  if(bar) bar.style.width = (t ? Math.round(done / t * 100) : 0) + "%";
+  var n = document.getElementById("gnum");
+  if(n) n.textContent = done + " / " + t + " 个文件";
+  var s = document.getElementById("gstate");
+  if(s) s.textContent = d.state === "running"
+    ? (VJOB.setup ? (d.phase === "pip" ? "正在下载并安装 edge-tts…" : "正在建项目内的环境…")
+                  : (done ? "正在生成发音…" : "正在启动…"))
+    : "正在收尾…";
+  var tm = document.getElementById("gtime");
+  if(tm) tm.textContent = ((Date.now() - VJOB.t0) / 1000).toFixed(0) + " 秒";
+}
+function vjobPoll(){
+  if(!VJOB.id || VJOB.id === "pending") return;
+  vapi("/api/job/" + VJOB.id).then(function(j){
+    if(!j.ok){
+      vjobFail(j.error === "no_such_job" ? "任务在服务器那边找不到了（服务器可能重启过）。再点一次就行。" : "查进度失败。");
+      return;
+    }
+    VJOB.data = j.job;
+    vjobPaint();
+    if(j.job.state !== "running") vjobDone(j.job);
+  }).catch(function(){});        /* 网络抖一下就下一轮再问 */
+}
+function vjobResult(j){
+  var el = document.getElementById("gres"); if(!el) return;
+  var ok = j.state === "done" && !j.fail;
+  var bits = [];
+  if(j.new)  bits.push("新生成 <b>" + j.new + "</b>");
+  if(j.reuse) bits.push("复用书里的 <b>" + j.reuse + "</b>");
+  if(j.skip) bits.push("本来就已就绪 <b>" + j.skip + "</b>");
+  if(j.fail) bits.push("失败 <b>" + j.fail + "</b>");
+  var h = j.hint ? vesc(j.hint)
+                 : (ok ? "好了，生词现在能读了。" : (j.state === "done" ? "跑完了，但有几个没成。" : "没成功。"));
+  if(bits.length) h += '<br>' + bits.join(" · ") + (j.ms ? '　用时 ' + (j.ms / 1000).toFixed(1) + ' 秒' : '');
+  if(j.failed && j.failed.length)
+    h += '<br>失败：' + j.failed.slice(0, 6).map(function(x){ return vesc(x.w); }).join("、")
+       + (j.failed[0] && j.failed[0].err ? '　（' + vesc(String(j.failed[0].err).slice(0, 90)) + '）' : '');
+  el.className = "vres" + (ok ? "" : " bad");
+  el.style.display = "";
+  el.innerHTML = h;
+}
+function vjobFail(msg){
+  var ms = Date.now() - (VJOB.t0 || Date.now());
+  vjobClear();
+  vpaintGen();
+  vjobResult({ state: "error", hint: msg, ms: ms });
+}
+function vjobDone(j){
+  var wasSetup = VJOB.setup;
+  vjobClear();
+  if(wasSetup){                       /* 装引擎的任务：装完重新探一次状态 */
+    if(j.state === "done"){
+      vapiPing(function(){
+        vpaintGen();
+        vjobResult({ state: "done", hint: "朗读引擎就绪，现在可以一键补音频了。", ms: j.ms });
+      });
+    } else vjobResult({ state: "error", hint: j.hint || "准备失败", ms: j.ms });
+    return;
+  }
+  if(j.state === "done")
+    VOCAB.forEach(function(x){ delete VHAS[vfname(x.w)]; });   /* 让它们重新探一遍 */
+  vprobeAll(function(){
+    vpaintMiss();
+    vpaintGen();
+    vjobResult(j);
+    toast(j.fail ? ("跑完了，有 " + j.fail + " 个没成") : "音频补好了，生词现在能读了");
+  });
+}
+function vjobStart(path, body, isSetup){
+  var box = document.getElementById("gbox");
+  VJOB.id = "pending"; VJOB.t0 = Date.now(); VJOB.data = null; VJOB.setup = !!isSetup;
+  if(box) box.innerHTML = '<div class="gstate" id="gstate">正在提交…</div>';
+  return vapi(path, { method: "POST", body: body }).then(function(j){
+    if(!j.ok){ vjobFail(j.hint || "提交被拒绝"); return; }
+    VJOB.id = j.job.id; VJOB.data = j.job;
+    if(!document.getElementById("gbar")) vpaintGen();
+    else vjobPaint();
+    VJOB.timer = setInterval(vjobPoll, 700);
+  }).catch(function(e){ vjobFail("提交失败：" + e); });
+}
+function vgenAll(){ vjobStart("/api/vocab/audio", { voice: TTS.en, items: vgenItems(null) }, false); }
+function vsetupRun(){ vjobStart("/api/setup", null, true); }
+/* 单条补：列表行里点「补音频」就能就地补这一个词，不用开面板 */
+function vgenOne(x){
+  var el = document.querySelector('[data-vaudio="' + x.id + '"]');
+  if(el){ el.classList.add("busy"); el.textContent = "补中…"; }
+  toast("正在给「" + x.w + "」补发音…");
+  vapi("/api/vocab/audio", { method: "POST", body: { voice: TTS.en, items: vgenItems(x) } })
+    .then(function(j){
+      if(!j.ok){ vgenOneFail(x, j.hint || "提交被拒绝"); return; }
+      var jid = j.job.id, tries = 0;
+      var t = setInterval(function(){
+        if(++tries > 200){ clearInterval(t); vgenOneFail(x, "等太久了，放弃"); return; }
+        vapi("/api/job/" + jid).then(function(g){
+          if(!g.ok){ clearInterval(t); vgenOneFail(x, "任务丢了（服务器重启过？）"); return; }
+          var jb = g.job;
+          if(jb.state === "running"){
+            if(el) el.textContent = "补中 " + jb.done + "/" + jb.total;
+            return;
+          }
+          clearInterval(t);
+          if(jb.state === "done"){
+            delete VHAS[vfname(x.w)];
+            vprobe(x, function(ok){
+              vtagAudio(x.id, ok);
+              vpaintMiss();
+              toast(ok ? ("「" + x.w + "」可以读了") : "生成完了但探不到音频，刷新一下看看");
+            });
+          } else vgenOneFail(x, jb.hint || "生成失败");
+        }).catch(function(){});
+      }, 500);
+    })
+    .catch(function(e){ vgenOneFail(x, "提交失败：" + e); });
+}
+function vgenOneFail(x, msg){
+  var el = document.querySelector('[data-vaudio="' + x.id + '"]');
+  if(el){ el.classList.remove("busy"); el.textContent = "补音频"; }
+  toast(msg.length > 56 ? msg.slice(0, 54) + "…" : msg);
+}
+
+/* ==================== 生词本：动作 ==================== */
+/* 把书里的一个词收进生词本。快照语义：书里此刻的掌握度带过来一次，之后两边各走各的。
+   返回新 id；早就收过则返回 null（不重复收，也不打扰） */
+function vpickWord(x){
+  if(!x) return null;
+  var st = DATA.stories.filter(function(s){ return s.id === x.s; })[0];
+  var r = vadd({ w:x.w, ipa:x.ipa, pos:x.pos, zh:x.zh,
+                 src:"Unit " + DATA.unit + " · " + (st ? st.en + "｜" + st.zh : x.s) });
+  if(!r) return null;
+  if(r.dup) return null;
+  if(MAST[x.w] !== undefined){ VMAST[r.id] = MAST[x.w]; vsaveMast(); }
+  return r.id;
+}
+/* 词改名了，音频状态就得重算 —— 文件名跟着词走，旧的结论不能留着 */
+function vrefAudio(x, oldF){
+  if(!x) return;
+  if(oldF) delete VHAS[oldF];
+  delete VHAS[vfname(x.w)];
+  vprobe(x, function(ok){ vtagAudio(x.id, ok); vpaintMiss(); });
+}
+function vsaveForm(id){
+  function val(k){ var e = document.getElementById(k); return e ? e.value : ""; }
+  var w = val("fi-w").trim();
+  if(!w){
+    var fw = document.getElementById("f-w"); if(fw) fw.classList.add("bad");
+    var iw = document.getElementById("fi-w"); if(iw) iw.focus();
+    toast("先填单词再保存"); return;
+  }
+  var rec = { w:w, zh:val("fi-zh"), ipa:val("fi-ipa"), pos:val("fi-pos"), src:val("fi-src"), note:val("fi-note") };
+  if(id){
+    var x = vfind(id);
+    if(!x){ closeSheet(); return; }
+    var cl = vhas(w);
+    if(cl && cl.id !== id){ toast("「" + w + "」已经在生词本里了"); return; }
+    var oldF = vfname(x.w);
+    x.w = w; x.zh = rec.zh.trim(); x.ipa = rec.ipa.trim();
+    x.pos = rec.pos.trim(); x.src = rec.src.trim(); x.note = rec.note.trim();
+    vsaveList(); closeSheet(); state.vflipped = false; render();
+    vrefAudio(x, oldF);
+    toast("已更新「" + w + "」");
+  } else {
+    var r = vadd(rec);
+    if(!r){ toast("先填单词再保存"); return; }
+    closeSheet();
+    if(r.dup){ toast("「" + w + "」已经在生词本里了，没重复加"); render(); return; }
+    if(state.vmode === "drill"){ state.vdrill = VOCAB.length - 1; saveVDrill(); }
+    render();
+    vrefAudio(vfind(r.id));
+    toast("已加入生词本 · " + w);
+  }
+}
+function vdelRow(id){
+  var x = vfind(id); if(!x) return;
+  var snap = JSON.parse(JSON.stringify(x)), idx = VOCAB.indexOf(x), mk = VMAST[id];
+  if(!vdel(id)) return;
+  closeSheet();
+  if(state.vdrill >= VOCAB.length) state.vdrill = Math.max(0, VOCAB.length - 1);
+  if(!VOCAB.length) state.vmode = "list";
+  saveVDrill(); render();
+  toast("已删除「" + snap.w + "」", { text:"撤销", fn:function(){
+    VOCAB.splice(Math.min(idx, VOCAB.length), 0, snap); vsaveList();
+    if(mk !== undefined){ VMAST[snap.id] = mk; vsaveMast(); }
+    render();
+    toast("已恢复「" + snap.w + "」");
+  }});
+}
+/* app 里的按钮和 sheet 里的按钮都汇到这里 —— 生词本的动作只有一份实现 */
+function vocabAct(act, d, el){
+  try{
+    if(act === "vnew"){ openVocabForm(null); return; }
+    if(act === "vedit"){ openVocabForm(d.id); return; }
+    if(act === "vsave"){ vsaveForm(d.id || ""); return; }
+    if(act === "vsaveclose"){ closeSheet(); return; }
+    if(act === "vdel"){ vdelRow(d.id); return; }
+    if(act === "vback"){ state.vmode = "list"; state.vflipped = false; SAY.last = ""; render(); return; }
+    if(act === "vstart"){
+      if(!VOCAB.length){ toast("生词本还是空的"); return; }
+      state.vmode = "drill"; state.vflipped = false; state.vdrill = 0; SAY.last = "";
+      saveVDrill(); render(); return;
+    }
+    if(act === "vflip"){ state.vflipped = !state.vflipped; render(); return; }
+    if(act === "vmark"){
+      var pool = VOCAB, x = pool[Math.max(0, Math.min(state.vdrill, pool.length - 1))];
+      if(!x) return;
+      VMAST[x.id] = +d.v; vsaveMast();
+      state.vdrill = Math.min(state.vdrill + 1, pool.length - 1);
+      state.vflipped = false; saveVDrill(); render(); return;
+    }
+    if(act === "vreset"){
+      VMAST = {}; vsaveMast();
+      state.vdrill = 0; state.vflipped = false; SAY.last = ""; saveVDrill(); render();
+      toast("生词本的掌握度已清空（书里的没动）"); return;
+    }
+    if(act === "vexport"){ openVocabExport(); return; }
+    if(act === "vgenall"){ if(vcanAuto()) vgenAll(); return; }
+    if(act === "vgen1"){
+      var xt = vfind(d.id);
+      if(!xt) return;
+      vwithApi(function(){ vgenOne(xt); });       /* 没服务器就把面板打开讲清原因 */
+      return;
+    }
+    if(act === "vsetup"){ vsetupRun(); return; }     /* 装引擎不受状态门禁：此刻本来就还没 ready */
+    if(act === "vping"){ VAPI.state = "unknown"; vapiPing(function(){ vpaintGen(); }); return; }
+    if(act === "vdl"){ vdownload(); return; }
+    if(act === "vcp"){ vcopy(vexportText()); return; }
+    if(act === "vcpjson"){ vcopy(JSON.stringify(vexportData(), null, 2)); return; }
+    if(act === "vprobe"){ VHAS = {}; vprobeAll(); vpaintMiss(); toast("重新检查中…"); return; }
+    if(act === "vpick"){
+      var y = WMAP[d.w]; if(!y) return;
+      if(vpickWord(y) === null){ toast("「" + y.w + "」已经在生词本里了"); return; }
+      toast("已收进生词本 · " + y.w + "（独立记录，不影响书里的进度）"); return;
+    }
+  }catch(err){ try{ console.warn("[WowStory] 生词本动作出错：" + act, err); }catch(e){} }
+}
+
+function openSheet(w){
+  var x = WMAP[w]; if(!x) return;
+  var st = DATA.stories.filter(function(s){ return s.id === x.s; })[0];
+  var b = document.getElementById("sheetBody");
+  var rows = [
+    ["故事义", x.zh],
+    ["常考义", x.exam],
+    ["核心搭配", x.c.join("<br>")],
+    ["近义替换", x.syn.join(" · ")],
+    ["词族延伸", x.fam.join("　·　")],
+    ["易混辨析", x.dif],
+    ["加分句式", '<em style="font-family:var(--serif);color:var(--clay2)">' + x.pat + '</em><br><span style="color:var(--ink2);font-size:12.5px">' + x.patZh + '</span>']
+  ];
+  stopSay();
+  b.innerHTML = '<div class="sh-word">' + x.w + '<i>/' + x.ipa + '/</i><u>' + x.pos + '</u></div>'
+    + '<div class="toolbar" style="margin-top:12px;gap:6px">'
+    +   '<button class="spk" data-say="w:' + x.w + '" title="朗读单词">🔊 单词</button>'
+    +   '<button class="spk" data-say="slow:' + x.w + '" title="慢速重读">🐢 慢速</button>'
+    +   '<button class="spk" data-say="wz:' + x.w + '" title="朗读中文释义">🔊 中文释义</button>'
+    +   '<button class="spk" data-say="pat:' + x.w + '" title="朗读加分句式">🔊 例句</button>'
+    +   '<button class="spk" data-say="patz:' + x.w + '" title="朗读例句中文">🔊 例句中文</button>'
+    + '</div>'
+    /* 考点卡是两个模式的共同出口（读模式的加粗词、速查表的行、背模式的「完整考点」），
+       所以「收进生词本」放这儿一处就够覆盖全部入口 */
+    + '<div class="toolbar" style="margin-top:10px">'
+    +   '<button class="btn quiet" data-act="vpick" data-w="' + x.w + '"'
+    +   ' title="收进生词本：独立的一条记录，书里的进度不受影响">' + (vhas(x.w) ? '✓ 已在生词本' : '＋ 收进生词本') + '</button>'
+    + '</div>'
+    + '<div style="font-size:11.5px;color:var(--ink3);margin-top:2px">出自 ' + st.en + '｜' + st.zh + '　·　Unit ' + DATA.unit + '</div>'
+    + '<div class="sh-body">' + rows.map(function(r){
+        return '<div class="rline"><span>' + r[0] + '</span><span>' + r[1] + '</span></div>';
+      }).join('') + '</div>';
+  document.getElementById("mask").classList.add("on");
+  document.getElementById("sheet").classList.add("on");
+  if(TTS.mode !== "off"){
+    playList([
+      { src: srcWord(x.w), gap: 280 },
+      { src: srcWordZh(x.w) }
+    ], null);
+  }
+}
+function closeSheet(){
+  document.getElementById("mask").classList.remove("on");
+  document.getElementById("sheet").classList.remove("on");
+  stopSay();
+}
+document.getElementById("sheet").addEventListener("click", function(e){
+  var sy = e.target.closest("[data-say]");
+  if(sy){ sayBy(sy.dataset.say, sy); return; }
+  /* 生词本的表单、导出面板也渲染在这个弹层里，所以按钮同样要接出去 */
+  var el = e.target.closest("[data-act]");
+  if(el){ vocabAct(el.dataset.act, el.dataset, el); }
+});
+document.getElementById("floatstop").addEventListener("click", stopSay);
+/* ---- 音色试听：拿故事第 1 段的真实音频直接试，不受「关」档影响 ---- */
+function previewVoice(id){
+  stopSay();
+  var my = SAY.token;
+  var a = player();
+  showStop();
+  a.playbackRate = 1;
+  a.onended = function(){ if(my === SAY.token) stopSay(); };
+  a.onerror = function(){ if(my === SAY.token){ toast("没找到音频文件"); stopSay(); } };
+  a.src = AUD + id + "/p" + DATA.stories[0].id + "-0.mp3";
+  a.load();
+  a.play().catch(function(){ if(my === SAY.token) stopSay(); });
+}
+var abar = document.getElementById("audiobar");
+if(abar){
+  abar.addEventListener("click", function(e){
+    var b = e.target.closest("button"); if(!b) return;
+    var pop = document.getElementById("apop");
+    if(b.id === "audiobtn"){
+      if(pop) pop.classList.toggle("on");
+      return;
+    }
+    if(b.id === "stopbtn"){ stopSay(); toast("已停止"); return; }
+    if(b.id === "preven"){ previewVoice(TTS.en); return; }
+    if(b.dataset.voice){
+      TTS.en = b.dataset.voice; saveTTS(); syncAudio();
+      toast("音色已换成 " + (VOICES.filter(function(v){ return v.id === TTS.en; })[0] || {}).name);
+      previewVoice(TTS.en);
+      return;
+    }
+    if(b.dataset.mode){
+      TTS.mode = b.dataset.mode; saveTTS(); syncAudio();
+      stopSay(); SAY.last = "";
+      var ch = document.getElementById("cardhint");
+      if(ch) ch.textContent = cardHintText();
+      autoDrill();
+      toast(TTS.mode === "off" ? "朗读已关闭" : TTS.mode === "auto" ? "背词与释义全自动" : "背词自动读，其余点 🔊 才发声");
+    } else if(b.dataset.rate){
+      TTS.rate = parseFloat(b.dataset.rate); saveTTS(); syncAudio();
+      toast("语速 " + (TTS.rate < 0.8 ? "慢速跟读" : TTS.rate > 1 ? "快速过词" : "正常"));
+    }
+  });
+}
+document.addEventListener("click", function(e){
+  var pop = document.getElementById("apop");
+  if(!pop || !pop.classList.contains("on")) return;
+  var abtn = document.getElementById("audiobtn");
+  if(pop.contains(e.target) || (abtn && abtn.contains(e.target))) return;
+  pop.classList.remove("on");
+});
+
+document.getElementById("tabs").addEventListener("click", function(e){
+  var b = e.target.closest(".tab"); if(!b) return;
+  var same = (state.tab === b.dataset.tab);
+  state.tab = b.dataset.tab; state.q = ""; SAY.last = ""; render();
+  /* 点当前这个 tab = 回到顶部（保留原有的「复位」手感） */
+  if(same) window.scrollTo({top:0, behavior:"instant" in window ? "instant" : "auto"});
+});
+document.getElementById("mask").addEventListener("click", closeSheet);
+document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeSheet(); });
+
+document.getElementById("app").addEventListener("click", function(e){
+  var tw = e.target.closest(".tw");
+  if(tw){ openSheet(tw.dataset.w); return; }
+  var sy = e.target.closest("[data-say]");
+  if(sy){ sayBy(sy.dataset.say, sy); return; }
+  var el = e.target.closest("[data-act]"); if(!el) return;
+  var act = el.dataset.act;
+  /* 生词本的动作（v 开头）全部交给 vocabAct，和弹层里那套共用一份实现 */
+  if(act.charAt(0) === "v"){ vocabAct(act, el.dataset, el); return; }
+  if(act === "story"){
+    state.story = +el.dataset.i;
+    /* 范围=本篇时词池跟着这篇换，位置得从头，否则游标会停在上一篇的序号上 */
+    if(state.scope === "cur") state.drill = 0;
+    saveDrill(); render();
+  }
+  else if(act === "zh"){
+    state.allZh = !state.allZh;
+    try{ localStorage.setItem("ws.zh", state.allZh ? "1" : "0"); }catch(err){}
+    render();
+  }
+  else if(act === "todrill"){
+    /* 「拿这篇自测」= 只考这一篇，从这一篇的第 1 个词开始。
+       （原来写死 state.drill = 0，也就是永远跳到全单元第 1 个词 journalist） */
+    state.scope = "cur";
+    state.tab = "drill"; state.drill = 0; state.flipped = false; SAY.last = ""; saveDrill(); render();
+  }
+  else if(act === "scope"){
+    if(el.dataset.v === state.scope) return;
+    state.scope = el.dataset.v;
+    state.drill = 0; state.flipped = false; SAY.last = ""; saveDrill(); render();
+  }
+  else if(act === "flip"){ state.flipped = !state.flipped; render(); }
+  else if(act === "mark"){
+    var pool = drillPool();
+    var wx = pool[Math.min(state.drill, pool.length - 1)];
+    var vm = +el.dataset.v;
+    MAST[wx.w] = vm; saveMast();
+    /* 「没记住」= 这个词对你是个难点，顺手收进生词本（早就收过的不会重复加，也不打扰） */
+    var nv = (vm === 0) ? vpickWord(wx) : null;
+    state.drill = Math.min(state.drill + 1, pool.length - 1);
+    state.flipped = false; saveDrill(); render();
+    if(nv) toast("已收进生词本 · " + wx.w, { text:"撤销", fn:function(){
+      vdel(nv); render(); toast("已移出「" + wx.w + "」");
+    }});
+  }
+  else if(act === "reset"){ MAST = {}; saveMast(); state.drill = 0; state.flipped = false; SAY.last = ""; saveDrill(); render(); }
+  else if(act === "open"){ openSheet(el.dataset.w); }
+});
+/* ===== 词轨：点一下跳到那个词，按住拖动也能跳 =====
+   拖动过程只挪游标 + 气泡，绝不重渲染 —— render() 会换掉 .track 元素，
+   元素一没，触摸的隐式指针捕获就断了，后面的 pointermove 全收不到 */
+var TRK = null, TRK_TO = 0;
+function trackIdx(el, cx){
+  var kids = el.children, best = 0, bd = Infinity;
+  for(var k = 0; k < kids.length; k++){
+    if(kids[k].tagName !== "I") continue;
+    var r = kids[k].getBoundingClientRect();           /* 按格中心找最近：比按比例算准，格间有缝 */
+    var d = Math.abs((r.left + r.right) / 2 - cx);
+    if(d < bd){ bd = d; best = +kids[k].dataset.i; }
+  }
+  return best;
+}
+function trackMark(el, k){
+  Array.prototype.forEach.call(el.children, function(c){
+    if(c.tagName === "I") c.classList.toggle("cur", +c.dataset.i === k);
+  });
+}
+/* ===== 词轨有两根：书里的 #track（词池 drillPool）与生词本的 #vtrack（词池 VOCAB）。
+   处理器共用一份实现，靠 el.id 决定读哪个池、写哪个位置 ——
+   分成两套迟早走偏（比如只在一边修了 bug） */
+function trkPool(el){ return el.id === "vtrack" ? VOCAB : drillPool(); }
+function trkIdx(el){ return el.id === "vtrack" ? state.vdrill : state.drill; }
+function trkFocus(el){ try{ var n = document.getElementById(el.id); if(n) n.focus({preventScroll:true}); }catch(err){} }
+function trkGo(el, k){
+  var n = trkPool(el).length;
+  k = Math.max(0, Math.min(n - 1, k));
+  if(el.id !== "vtrack"){ jumpTo(k); return; }
+  if(k === state.vdrill) return;
+  state.vdrill = k; state.vflipped = false; SAY.last = "";
+  saveVDrill();
+  render();            /* render 换掉了词轨，焦点会掉到 body，方向键就失灵了 */
+  trkFocus(el);
+}
+function trackTip(el, k, on){
+  if(!el) return;
+  var t = document.getElementById(el.id === "vtrack" ? "vtip" : "ptip"); if(!t) return;
+  if(k >= 0){
+    var pool = trkPool(el);
+    t.style.left = Math.min(Math.max((k + .5) / pool.length * 100, 8), 92) + "%";
+    t.textContent = (k + 1) + " · " + ((pool[k] || {}).w || "");
+  }
+  t.classList.toggle("on", !!on);
+}
+function trackTipOff(){
+  ["ptip", "vtip"].forEach(function(id){
+    var t = document.getElementById(id); if(t) t.classList.remove("on");
+  });
+}
+function jumpTo(k){
+  k = Math.max(0, Math.min(drillPool().length - 1, k));
+  if(k === state.drill) return;
+  var hadFocus = (document.activeElement && document.activeElement.id === "track");
+  state.drill = k; state.flipped = false; SAY.last = "";
+  saveDrill();
+  render();          /* 没切 tab，所以不会把页面滚回顶部 */
+  /* render 换掉了 track，焦点会掉到 body —— 补回来，否则方向键跳一次就失灵 */
+  if(hadFocus){
+    var nt = document.getElementById("track");
+    if(nt){ try{ nt.focus({preventScroll:true}); }catch(err){} }
+  }
+}
+document.addEventListener("pointerdown", function(e){
+  if(TRK || !e.target.closest) return;
+  var t = e.target.closest(".track"); if(!t) return;
+  e.preventDefault();                    /* 别让按住拖动变成划选文字 */
+  TRK = t; TRK_TO = trackIdx(t, e.clientX);
+  t.classList.add("drag"); trackTip(t, TRK_TO, true);
+  try{ t.focus({preventScroll:true}); }catch(err){}
+});
+document.addEventListener("pointermove", function(e){
+  if(TRK){                               /* 拖动中：只挪游标，松手才真的跳 */
+    TRK_TO = trackIdx(TRK, e.clientX);
+    trackMark(TRK, TRK_TO); trackTip(TRK, TRK_TO, true);
+    return;
+  }
+  if(e.pointerType !== "mouse" || !e.target.closest) return;
+  var t = e.target.closest(".track");     /* 悬停预览：扫一眼就知道第几格是哪个词 */
+  if(t) trackTip(t, trackIdx(t, e.clientX), true); else trackTipOff();
+});
+function trackDrop(commit){
+  if(!TRK) return;
+  var el = TRK, k = TRK_TO; TRK = null;
+  el.classList.remove("drag");
+  if(!commit || k === trkIdx(el)){ trackMark(el, k); trackTip(el, -1, false); return; }
+  trkGo(el, k);
+}
+document.addEventListener("pointerup", function(){ trackDrop(true); });
+document.addEventListener("pointercancel", function(){ trackDrop(false); });
+document.addEventListener("keydown", function(e){
+  var t = e.target;
+  if(!t || !t.classList || !t.classList.contains("track")) return;
+  var n = trkPool(t).length, cur = trkIdx(t), k = -1;
+  if(e.key === "ArrowLeft" || e.key === "ArrowUp") k = cur - 1;
+  else if(e.key === "ArrowRight" || e.key === "ArrowDown") k = cur + 1;
+  else if(e.key === "Home") k = 0;
+  else if(e.key === "End") k = n - 1;
+  else return;
+  e.preventDefault();
+  trkGo(t, k);        /* 内部会把焦点补回新的词轨 */
+});
+
+document.getElementById("app").addEventListener("input", function(e){
+  var app = document.getElementById("app");
+  if(e.target.id === "q"){
+    state.q = e.target.value;
+    if(state.tab === "write") app.innerHTML = viewWrite();
+    else app.innerHTML = viewIndex();
+    var s = document.getElementById("q"); s.focus(); s.setSelectionRange(s.value.length, s.value.length);
+  }
+  else if(e.target.id === "vq"){
+    state.vq = e.target.value;
+    app.innerHTML = viewVocab();
+    vprobeAll();
+    var v = document.getElementById("vq");
+    if(v){ v.focus(); v.setSelectionRange(v.value.length, v.value.length); }
+  }
+});
+function initUnitNav(){
+  var u = DATA.unit || 1;
+  var sCnt = DATA.stories ? DATA.stories.length : 0;
+  var wCnt = DATA.words ? DATA.words.length : 0;
+
+  var headNav = document.getElementById("headerUnitTag");
+  if(headNav) headNav.textContent = "Unit " + u;
+
+  var bTxt = document.getElementById("badgeText");
+  if(bTxt) bTxt.textContent = "Unit " + u + " · " + sCnt + " 篇 · " + wCnt + " 词";
+
+  var sBTxt = document.getElementById("stickyBadgeText");
+  if(sBTxt) sBTxt.textContent = "Unit " + u;
+
+  var foot = document.getElementById("footText");
+  if(foot) foot.textContent = "Unit " + u + " 已收录 " + wCnt + " / " + wCnt + " 词 · 故事题材取自考研英语二方向";
+
+  var setNavBtn = function(id, isNext){
+    var btn = document.getElementById(id);
+    if(!btn) return;
+    var targetU = isNext ? u + 1 : u - 1;
+    var valid = isNext ? (u < 26) : (u > 1);
+    if(valid){
+      btn.href = "Unit" + (targetU < 10 ? "0" + targetU : targetU) + ".html";
+      btn.style.opacity = "1";
+      btn.style.pointerEvents = "auto";
+    } else {
+      btn.href = "javascript:void(0);";
+      btn.style.opacity = "0.35";
+      btn.style.pointerEvents = "none";
+    }
+  };
+
+  setNavBtn("prevUnitNav", false);
+  setNavBtn("stickyPrevUnitNav", false);
+  setNavBtn("nextUnitNav", true);
+  setNavBtn("stickyNextUnitNav", true);
+}
+
+function initUnitModal(){
+  var modal = document.getElementById("unitModal");
+  var closeBtn = document.getElementById("closeUnitModal");
+  var grid = document.getElementById("unitModalGrid");
+
+  if(!modal) return;
+
+  var openModal = function(){
+    var manifest = window.UNITS_MANIFEST || [];
+    if(grid && manifest.length){
+      grid.innerHTML = manifest.map(function(item){
+        var isCur = item.unit === DATA.unit;
+        return '<a class="uitem' + (isCur ? ' on' : '') + '" href="' + item.url + '">'
+          + '<b>Unit ' + (item.unit < 10 ? '0' + item.unit : item.unit) + '</b>'
+          + '<span>' + item.storiesCount + ' 篇 · ' + item.wordsCount + ' 词</span>'
+          + '</a>';
+      }).join("");
+    }
+    modal.classList.add("on");
+  };
+
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("#unitModalBtn, #stickyUnitModalBtn, .subtn-badge, .badge-btn");
+    if(btn){
+      e.preventDefault();
+      openModal();
+    }
+  });
+
+  if(closeBtn) closeBtn.addEventListener("click", function(){ modal.classList.remove("on"); });
+  modal.addEventListener("click", function(e){
+    if(e.target === modal) modal.classList.remove("on");
+  });
+}
+
+function initLayoutToggle(){
+  var current = localStorage.getItem("ws_layout_mode") || "desktop";
+  var setMode = function(mode){
+    document.body.classList.toggle("layout-mobile", mode === "mobile");
+    localStorage.setItem("ws_layout_mode", mode);
+    var btns = document.querySelectorAll("#layoutToggle .lbtn");
+    for(var i = 0; i < btns.length; i++){
+      btns[i].classList.toggle("on", btns[i].dataset.layout === mode);
+    }
+  };
+  setMode(current);
+
+  document.addEventListener("click", function(e){
+    var b = e.target.closest("#layoutToggle .lbtn");
+    if(b && b.dataset.layout){
+      setMode(b.dataset.layout);
+    }
+  });
+}
+
+function initSettingsModal(){
+  var modal = document.getElementById("settingsModal");
+  var closeBtn = document.getElementById("closeSettingsModal");
+  if(!modal) return;
+
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("#optSettingsBtn, .opt-settings-btn");
+    if(btn){
+      e.preventDefault();
+      modal.classList.add("on");
+    }
+  });
+
+  if(closeBtn) closeBtn.addEventListener("click", function(){ modal.classList.remove("on"); });
+  modal.addEventListener("click", function(e){
+    if(e.target === modal) modal.classList.remove("on");
+  });
+}
+
+
+state.tab = (function(){
+  var h = (location.hash || "").replace("#", "");
+  return ["read","drill","write","index","vocab"].indexOf(h) >= 0 ? h : "read";
+})();
+initUnitNav();
+initUnitModal();
+initLayoutToggle();
+initSettingsModal();
+syncAudio();
+RENDERED_TAB = state.tab;   /* 首屏不算「切换」，别把浏览器恢复的滚动位置拽回顶部 */
+render();
+syncSticky();
+/* 页面一打开就静默验一次音源；失败时把原因直接写在控制条上，不用等点了才发现 */
+setTimeout(audioSelfCheck, 300);
+window.addEventListener("hashchange", function(){
+  var h = (location.hash || "").replace("#", "");
+  if(["read","drill","write","index"].indexOf(h) >= 0){ state.tab = h; state.q = ""; render(); }
+});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js').catch(function(err) {
+      console.log('SW 注册失败: ', err);
+    });
+  });
+}
+</script>
+</body>
+</html>

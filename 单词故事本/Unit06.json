@@ -1,0 +1,1462 @@
+{
+  "unit": 6,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Patent",
+      "zh": "专利",
+      "theme": "法律 / 社会",
+      "ps": [
+        {
+          "en": "Mr. Lin spent two winters trying to [[patch]] his old coat, and the [[pattern]] he invented to hide the seam proved worth more than the coat. A friend urged him to file a [[patent]] at once.",
+          "zh": "林先生花了两个冬天补那件旧外套，为遮缝线想出的图案，竟比外套还值钱。朋友劝他赶紧申请专利。"
+        },
+        {
+          "en": "The firm agreed to [[pay]] him a share, and every [[payment]] arrived on time. Yet a [[peculiar]] silence settled among his [[peer]] workers, for [[per]] week the reports showed a rising [[percentage]] of faulty cloth.",
+          "zh": "公司答应分他一份收益，每笔款子准时到账。可同僚之间却浮起一种古怪的沉默——报表显示每周次布的比例都在攀升。"
+        },
+        {
+          "en": "Nothing there was [[perfect]]: the [[rail]] creaked at every bend, and the [[railroad]] was said to be closing soon. Lin began to [[perceive]] that his invention had cost his friends their work.",
+          "zh": "那儿没有一样东西是完美的：铁轨每逢转弯便吱呀作响，那条铁路据传也快关停了。林先生渐渐察觉，自己的发明让老友们丢了活计。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Masterpiece",
+      "zh": "杰作",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "Old Chen had learned his craft from a [[master]] who never raised his voice. Now he meant to [[raise]] the standard of every apprentice and to [[rally]] the neighbors to repair the temple gate.",
+          "zh": "老陈的手艺得自一位从不提高嗓门的师傅。如今他想把学徒们的水准都抬一抬，召集街坊来修庙门。"
+        },
+        {
+          "en": "He picked his helpers at [[random]] rather than by skill, and together they covered a wide [[range]] of talents. His old [[mate]], a man of high social [[rank]], had shared the same bench for twenty years.",
+          "zh": "他挑帮手不看手艺，随手点名，一群人的能耐倒是覆盖面够广。他的老搭档地位颇高，两人同台共事二十年。"
+        },
+        {
+          "en": "They chose the finest [[material]] they could afford, for a [[masterpiece]] cannot be hurried. With no [[mathematical]] training, Chen judged a beam by its ring, and by the time his taste grew [[mature]] they had built the [[maximum]] a village could hope for.",
+          "zh": "他们挑出买得起的最好的料——杰作急不得。老陈没受过数学训练，判一根梁只靠敲下去的那声回响；等到眼力成熟，他们已造出小村所能企及的极致。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Operation",
+      "zh": "运转",
+      "theme": "科技 / 环境",
+      "ps": [
+        {
+          "en": "When the village installed its first turbine, nobody could [[mean]] to explain it, and its [[meaning]] escaped the older farmers. The engineer sought simpler [[means]] of describing how water turns into light; in the [[meantime]] the machine ran on, and [[meanwhile]] the children gathered to watch.",
+          "zh": "村里装上第一台水轮机时，没人说得清它意味着什么，年长农户也听不明白它的意义。工程师想找更简单的办法讲水如何变成光；这期间机器照转，孩子们也聚了过来。"
+        },
+        {
+          "en": "They learned to [[measure]] its hum against the river's flow, and an [[opening]] in the timetable let the class visit twice a month. Even the old [[opera]] troupe came to sing by its light.",
+          "zh": "他们学会用河水流量比对机器嗡鸣，课表腾出的空档让全班每月能来两次。连旧戏班子也来这灯下唱过一回。"
+        },
+        {
+          "en": "To [[operate]] such a thing took patience, and the young [[operator]] on duty had none to spare. The whole [[operation]] had been made [[operational]] a week early by one taciturn engineer.",
+          "zh": "操作这么个东西得靠耐心，而当班的年轻操作员一点都匀不出来。整个系统由一位寡言的工程师提前一周全面投入运行。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The Opponent",
+      "zh": "对手",
+      "theme": "法律 / 社会",
+      "ps": [
+        {
+          "en": "In her [[opinion]], the surest [[opportunity]] the town ever had lay in facing the [[opponent]] she had once been too polite to [[oppose]]. Across the [[opposite]] bench sat men ready to [[oppress]] anyone poorer than themselves.",
+          "zh": "在她看来，镇子得到过的最可靠的机会，就摆在那个她曾客气得不敢反抗的对手面前。对面席上的人随时准备欺压比他们穷的人。"
+        },
+        {
+          "en": "The [[scope]] of her reform was wide and the [[score]] of public support ran high, so few dared to [[scorn]] the plan once the numbers were read aloud. She fought to [[secure]] fair rents, and the [[security]] she promised was not bought with fences.",
+          "zh": "改革范围广，民意支持的分值也高，数据当众念过之后，敢鄙视方案的人就不多了。她为公道房租而战，许诺的安全不是用围墙买来的。"
+        },
+        {
+          "en": "Others would [[seek]] the same ends by softer roads, and the goal could [[seem]] far off though [[seemingly]] within reach. Plain [[thrift]] funded the work; on the night the vote passed a [[thrill]] ran through the square, the market began to [[thrive]], and the town at last began to [[see]] what she had meant.",
+          "zh": "也有人想用更温和的路子求同样的目的，那目标即使看上去近在眼前也仍显得遥远。支撑这项事业的只是朴素的节俭；表决通过那晚一阵激动掠过广场，集市重新兴旺，镇子也终于看清了她一直想做的事。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "patch",
+      "ipa": "pætʃ",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "修补",
+      "exam": "小块土地；修补；调停；解决",
+      "c": [
+        "patch up a coat 补外套",
+        "a patch of land 一小块地",
+        "patch a quarrel 平息争执"
+      ],
+      "syn": [
+        "mend 修补",
+        "fix 修理",
+        "plot 小块地"
+      ],
+      "fam": [
+        "patchy adj. 拼凑的；不完整的"
+      ],
+      "dif": "patch 作动词指「修补、调和」；作名词指「补丁、小块地」，阅读里常考小块土地义",
+      "pat": "A small patch on the elbow kept the old coat usable for years.",
+      "patZh": "手肘上一小块补丁，让这件旧外套又穿了好几年。"
+    },
+    {
+      "w": "patent",
+      "ipa": "ˈpeɪtnt",
+      "pos": "n. / adj. / vt.",
+      "s": "s1",
+      "zh": "专利",
+      "exam": "专利；专利权；专利的；获得专利",
+      "c": [
+        "apply for a patent 申请专利",
+        "patent law 专利法",
+        "hold a patent on 持有…的专利"
+      ],
+      "syn": [
+        "copyright 版权",
+        "license 许可",
+        "trademark 商标"
+      ],
+      "fam": [
+        "patentee n. 专利权人",
+        "patently adv. 明显地"
+      ],
+      "dif": "patent 多指「发明专利」；copyright 是「著作权」；trademark 是「商标」，三者别混",
+      "pat": "The firm filed a patent to protect its new design.",
+      "patZh": "那家公司申请了专利以保护自己的新设计。"
+    },
+    {
+      "w": "pattern",
+      "ipa": "ˈpætn",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "图案",
+      "exam": "模式；样式；方式；模仿；仿造",
+      "c": [
+        "a pattern of behavior 行为模式",
+        "pattern sth on 仿制…",
+        "a floral pattern 花纹图案"
+      ],
+      "syn": [
+        "model 模型",
+        "design 设计",
+        "template 模板"
+      ],
+      "fam": [
+        "patterned adj. 带图案的"
+      ],
+      "dif": "pattern 名词常考「模式、图案」；作动词 pattern on 表示「仿照」，易与 model 混",
+      "pat": "Sleep follows a clear daily pattern in most people.",
+      "patZh": "多数人的睡眠都遵循一套清晰的日常规律。"
+    },
+    {
+      "w": "pay",
+      "ipa": "peɪ",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "支付",
+      "exam": "支付；付出；给予（注意）；工资；薪金",
+      "c": [
+        "pay attention to 注意",
+        "pay a visit 访问",
+        "draw one's pay 领工资"
+      ],
+      "syn": [
+        "payment n. 付款",
+        "salary 薪金",
+        "wage 工资"
+      ],
+      "fam": [
+        "payable adj. 应付的",
+        "payment n. 支付"
+      ],
+      "dif": "pay 作动词常接 attention / a visit；作名词指「工资」，与 wage（周薪）略有别",
+      "pat": "Employers should pay attention to workers' safety.",
+      "patZh": "雇主应当留意工人的安全。"
+    },
+    {
+      "w": "payment",
+      "ipa": "ˈpeɪmənt",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "付款",
+      "exam": "支付；付款额",
+      "c": [
+        "monthly payment 月付",
+        "in payment for 作为…的付款",
+        "demand payment 要求付款"
+      ],
+      "syn": [
+        "fee 费用",
+        "installment 分期",
+        "rent 租金"
+      ],
+      "fam": [
+        "pay v. 支付",
+        "payable adj. 应付的"
+      ],
+      "dif": "payment 是「支付的款项」；pay 是动词或「工资」总称，搭配时别漏 -ment",
+      "pat": "The monthly payment arrived on time every month.",
+      "patZh": "每月的款项都准时到账。"
+    },
+    {
+      "w": "peculiar",
+      "ipa": "pɪˈkjuːliə(r)",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "古怪的",
+      "exam": "奇怪的；古怪的；特有的；独特的",
+      "c": [
+        "a peculiar smell 怪味",
+        "peculiar to 为…所特有",
+        "a peculiar habit 怪癖"
+      ],
+      "syn": [
+        "odd 奇怪的",
+        "strange 陌生的",
+        "unique 独特的"
+      ],
+      "fam": [
+        "peculiarly adv. 特别地",
+        "peculiarity n. 特性"
+      ],
+      "dif": "peculiar 常考「古怪」与「特有」两层；peculiar to 表示「为…独有」，是高频搭配",
+      "pat": "This dialect is peculiar to the mountain villages.",
+      "patZh": "这种方言是那些山村所特有的。"
+    },
+    {
+      "w": "peer",
+      "ipa": "pɪə(r)",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "同辈",
+      "exam": "（身份或地位）相同的人；同辈；仔细看；凝视",
+      "c": [
+        "a peer of one's age 同龄人",
+        "peer at 盯着看",
+        "peer pressure 同辈压力"
+      ],
+      "syn": [
+        "equal 同等的人",
+        "fellow 伙伴",
+        "gaze 凝视"
+      ],
+      "fam": [
+        "peerless adj. 无双的",
+        "peerage n. 贵族"
+      ],
+      "dif": "peer 作名词是「同辈、同侪」；作动词是「凝视」，与 stare / gaze 近义",
+      "pat": "Teenagers are easily shaped by peer pressure.",
+      "patZh": "青少年很容易受同辈压力影响。"
+    },
+    {
+      "w": "per",
+      "ipa": "pɜː(r)",
+      "pos": "prep.",
+      "s": "s1",
+      "zh": "每",
+      "exam": "每；每一",
+      "c": [
+        "per hour 每小时",
+        "per person 每人",
+        "as per 按照"
+      ],
+      "syn": [
+        "each 每个",
+        "every 每一",
+        "by 每（by the day）"
+      ],
+      "fam": [
+        "per capita 人均 n. 相关延伸",
+        "per annum 每年 n. 相关延伸"
+      ],
+      "dif": "per 是介词「每」，常接单位（per hour / per cent）；别与 pace「步伐」混淆",
+      "pat": "The fee is charged per person, not per group.",
+      "patZh": "费用按人头收，而不是按团体收。"
+    },
+    {
+      "w": "perceive",
+      "ipa": "pəˈsiːv",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "察觉",
+      "exam": "察觉；理解；认识到；认为",
+      "c": [
+        "perceive a change 察觉变化",
+        "perceive danger 意识到危险",
+        "perceive as 把…看作"
+      ],
+      "syn": [
+        "detect 察觉",
+        "notice 注意到",
+        "grasp 理解"
+      ],
+      "fam": [
+        "percelvable adj. 可察觉的",
+        "perception n. 感知"
+      ],
+      "dif": "perceive 强调「用心感知、领悟」；perceive 与 receive（收到）拼写相近，注意区别",
+      "pat": "We perceive the risk only after the accident happens.",
+      "patZh": "我们往往在事故发生后才察觉风险。"
+    },
+    {
+      "w": "percentage",
+      "ipa": "pəˈsentɪdʒ",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "百分比",
+      "exam": "百分比；百分率",
+      "c": [
+        "a high percentage of 高比例的",
+        "percentage point 百分点",
+        "a small percentage 很小的比例"
+      ],
+      "syn": [
+        "proportion 比例",
+        "ratio 比率",
+        "share 份额"
+      ],
+      "fam": [
+        "percent n. 百分之",
+        "percentage adj. 按比例的"
+      ],
+      "dif": "percentage 指「百分比这个数」；percent 是「百分之」，后面直接接数字",
+      "pat": "A large percentage of defects points to a real problem.",
+      "patZh": "很高的次品比例说明存在真问题。"
+    },
+    {
+      "w": "perfect",
+      "ipa": "ˈpɜːfɪkt",
+      "pos": "adj. / vt.",
+      "s": "s1",
+      "zh": "完美的",
+      "exam": "完美的；完全的；使完美；改善",
+      "c": [
+        "a perfect score 满分",
+        "perfect one's skill 精进技艺",
+        "perfect for 非常适合"
+      ],
+      "syn": [
+        "flawless 无瑕的",
+        "ideal 理想的",
+        "refine 完善"
+      ],
+      "fam": [
+        "perfection n. 完美",
+        "perfectly adv. 完全地"
+      ],
+      "dif": "perfect 形容词「完美的」读 ˈpɜːfɪkt；作动词「使完美」读 pəˈfekt，重音后移",
+      "pat": "Practice alone can perfect a difficult technique.",
+      "patZh": "唯有练习能把一项难的技术练到完美。"
+    },
+    {
+      "w": "rail",
+      "ipa": "reɪl",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "铁轨",
+      "exam": "铁路；铁轨；栏杆",
+      "c": [
+        "a steel rail 钢轨",
+        "by rail 乘火车",
+        "lean on the rail 倚着栏杆"
+      ],
+      "syn": [
+        "track 轨道",
+        "bar 横杆",
+        "railing 栏杆"
+      ],
+      "fam": [
+        "railway n. 铁路",
+        "railroad n. 铁路（美）"
+      ],
+      "dif": "rail 是「一根铁轨 / 栏杆」；railroad / railway 是整条「铁路」，别单复数混用",
+      "pat": "The old rail creaked under the weight of the train.",
+      "patZh": "那根旧铁轨在列车重压下吱呀作响。"
+    },
+    {
+      "w": "railroad",
+      "ipa": "ˈreɪlrəʊd",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "铁路",
+      "exam": "铁路；由铁路运输；仓促行事",
+      "c": [
+        "by railroad 经铁路运送",
+        "a railroad station 火车站",
+        "railroad a bill through 草草通过议案"
+      ],
+      "syn": [
+        "railway 铁路（英）",
+        "track 轨道",
+        "rush 仓促行事"
+      ],
+      "fam": [
+        "rail n. 铁轨",
+        "railway n. 铁路"
+      ],
+      "dif": "railroad 美式「铁路」；作动词可指「使议案草草通过」，是僻义",
+      "pat": "Goods were sent by railroad to the coastal port.",
+      "patZh": "货物经铁路运往海港。"
+    },
+    {
+      "w": "raise",
+      "ipa": "reɪz",
+      "pos": "vt. / n.",
+      "s": "s2",
+      "zh": "提高",
+      "exam": "提高；增加；提出；增加（工资）",
+      "c": [
+        "raise a question 提出问题",
+        "raise one's voice 提高嗓门",
+        "raise salaries 涨工资"
+      ],
+      "syn": [
+        "lift 举起",
+        "increase 增加",
+        "rise vi. 上升"
+      ],
+      "fam": [
+        "raised adj. 凸起的",
+        "raise n. 加薪"
+      ],
+      "dif": "raise 是及物「提高、举起」（raise prices）；rise 是不及物「上升」（prices rise），易混",
+      "pat": "The report raised a number of hard questions.",
+      "patZh": "这份报告提出了若干棘手的问题。"
+    },
+    {
+      "w": "rally",
+      "ipa": "ˈræli",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "召集",
+      "exam": "集合；集会",
+      "c": [
+        "rally support 争取支持",
+        "rally one's friends 召集朋友",
+        "a political rally 政治集会"
+      ],
+      "syn": [
+        "gather 集合",
+        "muster 召集",
+        "assembly 集会"
+      ],
+      "fam": [
+        "rallied / rallying n. 相关延伸"
+      ],
+      "dif": "rally 作动词「重新集结、振作」；作名词「群众集会」，与 meeting 近义",
+      "pat": "The mayor tried to rally the town behind the plan.",
+      "patZh": "市长试图把全镇人团结到这项计划背后。"
+    },
+    {
+      "w": "random",
+      "ipa": "ˈrændəm",
+      "pos": "adj. / n.",
+      "s": "s2",
+      "zh": "任意的",
+      "exam": "任意的；随意的；任意",
+      "c": [
+        "at random 随意地",
+        "a random sample 随机样本",
+        "random choice 任意选择"
+      ],
+      "syn": [
+        "casual 随意的",
+        "arbitrary 武断的",
+        "chance 偶然的"
+      ],
+      "fam": [
+        "randomly adv. 随机地",
+        "randomness n. 随机性"
+      ],
+      "dif": "random 强调「无目的、随机」；arbitrary 强调「武断、凭个人意志」，两者常并列",
+      "pat": "Subjects were chosen at random from the list.",
+      "patZh": "受试者是按名单随机抽选的。"
+    },
+    {
+      "w": "range",
+      "ipa": "reɪndʒ",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "范围",
+      "exam": "一系列；范围；领域；变化",
+      "c": [
+        "a wide range of 广泛的",
+        "range from... to... 从…到…不等",
+        "in range 在范围内"
+      ],
+      "syn": [
+        "scope 范围",
+        "span 跨度",
+        "variety 多样"
+      ],
+      "fam": [
+        "ranging adj. 变化的",
+        "ranger n. 护林员"
+      ],
+      "dif": "range 常指「在一定幅度内变动」（prices range from）；scope 指「活动范围、余地」",
+      "pat": "The prices range from ten to fifty yuan.",
+      "patZh": "价格从十元到五十元不等。"
+    },
+    {
+      "w": "rank",
+      "ipa": "ræŋk",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "地位",
+      "exam": "社会地位；级别；排列；分等级；把…分类",
+      "c": [
+        "social rank 社会地位",
+        "rank first 排第一",
+        "the rank of colonel 上校军衔"
+      ],
+      "syn": [
+        "status 地位",
+        "grade 等级",
+        "class 阶级"
+      ],
+      "fam": [
+        "ranking n. 排名",
+        "ranked adj. 排位的"
+      ],
+      "dif": "rank 作名词「等级、军衔」；作动词「把…分等」，与 rate（评估）近义",
+      "pat": "She rose to the top rank in her profession.",
+      "patZh": "她在自己的行业里升到了最高级别。"
+    },
+    {
+      "w": "master",
+      "ipa": "ˈmɑːstə(r)",
+      "pos": "n. / vt. / adj.",
+      "s": "s2",
+      "zh": "师傅",
+      "exam": "能手；大师；精通；掌握；熟练的",
+      "c": [
+        "master a skill 掌握技能",
+        "a master of 在…方面的大师",
+        "master bedroom 主卧"
+      ],
+      "syn": [
+        "expert 专家",
+        "specialist 行家",
+        "grasp 掌握"
+      ],
+      "fam": [
+        "mastery n. 精通",
+        "masterpiece n. 杰作"
+      ],
+      "dif": "master 可指「主人、大师」或动词「掌握、精通」；与 grasp（理解掌握）近义但更重熟练",
+      "pat": "It takes years to master a foreign language.",
+      "patZh": "掌握一门外语需要数年之功。"
+    },
+    {
+      "w": "masterpiece",
+      "ipa": "ˈmɑːstəpiːs",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "杰作",
+      "exam": "杰作，名著",
+      "c": [
+        "a literary masterpiece 文学名著",
+        "call it a masterpiece 称其为杰作",
+        "his last masterpiece 他的绝笔之作"
+      ],
+      "syn": [
+        "classic 经典",
+        "gem 珍品",
+        "magnum opus 巨著"
+      ],
+      "fam": [
+        "master n. 大师",
+        "masterly adj. 大师级的"
+      ],
+      "dif": "masterpiece 是「杰作、代表作」；classic 是「经典」，未必是某人的巅峰之作",
+      "pat": "The painting is widely seen as his masterpiece.",
+      "patZh": "这幅画被公认为他的杰作。"
+    },
+    {
+      "w": "mate",
+      "ipa": "meɪt",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "伙伴",
+      "exam": "配偶",
+      "c": [
+        "a close mate 亲密伙伴",
+        "a life mate 终身伴侣",
+        "classmate 同学"
+      ],
+      "syn": [
+        "partner 搭档",
+        "companion 同伴",
+        "spouse 配偶"
+      ],
+      "fam": [
+        "mating n. 交配",
+        "roommate n. 室友"
+      ],
+      "dif": "mate 泛指「伙伴、同事、配偶」；spouse 仅指「配偶」，语义更窄",
+      "pat": "He remained a loyal mate through hard times.",
+      "patZh": "在艰难岁月里他始终是个忠实的伙伴。"
+    },
+    {
+      "w": "material",
+      "ipa": "məˈtɪəriəl",
+      "pos": "n. / adj.",
+      "s": "s2",
+      "zh": "材料",
+      "exam": "材料；原料；物质的；实体的",
+      "c": [
+        "raw material 原料",
+        "building material 建材",
+        "material wealth 物质财富"
+      ],
+      "syn": [
+        "substance 物质",
+        "stuff 材料",
+        "matter 物料"
+      ],
+      "fam": [
+        "materialism n. 唯物主义",
+        "materialize v. 实现"
+      ],
+      "dif": "material 名词「材料、原料」；形容词「物质的」，与 physical（物理的）近义",
+      "pat": "The bridge was built from the finest material.",
+      "patZh": "这座桥是用最上乘的材料建成的。"
+    },
+    {
+      "w": "mathematical",
+      "ipa": "ˌmæθəˈmætɪkl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "数学的",
+      "exam": "数学（上）的",
+      "c": [
+        "mathematical model 数学模型",
+        "mathematical proof 数学证明",
+        "a mathematical mind 数理头脑"
+      ],
+      "syn": [
+        "numerical 数字的",
+        "quantitative 定量的",
+        "exact 精确的"
+      ],
+      "fam": [
+        "mathematics n. 数学",
+        "mathematician n. 数学家"
+      ],
+      "dif": "mathematical 是「数学的」；mathematical 与 measurable（可测量的）别混，前者指学科",
+      "pat": "The forecast relies on a mathematical model.",
+      "patZh": "这项预测依赖一个数学模型。"
+    },
+    {
+      "w": "mature",
+      "ipa": "məˈtʃʊə(r)",
+      "pos": "adj. / v.",
+      "s": "s2",
+      "zh": "成熟的",
+      "exam": "熟的；成熟的；使成熟",
+      "c": [
+        "a mature attitude 成熟的态度",
+        "mature into 长成",
+        "a mature market 成熟市场"
+      ],
+      "syn": [
+        "ripe 成熟的",
+        "grown-up 成年的",
+        "ripe v. 成熟"
+      ],
+      "fam": [
+        "maturity n. 成熟",
+        "maturely adv. 成熟地"
+      ],
+      "dif": "mature 形容人「成熟」或果实「熟了」；作动词「使成熟」，与 ripe（主要形容果实）有别",
+      "pat": "His judgment grew more mature with age.",
+      "patZh": "随着年龄增长，他的判断愈发成熟。"
+    },
+    {
+      "w": "maximum",
+      "ipa": "ˈmæksɪməm",
+      "pos": "n. / adj.",
+      "s": "s2",
+      "zh": "极限",
+      "exam": "最大值；极限；最大的；最高的",
+      "c": [
+        "to the maximum 到最大限度",
+        "the maximum speed 最高速度",
+        "reach a maximum 达到峰值"
+      ],
+      "syn": [
+        "utmost 极度",
+        "peak 峰值",
+        "limit 极限"
+      ],
+      "fam": [
+        "maximize v. 最大化",
+        "minimal / minimum 最小的 n. 相关延伸"
+      ],
+      "dif": "maximum 是「最大、最高」；minimum 是「最小、最低」，成对出现必考",
+      "pat": "The system ran at its maximum capacity.",
+      "patZh": "这套系统以最大负荷运行。"
+    },
+    {
+      "w": "mean",
+      "ipa": "miːn",
+      "pos": "vt. / n. / adj.",
+      "s": "s3",
+      "zh": "意味着",
+      "exam": "表示…的意思；意指；打算；平均的",
+      "c": [
+        "mean to do 打算做",
+        "mean a lot 意义重大",
+        "the mean value 平均值"
+      ],
+      "syn": [
+        "intend 打算",
+        "signify 意味着",
+        "average 平均的"
+      ],
+      "fam": [
+        "meaning n. 意义",
+        "means n. 手段",
+        "meantime adv. 其间"
+      ],
+      "dif": "mean 作动词「意指、打算」；作形容词「卑鄙的、平均的」，多义易混，阅读常考 average 义",
+      "pat": "A low score does not mean you have failed.",
+      "patZh": "低分并不意味着你失败了。"
+    },
+    {
+      "w": "meaning",
+      "ipa": "ˈmiːnɪŋ",
+      "pos": "n. / adj.",
+      "s": "s3",
+      "zh": "意义",
+      "exam": "意义；意思",
+      "c": [
+        "the meaning of life 生命的意义",
+        "a hidden meaning 言外之意",
+        "deep meaning 深意"
+      ],
+      "syn": [
+        "sense 含义",
+        "significance 重要性",
+        "import 意义"
+      ],
+      "fam": [
+        "mean v. 意指",
+        "meaningful adj. 有意义的"
+      ],
+      "dif": "meaning 是「意义、意思」；sense 也可指「含义」，但 meaning 更偏抽象主旨",
+      "pat": "The meaning of the poem is open to readers.",
+      "patZh": "这首诗的含义交由读者自己去体会。"
+    },
+    {
+      "w": "means",
+      "ipa": "miːnz",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "方法",
+      "exam": "方法；手段",
+      "c": [
+        "by means of 借助",
+        "a means to an end 达标的手段",
+        "by no means 绝不"
+      ],
+      "syn": [
+        "method 方法",
+        "way 途径",
+        "measure 措施"
+      ],
+      "fam": [
+        "mean v. 意指",
+        "meaningful adj. 有意义的"
+      ],
+      "dif": "means 单复同形（a means / many means）；by no means 是「绝不」，常考否定强调",
+      "pat": "Education is the chief means of progress.",
+      "patZh": "教育是进步的主要手段。"
+    },
+    {
+      "w": "meantime",
+      "ipa": "ˈmiːntaɪm",
+      "pos": "n. / adv.",
+      "s": "s3",
+      "zh": "其间",
+      "exam": "其间；同时",
+      "c": [
+        "in the meantime 与此同时",
+        "for the meantime 暂时",
+        "the meantime 过渡期"
+      ],
+      "syn": [
+        "meanwhile 同时",
+        "interim 过渡期",
+        "until then 在那之前"
+      ],
+      "fam": [
+        "mean v. 意指",
+        "meanwhile adv. 同时"
+      ],
+      "dif": "meantime 与 meanwhile 都表「同时」，meantime 更偏「在此期间」，常作 in the meantime",
+      "pat": "We rested; in the meantime the rain stopped.",
+      "patZh": "我们歇着，其间雨停了。"
+    },
+    {
+      "w": "meanwhile",
+      "ipa": "ˈmiːnwaɪl",
+      "pos": "n. / adv.",
+      "s": "s3",
+      "zh": "同时",
+      "exam": "其间；同时",
+      "c": [
+        "meanwhile, back home 与此同时在国内",
+        "meanwhile the team watched 同时小组在观察",
+        "till meanwhile 直到那时"
+      ],
+      "syn": [
+        "meantime 其间",
+        "at the same time 同时",
+        "simultaneously 同步地"
+      ],
+      "fam": [
+        "mean v. 意指",
+        "meantime adv. 其间"
+      ],
+      "dif": "meanwhile 多作副词「同时」用在句首；meantime 常带 in the，位置搭配略不同",
+      "pat": "The old system ran; meanwhile a team watched.",
+      "patZh": "旧系统还在跑，同时一支小组在旁观察。"
+    },
+    {
+      "w": "measure",
+      "ipa": "ˈmeʒə(r)",
+      "pos": "v. / n.",
+      "s": "s3",
+      "zh": "衡量",
+      "exam": "衡量；测量；措施；办法",
+      "c": [
+        "measure success 衡量成功",
+        "take measures 采取措施",
+        "a yardstick to measure 衡量尺度"
+      ],
+      "syn": [
+        "gauge 估量",
+        "assess 评估",
+        "step 措施"
+      ],
+      "fam": [
+        "measurement n. 测量",
+        "measurable adj. 可衡量的"
+      ],
+      "dif": "measure 动词「衡量、测量」；名词「措施」（take measures），与 step / action 近义",
+      "pat": "We should measure progress by real results.",
+      "patZh": "我们应当用实在的成果来衡量进步。"
+    },
+    {
+      "w": "opening",
+      "ipa": "ˈəʊpənɪŋ",
+      "pos": "n. / adj.",
+      "s": "s3",
+      "zh": "机会",
+      "exam": "空缺；开始的",
+      "c": [
+        "an opening in the schedule 日程空档",
+        "a job opening 职位空缺",
+        "the opening speech 开幕辞"
+      ],
+      "syn": [
+        "vacancy 空缺",
+        "chance 机会",
+        "start 开端"
+      ],
+      "fam": [
+        "open v. 打开",
+        "openly adv. 公开地"
+      ],
+      "dif": "opening 名词常考「空缺、机会」；形容词「开头的」，与 vacant（空缺的）近义",
+      "pat": "The firm had an opening for a young engineer.",
+      "patZh": "那家公司有个面向年轻工程师的空缺。"
+    },
+    {
+      "w": "opera",
+      "ipa": "ˈɒprə",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "歌剧",
+      "exam": "歌剧；歌剧团",
+      "c": [
+        "a Beijing opera 京剧",
+        "the opera house 歌剧院",
+        "enjoy the opera 欣赏歌剧"
+      ],
+      "syn": [
+        "musical 音乐剧",
+        "play 戏剧",
+        "ballet 芭蕾"
+      ],
+      "fam": [
+        "operatic adj. 歌剧的",
+        "operate v. 运转"
+      ],
+      "dif": "opera 是「歌剧」；operate 是「操作、运转」，同源词形近义远，拼写别混",
+      "pat": "The local opera house borrowed the new machine.",
+      "patZh": "本地歌剧院借用了这台新机器。"
+    },
+    {
+      "w": "operate",
+      "ipa": "ˈɒpəreɪt",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "操作",
+      "exam": "运转；动手术；操作",
+      "c": [
+        "operate a machine 操作机器",
+        "operate on 给…动手术",
+        "operate smoothly 运转顺畅"
+      ],
+      "syn": [
+        "run 运行",
+        "function 运转",
+        "work 运作"
+      ],
+      "fam": [
+        "operation n. 运转；手术",
+        "operator n. 操作员",
+        "operational adj. 可运转的"
+      ],
+      "dif": "operate 常考「操作、运转、动手术」三义；operate on 后接病人，别漏介词",
+      "pat": "Only trained staff may operate this device.",
+      "patZh": "只有受过训练的员工才能操作这台设备。"
+    },
+    {
+      "w": "operation",
+      "ipa": "ˌɒpəˈreɪʃn",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "运转",
+      "exam": "运转；操作；手术",
+      "c": [
+        "in operation 在运转中",
+        "a smooth operation 顺利的运转",
+        "undergo an operation 动手术"
+      ],
+      "syn": [
+        "function 运作",
+        "process 流程",
+        "surgery 手术"
+      ],
+      "fam": [
+        "operate v. 操作",
+        "operational adj. 可运转的"
+      ],
+      "dif": "operation 可指「运转、操作」或「手术」（undergo an operation）；与 process 近义",
+      "pat": "The whole operation ran without a hitch.",
+      "patZh": "整场运转进行得毫无阻碍。"
+    },
+    {
+      "w": "operational",
+      "ipa": "ˌɒpəˈreɪʃənl",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "可运转的",
+      "exam": "操作的",
+      "c": [
+        "fully operational 完全投入运行",
+        "operational costs 运营费用",
+        "operational skill 操作技能"
+      ],
+      "syn": [
+        "functional 可运转的",
+        "working 运作中的",
+        "active 在用的"
+      ],
+      "fam": [
+        "operate v. 操作",
+        "operation n. 运转"
+      ],
+      "dif": "operational 是「操作上的、可运转的」；functional 也表「可使用的」，语义极近",
+      "pat": "The unit became fully operational last spring.",
+      "patZh": "这套装置去年春天完全投入了运行。"
+    },
+    {
+      "w": "operator",
+      "ipa": "ˈɒpəreɪtə(r)",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "操作员",
+      "exam": "操作人员",
+      "c": [
+        "a machine operator 机器操作员",
+        "a telephone operator 接线员",
+        "train an operator 培训操作员"
+      ],
+      "syn": [
+        "worker 工人",
+        "engineer 工程师",
+        "attendant 值班员"
+      ],
+      "fam": [
+        "operate v. 操作",
+        "operation n. 运转"
+      ],
+      "dif": "operator 是「操作人员、接线员」；engineer 偏「设计研发」，职责不同",
+      "pat": "A trained operator ran the night shift.",
+      "patZh": "一名受过培训的操作员主持了夜班。"
+    },
+    {
+      "w": "opinion",
+      "ipa": "əˈpɪnjən",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "意见",
+      "exam": "意见；看法；主张",
+      "c": [
+        "in one's opinion 在某人看来",
+        "a public opinion 公众舆论",
+        "have a low opinion of 对…评价低"
+      ],
+      "syn": [
+        "view 看法",
+        "belief 信念",
+        "stance 立场"
+      ],
+      "fam": [
+        "oplmonated adj. 固执己见的",
+        "oplmonpoll 民意调查 n. 相关延伸"
+      ],
+      "dif": "opinion 表「意见、主张」；view 也指「观点」，但 opinion 更常用在 in my opinion 句式",
+      "pat": "In my opinion, the plan is far too risky.",
+      "patZh": "在我看来，这方案风险太大了。"
+    },
+    {
+      "w": "opportunity",
+      "ipa": "ˌɒpəˈtjuːnəti",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "机会",
+      "exam": "机会",
+      "c": [
+        "seize an opportunity 抓住机会",
+        "a rare opportunity 难得的机会",
+        "equal opportunity 平等机会"
+      ],
+      "syn": [
+        "chance 机会",
+        "occasion 时机",
+        "opening 空缺"
+      ],
+      "fam": [
+        "opportune adj. 恰好的",
+        "opportunism n. 机会主义"
+      ],
+      "dif": "opportunity 与 chance 近义，但 opportunity 更正式、常指「有利时机」",
+      "pat": "The reform opened a real opportunity for change.",
+      "patZh": "这场改革带来了真正的变革机会。"
+    },
+    {
+      "w": "opponent",
+      "ipa": "əˈpəʊnənt",
+      "pos": "n. / adj.",
+      "s": "s4",
+      "zh": "对手",
+      "exam": "对手；反对者",
+      "c": [
+        "a worthy opponent 劲敌",
+        "defeat an opponent 击败对手",
+        "an opponent of the bill 法案的反对者"
+      ],
+      "syn": [
+        "rival 竞争者",
+        "adversary 敌手",
+        "foe 仇敌"
+      ],
+      "fam": [
+        "oppose v. 反对",
+        "opposition n. 反对"
+      ],
+      "dif": "opponent 是「对手、反对者」；rival 偏「竞赛中的竞争者」，语义略窄",
+      "pat": "She faced her old opponent with calm.",
+      "patZh": "她平静地面对昔日的对手。"
+    },
+    {
+      "w": "oppose",
+      "ipa": "əˈpəʊz",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "反对",
+      "exam": "反对，反抗",
+      "c": [
+        "oppose a plan 反对一项计划",
+        "oppose to 反对（be opposed to）",
+        "fiercely oppose 强烈反对"
+      ],
+      "syn": [
+        "resist 抵抗",
+        "object 反对",
+        "reject 拒绝"
+      ],
+      "fam": [
+        "opponent n. 对手",
+        "opposition n. 反对",
+        "opposite adj. 相反的"
+      ],
+      "dif": "oppose 是及物「反对」（oppose the law）；object 常接 to（object to），搭配不同",
+      "pat": "Many citizens oppose the new tax.",
+      "patZh": "许多市民反对这项新税。"
+    },
+    {
+      "w": "opposite",
+      "ipa": "ˈɒpəzət",
+      "pos": "adj. / n. / prep.",
+      "s": "s4",
+      "zh": "对面的",
+      "exam": "相反的；对面的；对立面；对立物",
+      "c": [
+        "the opposite side 对立的一面",
+        "quite the opposite 恰恰相反",
+        "opposite the station 在车站对面"
+      ],
+      "syn": [
+        "contrary 相反的",
+        "reverse 反面的",
+        "facing 对面的"
+      ],
+      "fam": [
+        "oppose v. 反对",
+        "opposition n. 反对"
+      ],
+      "dif": "opposite 是「相反的、对面的」；contrary 也表「相反」，但 opposite 更常用作名词「对立面」",
+      "pat": "The truth turned out to be the opposite.",
+      "patZh": "真相结果恰恰相反。"
+    },
+    {
+      "w": "oppress",
+      "ipa": "əˈpres",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "压迫",
+      "exam": "压迫，压制",
+      "c": [
+        "oppress the weak 压迫弱者",
+        "feel oppressed 感到压抑",
+        "a regime that oppresses 压迫人的政权"
+      ],
+      "syn": [
+        "suppress 镇压",
+        "tyrannize 暴虐统治",
+        "burden 重压"
+      ],
+      "fam": [
+        "oppression n. 压迫",
+        "oppressive adj. 压迫性的"
+      ],
+      "dif": "oppress 强调「压迫、使人沉重」；suppress 强调「镇压、压制（言论）」，对象不同",
+      "pat": "No just society should oppress the weak.",
+      "patZh": "任何正义的社会都不该压迫弱者。"
+    },
+    {
+      "w": "scope",
+      "ipa": "skəʊp",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "范围",
+      "exam": "范围",
+      "c": [
+        "the scope of reform 改革的范围",
+        "beyond the scope 超出范围",
+        "widen the scope 扩大范围"
+      ],
+      "syn": [
+        "range 范围",
+        "extent 程度",
+        "reach 触及面"
+      ],
+      "fam": [
+        "scoped adj. 有范围的",
+        "telescope n. 望远镜"
+      ],
+      "dif": "scope 强调「活动范围、余地」（beyond the scope）；range 强调「幅度、区间」",
+      "pat": "The project was wide in scope but short in funds.",
+      "patZh": "这项目范围很广，资金却不足。"
+    },
+    {
+      "w": "score",
+      "ipa": "skɔː(r)",
+      "pos": "n. / v.",
+      "s": "s4",
+      "zh": "得分",
+      "exam": "得分；分数",
+      "c": [
+        "a high score 高分",
+        "score a goal 进球得分",
+        "a score of people 二十人"
+      ],
+      "syn": [
+        "mark 分数",
+        "point 得分",
+        "grade 成绩"
+      ],
+      "fam": [
+        "scorer n. 得分者",
+        "scoring n. 得分"
+      ],
+      "dif": "score 名词「分数、二十个」；作动词「得分」，与 mark（批改/分数）近义但词性更广",
+      "pat": "The score of public support kept rising.",
+      "patZh": "公众支持的分量持续上升。"
+    },
+    {
+      "w": "scorn",
+      "ipa": "skɔːn",
+      "pos": "vt. / n.",
+      "s": "s4",
+      "zh": "鄙视",
+      "exam": "轻蔑；鄙视",
+      "c": [
+        "scorn a plan 鄙视某方案",
+        "heap scorn on 对…冷嘲热讽",
+        "a look of scorn 轻蔑的神情"
+      ],
+      "syn": [
+        "despise 鄙视",
+        "contempt 轻蔑",
+        "disdain 不屑"
+      ],
+      "fam": [
+        "scornful adj. 轻蔑的",
+        "scornfully adv. 轻蔑地"
+      ],
+      "dif": "scorn 是「轻蔑、不屑」；contempt 也表「鄙视」，但 scorn 更带「嘲讽」色彩",
+      "pat": "Critics should not scorn a modest proposal.",
+      "patZh": "批评者不该鄙视一个朴素的提议。"
+    },
+    {
+      "w": "secure",
+      "ipa": "sɪˈkjʊə(r)",
+      "pos": "adj. / vt.",
+      "s": "s4",
+      "zh": "使安全",
+      "exam": "安全的；可靠的；使安全；保卫；获得",
+      "c": [
+        "secure a job 获得工作",
+        "feel secure 感到安全",
+        "secure the border 保卫边境"
+      ],
+      "syn": [
+        "safe 安全的",
+        "obtain 获得",
+        "protect 保护"
+      ],
+      "fam": [
+        "security n. 安全",
+        "securely adv. 安全地"
+      ],
+      "dif": "secure 形容词「安全的」；动词「使安全、获得」，与 safe（仅形容词）不同",
+      "pat": "The policy helped secure both homes and jobs.",
+      "patZh": "这项政策帮人们保住了家园与工作。"
+    },
+    {
+      "w": "security",
+      "ipa": "sɪˈkjʊərəti",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "安全",
+      "exam": "安全",
+      "c": [
+        "social security 社会保障",
+        "national security 国家安全",
+        "a sense of security 安全感"
+      ],
+      "syn": [
+        "safety 安全",
+        "protection 保护",
+        "defense 防卫"
+      ],
+      "fam": [
+        "secure adj. 安全的",
+        "secure v. 使安全"
+      ],
+      "dif": "security 是「安全（状态、保障）」；safety 也指「安全」，但 security 偏「防护、安保」",
+      "pat": "Citizens began to feel a real sense of security.",
+      "patZh": "市民开始感受到真切的安全感。"
+    },
+    {
+      "w": "see",
+      "ipa": "siː",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "看见",
+      "exam": "看见；理解；会见；经历",
+      "c": [
+        "see the change 看见变化",
+        "see a doctor 看医生",
+        "see sense 明白道理"
+      ],
+      "syn": [
+        "perceive 察觉",
+        "understand 理解",
+        "witness 目睹"
+      ],
+      "fam": [
+        "seeing n. 看见",
+        "seer n. 先知"
+      ],
+      "dif": "see 多义：看见、理解、会见、经历；read 仅「阅读」，别把 see 与 look（看的动作）混",
+      "pat": "People began to see the good the reform brought.",
+      "patZh": "人们开始看见改革带来的好处。"
+    },
+    {
+      "w": "seek",
+      "ipa": "siːk",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "寻找",
+      "exam": "寻找；探索；请求；试图",
+      "c": [
+        "seek peace 寻求和平",
+        "seek advice 征求意见",
+        "seek to do 试图做"
+      ],
+      "syn": [
+        "search 搜寻",
+        "pursue 追求",
+        "request 请求"
+      ],
+      "fam": [
+        "seeker n. 追求者",
+        "sought（过去式） n. 相关延伸"
+      ],
+      "dif": "seek 是「寻求、试图」，较正式；seek to do = try to do，与 search（搜寻具体物）有别",
+      "pat": "Others would seek the same lasting peace.",
+      "patZh": "别人也会去寻找同样持久的安宁。"
+    },
+    {
+      "w": "seem",
+      "ipa": "siːm",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "似乎",
+      "exam": "好像；似乎；看起来好像",
+      "c": [
+        "seem far off 看似遥远",
+        "seem to do 似乎做",
+        "it seems that 似乎…"
+      ],
+      "syn": [
+        "appear 显得",
+        "look 看起来",
+        "sound 听起来"
+      ],
+      "fam": [
+        "seeming adj. 表面的",
+        "seemingly adv. 表面上"
+      ],
+      "dif": "seem 表「基于推断似乎」；appear 也表「显得」，但 seem 主观推断更强",
+      "pat": "The goal may seem far off, yet it is near.",
+      "patZh": "目标看似遥不可及，实则近在眼前。"
+    },
+    {
+      "w": "seemingly",
+      "ipa": "ˈsiːmɪŋli",
+      "pos": "adv.",
+      "s": "s4",
+      "zh": "表面上",
+      "exam": "表面上地；在…看来",
+      "c": [
+        "seemingly near 仿佛很近",
+        "seemingly simple 看似简单",
+        "a seemingly odd act 看似古怪的举动"
+      ],
+      "syn": [
+        "apparently 显然",
+        "ostensibly 表面上",
+        "on the surface 表面上看"
+      ],
+      "fam": [
+        "seem v. 似乎",
+        "seeming adj. 表面的"
+      ],
+      "dif": "seemingly 是「表面上、看来」；apparently 是「显然、看来」，语气与视角略不同",
+      "pat": "The task was seemingly easy but hard in fact.",
+      "patZh": "这任务表面容易，实则艰难。"
+    },
+    {
+      "w": "thrift",
+      "ipa": "θrɪft",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "节俭",
+      "exam": "节俭，节约",
+      "c": [
+        "quiet thrift 默默节俭",
+        "a virtue of thrift 节俭的美德",
+        "thrift shop 二手店"
+      ],
+      "syn": [
+        "frugality 节约",
+        "economy 节省",
+        "saving 储蓄"
+      ],
+      "fam": [
+        "thrifty adj. 节俭的",
+        "thriftily adv. 节俭地"
+      ],
+      "dif": "thrift 是「节俭、节约」；frugality 也表「节约」，thrift 更口语，常指生活习惯",
+      "pat": "Through quiet thrift the family built a small fund.",
+      "patZh": "靠着默默节俭，这家人攒起了一笔小积蓄。"
+    },
+    {
+      "w": "thrill",
+      "ipa": "θrɪl",
+      "pos": "v. / n.",
+      "s": "s4",
+      "zh": "激动",
+      "exam": "使非常激动；兴奋；激动",
+      "c": [
+        "a thrill of hope 一阵希望的激动",
+        "thrill the crowd 使人群激动",
+        "a thrill of excitement 一阵兴奋"
+      ],
+      "syn": [
+        "excite 使兴奋",
+        "delight 使高兴",
+        "stir 触动"
+      ],
+      "fam": [
+        "thrilling adj. 令人激动的",
+        "thrilled adj. 感到激动的"
+      ],
+      "dif": "thrill 作动词「使非常激动」；作名词「一阵激动」，与 excite（使兴奋）近义但程度更强",
+      "pat": "The news gave him a sudden thrill of excitement.",
+      "patZh": "这消息让他陡然感到一阵激动。"
+    },
+    {
+      "w": "thrive",
+      "ipa": "θraɪv",
+      "pos": "vi.",
+      "s": "s4",
+      "zh": "兴旺",
+      "exam": "兴旺发达；繁荣；茁壮生长",
+      "c": [
+        "thrive on 在…中兴旺",
+        "thrive in 在…里茁壮成长",
+        "a thriving town 兴旺的小镇"
+      ],
+      "syn": [
+        "flourish 繁荣",
+        "prosper 兴旺",
+        "boom 蓬勃发展"
+      ],
+      "fam": [
+        "thriving adj. 兴旺的",
+        "thrived / throve（过去式） n. 相关延伸"
+      ],
+      "dif": "thrive 强调「茂盛、兴旺」；flourish 也表「繁荣」，thrive 更偏生长状态的好转",
+      "pat": "The town began to thrive after the reform.",
+      "patZh": "改革之后，小镇开始兴旺起来。"
+    }
+  ]
+}

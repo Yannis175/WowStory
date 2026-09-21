@@ -1,0 +1,2205 @@
+{
+  "unit": 13,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Poll",
+      "zh": "那场民调",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "Lin worked for an [[independent]] research centre that published a consumer-confidence [[index]] every month. To outsiders it was a [[mere]] list of numbers, [[merely]] a guide for shoppers, and nobody guessed how much power it held.",
+          "zh": "林供职于一家独立研究机构，每月发布消费者信心指数。在外人看来，那不过是一串数字，只是购物者的参考，没人想到它有多大能量。"
+        },
+        {
+          "en": "During the election season, a [[politician]] asked the centre to soften its [[policy]] of neutrality. His [[plea]] sounded [[plausible]], and his email was perfectly [[polite]], but Lin saw the [[plot]] at once: fix the [[poll]], and [[politics]] would smile on him.",
+          "zh": "选季来临，一位政客要求机构放宽中立政策。他的恳求听起来合情合理，邮件也写得彬彬有礼，但林一眼看穿了阴谋：操纵民调，政治就会眷顾他。"
+        },
+        {
+          "en": "The man even tried a [[political]] favour, but Lin refused to [[plead]] with him or bend the rules. She spent one long night to [[ponder]] the cost of honesty, then published the real numbers. The politician lost by two points, and the index kept its good name.",
+          "zh": "对方甚至许下一个政治人情，但林既不愿求他，也不愿违规。她用了整整一夜掂量诚实的代价，然后公布了真实数字。那位政客以两分之差落败，指数保住了清白名声。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Design",
+      "zh": "那套设计",
+      "theme": "教育 / 职场",
+      "ps": [
+        {
+          "en": "When Zhou won the competition to [[design]] a riverside library, the news seemed to [[beam]] from every screen in town. She had always [[derived|derive]] her best ideas from old courtyards, and this project had [[become]] her life's [[desire]].",
+          "zh": "当周舟赢得滨江图书馆设计竞赛时，消息仿佛从城里每块屏幕上发光。她一贯从老四合院中汲取灵感，而这个项目已成为她一生的渴望。"
+        },
+        {
+          "en": "Her supervisor [[designated|designate]] her to lead a team of five, and everything looked [[desirable]] on paper. Then a senior engineer [[described|describe]] one fatal [[flaw]]: the main beam could not carry the roof. No [[description]] of the problem could make it smaller.",
+          "zh": "主管指定她带领一个五人小组，纸面上一切都很理想。直到一位资深工程师说出一个致命缺陷：主梁撑不住屋顶。对问题的任何描述都无法让它变小。"
+        },
+        {
+          "en": "Some urged her to [[fling]] the blame at the engineer, or to [[deprive]] him of his credit. Instead Zhou stayed [[flexible]], redrew the plan, and saved the project. She told reporters that good buildings, like good people, [[deserve]] a second chance.",
+          "zh": "有人怂恿她把责任猛地推给工程师，或剥夺他的功劳。周舟却保持变通，重画了图纸，救回了项目。她告诉记者：好的建筑和好的人一样，都值得第二次机会。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Growth Challenge",
+      "zh": "增长的挑战",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "Professor Du spent thirty years watching children [[grow]] in an old garden, and every child was allowed to [[flourish]] in his own way. She believed the [[implicit]] rules of play were as [[important]] as any lesson, and she could [[impart]] this faith to every trainee teacher.",
+          "zh": "杜教授在一座老花园里花了三十年看孩子们成长，每个孩子都能按自己的方式茁壮成长。她相信游戏中不言明的规则与任何课程同等重要，并能把这份信念传授给每位实习教师。"
+        },
+        {
+          "en": "[[Hitherto|hitherto]], most schools had ignored the emotional [[impact]] of early years, as if feelings could never [[impair]] learning. Du kept a [[growth]] journal for each child, and no inspector dared to [[hinder]] her experiment. To [[implement]] her ideas she designed games instead of tests, and the [[implication]] of her data was plain: a happy child is a fast learner.",
+          "zh": "在此之前，多数学校忽视了童年的情感影响，仿佛情绪绝不会损害学习。杜为每个孩子记成长日志，没有督察敢妨碍她的实验。为了落实她的理念，她用游戏取代测验；数据的含义很清楚：快乐的孩子学得快。"
+        },
+        {
+          "en": "One official frowned, as if to [[imply]] that play was a waste of time. Du answered that even a [[hint]] of doubt about play deserved respect, for the [[importance]] of education lies not in scores but in the courage to think. Her reply carried the quiet force of a [[grown-up]] who will not bow, and the [[import]] of her work is still felt in every corner of the garden.",
+          "zh": "一位官员皱起眉头，仿佛在暗示玩耍是浪费时间。杜回应说，哪怕一丝对玩耍的怀疑也值得认真对待，因为教育的重要性不在分数，而在思考的勇气。她的回答带着成年人不弯腰的沉静力量，其工作的意义至今仍在这座花园的每个角落被感受到。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The Limit",
+      "zh": "那个极限",
+      "theme": "教育 / 职场",
+      "ps": [
+        {
+          "en": "When Chen's delivery start-up hit its first real [[limit]], the board wanted to [[impose]] longer hours on every driver. The numbers looked [[impressive]] on paper, but Chen had the distinct [[impression]] that the plan would [[impress]] no one on the front line.",
+          "zh": "当陈的配送创业公司撞上第一个真正的极限时，董事会想给每位司机强加更长的工时。纸面数字很可观，但陈明确感到，这个方案打动不了一线任何人。"
+        },
+        {
+          "en": "She listed every [[limitation]] of the model: [[limited]] funds, limited drivers, and costs that [[originated|originate]] from one [[original]] mistake — promising delivery in ten minutes. That promise had been an [[impulse]] born of a late-night meeting, and it was time to [[improve]] it.",
+          "zh": "她列出了这套模式的每个局限：有限的资金、有限的司机，以及源于一个最初错误的成本——承诺十分钟送达。那个承诺是深夜会议上的一时冲动，是时候改进它了。"
+        },
+        {
+          "en": "Instead of squeezing the drivers, Chen traced every delay to its [[origin]] and redesigned the service around honest delivery times. The board called it a retreat; she called it a return to the origin of good business. Six months later, growth came back without a single burnt-out driver.",
+          "zh": "陈没有压榨司机，而是把每次延误追溯到根源，并围绕诚实的配送时间重做服务。董事会称之为撤退，她称之为回归好生意的本源。六个月后，增长回来了，没有一个司机被累垮。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "The Philosopher",
+      "zh": "那位哲学家",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "When the pharmaceutical [[corporation]] was caught hiding side effects, it did what desperate companies do: it hired a [[philosopher]]. Dr. Yan had spent twenty years on one [[phenomenon]] — why good people stay silent — and her [[philosophy]] was simple: institutions shape conscience.",
+          "zh": "当这家制药公司被揭发隐瞒副作用时，它做了绝望公司都会做的事：聘请一位哲学家。严博士花了二十年研究一个现象——好人为什么保持沉默；她的哲学很简单：制度塑造良心。"
+        },
+        {
+          "en": "Employees filed a [[petition]] asking for an independent review. Yan called this [[phase]] two of the crisis: first the wound, then the [[reason]] for it. She told the executives that no [[physical]] barrier guarded a company better than an honest culture, and that a [[phrase]] like \"patient first\" meant nothing until it could [[pierce]] every rule they wrote.",
+          "zh": "员工们递交了请愿书，要求独立审查。严称这是危机的第二阶段：先是伤口，然后是伤口的成因。她告诉高管：没有任何有形的屏障比诚实的文化更能守护公司；「患者至上」这样的措辞，唯有刺进他们制定的每一条规则，才有意义。"
+        },
+        {
+          "en": "A [[physician]] from the research team wept as he testified, and even the lawyers fell quiet. The corporation rewrote its charter, and Yan went back to her books. Asked why she had helped, she gave a [[corporate]] reply: because thinking, like medicine, only works when it is taken seriously.",
+          "zh": "研究组的一名内科医生作证时泣不成声，连律师们都沉默了。公司重写了章程，严则回到她的书本。被问及为何出手相助，她给出了一个公司式的回答：因为思考与医药一样，唯有被认真对待时才有效。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "The Settlement",
+      "zh": "那份和解协议",
+      "theme": "人物 / 社会",
+      "ps": [
+        {
+          "en": "After the [[severe]] storm, the fishing village looked like a [[settlement]] abandoned by time, and in that bleak [[setting]] every door stayed shut. A [[reasonable]] claim for aid seemed hopeless: the [[recent]] budget cuts had left every office short of staff.",
+          "zh": "猛烈的暴风雨过后，这座渔村看起来像被时间遗弃的定居点，在那种凄凉的背景下，家家户户大门紧闭。一条合理的救助申请看似无望：最近的预算削减让每个部门都人手不足。"
+        },
+        {
+          "en": "Lawyer Ma, a public [[servant]] who had [[served|serve]] the town for twenty years, refused to give up. She [[set]] a deadline, gathered [[several]] boxes of evidence, and walked into the capital with a broken umbrella. Every [[setback]] — a lost form, a rude clerk — only slowed her down.",
+          "zh": "马律师是一名公职人员，为小镇服务了二十年，她拒绝放弃。她定下一个期限，收齐了好几箱证据，撑着一把破伞走进省城。每遇挫折——一张丢失的表格、一个粗鲁的办事员——只是让她慢下来而已。"
+        },
+        {
+          "en": "The final settlement was small, but it rebuilt the pier before winter. At the ceremony the mayor called Ma a servant of the people, and she laughed: the [[service]] was hers, she said, but the victory belonged to everyone who refused to [[settle]] for less.",
+          "zh": "最终的和解金额不大，但足以在冬季到来前重建码头。典礼上，镇长称马为人民公仆，她笑了：服务是她做的，她说，但胜利属于每一个拒绝将就的人。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "independent",
+      "ipa": "ˌɪndɪˈpendənt",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "独立的",
+      "exam": "独立的；私营的",
+      "c": [
+        "an independent research centre 独立研究机构",
+        "be independent of 不依赖…",
+        "independent thinking 独立思考"
+      ],
+      "syn": [
+        "autonomous",
+        "self-reliant",
+        "unaffiliated"
+      ],
+      "fam": [
+        "independence n. 独立",
+        "independently adv."
+      ],
+      "dif": "independent 是「不依附的」；indifferent 是「漠不关心的」，形近义远",
+      "pat": "An independent press is the safeguard of a healthy democracy.",
+      "patZh": "独立的新闻界是健全民主的保障。"
+    },
+    {
+      "w": "index",
+      "ipa": "ˈɪndeks",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "指数",
+      "exam": "指标；标志；指数",
+      "c": [
+        "a consumer-confidence index 消费者信心指数",
+        "the price index 物价指数",
+        "a reliable index of …的可靠指标"
+      ],
+      "syn": [
+        "indicator",
+        "measure",
+        "sign"
+      ],
+      "fam": [
+        "indexes / indices（复数） n. 相关延伸",
+        "indexation n. 指数化"
+      ],
+      "dif": "index 指「指数、指标」；indication 只是「迹象」，没有度量含义",
+      "pat": "The index of consumer confidence is widely used to predict spending.",
+      "patZh": "消费者信心指数常被用来预测消费支出。"
+    },
+    {
+      "w": "mere",
+      "ipa": "mɪə(r)",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "仅仅的",
+      "exam": "仅仅的；只不过；纯粹的",
+      "c": [
+        "a mere child 不过是个孩子",
+        "a mere 3% 仅仅百分之三",
+        "by mere chance 纯属偶然"
+      ],
+      "syn": [
+        "only",
+        "bare",
+        "sheer"
+      ],
+      "fam": [
+        "merely adv. 仅仅"
+      ],
+      "dif": "mere 是形容词，常带轻蔑语气；merely 是副词，只修饰动词或全句",
+      "pat": "The plan failed, and not for any mere lack of money.",
+      "patZh": "这个方案失败了，而且绝非仅仅因为缺钱。"
+    },
+    {
+      "w": "merely",
+      "ipa": "ˈmɪəli",
+      "pos": "adv.",
+      "s": "s1",
+      "zh": "仅仅",
+      "exam": "仅；只；不过",
+      "c": [
+        "merely a guide 只是个参考",
+        "not merely... but also... 不仅…而且…",
+        "merely because 仅仅因为"
+      ],
+      "syn": [
+        "only",
+        "just",
+        "simply"
+      ],
+      "fam": [
+        "mere adj. 仅仅的"
+      ],
+      "dif": "not merely... but also 是写作升级 not only... but also 的安全替换",
+      "pat": "Success is not merely about talent but also about discipline.",
+      "patZh": "成功不仅关乎天赋，也关乎自律。"
+    },
+    {
+      "w": "plausible",
+      "ipa": "ˈplɔːzəbl",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "貌似有理的",
+      "exam": "貌似有理的；似乎有道理的",
+      "c": [
+        "a plausible excuse 貌似合理的借口",
+        "sound plausible 听起来有道理",
+        "plausible deniability 貌似可信的推诿"
+      ],
+      "syn": [
+        "believable",
+        "credible",
+        "convincing"
+      ],
+      "fam": [
+        "plausibility n. 貌似可信",
+        "plausibly adv."
+      ],
+      "dif": "plausible 只是「听起来有道理」，未必为真；credible 侧重「可信的」，褒义更实",
+      "pat": "The excuse sounded plausible, but the data told another story.",
+      "patZh": "这个借口听着像那么回事，但数据讲了另一个故事。"
+    },
+    {
+      "w": "plea",
+      "ipa": "pliː",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "恳求",
+      "exam": "恳求；请求；辩护",
+      "c": [
+        "make a plea for 恳求…",
+        "a plea for help 求助的恳求",
+        "enter a plea 进行答辩"
+      ],
+      "syn": [
+        "appeal",
+        "request",
+        "entreaty"
+      ],
+      "fam": [
+        "plead v. 恳求；辩护"
+      ],
+      "dif": "plea 是名词；plead 是动词，「答辩」义常用于法庭语境",
+      "pat": "The charity made a public plea for more volunteers.",
+      "patZh": "这家慈善机构公开恳求更多志愿者加入。"
+    },
+    {
+      "w": "plead",
+      "ipa": "pliːd",
+      "pos": "v.",
+      "s": "s1",
+      "zh": "恳求",
+      "exam": "恳求；请求；辩护",
+      "c": [
+        "plead with sb to do 恳求某人做",
+        "plead guilty / not guilty 认罪、不认罪",
+        "plead for mercy 求饶"
+      ],
+      "syn": [
+        "beg",
+        "appeal",
+        "implore"
+      ],
+      "fam": [
+        "plea n. 恳求；答辩",
+        "pleading adj. 恳求的"
+      ],
+      "dif": "plead with sb to do 后接人；plead for 后接事物，如 plead for help",
+      "pat": "The defendant pleaded not guilty at the opening of the trial.",
+      "patZh": "被告在庭审开始时作了无罪答辩。"
+    },
+    {
+      "w": "plot",
+      "ipa": "plɒt",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "阴谋",
+      "exam": "密谋；策划；情节",
+      "c": [
+        "a plot to do sth 做…的阴谋",
+        "hatch a plot 策划阴谋",
+        "the plot of a novel 小说情节"
+      ],
+      "syn": [
+        "conspiracy",
+        "scheme",
+        "intrigue"
+      ],
+      "fam": [
+        "plotter n. 阴谋者",
+        "plotted / plotting（双写 t） n. 相关延伸"
+      ],
+      "dif": "plot 是秘密策划的「阴谋」；plan 是中性「计划」；project 是工程性「项目」",
+      "pat": "The plot to manipulate the survey was exposed before polling day.",
+      "patZh": "操纵调查的阴谋在投票日前被揭露了。"
+    },
+    {
+      "w": "policy",
+      "ipa": "ˈpɒləsi",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "政策",
+      "exam": "政策",
+      "c": [
+        "a foreign policy 外交政策",
+        "adopt a policy 采取政策",
+        "a policy of neutrality 中立政策"
+      ],
+      "syn": [
+        "strategy",
+        "approach",
+        "guideline"
+      ],
+      "fam": [
+        "politics n. 政治",
+        "political adj.",
+        "politician n."
+      ],
+      "dif": "policy 是「政策」；politics 是「政治（活动）」；police 是「警察」，三个常混",
+      "pat": "The government adopted a stricter policy on data privacy.",
+      "patZh": "政府对数据隐私采取了更严格的政策。"
+    },
+    {
+      "w": "polite",
+      "ipa": "pəˈlaɪt",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "彬彬有礼的",
+      "exam": "有礼貌的；客气的",
+      "c": [
+        "be polite to sb 对某人有礼貌",
+        "polite society 上流社会",
+        "polite conversation 客套的交谈"
+      ],
+      "syn": [
+        "courteous",
+        "civil",
+        "well-mannered"
+      ],
+      "fam": [
+        "politely adv.",
+        "politeness n.",
+        "impolite adj. 无礼的"
+      ],
+      "dif": "polite 是日常「有礼貌」；courteous 更正式、更恭敬",
+      "pat": "It costs nothing to be polite, even in a disagreement.",
+      "patZh": "即使意见不合，保持礼貌也毫不费力。"
+    },
+    {
+      "w": "political",
+      "ipa": "pəˈlɪtɪkl",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "政治的",
+      "exam": "政治的",
+      "c": [
+        "political power 政治权力",
+        "political reform 政治改革",
+        "a political favour 政治人情"
+      ],
+      "syn": [
+        "governmental",
+        "state",
+        "partisan"
+      ],
+      "fam": [
+        "politics n.",
+        "politician n.",
+        "politically adv."
+      ],
+      "dif": "political 是形容词；politics 是名词；politician 指人，三者是一家",
+      "pat": "Access to clean water should never become a political issue.",
+      "patZh": "清洁用水的获取绝不该变成政治问题。"
+    },
+    {
+      "w": "politician",
+      "ipa": "ˌpɒləˈtɪʃn",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "政客",
+      "exam": "政治家；政客",
+      "c": [
+        "a seasoned politician 资深政客",
+        "a local politician 地方政客",
+        "a career politician 职业政客"
+      ],
+      "syn": [
+        "statesman",
+        "lawmaker",
+        "public servant"
+      ],
+      "fam": [
+        "politics n.",
+        "political adj."
+      ],
+      "dif": "politician 常带「政客」的贬义；statesman 是褒义的「政治家」",
+      "pat": "Voters are tired of politicians who promise more than they deliver.",
+      "patZh": "选民厌倦了承诺多于兑现的政客。"
+    },
+    {
+      "w": "politics",
+      "ipa": "ˈpɒlətɪks",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "政治",
+      "exam": "政治；政治学",
+      "c": [
+        "office politics 办公室政治",
+        "enter politics 从政",
+        "study politics 学政治学"
+      ],
+      "syn": [
+        "affairs of state",
+        "government"
+      ],
+      "fam": [
+        "political adj.",
+        "politician n.",
+        "politicize v. 使政治化"
+      ],
+      "dif": "politics 虽以 -s 结尾但是单数概念；类似的还有 economics、physics",
+      "pat": "She stayed out of office politics and focused on her work.",
+      "patZh": "她不掺和办公室政治，一心做事。"
+    },
+    {
+      "w": "poll",
+      "ipa": "pəʊl",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "民调",
+      "exam": "民意测验；投票；政治选举",
+      "c": [
+        "an opinion poll 民意测验",
+        "conduct a poll 进行民调",
+        "head to the polls 前往投票",
+        "poll 45% of the vote 获得 45% 选票"
+      ],
+      "syn": [
+        "survey",
+        "ballot",
+        "vote"
+      ],
+      "fam": [
+        "polling n. 投票",
+        "pollster n. 民调专家"
+      ],
+      "dif": "poll 指「民意调查或投票」；survey 泛指「问卷调查」，不限政治",
+      "pat": "According to the latest poll, public trust in media has fallen.",
+      "patZh": "最新民调显示，公众对媒体的信任度已下降。"
+    },
+    {
+      "w": "ponder",
+      "ipa": "ˈpɒndə(r)",
+      "pos": "v.",
+      "s": "s1",
+      "zh": "掂量，深思",
+      "exam": "沉思；考虑",
+      "c": [
+        "ponder over / on sth 深思…",
+        "ponder the cost of 掂量…的代价",
+        "ponder whether to do 考虑是否做"
+      ],
+      "syn": [
+        "contemplate",
+        "mull over",
+        "reflect on"
+      ],
+      "fam": [
+        "ponderous adj. 冗长的；笨重的"
+      ],
+      "dif": "ponder 是郑重地「深思」；wonder 只是「好奇、纳闷」，程度轻得多",
+      "pat": "Before changing careers, take time to ponder what truly matters to you.",
+      "patZh": "转行之前，花时间想清楚什么对你真正重要。"
+    },
+    {
+      "w": "beam",
+      "ipa": "biːm",
+      "pos": "n. / v.",
+      "s": "s2",
+      "zh": "发光",
+      "exam": "（光线的）束；微笑",
+      "c": [
+        "a beam of light 一束光",
+        "the main beam 主梁",
+        "beam with joy 眉开眼笑"
+      ],
+      "syn": [
+        "ray",
+        "glow",
+        "grin"
+      ],
+      "fam": [
+        "beaming adj. 笑容满面的"
+      ],
+      "dif": "beam 可指「光束」也可指「横梁」；ray 只指光线，无建筑义",
+      "pat": "A beam of morning light fell across the unfinished drawing.",
+      "patZh": "一束晨光落在尚未完成的图纸上。"
+    },
+    {
+      "w": "become",
+      "ipa": "bɪˈkʌm",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "成为",
+      "exam": "成为；变得",
+      "c": [
+        "become increasingly clear 变得越来越清楚",
+        "become of sb 某人…了（what became of）",
+        "become reality 成为现实"
+      ],
+      "syn": [
+        "grow",
+        "turn into",
+        "develop into"
+      ],
+      "fam": [
+        "不规则动词：become - became - become n. 相关延伸"
+      ],
+      "dif": "become 后接名词或形容词；become of 只用于 what became of… 句型",
+      "pat": "What started as a hobby has become a full-time career.",
+      "patZh": "起初只是爱好的事，如今已成了一份全职事业。"
+    },
+    {
+      "w": "deprive",
+      "ipa": "dɪˈpraɪv",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "剥夺",
+      "exam": "剥夺；使丧失",
+      "c": [
+        "deprive sb of sth 剥夺某人的…",
+        "be deprived of 被剥夺",
+        "deprive a child of education 剥夺孩子受教育的机会"
+      ],
+      "syn": [
+        "strip",
+        "rob",
+        "deny"
+      ],
+      "fam": [
+        "deprivation n. 剥夺；匮乏",
+        "deprived adj. 贫困的"
+      ],
+      "dif": "deprive sb of sth 与 rob sb of sth 结构相同，但 rob 多指抢财物",
+      "pat": "No child should be deprived of the right to education.",
+      "patZh": "任何孩子都不应被剥夺受教育的权利。"
+    },
+    {
+      "w": "derive",
+      "ipa": "dɪˈraɪv",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "汲取",
+      "exam": "得到；追溯…的起源（或来由）",
+      "c": [
+        "derive sth from 从…中汲取",
+        "be derived from 源自",
+        "derive pleasure from 从…中获得乐趣"
+      ],
+      "syn": [
+        "obtain",
+        "extract",
+        "originate"
+      ],
+      "fam": [
+        "derivation n. 派生；起源",
+        "derivative n. 派生物"
+      ],
+      "dif": "derive A from B 强调「从 B 得到 A」；originate from 强调「起源于」",
+      "pat": "Many English words are derived from Latin and Greek.",
+      "patZh": "许多英语单词源自拉丁语和希腊语。"
+    },
+    {
+      "w": "describe",
+      "ipa": "dɪˈskraɪb",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "描述",
+      "exam": "形容；描述",
+      "c": [
+        "describe sth as 把…描述为",
+        "describe in detail 详细描述",
+        "be difficult to describe 难以形容"
+      ],
+      "syn": [
+        "depict",
+        "portray",
+        "characterize"
+      ],
+      "fam": [
+        "description n.",
+        "descriptive adj.",
+        "describable adj."
+      ],
+      "dif": "describe 是动词；description 是名词，注意 b 在名词里不发音拼写不变",
+      "pat": "Critics described the building as a dialogue between old and new.",
+      "patZh": "评论家称这座建筑是新旧之间的对话。"
+    },
+    {
+      "w": "description",
+      "ipa": "dɪˈskrɪpʃn",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "描述",
+      "exam": "描述；形容；种类，类型",
+      "c": [
+        "give a description of 描述…",
+        "a detailed description 详细描述",
+        "of every description 形形色色的"
+      ],
+      "syn": [
+        "account",
+        "portrayal",
+        "portrait"
+      ],
+      "fam": [
+        "describe v.",
+        "descriptive adj."
+      ],
+      "dif": "description 除「描述」外还指「种类」（of all descriptions），阅读中常被忽略",
+      "pat": "The report gives a vivid description of life in the factory.",
+      "patZh": "报告生动地描述了工厂里的生活。"
+    },
+    {
+      "w": "deserve",
+      "ipa": "dɪˈzɜːv",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "值得",
+      "exam": "值得；应得",
+      "c": [
+        "deserve attention 值得注意",
+        "deserve to be done 理应被…",
+        "get what one deserves 罪有应得"
+      ],
+      "syn": [
+        "merit",
+        "be worthy of",
+        "be entitled to"
+      ],
+      "fam": [
+        "deserved adj. 应得的",
+        "deserving adj. 值得帮助的"
+      ],
+      "dif": "deserve 后可接名词、不定式或 doing（主动形式表被动）：deserve punishing",
+      "pat": "Hard work deserves recognition, not just rewards.",
+      "patZh": "努力理应得到认可，而不仅是回报。"
+    },
+    {
+      "w": "design",
+      "ipa": "dɪˈzaɪn",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "设计",
+      "exam": "设计",
+      "c": [
+        "design sth for 为…而设计",
+        "by design 故意地",
+        "a graphic design 平面设计",
+        "be designed to do 旨在…"
+      ],
+      "syn": [
+        "devise",
+        "plan",
+        "draft"
+      ],
+      "fam": [
+        "designer n. 设计师",
+        "designate v. 指定",
+        "redesign v. 重新设计"
+      ],
+      "dif": "design 泛指「设计」；devise 侧重「想出（方案、办法）」，不一定画图",
+      "pat": "The course is designed to bridge the gap between theory and practice.",
+      "patZh": "这门课程旨在弥合理论与实践之间的鸿沟。"
+    },
+    {
+      "w": "designate",
+      "ipa": "ˈdezɪɡneɪt",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "指定",
+      "exam": "指明；指定",
+      "c": [
+        "designate sb as / to be 指定某人为",
+        "designate a leader 指派负责人",
+        "a designated area 指定区域"
+      ],
+      "syn": [
+        "appoint",
+        "nominate",
+        "assign"
+      ],
+      "fam": [
+        "designation n. 指定；称号",
+        "designated adj. 指定的"
+      ],
+      "dif": "designate 是「正式指定、指派」；design 是「设计」，词根相同但义不同",
+      "pat": "The director designated her as the team leader for the project.",
+      "patZh": "主任指定她为该项目的小组负责人。"
+    },
+    {
+      "w": "desirable",
+      "ipa": "dɪˈzaɪərəbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "理想的",
+      "exam": "称心的；合意的",
+      "c": [
+        "a desirable outcome 理想的结果",
+        "it is desirable that... 最好…",
+        "highly desirable 非常理想的"
+      ],
+      "syn": [
+        "ideal",
+        "advisable",
+        "preferable"
+      ],
+      "fam": [
+        "desire n./v. 渴望",
+        "desirability n. 合意性"
+      ],
+      "dif": "desirable 是「值得拥有的」；desirous 是「渴望的」，主语多为人",
+      "pat": "Regular exercise is a highly desirable habit at any age.",
+      "patZh": "在任何年龄，经常锻炼都是非常值得养成的习惯。"
+    },
+    {
+      "w": "desire",
+      "ipa": "dɪˈzaɪə(r)",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "渴望",
+      "exam": "渴望；欲望；要求",
+      "c": [
+        "a desire for 对…的渴望",
+        "a burning desire 强烈的渴望",
+        "desire to do 渴望做",
+        "at one's desire 应某人的要求"
+      ],
+      "syn": [
+        "longing",
+        "yearning",
+        "aspiration"
+      ],
+      "fam": [
+        "desirable adj.",
+        "desirous adj. 渴望的"
+      ],
+      "dif": "desire 语气比 want 强，常指强烈甚至难以实现的愿望",
+      "pat": "The desire to learn is worth more than any natural gift.",
+      "patZh": "求知欲比任何天赋都更可贵。"
+    },
+    {
+      "w": "flaw",
+      "ipa": "flɔː",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "缺陷",
+      "exam": "缺陷；缺点",
+      "c": [
+        "a fatal flaw 致命缺陷",
+        "a flaw in the system 制度漏洞",
+        "a character flaw 性格弱点"
+      ],
+      "syn": [
+        "defect",
+        "shortcoming",
+        "blemish"
+      ],
+      "fam": [
+        "flawed adj. 有缺陷的",
+        "flawless adj. 无瑕疵的"
+      ],
+      "dif": "flaw 指「会破坏整体的小缺陷」；defect 多指产品「质量缺陷」",
+      "pat": "The scandal exposed a fundamental flaw in the approval process.",
+      "patZh": "这起丑闻暴露了审批流程的根本缺陷。"
+    },
+    {
+      "w": "flexible",
+      "ipa": "ˈfleksəbl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "变通的",
+      "exam": "可变通的",
+      "c": [
+        "a flexible schedule 弹性时间表",
+        "flexible working hours 弹性工时",
+        "remain flexible 保持变通"
+      ],
+      "syn": [
+        "adaptable",
+        "adjustable",
+        "versatile"
+      ],
+      "fam": [
+        "flexibility n. 灵活性",
+        "flex v. 弯曲；展示（肌肉）"
+      ],
+      "dif": "flexible 强调「可弯曲、可变通」；versatile 强调「多功能的」",
+      "pat": "A flexible schedule allows employees to balance work and family.",
+      "patZh": "弹性工时能帮员工兼顾工作与家庭。"
+    },
+    {
+      "w": "fling",
+      "ipa": "flɪŋ",
+      "pos": "v. / n.",
+      "s": "s2",
+      "zh": "猛地扔",
+      "exam": "（用力）扔；掷；抛；丢",
+      "c": [
+        "fling sth at sb 朝某人猛掷",
+        "fling oneself into 投身于",
+        "fling open 猛地推开",
+        "have a fling 一时的放纵"
+      ],
+      "syn": [
+        "hurl",
+        "toss",
+        "throw"
+      ],
+      "fam": [
+        "flung / flung（过去式、过去分词） n. 相关延伸"
+      ],
+      "dif": "fling 是「带情绪地用力抛」；toss 是「轻松地抛」；hurl 强调「狠狠地掷」",
+      "pat": "He would fling his bag onto the sofa the moment he got home.",
+      "patZh": "他一进门就会把包扔到沙发上。"
+    },
+    {
+      "w": "flourish",
+      "ipa": "ˈflʌrɪʃ",
+      "pos": "v. / n.",
+      "s": "s3",
+      "zh": "茁壮成长",
+      "exam": "繁荣；兴旺",
+      "c": [
+        "flourish in 在…中茁壮成长",
+        "a flourishing economy 繁荣的经济",
+        "with a flourish 夸张地"
+      ],
+      "syn": [
+        "thrive",
+        "prosper",
+        "bloom"
+      ],
+      "fam": [
+        "flourishing adj. 兴旺的",
+        "flourished / flourishing（双写规则无） n. 相关延伸"
+      ],
+      "dif": "flourish 强调「蓬勃发展」的状态；flour 是「面粉」，拼写相近义无关",
+      "pat": "Small businesses flourish where rules are clear and fair.",
+      "patZh": "规则清晰公正的地方，小企业就能兴旺。"
+    },
+    {
+      "w": "grow",
+      "ipa": "ɡrəʊ",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "成长",
+      "exam": "增长；生长；成长；种植",
+      "c": [
+        "grow into 长成",
+        "grow out of 因长大而戒除",
+        "grow up 长大",
+        "grow awareness 培养意识"
+      ],
+      "syn": [
+        "develop",
+        "expand",
+        "mature"
+      ],
+      "fam": [
+        "growth n.",
+        "grown-up n./adj.",
+        "growing adj."
+      ],
+      "dif": "grow 强调「自然生长或渐变」；increase 只是数量「增加」",
+      "pat": "Children grow best in an environment of trust and patience.",
+      "patZh": "在信任与耐心的环境中，孩子长得最好。"
+    },
+    {
+      "w": "grown-up",
+      "ipa": "ˈɡrəʊn ʌp",
+      "pos": "adj. / n.",
+      "s": "s3",
+      "zh": "成年人",
+      "exam": "成熟的；成年人",
+      "c": [
+        "a grown-up attitude 成年人的态度",
+        "talk like a grown-up 像大人一样说话"
+      ],
+      "syn": [
+        "adult",
+        "mature",
+        "full-grown"
+      ],
+      "fam": [
+        "grow → grown-up n. 相关延伸",
+        "grown adj. 长大的"
+      ],
+      "dif": "grown-up 较口语；adult 更正式，考研写作里 adult 更常用",
+      "pat": "Being a grown-up means owning the consequences of your choices.",
+      "patZh": "成为成年人，意味着为自己的选择承担后果。"
+    },
+    {
+      "w": "growth",
+      "ipa": "ɡrəʊθ",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "成长",
+      "exam": "生长",
+      "c": [
+        "economic growth 经济增长",
+        "personal growth 个人成长",
+        "a growth rate 增长率"
+      ],
+      "syn": [
+        "development",
+        "expansion",
+        "progress"
+      ],
+      "fam": [
+        "grow v.",
+        "growing adj."
+      ],
+      "dif": "growth 是名词「成长」；growing 是形容词「不断增长的」，作定语高频",
+      "pat": "Sustainable growth matters more than short-term profits.",
+      "patZh": "可持续的增长比短期利润更重要。"
+    },
+    {
+      "w": "hinder",
+      "ipa": "ˈhɪndə(r)",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "妨碍",
+      "exam": "妨碍；阻止",
+      "c": [
+        "hinder the progress of 阻碍…的进展",
+        "hinder sb from doing 妨碍某人做",
+        "hinder development 阻碍发展"
+      ],
+      "syn": [
+        "obstruct",
+        "impede",
+        "hamper"
+      ],
+      "fam": [
+        "hindrance n. 障碍",
+        "hind adj. 后面的"
+      ],
+      "dif": "hinder 是「拖后腿式妨碍」；prevent 是「彻底阻止」；forbid 是「明令禁止」",
+      "pat": "Fear of failure should never hinder a person from trying.",
+      "patZh": "对失败的恐惧绝不该妨碍一个人去尝试。"
+    },
+    {
+      "w": "hint",
+      "ipa": "hɪnt",
+      "pos": "n. / v.",
+      "s": "s3",
+      "zh": "一丝（怀疑）",
+      "exam": "暗示；示意",
+      "c": [
+        "a hint of 一丝…",
+        "give / drop a hint 给出暗示",
+        "hint at 暗示",
+        "take a hint 会意"
+      ],
+      "syn": [
+        "clue",
+        "suggestion",
+        "trace"
+      ],
+      "fam": [
+        "hinted / hinting n. 相关延伸"
+      ],
+      "dif": "hint 是「间接暗示」；clue 是「破案式线索」，指向更明确",
+      "pat": "There was a hint of doubt in her voice as she answered.",
+      "patZh": "她回答时声音里带着一丝疑虑。"
+    },
+    {
+      "w": "hitherto",
+      "ipa": "ˌhɪðəˈtuː",
+      "pos": "adv.",
+      "s": "s3",
+      "zh": "在此之前",
+      "exam": "到目前为止；迄今",
+      "c": [
+        "hitherto unknown 迄今未知的",
+        "hitherto ignored 此前被忽视的"
+      ],
+      "syn": [
+        "so far",
+        "up to now",
+        "heretofore"
+      ],
+      "fam": [
+        "here + to 变体：heretofore（正式） n. 相关延伸"
+      ],
+      "dif": "hitherto 极正式，多用于书面；口语用 so far / until now",
+      "pat": "The study reveals a side of the city hitherto unknown to outsiders.",
+      "patZh": "这项研究揭示了这座城市迄今不为外人所知的一面。"
+    },
+    {
+      "w": "impact",
+      "ipa": "ˈɪmpækt",
+      "pos": "n. / v.",
+      "s": "s3",
+      "zh": "影响",
+      "exam": "影响；对某事物有影响",
+      "c": [
+        "have an impact on 对…有影响",
+        "a profound impact 深远的影响",
+        "environmental impact 环境影响",
+        "impact on society 影响社会"
+      ],
+      "syn": [
+        "effect",
+        "influence",
+        "impression"
+      ],
+      "fam": [
+        "impacted adj.",
+        "impactful adj. 有影响力的"
+      ],
+      "dif": "impact 常作名词 have an impact on；作动词时直接 impact sth，不加 on",
+      "pat": "Social media has had a profound impact on how young people read.",
+      "patZh": "社交媒体深刻影响了年轻人的阅读方式。"
+    },
+    {
+      "w": "impair",
+      "ipa": "ɪmˈpeə(r)",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "损害",
+      "exam": "削弱；损害；损伤",
+      "c": [
+        "impair one's judgment 损害判断力",
+        "impair memory 损害记忆",
+        "visually impaired 视力受损的"
+      ],
+      "syn": [
+        "weaken",
+        "damage",
+        "undermine"
+      ],
+      "fam": [
+        "impairment n. 损伤",
+        "impaired adj. 受损的"
+      ],
+      "dif": "impair 指「削弱功能、能力」；damage 指「损坏物体」",
+      "pat": "Long-term sleep deprivation can seriously impair memory.",
+      "patZh": "长期睡眠不足会严重损害记忆力。"
+    },
+    {
+      "w": "impart",
+      "ipa": "ɪmˈpɑːt",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "传授",
+      "exam": "传授",
+      "c": [
+        "impart knowledge to 把知识传授给",
+        "impart wisdom 传授智慧",
+        "impart a sense of 赋予…感"
+      ],
+      "syn": [
+        "pass on",
+        "convey",
+        "transmit"
+      ],
+      "fam": [
+        "impartation n. 传授"
+      ],
+      "dif": "impart 是「正式地传授、给予」；impact 是「影响」，形近常混",
+      "pat": "A good teacher imparts not only knowledge but also curiosity.",
+      "patZh": "好老师传授的不只是知识，还有好奇心。"
+    },
+    {
+      "w": "implement",
+      "ipa": "ˈɪmplɪment / ˈɪmplɪmənt",
+      "pos": "vt. / n.",
+      "s": "s3",
+      "zh": "落实",
+      "exam": "实施；执行；贯彻；工具",
+      "c": [
+        "implement a policy 实施政策",
+        "implement reforms 落实改革",
+        "implement a plan 执行计划",
+        "farm implements 农具"
+      ],
+      "syn": [
+        "carry out",
+        "execute",
+        "enforce"
+      ],
+      "fam": [
+        "implementation n. 实施",
+        "implemental adj."
+      ],
+      "dif": "implement 是「执行、落实」已有方案；initiate 是「发起」新方案",
+      "pat": "A good policy is worthless if it is never implemented.",
+      "patZh": "好政策若无人落实，便一文不值。"
+    },
+    {
+      "w": "implication",
+      "ipa": "ˌɪmplɪˈkeɪʃn",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "含义",
+      "exam": "含意；暗示",
+      "c": [
+        "the implication of …的含义",
+        "by implication 含蓄地",
+        "political implications 政治影响"
+      ],
+      "syn": [
+        "suggestion",
+        "inference",
+        "connotation"
+      ],
+      "fam": [
+        "imply v.",
+        "implicit adj."
+      ],
+      "dif": "implication 除「含义」外还常指「可能的影响、后果」，阅读常考此义",
+      "pat": "The data carry an obvious implication for how we teach reading.",
+      "patZh": "这些数据对我们的阅读教学方式有明显的启示。"
+    },
+    {
+      "w": "implicit",
+      "ipa": "ɪmˈplɪsɪt",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "不言明的",
+      "exam": "不言明的；含蓄的",
+      "c": [
+        "implicit in 隐含于",
+        "implicit trust 绝对的信任",
+        "an implicit agreement 默契"
+      ],
+      "syn": [
+        "implied",
+        "unspoken",
+        "tacit"
+      ],
+      "fam": [
+        "imply v.",
+        "implication n."
+      ],
+      "dif": "implicit 与 explicit（明确的）是一对反义词，考研常把两者放同题",
+      "pat": "There is an implicit assumption in the report that growth is always good.",
+      "patZh": "报告中隐含着一个假设：增长总是好事。"
+    },
+    {
+      "w": "imply",
+      "ipa": "ɪmˈplaɪ",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "暗示",
+      "exam": "意味着；暗示",
+      "c": [
+        "imply that... 暗示…",
+        "be implied in 隐含于",
+        "imply criticism 暗含批评"
+      ],
+      "syn": [
+        "suggest",
+        "hint",
+        "indicate"
+      ],
+      "fam": [
+        "implication n.",
+        "implicit adj."
+      ],
+      "dif": "imply 是「话里有话地暗示」；infer 是「听者据此推断」，主客相反",
+      "pat": "His silence seemed to imply that he disagreed with the plan.",
+      "patZh": "他的沉默似乎在暗示他并不赞同这个方案。"
+    },
+    {
+      "w": "import",
+      "ipa": "ɪmˈpɔːt / ˈɪmpɔːt",
+      "pos": "v. / n.",
+      "s": "s3",
+      "zh": "意义",
+      "exam": "进口；进口商品；含意",
+      "c": [
+        "import goods from 从…进口商品",
+        "oil imports 石油进口",
+        "a matter of great import 极其重要的事"
+      ],
+      "syn": [
+        "bring in",
+        "introduce",
+        "significance 名词义"
+      ],
+      "fam": [
+        "importation n.",
+        "importance n.",
+        "important adj."
+      ],
+      "dif": "import 的重音：动词在第二音节 im-PORT，名词在第一音节 IM-port",
+      "pat": "The country imports most of its energy and must diversify its sources.",
+      "patZh": "该国大部分能源依赖进口，必须使来源多元化。"
+    },
+    {
+      "w": "importance",
+      "ipa": "ɪmˈpɔːtns",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "重要性",
+      "exam": "重要（性）；重大",
+      "c": [
+        "the importance of …的重要性",
+        "attach importance to 重视",
+        "of vital importance 至关重要的"
+      ],
+      "syn": [
+        "significance",
+        "weight",
+        "value"
+      ],
+      "fam": [
+        "important adj.",
+        "import n./v."
+      ],
+      "dif": "attach importance to 是「重视」的高级表达，可替换 value / emphasize",
+      "pat": "We should attach greater importance to mental health at work.",
+      "patZh": "我们应更加重视职场心理健康。"
+    },
+    {
+      "w": "important",
+      "ipa": "ɪmˈpɔːtnt",
+      "pos": "adj.",
+      "s": "s3",
+      "zh": "重要的",
+      "exam": "重要的；重大的",
+      "c": [
+        "play an important role in 在…中起重要作用",
+        "it is important that... 重要的是",
+        "equally important 同样重要的是"
+      ],
+      "syn": [
+        "significant",
+        "crucial",
+        "vital"
+      ],
+      "fam": [
+        "importance n.",
+        "import n."
+      ],
+      "dif": "important 泛用；vital / crucial 语气更强，写作替换可提分",
+      "pat": "It is important that children learn to think, not just to memorize.",
+      "patZh": "重要的是孩子学会思考，而不只是记忆。"
+    },
+    {
+      "w": "impose",
+      "ipa": "ɪmˈpəʊz",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "强加",
+      "exam": "加（负担、惩罚等）于；把…强加于",
+      "c": [
+        "impose sth on sb 把…强加于",
+        "impose a tax on 对…征税",
+        "impose restrictions 实施限制"
+      ],
+      "syn": [
+        "inflict",
+        "levy",
+        "enforce"
+      ],
+      "fam": [
+        "imposition n. 强加；征收"
+      ],
+      "dif": "impose sth on sb 是「把…强加于人」；expose 是「使暴露」，形近义反",
+      "pat": "New regulations impose heavier fines on polluting firms.",
+      "patZh": "新规定对污染企业处以更重的罚款。"
+    },
+    {
+      "w": "impress",
+      "ipa": "ɪmˈpres",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "打动",
+      "exam": "留下印象；使钦佩",
+      "c": [
+        "impress sb with sth 以…打动某人",
+        "be impressed by 对…印象深刻",
+        "impress sth on sb 使铭记"
+      ],
+      "syn": [
+        "make an impression on",
+        "strike",
+        "awe"
+      ],
+      "fam": [
+        "impression n.",
+        "impressive adj."
+      ],
+      "dif": "impress 是动词；impression 名词；impressive 形容词，一族三词性常同题出现",
+      "pat": "What impressed the judges most was the simplicity of the design.",
+      "patZh": "最打动评委的是这个设计背后的简约。"
+    },
+    {
+      "w": "impression",
+      "ipa": "ɪmˈpreʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "感觉",
+      "exam": "印象；感想",
+      "c": [
+        "make an impression on 给…留下印象",
+        "a first impression 第一印象",
+        "be under the impression that 误以为"
+      ],
+      "syn": [
+        "feeling",
+        "sense",
+        "notion"
+      ],
+      "fam": [
+        "impress v.",
+        "impressive adj."
+      ],
+      "dif": "be under the impression that 是「误以为」，阅读里几乎必取此义",
+      "pat": "I was under the impression that the deadline had been extended.",
+      "patZh": "我本以为截止日期已经延长了。"
+    },
+    {
+      "w": "impressive",
+      "ipa": "ɪmˈpresɪv",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "可观的",
+      "exam": "给人深刻印象的",
+      "c": [
+        "an impressive achievement 了不起的成就",
+        "impressive results 亮眼的成绩",
+        "highly impressive 令人赞叹的"
+      ],
+      "syn": [
+        "striking",
+        "remarkable",
+        "notable"
+      ],
+      "fam": [
+        "impress v.",
+        "impression n.",
+        "impressively adv."
+      ],
+      "dif": "impressive 指「令人赞叹的」；impressionable 是「易受影响的」，别混",
+      "pat": "The most impressive thing about her is her calm under pressure.",
+      "patZh": "她最令人钦佩之处，是压力下的从容。"
+    },
+    {
+      "w": "improve",
+      "ipa": "ɪmˈpruːv",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "改进",
+      "exam": "改善；提高",
+      "c": [
+        "improve on 在…基础上改进",
+        "improve efficiency 提高效率",
+        "improve one's skills 提升技能"
+      ],
+      "syn": [
+        "enhance",
+        "upgrade",
+        "refine"
+      ],
+      "fam": [
+        "improvement n.",
+        "improved adj."
+      ],
+      "dif": "improve 是「由差变好」；improve on 是「比…更好」，有比较对象",
+      "pat": "Technology should improve life, not complicate it.",
+      "patZh": "技术应当改善生活，而非使之复杂。"
+    },
+    {
+      "w": "impulse",
+      "ipa": "ˈɪmpʌls",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "一时冲动",
+      "exam": "推动力；冲动；一时的念头",
+      "c": [
+        "an impulse to do 做…的冲动",
+        "on impulse 一时冲动",
+        "resist the impulse 克制冲动"
+      ],
+      "syn": [
+        "urge",
+        "whim",
+        "drive"
+      ],
+      "fam": [
+        "impulsive adj. 冲动的",
+        "impulsively adv."
+      ],
+      "dif": "impulse 是「突发的冲动」；motive 是「有目的的动机」，一冲动一理性",
+      "pat": "On impulse, she bought a ticket and flew home for the weekend.",
+      "patZh": "她一时冲动买了张机票，飞回家过了个周末。"
+    },
+    {
+      "w": "limit",
+      "ipa": "ˈlɪmɪt",
+      "pos": "n. / v.",
+      "s": "s4",
+      "zh": "极限",
+      "exam": "限度；限制；限定",
+      "c": [
+        "the limit of …的极限",
+        "set a limit on 对…设限",
+        "be limited to 仅限于",
+        "within limits 在合理范围内"
+      ],
+      "syn": [
+        "boundary",
+        "restriction",
+        "cap"
+      ],
+      "fam": [
+        "limitation n.",
+        "limited adj.",
+        "limitless adj. 无限的"
+      ],
+      "dif": "limit 泛指「限度」；boundary 指「分界线」；frontier 指「边疆、前沿」",
+      "pat": "We must set a limit on working hours to prevent burnout.",
+      "patZh": "我们必须对工设限，以防过劳。"
+    },
+    {
+      "w": "limitation",
+      "ipa": "ˌlɪmɪˈteɪʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "局限",
+      "exam": "限制；局限性",
+      "c": [
+        "the limitations of …的局限",
+        "physical limitations 身体上的局限",
+        "a serious limitation 严重的局限"
+      ],
+      "syn": [
+        "restriction",
+        "constraint",
+        "shortcoming"
+      ],
+      "fam": [
+        "limit n./v.",
+        "limited adj."
+      ],
+      "dif": "limitation 常指「自身能力的局限」（含认了命的意味）；restriction 是「外部限制」",
+      "pat": "Every method has its limitations, and honesty about them is a strength.",
+      "patZh": "任何方法都有局限，坦承局限反而是优点。"
+    },
+    {
+      "w": "limited",
+      "ipa": "ˈlɪmɪtɪd",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "有限的",
+      "exam": "有限的",
+      "c": [
+        "limited resources 有限的资源",
+        "limited edition 限量版",
+        "be limited to 仅限于"
+      ],
+      "syn": [
+        "finite",
+        "restricted",
+        "scarce"
+      ],
+      "fam": [
+        "limit n./v.",
+        "limitation n.",
+        "limitless adj."
+      ],
+      "dif": "limited 是「量上有限」；scarce 是「稀缺、不够用」，含供不应求",
+      "pat": "With limited time, we must focus on what matters most.",
+      "patZh": "时间有限，我们必须聚焦最重要的事。"
+    },
+    {
+      "w": "origin",
+      "ipa": "ˈɒrɪdʒɪn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "根源",
+      "exam": "起源；出身",
+      "c": [
+        "the origin of …的起源",
+        "trace sth to its origin 追溯根源",
+        "of humble origin 出身寒微",
+        "country of origin 原产国"
+      ],
+      "syn": [
+        "source",
+        "root",
+        "beginning"
+      ],
+      "fam": [
+        "original adj.",
+        "originate v."
+      ],
+      "dif": "origin 是「源头」；original 是形容词「最初的」或名词「原作」，词性不同",
+      "pat": "The origin of the conflict can be traced to a misunderstanding.",
+      "patZh": "这场冲突的根源可以追溯到一次误会。"
+    },
+    {
+      "w": "original",
+      "ipa": "əˈrɪdʒənl",
+      "pos": "adj. / n.",
+      "s": "s4",
+      "zh": "最初的",
+      "exam": "最初的；新颖的；原作",
+      "c": [
+        "the original plan 最初的计划",
+        "an original idea 新颖的想法",
+        "the original of the painting 画作原作"
+      ],
+      "syn": [
+        "initial",
+        "firsthand",
+        "novel"
+      ],
+      "fam": [
+        "origin n.",
+        "originate v.",
+        "originality n. 独创性"
+      ],
+      "dif": "original 兼「最初的」与「独创的」两义；aboriginal 是「土著的」，注意区分",
+      "pat": "The original design was simpler, and perhaps better.",
+      "patZh": "最初的设计更简单，或许也更好。"
+    },
+    {
+      "w": "originate",
+      "ipa": "əˈrɪdʒɪneɪt",
+      "pos": "v.",
+      "s": "s4",
+      "zh": "源于",
+      "exam": "发源；开创；发明",
+      "c": [
+        "originate from / in 源于",
+        "originate with sb 始自某人",
+        "originate the idea 首创该想法"
+      ],
+      "syn": [
+        "stem from",
+        "arise",
+        "initiate"
+      ],
+      "fam": [
+        "origin n.",
+        "original adj.",
+        "origination n."
+      ],
+      "dif": "originate from 是「源于」（不及物）；originate sth 是「开创」（及物），两用法都有",
+      "pat": "Many modern diseases originate in unhealthy lifestyles.",
+      "patZh": "许多现代疾病源于不健康的生活方式。"
+    },
+    {
+      "w": "petition",
+      "ipa": "pəˈtɪʃn",
+      "pos": "n. / v.",
+      "s": "s5",
+      "zh": "请愿书",
+      "exam": "请愿书",
+      "c": [
+        "file / sign a petition 递交、签署请愿书",
+        "a petition for 请求…的请愿",
+        "petition sb for sth 向某人请愿"
+      ],
+      "syn": [
+        "appeal",
+        "plea",
+        "formal request"
+      ],
+      "fam": [
+        "petitioner n. 请愿者"
+      ],
+      "dif": "petition 是「向官方的正式书面请求」；plea 更侧重「恳求」的情感",
+      "pat": "Residents filed a petition against the closure of the local library.",
+      "patZh": "居民们递交了反对关闭社区图书馆的请愿书。"
+    },
+    {
+      "w": "phase",
+      "ipa": "feɪz",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "阶段",
+      "exam": "阶段；时期",
+      "c": [
+        "a phase of …的阶段",
+        "enter a new phase 进入新阶段",
+        "in phases 分阶段地",
+        "a passing phase 一个阶段而已"
+      ],
+      "syn": [
+        "stage",
+        "period",
+        "step"
+      ],
+      "fam": [
+        "phased adj. 分阶段的"
+      ],
+      "dif": "phase 指「发展过程中的阶段」；phrase 是「短语」，拼写差一个字母",
+      "pat": "The project has entered its most difficult phase.",
+      "patZh": "这个项目已进入最艰难的阶段。"
+    },
+    {
+      "w": "phenomenon",
+      "ipa": "fəˈnɒmɪnən",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "现象",
+      "exam": "现象",
+      "c": [
+        "a global phenomenon 全球现象",
+        "a natural phenomenon 自然现象",
+        "a growing phenomenon 日益普遍的现象"
+      ],
+      "syn": [
+        "occurrence",
+        "fact",
+        "marvel"
+      ],
+      "fam": [
+        "phenomena（复数） n. 相关延伸",
+        "phenomenal adj. 非凡的"
+      ],
+      "dif": "phenomenon 单数、现象；phenomena 是复数；phenomenal 是形容词，三形要分清",
+      "pat": "The gig economy is a phenomenon that shows no sign of slowing.",
+      "patZh": "零工经济是一种没有放缓迹象的现象。"
+    },
+    {
+      "w": "philosopher",
+      "ipa": "fəˈlɒsəfə(r)",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "哲学家",
+      "exam": "哲学家",
+      "c": [
+        "a moral philosopher 伦理哲学家",
+        "a political philosopher 政治哲学家",
+        "an ancient philosopher 古代哲人"
+      ],
+      "syn": [
+        "thinker",
+        "sage",
+        "theorist"
+      ],
+      "fam": [
+        "philosophy n.",
+        "philosophical adj.",
+        "philosophize v."
+      ],
+      "dif": "philosopher 指人；philosophy 指学科；philanthropist 是「慈善家」，注意区分",
+      "pat": "The philosopher argued that institutions, not intentions, shape behaviour.",
+      "patZh": "这位哲学家主张，塑造行为的是制度，而非意图。"
+    },
+    {
+      "w": "philosophy",
+      "ipa": "fəˈlɒsəfi",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "哲学",
+      "exam": "哲学",
+      "c": [
+        "western philosophy 西方哲学",
+        "a philosophy of life 人生哲学",
+        "the philosophy behind 背后的理念"
+      ],
+      "syn": [
+        "thought",
+        "ideology",
+        "worldview"
+      ],
+      "fam": [
+        "philosopher n.",
+        "philosophical adj."
+      ],
+      "dif": "philosophy 除「哲学」外常指「（某组织的）理念」，如 the company's philosophy",
+      "pat": "The company's philosophy is that customers come before profits.",
+      "patZh": "这家公司的理念是顾客先于利润。"
+    },
+    {
+      "w": "phrase",
+      "ipa": "freɪz",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "措辞",
+      "exam": "短语；习语",
+      "c": [
+        "a set phrase 固定短语",
+        "coin a phrase 创造一个说法",
+        "a well-turned phrase 巧妙的措辞"
+      ],
+      "syn": [
+        "expression",
+        "idiom",
+        "saying"
+      ],
+      "fam": [
+        "phrasal adj. 短语的（phrasal verb 短语动词）"
+      ],
+      "dif": "phrase 是「短语、措辞」；phase 是「阶段」，拼写仅差 r 的位置",
+      "pat": "\"Work-life balance\" has become a well-worn phrase in modern offices.",
+      "patZh": "「工作与生活平衡」已成为现代办公室里一个用滥的说法。"
+    },
+    {
+      "w": "physical",
+      "ipa": "ˈfɪzɪkl",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "有形的",
+      "exam": "物理的；身体的；物质的",
+      "c": [
+        "physical health 身体健康",
+        "physical exercise 体育锻炼",
+        "physical barriers 有形障碍",
+        "physical world 物质世界"
+      ],
+      "syn": [
+        "bodily",
+        "material",
+        "tangible"
+      ],
+      "fam": [
+        "physically adv.",
+        "physician n.",
+        "physics n."
+      ],
+      "dif": "physical 指「身体的、物质的」；physics 是「物理学」；physician 是「内科医生」",
+      "pat": "Regular physical activity is as good for the mind as for the body.",
+      "patZh": "经常锻炼对心智的好处不亚于对身体。"
+    },
+    {
+      "w": "physician",
+      "ipa": "fɪˈzɪʃn",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "内科医生",
+      "exam": "内科医生",
+      "c": [
+        "a practicing physician 执业医生",
+        "consult a physician 看医生",
+        "a family physician 家庭医生"
+      ],
+      "syn": [
+        "doctor",
+        "medical practitioner",
+        "internist"
+      ],
+      "fam": [
+        "physic n.（古）药 → physical adj.",
+        "physiology n. 生理学"
+      ],
+      "dif": "physician 是「内科医生」；surgeon 是「外科医生」；physicist 是「物理学家」",
+      "pat": "A good physician treats the patient, not just the disease.",
+      "patZh": "好医生治疗的是病人，而不只是疾病。"
+    },
+    {
+      "w": "pierce",
+      "ipa": "pɪəs",
+      "pos": "v.",
+      "s": "s5",
+      "zh": "刺进",
+      "exam": "刺入；刺穿",
+      "c": [
+        "pierce through 刺穿",
+        "pierce the silence 打破寂静",
+        "pierce the heart 刺痛内心",
+        "have one's ears pierced 打耳洞"
+      ],
+      "syn": [
+        "penetrate",
+        "stab",
+        "puncture"
+      ],
+      "fam": [
+        "piercing adj. 刺骨的；锐利的",
+        "piercingly adv."
+      ],
+      "dif": "pierce 强调「尖物刺入、穿透」；penetrate 可指「抽象地渗入」，如 penetrate the market",
+      "pat": "A sudden cry pierced the silence of the courtroom.",
+      "patZh": "一声突然的喊叫刺破了法庭的寂静。"
+    },
+    {
+      "w": "corporate",
+      "ipa": "ˈkɔːpərət",
+      "pos": "adj.",
+      "s": "s5",
+      "zh": "公司（式）的",
+      "exam": "公司的；法人的",
+      "c": [
+        "corporate culture 企业文化",
+        "corporate social responsibility 企业社会责任",
+        "corporate profits 公司利润",
+        "corporate governance 公司治理"
+      ],
+      "syn": [
+        "company",
+        "business",
+        "organizational"
+      ],
+      "fam": [
+        "corporation n.",
+        "incorporate v. 合并；注册成立"
+      ],
+      "dif": "corporate 是形容词；corporation 是名词「公司」；cooperate 是「合作」，注意拼写",
+      "pat": "Corporate culture decides whether talent stays or leaves.",
+      "patZh": "企业文化决定了人才是去是留。"
+    },
+    {
+      "w": "corporation",
+      "ipa": "ˌkɔːpəˈreɪʃn",
+      "pos": "n.",
+      "s": "s5",
+      "zh": "公司",
+      "exam": "公司；法人",
+      "c": [
+        "a multinational corporation 跨国公司",
+        "a state-owned corporation 国有企业",
+        "run a corporation 经营公司"
+      ],
+      "syn": [
+        "company",
+        "firm",
+        "enterprise"
+      ],
+      "fam": [
+        "corporate adj.",
+        "incorporate v.",
+        "corporatism n. 社团主义"
+      ],
+      "dif": "corporation 是「法人公司」；company 泛指公司；cooperation 是「合作」，拼写易混",
+      "pat": "A large corporation can shape public opinion as much as any government.",
+      "patZh": "一家大公司塑造舆论的能力不亚于任何政府。"
+    },
+    {
+      "w": "reason",
+      "ipa": "ˈriːzn",
+      "pos": "n. / v.",
+      "s": "s5",
+      "zh": "成因",
+      "exam": "推理；推论；理由；原因；理性",
+      "c": [
+        "the reason for …的原因",
+        "reason with sb 与某人讲道理",
+        "for no apparent reason 无明显原因",
+        "within reason 合情合理地"
+      ],
+      "syn": [
+        "cause",
+        "motive",
+        "rationality"
+      ],
+      "fam": [
+        "reasonable adj.",
+        "reasoning n. 推理",
+        "reasonably adv."
+      ],
+      "dif": "reason 与 cause 常互换，但 reason 多指「人的动机」，cause 多指「客观起因」",
+      "pat": "We need to reason with facts, not with anger.",
+      "patZh": "我们要用事实而不是愤怒来讲道理。"
+    },
+    {
+      "w": "reasonable",
+      "ipa": "ˈriːznəbl",
+      "pos": "adj.",
+      "s": "s6",
+      "zh": "合理的",
+      "exam": "合理的；有道理的",
+      "c": [
+        "a reasonable price 合理的价格",
+        "it is reasonable to do 做…是合理的",
+        "a reasonable explanation 合理的解释"
+      ],
+      "syn": [
+        "sensible",
+        "rational",
+        "fair"
+      ],
+      "fam": [
+        "reason n./v.",
+        "reasonably adv.",
+        "reasonableness n."
+      ],
+      "dif": "reasonable 是「讲道理、不过分的」；rational 是「完全基于理性的」",
+      "pat": "It is reasonable to expect some setbacks on the way to change.",
+      "patZh": "在改变的路上遇到一些挫折，是情理之中的事。"
+    },
+    {
+      "w": "recent",
+      "ipa": "ˈriːsnt",
+      "pos": "adj.",
+      "s": "s6",
+      "zh": "最近的",
+      "exam": "新近的；近来的",
+      "c": [
+        "in recent years 近年来",
+        "a recent survey 最近的调查",
+        "until recently 直到最近"
+      ],
+      "syn": [
+        "latest",
+        "new",
+        "current"
+      ],
+      "fam": [
+        "recently adv.",
+        "recency n."
+      ],
+      "dif": "recent 指「刚发生的」；current 指「当下正存在的」，时间跨度不同",
+      "pat": "In recent years, more workers have chosen to stay in smaller cities.",
+      "patZh": "近年来，越来越多劳动者选择留在小城市。"
+    },
+    {
+      "w": "serve",
+      "ipa": "sɜːv",
+      "pos": "v.",
+      "s": "s6",
+      "zh": "服务",
+      "exam": "服务；履行职责；有用；起作用；满足",
+      "c": [
+        "serve the public 服务公众",
+        "serve as 充当",
+        "serve a purpose 起作用",
+        "serve the needs of 满足…的需要"
+      ],
+      "syn": [
+        "work for",
+        "function as",
+        "attend to"
+      ],
+      "fam": [
+        "service n.",
+        "servant n.",
+        "serving n. 一份（食物）"
+      ],
+      "dif": "serve as 是「充当」；service 是名词或动词「维修」，词性不同用法不同",
+      "pat": "Technology should serve people, not the other way round.",
+      "patZh": "技术应当为人服务，而不是相反。"
+    },
+    {
+      "w": "servant",
+      "ipa": "ˈsɜːvənt",
+      "pos": "n.",
+      "s": "s6",
+      "zh": "公仆",
+      "exam": "仆人；佣人；雇员",
+      "c": [
+        "a public servant 公职人员",
+        "a faithful servant 忠实的仆人",
+        "a servant of the people 人民公仆"
+      ],
+      "syn": [
+        "attendant",
+        "employee",
+        "helper"
+      ],
+      "fam": [
+        "serve v.",
+        "service n."
+      ],
+      "dif": "servant 本义「仆人」，public servant 是「公务员」；civil servant 同义",
+      "pat": "A public servant should answer to the people, not to power.",
+      "patZh": "公职人员应对人民负责，而不是对权力负责。"
+    },
+    {
+      "w": "service",
+      "ipa": "ˈsɜːvɪs",
+      "pos": "n. / vt.",
+      "s": "s6",
+      "zh": "服务",
+      "exam": "服务；行政部门；服务机构",
+      "c": [
+        "customer service 客户服务",
+        "public services 公共服务",
+        "a delivery service 配送服务",
+        "service an engine 检修发动机"
+      ],
+      "syn": [
+        "assistance",
+        "facility",
+        "maintenance"
+      ],
+      "fam": [
+        "serve v.",
+        "servant n.",
+        "servicing n."
+      ],
+      "dif": "service 是名词（也可作动词「维修」）；serve 是动词「服务」，各司其职",
+      "pat": "Good service is remembered long after the price is forgotten.",
+      "patZh": "价格早被忘记之后，好的服务仍会被记住。"
+    },
+    {
+      "w": "set",
+      "ipa": "set",
+      "pos": "v. / adj. / n.",
+      "s": "s6",
+      "zh": "定下",
+      "exam": "确定；决定；规定的；一套",
+      "c": [
+        "set a deadline / goal 定死线、目标",
+        "set an example 树立榜样",
+        "a set of rules 一套规则",
+        "be set in 以…为背景"
+      ],
+      "syn": [
+        "establish",
+        "fix",
+        "determine"
+      ],
+      "fam": [
+        "setting n.",
+        "setback n.",
+        "settle v."
+      ],
+      "dif": "set 的过去式和过去分词还是 set；setting 是「环境背景」，setback 是「挫折」",
+      "pat": "Parents set an example that children follow for life.",
+      "patZh": "父母树立的榜样，孩子会跟随一生。"
+    },
+    {
+      "w": "setback",
+      "ipa": "ˈsetbæk",
+      "pos": "n.",
+      "s": "s6",
+      "zh": "挫折",
+      "exam": "挫折；退步；阻碍",
+      "c": [
+        "suffer a setback 遭遇挫折",
+        "a temporary setback 暂时的挫折",
+        "recover from a setback 从挫折中恢复"
+      ],
+      "syn": [
+        "reverse",
+        "obstacle",
+        "blow"
+      ],
+      "fam": [
+        "set + back 复合词 n. 相关延伸",
+        "set v.",
+        "setting n."
+      ],
+      "dif": "setback 是「计划受阻的挫折」；failure 是「彻底的失败」，程度更重",
+      "pat": "Every setback taught her something that success never could.",
+      "patZh": "每一次挫折都教给她成功永远教不会的东西。"
+    },
+    {
+      "w": "setting",
+      "ipa": "ˈsetɪŋ",
+      "pos": "n.",
+      "s": "s6",
+      "zh": "背景",
+      "exam": "环境；背景",
+      "c": [
+        "a rural setting 乡村环境",
+        "the setting for 以…为背景",
+        "social setting 社会背景",
+        "a beautiful setting 优美的环境"
+      ],
+      "syn": [
+        "background",
+        "context",
+        "surroundings"
+      ],
+      "fam": [
+        "set v.",
+        "settle v.",
+        "setback n."
+      ],
+      "dif": "setting 是故事发生的「场景背景」；background 泛指「个人出身背景」",
+      "pat": "The novel is set in a small town — a perfect setting for its quiet tragedy.",
+      "patZh": "小说以一座小镇为背景——正是这出静水深流的悲剧的完美场景。"
+    },
+    {
+      "w": "settle",
+      "ipa": "ˈsetl",
+      "pos": "v.",
+      "s": "s6",
+      "zh": "将就",
+      "exam": "安顿；定居；解决；调停",
+      "c": [
+        "settle down 安顿下来",
+        "settle a dispute 解决争端",
+        "settle for 将就",
+        "settle in a town 定居城镇"
+      ],
+      "syn": [
+        "resolve",
+        "establish",
+        "accept"
+      ],
+      "fam": [
+        "settlement n.",
+        "setting n.",
+        "settler n. 定居者"
+      ],
+      "dif": "settle for 是「退而求其次」；settle down 是「安定下来」，两个短语常考",
+      "pat": "Never settle for a life smaller than your dreams.",
+      "patZh": "永远不要将就着过一种比梦想小的生活。"
+    },
+    {
+      "w": "settlement",
+      "ipa": "ˈsetlmənt",
+      "pos": "n.",
+      "s": "s6",
+      "zh": "和解协议",
+      "exam": "解决；定居点",
+      "c": [
+        "reach a settlement 达成和解",
+        "a peace settlement 和平协议",
+        "a remote settlement 偏远的定居点",
+        "the settlement of a dispute 争端的解决"
+      ],
+      "syn": [
+        "agreement",
+        "resolution",
+        "colony"
+      ],
+      "fam": [
+        "settle v.",
+        "settler n."
+      ],
+      "dif": "settlement 既指「和解协议」也指「定居点」，两个义项都考，靠语境判断",
+      "pat": "The two sides finally reached a settlement after months of negotiation.",
+      "patZh": "经过数月谈判，双方终于达成了和解。"
+    },
+    {
+      "w": "several",
+      "ipa": "ˈsevrəl",
+      "pos": "pron. / adj.",
+      "s": "s6",
+      "zh": "好几个",
+      "exam": "几个；一些",
+      "c": [
+        "several times 好几次",
+        "several of them 其中几个",
+        "for several reasons 出于好几个原因"
+      ],
+      "syn": [
+        "a few",
+        "some",
+        "a number of"
+      ],
+      "fam": [
+        "severally adv. 各自地"
+      ],
+      "dif": "several 比 a few 略多，比 many 少；写作中可用 a number of 替换避免重复",
+      "pat": "Several factors have contributed to the rise in house prices.",
+      "patZh": "好几个因素共同推动了房价上涨。"
+    },
+    {
+      "w": "severe",
+      "ipa": "sɪˈvɪə(r)",
+      "pos": "adj.",
+      "s": "s6",
+      "zh": "猛烈的",
+      "exam": "严厉的；严重的",
+      "c": [
+        "severe punishment 严厉的惩罚",
+        "a severe storm 猛烈的暴风雨",
+        "severe pain 剧痛",
+        "a severe shortage 严重短缺"
+      ],
+      "syn": [
+        "harsh",
+        "strict",
+        "acute"
+      ],
+      "fam": [
+        "severely adv.",
+        "severity n."
+      ],
+      "dif": "severe 兼「严厉的」与「严重的」；serious 只指「严重的」，不指「严厉」",
+      "pat": "The region is suffering from a severe shortage of clean water.",
+      "patZh": "该地区正面临清洁水的严重短缺。"
+    }
+  ]
+}

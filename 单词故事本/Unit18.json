@@ -1,0 +1,1387 @@
+{
+  "unit": 18,
+  "stories": [
+    {
+      "id": "s1",
+      "en": "The Approach",
+      "zh": "新方法",
+      "theme": "学术 / 认知",
+      "ps": [
+        {
+          "en": "When Lin Mei's first paper was rejected, the reviewer's comment was brief: the conclusion was interesting, but the evidence did not [[stick]]. The words stung, yet they also [[stimulated|stimulate]] her to reopen the experiment she had closed months before. She refused to let one failure [[stir]] self-doubt — instead, she wanted to stir a real debate.",
+          "zh": "林梅的第一篇论文被拒时，审稿人的意见只有一句：结论有意思，但证据站不住脚。这话很扎心，却也刺激她重新打开了数月前已经结束的实验。她拒绝让一次失败激起自我怀疑——相反，她想掀起一场真正的讨论。"
+        },
+        {
+          "en": "The journal [[stipulated|stipulate]] that every claim rest on published data, so Lin spent weeks cleaning her tables. From the noise she began to [[infer]] a pattern, and her [[inference]], though bold, was hard to ignore once the [[information]] was free for anyone to check. Even an [[influential]] critic wrote back, admitting the new [[approach]] deserved a second look.",
+          "zh": "期刊规定每论断都必须建立在公开数据之上，于是林梅花了数周清理数据表。她从噪声中开始推断出一种模式；这个推断虽然大胆，但一旦资料任人核查，就再也无法被忽视。连一位有影响力的批评者也回信了，承认这种新思路值得再看一眼。"
+        },
+        {
+          "en": "\"Never let an [[inferior]] instrument hide a good question,\" the critic told her. Under his [[influence]], Lin rebuilt the model, and her follow-up paper — the one the same journal now rushed into print — was proof that honest criticism can [[inform]] better science.",
+          "zh": "「别让一件更差的工具遮住一个好问题，」那位批评者告诉她。在他的影响下，林梅重做了模型；而她的后续论文——正是那家期刊如今抢着刊出的那篇——证明了诚实的批评能让更好的科学得以传播。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Stamp of Approval",
+      "zh": "认可的印记",
+      "theme": "法律 / 社会",
+      "ps": [
+        {
+          "en": "As an aide on the energy committee, Qian was [[conscious]] of one [[continual]] complaint: the old grid could not support [[continuous]] growth. When the [[congress]] opened its spring session, she drafted a modest proposal to [[connect]] every village clinic to a stable power source — the [[connection]] between electricity and survival was, to her, obvious.",
+          "zh": "作为能源委员会的助理，钱某意识到一个反复出现的抱怨：老电网撑不起持续的增长。国会春季会议开幕时，她起草了一份不算张扬的提案，要把每个村诊所接上稳定的电源——在她看来，电与生存之间的联系显而易见。"
+        },
+        {
+          "en": "Her supervisor warned that any plan failing to [[conform]] to the budget would never win [[approval]]. Lobbyists, meanwhile, tried to [[confuse]] the public, spreading [[confusion]] about costs until even supporters fell silent. Yet Qian refused to [[confront]] them with anger; she answered every claim with a spreadsheet.",
+          "zh": "她的上司警告说，任何不符合预算的方案都永远得不到批准。与此同时，游说集团试图混淆公众视听，散布关于成本的种种混乱说法，直到连支持者都沉默下去。但钱某拒绝用愤怒正面对抗他们；她用一张电子表格回应每一条说法。"
+        },
+        {
+          "en": "\"The only [[appropriate]] standard is what villages can afford,\" she told the committee, and the [[apt]] phrase carried the vote. The bill passed with broad approval, and the chairman — who rarely [[approved|approve]] of anything — signed it with a smile. Qian [[continued|continue]] to watch the meters, certain that policy, like power, must travel the last mile.",
+          "zh": "「唯一恰当的标准，是村子负担得起什么，」她对委员会说——这句贴切的话改变了投票。法案以广泛赞成获得通过，而那位难得认可任何事的主席，微笑着签了字。钱某继续盯着电表，她确信：政策像电力一样，必须走完最后一英里。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Displaced Community",
+      "zh": "流离的群体",
+      "theme": "科技 / 环境",
+      "ps": [
+        {
+          "en": "For twenty years Dr. Han had [[examined|examine]] the coastline, and his maps told a plain story: the sea was rising. At town meetings he watched officials [[dismiss]] his charts with a smile, and the mayor once joked that a flood was a rumour invented to [[distract]] voters from real problems.",
+          "zh": "二十年来，韩博士一直在细查这条海岸线，他的地图讲着一个直白的故事：海平面在上升。在镇上的会议上，他看着官员们笑着对他的图表不予理会；市长甚至开玩笑说，洪水不过是为了转移选民对真正问题的注意而编造的谣言。"
+        },
+        {
+          "en": "Then came the autumn storm. Water turned the main street into [[disorder]], and the crowd that gathered to watch soon had to [[disperse]] for their lives. Forty families were [[displaced|displace]] in a single night, their photographs and furniture piled on the steps of the museum where Han worked.",
+          "zh": "秋天的风暴来了。大水把主街变成一片混乱，闻讯赶来看热闹的人群很快不得不四散逃命。一夜之间，四十户人家流离失所，他们的照片和家具堆放在韩博士工作的博物馆台阶上。"
+        },
+        {
+          "en": "The next morning Han refused to [[exaggerate]]: \"a century of neglect,\" he said, \"not a century storm.\" Some reporters tried to [[distort]] that into panic; others used the flood to [[mock]] science itself. But inside the museum he put the ruined maps on [[display]] and invited students to examine the mud — the slow [[evolution]] of a coastline written in sediment. Watching volunteers [[distribute]] blankets, he let himself believe the town could [[evolve]] into something wiser.",
+          "zh": "第二天早上，韩博士拒绝夸大其词：「这是百年的忽视，」他说，「不是百年一遇的风暴。」有记者试图把他的话歪曲成恐慌渲染，也有人借这场洪水嘲笑科学本身。但在博物馆里，他把被毁的地图展出，请学生们细察那些淤泥——那是一部写在沉积物里的海岸线缓慢演变史。看着志愿者们分发毛毯，他让自己相信，这个镇子能演变成一个更明智的地方。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Urban Modernization",
+      "zh": "都市的现代化",
+      "theme": "教育 / 职场",
+      "ps": [
+        {
+          "en": "When the old textile mill announced its [[modernization]], everyone expected a young engineer from the city. Instead they got Su, a woman of forty with a [[modest]] suitcase and no interest in speeches. Her task was to make the aging workshops [[modern]]; her [[mode]] of working was simple: walk the floor, listen, and change as little as possible.",
+          "zh": "老纺织厂宣布现代化改造时，所有人都以为会来个城里的年轻工程师。来的却是苏——一个四十岁、提着不大的行李箱、对讲话毫无兴趣的女人。她的任务是让老旧车间现代化；她的工作方式很简单：下车间走、听、尽量少改动。"
+        },
+        {
+          "en": "The workers trusted no one; her [[predecessor]] had been a famous expert who never touched a machine. Su's [[preliminary]] report, when it came, ran to six pages, and its conclusion was that the old looms were [[preferable]] to any new [[model]] on the market. She asked only to [[modify]] three motors.",
+          "zh": "工人们谁都不信；她的前任是个从不碰机器的名专家。苏的初步报告出来后只有六页，结论是：市场上的任何新式样都不如老织机可取。她只要求改装三台电机。"
+        },
+        {
+          "en": "Her [[moderate]] proposal offended the salesmen, whose [[prejudice]] favoured whatever was newest and most expensive. \"You cannot [[predict]] failure,\" they warned. Su disagreed — you cannot predict anything without data — and in the [[preface]] to her final report she thanked the oldest weaver by name. A year later the mill doubled its output, and the salesmen, with quiet grace, changed their [[preference]].",
+          "zh": "她这份温和适度的方案得罪了销售员——这些人的偏见是只认最新最贵的。“你预测不了失败，”他们警告说。苏并不认同——没有数据，什么都预测不了——在最终报告的前言里，她点名感谢了厂里年纪最大的织工。一年后，厂子产量翻了一倍，而那些销售员也心平气和地改变了自己的偏好。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "stick",
+      "ipa": "stɪk",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "站得住脚",
+      "exam": "戳；插入；粘贴；棍，棒",
+      "c": [
+        "stick to sth 坚持（做）某事",
+        "stick out 伸出；显眼",
+        "stick with 继续做"
+      ],
+      "syn": [
+        "adhere",
+        "cling",
+        "attach"
+      ],
+      "fam": [
+        "sticky adj. 黏的",
+        "stuck（stick - stuck - stuck） n. 相关延伸"
+      ],
+      "dif": "stick to doing 是「坚持做」；insist on doing 是「坚决主张」，搭配不同",
+      "pat": "Good habits stick only when they are easy to begin.",
+      "patZh": "好习惯只有在容易开始时才能坚持下来。"
+    },
+    {
+      "w": "stimulate",
+      "ipa": "ˈstɪmjuleɪt",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "激发",
+      "exam": "刺激；使兴奋",
+      "c": [
+        "stimulate demand / growth 刺激需求、增长",
+        "stimulate sb to do sth 刺激/激励某人做某事",
+        "stimulate interest in 激发对…的兴趣"
+      ],
+      "syn": [
+        "spur",
+        "motivate",
+        "provoke"
+      ],
+      "fam": [
+        "stimulus n. 刺激物（复数 stimuli）",
+        "stimulation n. 激励"
+      ],
+      "dif": "stimulate 是「激发」；simulate 是「模拟」，形近词义完全不同",
+      "pat": "The government introduced tax cuts to stimulate the economy.",
+      "patZh": "政府推出减税措施以刺激经济。"
+    },
+    {
+      "w": "stir",
+      "ipa": "stɜː(r)",
+      "pos": "v. / n.",
+      "s": "s1",
+      "zh": "激起",
+      "exam": "引起；激起；激动",
+      "c": [
+        "stir up 挑起，激起",
+        "cause a stir 引起轰动",
+        "stir sb to action 激励某人行动"
+      ],
+      "syn": [
+        "provoke",
+        "arouse",
+        "agitate"
+      ],
+      "fam": [
+        "stirred / stirring（stir - stirred - stirred） n. 相关延伸"
+      ],
+      "dif": "stir up 多指「挑起情绪或麻烦」；stimulate 侧重「激发积极性、需求」",
+      "pat": "The old photograph stirred memories of a forgotten childhood.",
+      "patZh": "那张旧照片唤起了对被遗忘童年的记忆。"
+    },
+    {
+      "w": "stipulate",
+      "ipa": "ˈstɪpjuleɪt",
+      "pos": "v.",
+      "s": "s1",
+      "zh": "规定",
+      "exam": "规定；明确要求",
+      "c": [
+        "stipulate that... 规定…",
+        "stipulate sth as a condition 以…为条件",
+        "stipulate for sth 对…作出规定"
+      ],
+      "syn": [
+        "specify",
+        "prescribe",
+        "require"
+      ],
+      "fam": [
+        "stipulation n. 条款，规定"
+      ],
+      "dif": "stipulate 指「（合同、规则）明文规定」；regulate 指「依规章管制」",
+      "pat": "The contract stipulates that payment must be made in advance.",
+      "patZh": "合同规定款项必须提前支付。"
+    },
+    {
+      "w": "infer",
+      "ipa": "ɪnˈfɜː(r)",
+      "pos": "vt.",
+      "s": "s1",
+      "zh": "推断",
+      "exam": "推断",
+      "c": [
+        "infer sth from sth 从…推断出",
+        "infer from the evidence 从证据中推断",
+        "be inferred from 从…推断出"
+      ],
+      "syn": [
+        "deduce",
+        "conclude",
+        "surmise"
+      ],
+      "fam": [
+        "inference n. 推断",
+        "inferable adj. 可推知的"
+      ],
+      "dif": "infer 是听者「从证据推出结论」；imply 是说者「话语中暗示」，方向相反",
+      "pat": "We can infer from the data that demand is recovering.",
+      "patZh": "我们可以从数据中推断出需求正在复苏。"
+    },
+    {
+      "w": "inference",
+      "ipa": "ˈɪnfərəns",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "推断结论",
+      "exam": "推论；推理；推断结果",
+      "c": [
+        "draw an inference from 从…得出结论",
+        "by inference 据推断",
+        "a reasonable inference 合理的推论"
+      ],
+      "syn": [
+        "conclusion",
+        "deduction",
+        "reasoning"
+      ],
+      "fam": [
+        "infer v. → inference n."
+      ],
+      "dif": "inference 是「推出来的结论」；reference 是「参考；提及」，形近常混",
+      "pat": "Such an inference would be premature without more evidence.",
+      "patZh": "没有更多证据就下这样的结论还为时过早。"
+    },
+    {
+      "w": "inferior",
+      "ipa": "ɪnˈfɪəriə(r)",
+      "pos": "adj. / n.",
+      "s": "s1",
+      "zh": "更差的",
+      "exam": "下等的；下级的；差的；次的",
+      "c": [
+        "inferior to 比…差（不可用 than）",
+        "inferior goods 劣质品",
+        "feel inferior 感到自卑"
+      ],
+      "syn": [
+        "secondary",
+        "substandard",
+        "mediocre"
+      ],
+      "fam": [
+        "inferiority n. 低劣；自卑感"
+      ],
+      "dif": "inferior to / superior to 中的 to 都是介词，不能用 more inferior 或 than",
+      "pat": "No language is inferior to another; each carries its own worldview.",
+      "patZh": "没有哪种语言比另一种低等；每种语言都承载着自己的世界观。"
+    },
+    {
+      "w": "influence",
+      "ipa": "ˈɪnfluəns",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "影响",
+      "exam": "影响",
+      "c": [
+        "have an influence on 对…有影响",
+        "under the influence of 在…影响下",
+        "influence sb against sth （相关常用表达）"
+      ],
+      "syn": [
+        "affect",
+        "sway",
+        "impact"
+      ],
+      "fam": [
+        "influential adj. 有影响力的"
+      ],
+      "dif": "influence 名动两用；affect 只作动词，effect 多作名词，三者常同框设项",
+      "pat": "Parents have a lasting influence on how children handle failure.",
+      "patZh": "父母对孩子如何面对失败有着持久的影响。"
+    },
+    {
+      "w": "influential",
+      "ipa": "ˌɪnfluˈenʃl",
+      "pos": "adj.",
+      "s": "s1",
+      "zh": "有影响力的",
+      "exam": "有影响的；权势的",
+      "c": [
+        "an influential figure 有影响力的人物",
+        "be influential in doing sth （相关常用表达）",
+        "a highly influential essay （相关常用表达）"
+      ],
+      "syn": [
+        "powerful",
+        "prominent",
+        "authoritative"
+      ],
+      "fam": [
+        "influence → influential → influentially adv."
+      ],
+      "dif": "influential 修饰「人、观点、机构」；effective 修饰「方法、措施」，表「有效的」",
+      "pat": "Her influential essay changed how schools teach history.",
+      "patZh": "她那篇有影响力的文章改变了学校教授历史的方式。"
+    },
+    {
+      "w": "inform",
+      "ipa": "ɪnˈfɔːm",
+      "pos": "v.",
+      "s": "s1",
+      "zh": "告知",
+      "exam": "通知；告诉",
+      "c": [
+        "inform sb of / about sth 通知某人某事",
+        "keep sb informed 让某人知情",
+        "inform against sb 告发某人"
+      ],
+      "syn": [
+        "notify",
+        "tell",
+        "apprise"
+      ],
+      "fam": [
+        "information n. 信息",
+        "informed adj. 有见识的；misinform v. 误导"
+      ],
+      "dif": "inform sb of sth 必须带 of，不能说 inform sb sth，这是高频语法考点",
+      "pat": "Citizens should be fully informed of the risks before signing.",
+      "patZh": "公民在签字前应被充分告知风险。"
+    },
+    {
+      "w": "information",
+      "ipa": "ˌɪnfəˈmeɪʃn",
+      "pos": "n.",
+      "s": "s1",
+      "zh": "信息，资料",
+      "exam": "情报；资料；信息",
+      "c": [
+        "gather / collect information （相关常用表达）",
+        "a piece of information 一条信息",
+        "information technology 信息技术"
+      ],
+      "syn": [
+        "data",
+        "intelligence",
+        "material"
+      ],
+      "fam": [
+        "inform v. → information n. → informative adj. 信息量大的"
+      ],
+      "dif": "information 不可数，「一条信息」用 a piece of information，考试高频",
+      "pat": "The Internet gives us instant access to vast amounts of information.",
+      "patZh": "互联网让我们即时获取海量信息。"
+    },
+    {
+      "w": "approach",
+      "ipa": "əˈprəʊtʃ",
+      "pos": "n. / v.",
+      "s": "s1",
+      "zh": "方法；新路径",
+      "exam": "方法；态度；靠近；接近；（着手）处理；（开始）对付",
+      "c": [
+        "an approach to (doing) sth ……的方法",
+        "adopt / take an approach （相关常用表达）",
+        "approach sb about sth 就…找某人商量"
+      ],
+      "syn": [
+        "method",
+        "way",
+        "come near"
+      ],
+      "fam": [
+        "approachable adj. 可亲近的"
+      ],
+      "dif": "approach to 的 to 是介词，后接 doing；method 常搭配 of / for",
+      "pat": "We need a fresh approach to dealing with urban waste.",
+      "patZh": "我们需要一种处理城市垃圾的新思路。"
+    },
+    {
+      "w": "appropriate",
+      "ipa": "əˈprəʊpriət",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "恰当的",
+      "exam": "恰当的",
+      "c": [
+        "be appropriate for / to 适合…",
+        "at the appropriate time （相关常用表达）",
+        "it is appropriate that...（从句用虚拟）"
+      ],
+      "syn": [
+        "suitable",
+        "fitting",
+        "proper"
+      ],
+      "fam": [
+        "appropriately adv.；inappropriate adj. 不恰当的"
+      ],
+      "dif": "appropriate 是「恰当得体」；approximate 是「大约的」，形近易混",
+      "pat": "Casual dress is not appropriate for a formal interview.",
+      "patZh": "休闲装不适合正式面试。"
+    },
+    {
+      "w": "approval",
+      "ipa": "əˈpruːvl",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "批准；赞成",
+      "exam": "赞成；批准；同意；认可",
+      "c": [
+        "win / gain approval 获得批准",
+        "meet with approval 得到认可",
+        "seal of approval 正式认可"
+      ],
+      "syn": [
+        "consent",
+        "endorsement",
+        "authorization"
+      ],
+      "fam": [
+        "approve v. → approval n.；disapproval n. 不赞成"
+      ],
+      "dif": "approval 是名词「批准、赞成」；approving 是形容词「赞许的」，词性不同",
+      "pat": "The plan won the approval of the local community.",
+      "patZh": "该计划赢得了当地社区的认可。"
+    },
+    {
+      "w": "approve",
+      "ipa": "əˈpruːv",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "批准；认可",
+      "exam": "批准；通过；赞成；同意",
+      "c": [
+        "approve sth 批准某事",
+        "approve of (doing) sth 赞成某事",
+        "be approved by 经…批准"
+      ],
+      "syn": [
+        "endorse",
+        "authorize",
+        "sanction"
+      ],
+      "fam": [
+        "approval n.；disapprove v. 不赞成"
+      ],
+      "dif": "approve sth 是「官方批准」；approve of sth 是「个人赞同」，有无 of 是考点",
+      "pat": "Parliament approved the bill by a large majority.",
+      "patZh": "议会以多数票批准了该法案。"
+    },
+    {
+      "w": "apt",
+      "ipa": "æpt",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "贴切的",
+      "exam": "易于…的；有…倾向的；恰当的",
+      "c": [
+        "be apt to do 易于做…",
+        "an apt description 贴切的描述",
+        "be apt at 善于"
+      ],
+      "syn": [
+        "likely",
+        "prone",
+        "fitting"
+      ],
+      "fam": [
+        "aptly adv. 贴切地；aptitude n. 天资"
+      ],
+      "dif": "apt to do 强调「有…倾向（常指负面）」；likely to 只是「有可能」",
+      "pat": "He is apt to forget appointments when deadlines pile up.",
+      "patZh": "截稿期扎堆时，他很容易忘掉约会。"
+    },
+    {
+      "w": "conform",
+      "ipa": "kənˈfɔːm",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "符合；遵从",
+      "exam": "一致；符合；遵从",
+      "c": [
+        "conform to / with 符合，遵从",
+        "conform to the rules 遵守规则",
+        "conform to a standard （相关常用表达）"
+      ],
+      "syn": [
+        "comply",
+        "abide by",
+        "match"
+      ],
+      "fam": [
+        "conformity n. 遵从；nonconformist n. 不循常规者"
+      ],
+      "dif": "conform to 后接「规则、标准」；confirm 是「确认」，形近义异",
+      "pat": "New products must conform to national safety standards.",
+      "patZh": "新产品必须符合国家安"
+    },
+    {
+      "w": "confront",
+      "ipa": "kənˈfrʌnt",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "直面",
+      "exam": "（使）面临；（使）遭遇；勇敢地面对",
+      "c": [
+        "be confronted with 面临",
+        "confront the problem 直面问题",
+        "confront sb about sth 就…与某人对质"
+      ],
+      "syn": [
+        "face",
+        "encounter",
+        "tackle"
+      ],
+      "fam": [
+        "confrontation n. 对抗；confrontational adj. 对抗性的"
+      ],
+      "dif": "confront 是「主动面对难题」；confuse 是「使糊涂」，同前缀不同根",
+      "pat": "Young graduates are confronted with a tough job market.",
+      "patZh": "年轻毕业生正面临严峻的就业市场。"
+    },
+    {
+      "w": "confuse",
+      "ipa": "kənˈfjuːz",
+      "pos": "vt.",
+      "s": "s2",
+      "zh": "混淆",
+      "exam": "使混乱；混淆",
+      "c": [
+        "confuse A with / and B 把 A 与 B 混淆",
+        "be confused about 对…感到困惑",
+        "confuse the issue 搅乱问题"
+      ],
+      "syn": [
+        "mix up",
+        "bewilder",
+        "muddle"
+      ],
+      "fam": [
+        "confusion n.；confused adj. 感到困惑的；confusing adj. 令人困惑的"
+      ],
+      "dif": "confused 修饰「人感到困惑」；confusing 修饰「事物令人困惑」，常设选项",
+      "pat": "Do not confuse absence of evidence with evidence of absence.",
+      "patZh": "不要把「没有证据」与「证明不存在」混为一谈。"
+    },
+    {
+      "w": "confusion",
+      "ipa": "kənˈfjuːʒn",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "混乱",
+      "exam": "混乱；混淆",
+      "c": [
+        "cause / lead to confusion （相关常用表达）",
+        "in confusion 混乱中",
+        "confusion between A and B （相关常用表达）"
+      ],
+      "syn": [
+        "chaos",
+        "bewilderment",
+        "mix-up"
+      ],
+      "fam": [
+        "confuse v. → confusion n."
+      ],
+      "dif": "confusion 是「混乱状态」；diffusion 是「扩散」，形近义异",
+      "pat": "There is some confusion between the terms 'skill' and 'talent'.",
+      "patZh": "「技能」和「天赋」这两个概念常被混淆。"
+    },
+    {
+      "w": "congress",
+      "ipa": "ˈkɒŋɡres",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "（美国）国会",
+      "exam": "国会；议会；（代表）大会",
+      "c": [
+        "the US Congress 美国国会",
+        "a medical congress 医学大会",
+        "Congress passes a bill 国会通过法案"
+      ],
+      "syn": [
+        "parliament",
+        "assembly",
+        "convention"
+      ],
+      "fam": [
+        "congressional adj. 国会的"
+      ],
+      "dif": "Congress 大写特指美国国会；conference 只是一般「会议」",
+      "pat": "Congress passed the act after months of debate.",
+      "patZh": "经过数月辩论，国会通过了该法案。"
+    },
+    {
+      "w": "connect",
+      "ipa": "kəˈnekt",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "连接；联系",
+      "exam": "连接；联系",
+      "c": [
+        "connect A to / with B 把 A 与 B 相连",
+        "be connected with 与…有关",
+        "connect sb with 为某人接通"
+      ],
+      "syn": [
+        "link",
+        "join",
+        "associate"
+      ],
+      "fam": [
+        "connection n.；connected adj.；disconnect v."
+      ],
+      "dif": "connect to 偏「物理连接」；associate with 偏「抽象联想、关联」",
+      "pat": "The study connects sleep quality with academic performance.",
+      "patZh": "该研究把睡眠质量与学业表现联系起来。"
+    },
+    {
+      "w": "connection",
+      "ipa": "kəˈnekʃn",
+      "pos": "n.",
+      "s": "s2",
+      "zh": "联系",
+      "exam": "联系；连接",
+      "c": [
+        "have a connection with 与…有联系",
+        "in connection with 关于，与…有关",
+        "a network connection 网络连接"
+      ],
+      "syn": [
+        "link",
+        "relation",
+        "association"
+      ],
+      "fam": [
+        "connect v. → connection n."
+      ],
+      "dif": "connection 泛指「联系、连接」；relation 强调「人际或因果关系」",
+      "pat": "There is a clear connection between income and health.",
+      "patZh": "收入与健康之间存在着明显的关联。"
+    },
+    {
+      "w": "conscious",
+      "ipa": "ˈkɒnʃəs",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "意识到的",
+      "exam": "有意识的；意识到的；自觉的",
+      "c": [
+        "be conscious of 意识到",
+        "a conscious decision 慎重的决定",
+        "become conscious 恢复知觉"
+      ],
+      "syn": [
+        "aware",
+        "deliberate",
+        "mindful"
+      ],
+      "fam": [
+        "consciousness n. 意识；subconscious adj. 潜意识的；conscience n. 良心"
+      ],
+      "dif": "conscious 是「有意识的」；conscience 是「良心」，一词尾之差，高频混淆",
+      "pat": "We are all conscious of the need to save energy.",
+      "patZh": "我们都意识到了节能的必要。"
+    },
+    {
+      "w": "continual",
+      "ipa": "kənˈtɪnjuəl",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "反复出现的",
+      "exam": "连续的；频繁的",
+      "c": [
+        "continual interruptions 接二连三的打扰",
+        "continual complaints 频繁的抱怨",
+        "continual improvement 持续改进"
+      ],
+      "syn": [
+        "repeated",
+        "frequent",
+        "constant"
+      ],
+      "fam": [
+        "continue v. → continual adj."
+      ],
+      "dif": "continual 指「反复发生（有间断）」；continuous 指「一直不断（无间断）」，必分",
+      "pat": "Continual practice is the only road to mastery.",
+      "patZh": "反复不断的练习是精通的唯一途径。"
+    },
+    {
+      "w": "continue",
+      "ipa": "kənˈtɪnjuː",
+      "pos": "v.",
+      "s": "s2",
+      "zh": "继续",
+      "exam": "继续（做）；持续",
+      "c": [
+        "continue to do / doing sth （相关常用表达）",
+        "continue with 继续某事",
+        "to be continued 未完待续"
+      ],
+      "syn": [
+        "carry on",
+        "proceed",
+        "resume"
+      ],
+      "fam": [
+        "continual / continuous adj.；continuation n. 继续"
+      ],
+      "dif": "continue to do 与 continue doing 界限已模糊，考试中两者通常都可接受",
+      "pat": "We will continue to invest in research despite the downturn.",
+      "patZh": "尽管经济下行，我们仍将继续投资研究。"
+    },
+    {
+      "w": "continuous",
+      "ipa": "kənˈtɪnjuəs",
+      "pos": "adj.",
+      "s": "s2",
+      "zh": "持续不断的",
+      "exam": "连续的；持续的",
+      "c": [
+        "continuous growth 持续增长",
+        "continuous monitoring 不间断监测",
+        "a continuous line 一条不间断的线"
+      ],
+      "syn": [
+        "uninterrupted",
+        "ceaseless",
+        "unbroken"
+      ],
+      "fam": [
+        "continue → continuous → continuously adv."
+      ],
+      "dif": "continuous 是「无间断」；continual 是「频繁重复但有停顿」，完形常考二者辨析",
+      "pat": "The region has enjoyed ten years of continuous growth.",
+      "patZh": "该地区已连续十年保持增长。"
+    },
+    {
+      "w": "dismiss",
+      "ipa": "dɪsˈmɪs",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "冷落；解雇",
+      "exam": "解雇",
+      "c": [
+        "dismiss sb from 把某人从…解职",
+        "dismiss sb for sth 因…解雇",
+        "dismiss the idea 不予考虑"
+      ],
+      "syn": [
+        "fire",
+        "sack",
+        "lay off"
+      ],
+      "fam": [
+        "dismissal n. 解雇；dismissive adj. 不屑一顾的"
+      ],
+      "dif": "dismiss 多因「失职、犯错」解雇；lay off 多因「经济原因」裁员",
+      "pat": "He was dismissed from his post for leaking client data.",
+      "patZh": "他因泄露客户数据而被解职。"
+    },
+    {
+      "w": "disorder",
+      "ipa": "dɪsˈɔːdə(r)",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "混乱",
+      "exam": "混乱；失调；疾病",
+      "c": [
+        "in disorder 一片混乱",
+        "a mental disorder 精神障碍",
+        "throw sth into disorder （相关常用表达）"
+      ],
+      "syn": [
+        "chaos",
+        "confusion",
+        "ailment"
+      ],
+      "fam": [
+        "order n. 秩序 → disorder n.；orderly adj. 有序的"
+      ],
+      "dif": "disorder 是名词「混乱、失调」；disorganize 才是动词「打乱安排」",
+      "pat": "Regular sleep can prevent a range of mental disorders.",
+      "patZh": "规律睡眠可以预防多种精神障碍。"
+    },
+    {
+      "w": "disperse",
+      "ipa": "dɪˈspɜːs",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "散开，驱散",
+      "exam": "分散",
+      "c": [
+        "disperse the crowd 驱散人群",
+        "disperse into 四散到",
+        "widely dispersed 广泛分布的"
+      ],
+      "syn": [
+        "scatter",
+        "spread",
+        "dissipate"
+      ],
+      "fam": [
+        "dispersion n. 分散"
+      ],
+      "dif": "disperse 是「（人群、烟雾）四散」；diverse 是「多样的」，形近义异",
+      "pat": "The police used loudspeakers to disperse the crowd.",
+      "patZh": "警方用扩音器驱散了人群。"
+    },
+    {
+      "w": "displace",
+      "ipa": "dɪsˈpleɪs",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "使流离失所",
+      "exam": "转移；替代；撤换",
+      "c": [
+        "displace sb from 使某人离开",
+        "be displaced by 被…取代",
+        "displaced persons 流离失所者"
+      ],
+      "syn": [
+        "replace",
+        "uproot",
+        "dislocate"
+      ],
+      "fam": [
+        "displacement n. 移位；取代"
+      ],
+      "dif": "displace 强调「被挤走、被迫离开」；replace 只是中性的「替换」",
+      "pat": "Automation may displace millions of workers within a decade.",
+      "patZh": "自动化可能在十年内使数以百万计的工人丢掉岗位。"
+    },
+    {
+      "w": "display",
+      "ipa": "dɪˈspleɪ",
+      "pos": "vt. / n.",
+      "s": "s3",
+      "zh": "展出",
+      "exam": "陈列；展览",
+      "c": [
+        "on display 在展出",
+        "display interest in 表现出对…的兴趣",
+        "a fireworks display 烟花表演"
+      ],
+      "syn": [
+        "exhibit",
+        "show",
+        "demonstrate"
+      ],
+      "fam": [
+        "displayed / displaying；display case 展柜 n. 相关延伸"
+      ],
+      "dif": "display 是「展示给人看」；exhibit 常指博物馆展览或法庭出示证据",
+      "pat": "The museum displays tools from the early industrial era.",
+      "patZh": "这家博物馆展出了工业革命早期的工具。"
+    },
+    {
+      "w": "distribute",
+      "ipa": "dɪˈstrɪbjuːt",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "分发",
+      "exam": "分配；分发；分布",
+      "c": [
+        "distribute sth to / among 把…分发给",
+        "be distributed across 分布在",
+        "distribute widely 广泛发行"
+      ],
+      "syn": [
+        "allocate",
+        "hand out",
+        "spread"
+      ],
+      "fam": [
+        "distribution n. 分配；distributor n. 经销商"
+      ],
+      "dif": "distribute 是「分发下去」；contribute 是「贡献」，形近词义完全不同",
+      "pat": "Relief supplies were distributed among the flood victims.",
+      "patZh": "救援物资被分发给了受灾群众。"
+    },
+    {
+      "w": "distort",
+      "ipa": "dɪˈstɔːt",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "歪曲",
+      "exam": "歪曲；曲解",
+      "c": [
+        "distort the facts 歪曲事实",
+        "distort the truth （相关常用表达）",
+        "a distorted picture 失真的图景"
+      ],
+      "syn": [
+        "twist",
+        "misrepresent",
+        "falsify"
+      ],
+      "fam": [
+        "distortion n. 扭曲；曲解"
+      ],
+      "dif": "distort 指使事实「变形、失实」；destroy 是「摧毁」，词根不同",
+      "pat": "Social media can distort our view of what is normal.",
+      "patZh": "社交媒体会扭曲我们对「正常」的认知。"
+    },
+    {
+      "w": "distract",
+      "ipa": "dɪˈstrækt",
+      "pos": "vt.",
+      "s": "s3",
+      "zh": "使分心",
+      "exam": "使分心；分散（思想）",
+      "c": [
+        "distract sb from 使某人从…分心",
+        "be distracted by 被…分散注意力",
+        "distract attention 转移注意力"
+      ],
+      "syn": [
+        "divert",
+        "sidetrack",
+        "disturb"
+      ],
+      "fam": [
+        "distraction n. 分心的事物；distracted adj. 心不在焉的"
+      ],
+      "dif": "distract 是「把注意力引开」；attract（吸引）、contract（收缩）、extract（抽出）同族异义，靠前缀区分",
+      "pat": "Phone notifications constantly distract students from their reading.",
+      "patZh": "手机通知不断分散学生的阅读注意力。"
+    },
+    {
+      "w": "evolution",
+      "ipa": "ˌiːvəˈluːʃn",
+      "pos": "n.",
+      "s": "s3",
+      "zh": "演变",
+      "exam": "进化；发展",
+      "c": [
+        "the evolution of ……的演变",
+        "the theory of evolution 进化论",
+        "social evolution 社会演进"
+      ],
+      "syn": [
+        "development",
+        "progress",
+        "growth"
+      ],
+      "fam": [
+        "evolve v. 进化；evolutionary adj. 进化的"
+      ],
+      "dif": "evolution 是名词「进化」；revolution 是「革命」，前缀 e- 与 re- 之差",
+      "pat": "The evolution of the Internet has reshaped how we learn.",
+      "patZh": "互联网的演变重塑了我们的学习方式。"
+    },
+    {
+      "w": "evolve",
+      "ipa": "ɪˈvɒlv",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "演变，进化",
+      "exam": "使发展；使进化；演变",
+      "c": [
+        "evolve from 由…进化而来",
+        "evolve into 演变成",
+        "gradually evolved 逐渐演化"
+      ],
+      "syn": [
+        "develop",
+        "progress",
+        "transform"
+      ],
+      "fam": [
+        "evolution n.；evolving adj. 不断演变的"
+      ],
+      "dif": "evolve 指「渐进演变」；revolve 是「旋转」，resolve 是「解决」，形近三兄弟",
+      "pat": "Small family businesses can evolve into global companies.",
+      "patZh": "小型家族企业可以逐步发展成为全球性公司。"
+    },
+    {
+      "w": "exaggerate",
+      "ipa": "ɪɡˈzædʒəreɪt",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "夸大",
+      "exam": "夸张；夸大",
+      "c": [
+        "exaggerate the danger 夸大危险",
+        "greatly exaggerated 被严重夸大",
+        "exaggerate one's role 夸大了自己的作用"
+      ],
+      "syn": [
+        "overstate",
+        "inflate",
+        "magnify"
+      ],
+      "fam": [
+        "exaggeration n. 夸大；exaggerated adj. 夸张的"
+      ],
+      "dif": "exaggerate 是「言过其实」；exacerbate 是「使恶化」，形近高频设项",
+      "pat": "Reports of the product's failure have been greatly exaggerated.",
+      "patZh": "有关该产品失败的说法被严重夸大了。"
+    },
+    {
+      "w": "examine",
+      "ipa": "ɪɡˈzæmɪn",
+      "pos": "v.",
+      "s": "s3",
+      "zh": "检查，细查",
+      "exam": "检查；细查",
+      "c": [
+        "examine sth closely 仔细检查",
+        "examine the evidence 审查证据",
+        "examine sb on sth 就…考问某人"
+      ],
+      "syn": [
+        "inspect",
+        "scrutinize",
+        "investigate"
+      ],
+      "fam": [
+        "examination n. 检查；考试；examiner n. 考官"
+      ],
+      "dif": "examine 泛指「仔细检查」；inspect 侧重「官方巡查、验收」",
+      "pat": "Researchers examined samples from over a thousand patients.",
+      "patZh": "研究人员检查了上千名患者的样本。"
+    },
+    {
+      "w": "mock",
+      "ipa": "mɒk",
+      "pos": "v. / n. / adj.",
+      "s": "s3",
+      "zh": "嘲笑",
+      "exam": "嘲笑；嘲弄",
+      "c": [
+        "mock sb for sth 因…嘲笑",
+        "mock exam 模拟考试",
+        "make a mock of 嘲弄"
+      ],
+      "syn": [
+        "ridicule",
+        "tease",
+        "scorn"
+      ],
+      "fam": [
+        "mocking adj. 嘲弄的；mockery n. 讥笑"
+      ],
+      "dif": "mock 是「嘲弄（可带模仿）」；mimic 只指「模仿」；laugh at 只是「发笑」",
+      "pat": "Critics mocked the plan, yet it later proved its worth.",
+      "patZh": "批评者曾嘲笑这个方案，但后来它证明了自己的价值。"
+    },
+    {
+      "w": "mode",
+      "ipa": "məʊd",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "方式",
+      "exam": "方式",
+      "c": [
+        "a mode of transport 交通方式",
+        "switch mode 切换模式",
+        "a mode of life 生活方式"
+      ],
+      "syn": [
+        "manner",
+        "way",
+        "style"
+      ],
+      "fam": [
+        "modal adj. 情态的；model n. 模型"
+      ],
+      "dif": "mode 是「运作方式、模式」；mood 是「情绪」，形近义异",
+      "pat": "Walking is the healthiest mode of transport in crowded cities.",
+      "patZh": "在拥挤的城市里，步行是最健康的出行方式。"
+    },
+    {
+      "w": "model",
+      "ipa": "ˈmɒdl",
+      "pos": "n. / adj. / vt.",
+      "s": "s4",
+      "zh": "模型；榜样",
+      "exam": "模（原）型；样（模）式；模范；典型；模仿",
+      "c": [
+        "a role model 榜样",
+        "model sth on 以…为原型",
+        "an economic model 经济模型"
+      ],
+      "syn": [
+        "pattern",
+        "example",
+        "replica"
+      ],
+      "fam": [
+        "modelled / modeling（model - modelled - modelled） n. 相关延伸"
+      ],
+      "dif": "model on 是「以…为榜样仿制」；mould 是「塑造（性格、形状）」",
+      "pat": "She modeled her teaching style on her favourite professor.",
+      "patZh": "她以最喜欢的教授为榜样来塑造自己的教学风格。"
+    },
+    {
+      "w": "moderate",
+      "ipa": "ˈmɒdərət / ˈmɒdəreɪt",
+      "pos": "adj. / v.",
+      "s": "s4",
+      "zh": "适度的；温和",
+      "exam": "温和的；适度的",
+      "c": [
+        "moderate exercise 适度运动",
+        "moderate views 温和的观点",
+        "moderate prices 适中的价格"
+      ],
+      "syn": [
+        "modest",
+        "temperate",
+        "mild"
+      ],
+      "fam": [
+        "moderation n. 适度；moderately adv."
+      ],
+      "dif": "moderate 是「适度、温和」；modern 是「现代的」，形近义异",
+      "pat": "Moderate exercise, done daily, beats intense workouts done rarely.",
+      "patZh": "每天坚持适度运动，胜过偶尔剧烈运动。"
+    },
+    {
+      "w": "modern",
+      "ipa": "ˈmɒdn",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "现代的",
+      "exam": "现代的；新式的",
+      "c": [
+        "modern society 现代社会",
+        "modern technology 现代科技",
+        "modern history 近代史"
+      ],
+      "syn": [
+        "contemporary",
+        "up-to-date",
+        "new"
+      ],
+      "fam": [
+        "modernize v. 现代化；modernization n.；modernity n. 现代性"
+      ],
+      "dif": "modern 泛指「近代以来的」；contemporary 指「同一时代的、当下的」",
+      "pat": "Modern medicine has doubled average life expectancy.",
+      "patZh": "现代医学使人均寿命翻了一番。"
+    },
+    {
+      "w": "modernization",
+      "ipa": "ˌmɒdənaɪˈzeɪʃn",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "现代化",
+      "exam": "现代化",
+      "c": [
+        "the modernization of ……的现代化",
+        "agricultural modernization 农业现代化",
+        "drive modernization 推进现代化"
+      ],
+      "syn": [
+        "renewal",
+        "upgrading",
+        "reform"
+      ],
+      "fam": [
+        "modern adj. → modernize v. → modernization n."
+      ],
+      "dif": "modernization 是「现代化进程」；modernism 是「现代主义（文艺流派）」",
+      "pat": "The modernization of the railway network cut travel times in half.",
+      "patZh": "铁路网的现代化使出行时间缩短了一半。"
+    },
+    {
+      "w": "modest",
+      "ipa": "ˈmɒdɪst",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "谦逊的",
+      "exam": "谦虚的；适度的；不太大的",
+      "c": [
+        "be modest about 对…很谦虚",
+        "a modest income 不高的收入",
+        "a modest proposal 温和的建议"
+      ],
+      "syn": [
+        "humble",
+        "moderate",
+        "unassuming"
+      ],
+      "fam": [
+        "modesty n. 谦虚"
+      ],
+      "dif": "modest 是「谦逊、不张扬」；humble 还可指「出身卑微、地位低下」，语义更宽",
+      "pat": "She was modest about her success, crediting her whole team.",
+      "patZh": "她对成功表现谦逊，把功劳归于整个团队。"
+    },
+    {
+      "w": "modify",
+      "ipa": "ˈmɒdɪfaɪ",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "修改",
+      "exam": "修改；缓和；减轻；修饰",
+      "c": [
+        "modify the plan 修改方案",
+        "be modified by 被…修饰",
+        "modify one's behaviour 改变自己的行为"
+      ],
+      "syn": [
+        "revise",
+        "adjust",
+        "amend"
+      ],
+      "fam": [
+        "modification n. 修改；modifier n. 修饰语"
+      ],
+      "dif": "modify 是「部分修改使其更好」；change 是不分方向的「改变」",
+      "pat": "The design was modified to reduce production costs.",
+      "patZh": "为降低生产成本，设计被作了修改。"
+    },
+    {
+      "w": "predecessor",
+      "ipa": "ˈpriːdɪsesə(r)",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "前任",
+      "exam": "前辈；前任；（被取代的）原有事物",
+      "c": [
+        "one's immediate predecessor 直接前任",
+        "the predecessor of ……的前身",
+        "compared with its predecessor （相关常用表达）"
+      ],
+      "syn": [
+        "forerunner",
+        "ancestor",
+        "forebear"
+      ],
+      "fam": [
+        "pre-（在前）+ decess（离开）；successor n. 继任者"
+      ],
+      "dif": "predecessor 是「前任（人或旧物）」；successor 是「继任者」，方向相反",
+      "pat": "The new system is twice as fast as its predecessor.",
+      "patZh": "新系统的速度是其前代的两倍。"
+    },
+    {
+      "w": "predict",
+      "ipa": "prɪˈdɪkt",
+      "pos": "vt.",
+      "s": "s4",
+      "zh": "预测",
+      "exam": "预言；预测；预告",
+      "c": [
+        "predict that... 预测…",
+        "it is predicted that... 据预测…",
+        "accurately predict 准确预测"
+      ],
+      "syn": [
+        "forecast",
+        "foresee",
+        "anticipate"
+      ],
+      "fam": [
+        "prediction n. 预测；predictable adj. 可预测的；unpredictable"
+      ],
+      "dif": "predict 泛指基于分析的「预测」；forecast 多指「天气、经济的预报」",
+      "pat": "Economists predict that growth will slow next year.",
+      "patZh": "经济学家预测明年增速将放缓。"
+    },
+    {
+      "w": "preface",
+      "ipa": "ˈprefəs",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "序言",
+      "exam": "序言；前言",
+      "c": [
+        "the preface to a book 一本书的序言",
+        "in the preface 在前言中",
+        "write a preface 作序"
+      ],
+      "syn": [
+        "foreword",
+        "introduction",
+        "preamble"
+      ],
+      "fam": [
+        "pre-（在前）+ face（说）；prefatory adj. 序言的"
+      ],
+      "dif": "preface 多为作者自序；foreword 多由他人作，考试较少细分",
+      "pat": "In the preface, the author explains why he wrote the book.",
+      "patZh": "作者在前言中说明了自己为何写这本书。"
+    },
+    {
+      "w": "preferable",
+      "ipa": "ˈprefrəbl",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "更可取的",
+      "exam": "更可取的；更好的",
+      "c": [
+        "be preferable to 比…更可取（用 to）",
+        "a preferable alternative 更优的选择",
+        "far preferable 好得多"
+      ],
+      "syn": [
+        "better",
+        "superior",
+        "more desirable"
+      ],
+      "fam": [
+        "prefer v. → preferable adj. → preferably adv."
+      ],
+      "dif": "preferable to 用 to 不用 than；prefer A to B 是同一结构",
+      "pat": "Prevention is always preferable to cure.",
+      "patZh": "预防总是比治疗更可取。"
+    },
+    {
+      "w": "preference",
+      "ipa": "ˈprefrəns",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "偏爱；优先",
+      "exam": "偏爱；优先（权）",
+      "c": [
+        "a preference for 对…的偏爱",
+        "in preference to 优先于",
+        "give preference to 优先考虑"
+      ],
+      "syn": [
+        "fondness",
+        "partiality",
+        "priority"
+      ],
+      "fam": [
+        "prefer v. → preference n. → preferential adj. 优惠的"
+      ],
+      "dif": "preference 是「个人偏爱」；priority 是「客观上的优先级」",
+      "pat": "Employers show a growing preference for practical experience.",
+      "patZh": "雇主越来越偏爱实践经验。"
+    },
+    {
+      "w": "prejudice",
+      "ipa": "ˈpredʒudɪs",
+      "pos": "n.",
+      "s": "s4",
+      "zh": "偏见",
+      "exam": "偏见；成见",
+      "c": [
+        "prejudice against 对…的偏见",
+        "without prejudice 不带偏见",
+        "racial prejudice 种族偏见"
+      ],
+      "syn": [
+        "bias",
+        "partiality",
+        "discrimination"
+      ],
+      "fam": [
+        "pre-（预先）+ judice（判断）；prejudiced adj. 有偏见的"
+      ],
+      "dif": "prejudice 是「先入为主的成见（多负面）」；bias 是「系统性偏向」，可中性",
+      "pat": "We should judge candidates on merit, free from prejudice.",
+      "patZh": "我们应该不受偏见影响，凭实力评判候选人。"
+    },
+    {
+      "w": "preliminary",
+      "ipa": "prɪˈlɪmɪnəri",
+      "pos": "adj.",
+      "s": "s4",
+      "zh": "初步的",
+      "exam": "预备的；初步的",
+      "c": [
+        "preliminary results 初步结果",
+        "a preliminary investigation 初步调查",
+        "preliminary talks 预备会谈"
+      ],
+      "syn": [
+        "initial",
+        "preparatory",
+        "tentative"
+      ],
+      "fam": [
+        "preliminarily adv.；prelim n. 预赛（口语）"
+      ],
+      "dif": "preliminary 指「正式步骤前的准备性」；primary 是「首要的」，同前缀不同义",
+      "pat": "Preliminary findings suggest the treatment is safe.",
+      "patZh": "初步研究结果表明该疗法是安全的。"
+    }
+  ]
+}
