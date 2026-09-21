@@ -46,7 +46,7 @@ def build_unit_html(unit_num):
         html = re.sub(pt_pattern, pt_js, html, count=1)
 
     # 3. 替换标题与 Badge 与 页脚
-    html = html.replace("<title>单词故事本 · Unit 1</title>", f"<title>单词故事本 · Unit {unit_num}</title>")
+    html = html.replace("<title>S T O R Y · Unit 1</title>", f"<title>S T O R Y · Unit {unit_num}</title>")
     html = re.sub(r'<span id="badgeText">Unit \d+ · \d+ 篇 · \d+ 词</span>', f'<span id="badgeText">Unit {unit_num} · {stories_cnt} 篇 · {words_cnt} 词</span>', html)
     html = re.sub(r'<div class="foot" id="footText">Unit \d+ 已收录 \d+ / \d+ 词', f'<div class="foot" id="footText">Unit {unit_num} 已收录 {words_cnt} / {words_cnt} 词', html)
     html = html.replace('<span style="font-size:12px;color:var(--clay2);font-weight:600" id="headerUnitTag">Unit 1</span>', f'<span style="font-size:12px;color:var(--clay2);font-weight:600" id="headerUnitTag">Unit {unit_num}</span>')

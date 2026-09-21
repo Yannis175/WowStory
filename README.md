@@ -156,6 +156,7 @@ python 单词故事本/_sync_app.py             # 同步运行时镜像
 │  ├─ triple_check_units.py      # 三重终检
 │  ├─ audit_quality_u01_u20.py   # 内容质量审查
 │  ├─ llm_audit_round1/2/3.py    # 三轮 LLM 交叉审查
+│  ├─ PR_DEVELOPMENT_GUIDE.md    # 目录更新与提交 PR 指南
 │  └─ SKILL_AUDIO_AND_BUILD.md   # 管线说明书
 └─ skill/word-storybook-generation/   # 可复用的生成规范
 ```
