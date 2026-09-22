@@ -10,7 +10,7 @@
 
 ## 🌐 快速访问链接 (Live Site & Repository)
 
-- 🚀 **在线故事本 (GitHub Pages 直连)**：[https://yannis175.github.io/WowStory/](https://yannis175.github.io/WowStory/)
+- 🚀 **在线故事本 (GitHub Pages 直连)**：[https://yannis175.github.io/WowStory/]([https://yannis175.github.io/WowStory/](https://yannis175.github.io/WowStory/%E5%8D%95%E8%AF%8D%E6%95%85%E4%BA%8B%E6%9C%AC/))
 - 📦 **GitHub 官方代码仓库**：[https://github.com/Yannis175/WowStory](https://github.com/Yannis175/WowStory)
 - 💻 **本地运行预览**：双击 `单词故事本/serve.cmd` 启动本地离线服务（默认 `http://127.0.0.1:8899`）。
 
